@@ -8,8 +8,12 @@
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css">
 
-  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <!-- ✅ defer = exécution après parsing du DOM, dans l’ordre -->
+  <script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- ✅ ton app.js en dernier, après les libs -->
+  <script defer src="./app.js"></script>
 </head>
 
 <body>
@@ -53,6 +57,6 @@
     </main>
   </div>
 
-  <script src="./app.js"></script>
+  <noscript>Active JavaScript pour afficher le planning.</noscript>
 </body>
 </html>
