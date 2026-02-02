@@ -1,306 +1,276 @@
-const GENERATED_JSON_URL = "./data/generated.json";
-const STATUS_JSON_URL = "./data/status.json";
+// scripts/update-data.mjs
+import fs from "node:fs/promises";
+import path from "node:path";
+import { load } from "cheerio";
+import ical from "node-ical";
 
-const SHEET_CSV_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vT36bHnWhI-sdvq6NOmAyYU1BQZJT4WAsIYozR7fnARi_xBgU0keZw0mTF-N3s3x7V5tcaAofqO78Aq/pub?output=csv";
+const OUT_PATH = path.join("data", "generated.json");
+const STATUS_PATH = path.join("data", "status.json");
 
-const REPEAT_WEEKS_AHEAD = 52;
+// ------------------ Config ------------------
+const TWITCH_CHANNELS = [
+  { user: "domingo", label: "Domingo", scheduleUrl: "https://www.twitch.tv/domingo/schedule" },
+  { user: "joueur_du_grenier", label: "Joueur du Grenier", scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule" },
+  { user: "rivenzi", label: "Rivenzi", scheduleUrl: "https://www.twitch.tv/rivenzi/schedule" },
+];
 
-let allEvents = [];
-let calendar = null;
-let timeouts = [];
-let searchQuery = "";
+const FOOT_CLUB_PAGES = [
+  { tag: "barcelone", label: "Barcelone", url: "https://www.footmercato.net/programme-tv/club/fc-barcelone" },
+  { tag: "real_madrid", label: "Real Madrid", url: "https://www.footmercato.net/programme-tv/club/real-madrid" },
+  { tag: "manchester_city", label: "Manchester City", url: "https://www.footmercato.net/programme-tv/club/manchester-city" },
+  { tag: "liverpool", label: "Liverpool", url: "https://www.footmercato.net/programme-tv/club/liverpool" },
+  { tag: "bayern", label: "Bayern", url: "https://www.footmercato.net/programme-tv/club/bayern-munich" },
+  { tag: "psg", label: "PSG", url: "https://www.footmercato.net/programme-tv/club/psg" },
+  { tag: "nice", label: "Nice", url: "https://www.footmercato.net/programme-tv/club/ogc-nice" },
+  { tag: "saint_etienne", label: "Saint-Étienne", url: "https://www.footmercato.net/programme-tv/club/saint-etienne" },
+];
 
-const norm = s => (s || "").toString().trim().toLowerCase();
+// Ligue des Champions : il peut y avoir “Aucun match” hors période
+const FOOT_LDC_PAGE = {
+  tag: "ldc",
+  label: "Ligue des Champions",
+  url: "https://www.footmercato.net/programme-tv/europe/ligue-des-champions-uefa",
+};
 
-function normalizeDate(s) {
-  const v = (s || "").trim();
-  if (!v) return "";
-  if (v.includes("T")) return v;
-  if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}$/.test(v)) return v.replace(" ", "T");
-  if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}$/.test(v)) return v.replace(" ", "T") + ":00";
-  return v;
+// Filtre : pas d’event commencé il y a plus de 5h
+const MAX_PAST_HOURS = 5;
+
+// ------------------ Utils ------------------
+const UA = "planning-bot/1.0 (+github-actions)";
+const MONTHS_FR = {
+  janvier: 1, fevrier: 2, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
+  juillet: 7, aout: 8, août: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12, décembre: 12,
+};
+
+function guessYear(day, month) {
+  const now = new Date();
+  let y = now.getFullYear();
+  const candidate = new Date(Date.UTC(y, month - 1, day));
+  const diffDays = (candidate - now) / 86400000;
+  if (diffDays < -180) y += 1;
+  if (diffDays > 180) y -= 1;
+  return y;
 }
 
-function isOui(v) {
-  const s = (v || "").toString().trim().toLowerCase();
-  return s === "oui" || s === "yes" || s === "true" || s === "1";
+function isoLocal(y, m, d, hh, mm) {
+  const MM = String(m).padStart(2, "0");
+  const DD = String(d).padStart(2, "0");
+  return `${y}-${MM}-${DD}T${hh}:${mm}:00`;
 }
 
-function addWeeks(isoStr, weeks) {
-  const d = new Date(isoStr);
-  if (!Number.isFinite(d.getTime())) return null;
-  d.setDate(d.getDate() + 7 * weeks);
-  const pad = n => String(n).padStart(2, "0");
-  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+function isTooOld(startISO) {
+  const t = new Date(startISO).getTime();
+  if (!Number.isFinite(t)) return false;
+  const cutoff = Date.now() - MAX_PAST_HOURS * 3600 * 1000;
+  return t < cutoff;
 }
 
-function matchesSearch(evt, q) {
-  if (!q) return true;
-  const hay = [
-    evt.title,
-    evt.extendedProps?.source,
-    (evt.extendedProps?.tags || []).join(" "),
-    evt.extendedProps?.url
-  ].map(norm).join(" ");
-  return hay.includes(q);
-}
-
-function clearNotifs() { timeouts.forEach(clearTimeout); timeouts = []; }
-
-// Notifications = UNE fois, pile au début, pour les 24 prochaines heures
-function scheduleNotifs(events) {
-  clearNotifs();
-  if (!("Notification" in window)) return;
-  if (Notification.permission !== "granted") return;
-
-  const now = Date.now();
-  const horizonMs = 24 * 60 * 60 * 1000;
-
-  for (const e of events) {
-    const startMs = new Date(e.start).getTime();
-    const inMs = startMs - now;
-    if (inMs > 0 && inMs <= horizonMs) {
-      timeouts.push(setTimeout(() => {
-        new Notification(`Ça commence : ${e.title}`, {
-          body: `${new Date(e.start).toLocaleString()} • ${e.extendedProps?.source || ""}`,
-        });
-      }, inMs));
-    }
-  }
-}
-
-async function loadGenerated() {
-  try {
-    const r = await fetch(GENERATED_JSON_URL, { cache: "no-store" });
-    if (!r.ok) return [];
-    const data = await r.json();
-    return Array.isArray(data) ? data : [];
-  } catch { return []; }
-}
-
-async function loadStatus() {
-  try {
-    const r = await fetch(STATUS_JSON_URL, { cache: "no-store" });
-    if (!r.ok) return null;
-    return await r.json();
-  } catch { return null; }
-}
-
-function renderStatus(status) {
-  const el = document.getElementById("status");
-  if (!el) return;
-  if (!status) { el.textContent = ""; return; }
-
-  const counts = status.counts || {};
-  const parts = Object.entries(counts).map(([k, v]) => `${k}: ${v}`);
-  el.textContent = `Sources (${status.total}) — ${parts.join(" • ")}`;
-}
-
-async function loadSheet() {
-  const r = await fetch(SHEET_CSV_URL, { cache: "no-store" });
-  if (!r.ok) return [];
-  const csv = await r.text();
-  const parsed = Papa.parse(csv, { header: true, skipEmptyLines: true });
-  const rows = parsed.data || [];
-
-  const pick = (row, ...keys) => {
-    for (const k of keys) {
-      if (row[k] != null && String(row[k]).trim() !== "") return String(row[k]).trim();
-    }
-    return "";
-  };
-
+function dedupe(events) {
+  const seen = new Set();
   const out = [];
-
-  for (const row of rows) {
-    const title = pick(row, "title", "Title");
-    const startRaw = pick(row, "start", "Start");
-    const endRaw = pick(row, "end", "End");
-    const tagsRaw = pick(row, "tags", "Tags");
-    const source = pick(row, "source", "Source") || "Google Sheet";
-    const url = pick(row, "url", "URL", "Url");
-    const repeatRaw = pick(row, "repeat", "Repeat");
-
-    const start = normalizeDate(startRaw);
-    const end = normalizeDate(endRaw);
-
-    if (!title || !start) continue;
-
-    const baseEvent = {
-      title,
-      start,
-      end: end || undefined,          // end vide -> événement "instant" (OK)
-      url: url || undefined,          // url vide -> pas cliquable (géré ci-dessous)
-      extendedProps: {
-        source,
-        tags: tagsRaw.split(",").map(s => s.trim()).filter(Boolean),
-        url: url || undefined,
-        repeat: isOui(repeatRaw)
-      }
-    };
-
-    out.push(baseEvent);
-
-    if (isOui(repeatRaw)) {
-      for (let w = 1; w <= REPEAT_WEEKS_AHEAD; w++) {
-        const nextStart = addWeeks(start, w);
-        if (!nextStart) continue;
-        const nextEnd = end ? addWeeks(end, w) : null;
-
-        out.push({
-          ...baseEvent,
-          start: nextStart,
-          end: nextEnd || undefined
-        });
-      }
-    }
+  for (const ev of events) {
+    const key = `${ev.source}|${ev.title}|${ev.start}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(ev);
   }
-
   return out;
 }
 
-function filteredEvents() {
-  const q = norm(searchQuery);
-  return allEvents.filter(e => matchesSearch(e, q));
+async function writeJSON(filePath, obj) {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  await fs.writeFile(filePath, JSON.stringify(obj, null, 2), "utf-8");
 }
 
-function setActiveView(viewName) {
-  document.querySelectorAll(".btn.pill[data-view]").forEach(b => {
-    b.classList.toggle("active", b.dataset.view === viewName);
-  });
+// ------------------ Twitch ------------------
+async function resolveTwitchIcal(scheduleUrl) {
+  const res = await fetch(scheduleUrl, { headers: { "user-agent": UA } });
+  if (!res.ok) throw new Error(`schedule HTTP ${res.status}`);
+  const html = await res.text();
+
+  const m = html.match(/https:\/\/api\.twitch\.tv\/helix\/schedule\/icalendar\?broadcaster_id=\d+/);
+  if (!m) throw new Error("lien iCal introuvable sur la page /schedule");
+  return m[0];
 }
 
-function updateTitle() {
-  const el = document.getElementById("currentTitle");
-  if (!el || !calendar) return;
-  el.textContent = calendar.view.title;
+async function fetchTwitchChannel({ user, label, scheduleUrl }) {
+  const icalUrl = await resolveTwitchIcal(scheduleUrl);
+
+  const r = await fetch(icalUrl, { headers: { "user-agent": UA } });
+  if (!r.ok) throw new Error(`iCal HTTP ${r.status}`);
+  const icsText = await r.text();
+
+  // node-ical : parseICS est dans sync
+  const parsed = ical.sync.parseICS(icsText);
+
+  const out = [];
+  for (const k of Object.keys(parsed)) {
+    const item = parsed[k];
+    if (item?.type !== "VEVENT") continue;
+
+    const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
+    const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : null);
+
+    if (!start || isTooOld(start)) continue;
+
+    const summary = item.summary || "Stream";
+    out.push({
+      title: `${label} — ${summary}`,
+      start,
+      end,
+      source: `Twitch:${user}`,
+      url: scheduleUrl,
+      tags: ["twitch", user],
+    });
+  }
+  return out;
 }
 
-function buildCalendar() {
-  const el = document.getElementById("calendar");
+// ------------------ Foot Mercato (matchs uniquement) ------------------
+function parseFMHeadingDate(text) {
+  // Exemple: "Samedi 07 février"
+  const m = text.trim().match(/^(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+(\d{1,2})\s+([A-Za-zÀ-ÿ]+)/i);
+  if (!m) return null;
+  const day = Number(m[2]);
+  const monthName = m[3].toLowerCase();
+  const month = MONTHS_FR[monthName];
+  if (!month) return null;
+  const year = guessYear(day, month);
+  return { year, month, day };
+}
 
-  calendar = new FullCalendar.Calendar(el, {
-    locale: "fr",
+function parseMatchAnchorText(text) {
+  // Exemple: "Barcelone Majorque 16:15"
+  const t = text.replace(/\s+/g, " ").trim();
+  const m = t.match(/(.+)\s+(\d{1,2}):(\d{2})\s*$/);
+  if (!m) return null;
 
-    // ✅ par défaut = semaine
-    initialView: "timeGridWeek",
+  const title = m[1].trim();
+  const hh = String(m[2]).padStart(2, "0");
+  const mm = m[3];
+  return { title, hh, mm };
+}
 
-    // ✅ prend toute la hauteur (1 page)
-    height: "100%",
-    expandRows: true,
+async function fetchFootMercatoPage({ url, label, tag }) {
+  const res = await fetch(url, { headers: { "user-agent": UA } });
+  if (!res.ok) throw new Error(`FM HTTP ${res.status}`);
+  const html = await res.text();
+  const $ = load(html);
 
-    nowIndicator: true,
+  const out = [];
 
-    // on enlève le header FullCalendar (gain de hauteur)
-    headerToolbar: false,
+  $("h2").each((_, h2) => {
+    const dateInfo = parseFMHeadingDate($(h2).text());
+    if (!dateInfo) return;
 
-    // compact
-    dayMaxEvents: true,
-    slotMinTime: "06:00:00",
-    slotMaxTime: "24:00:00",
+    const block = $(h2).nextUntil("h2");
+    const anchors = block.find("a");
 
-    // ✅ 24h (plus de "4p")
-    eventTimeFormat: {
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false
-    },
+    anchors.each((__, a) => {
+      const parsed = parseMatchAnchorText($(a).text());
+      if (!parsed) return;
 
-    // ✅ pas cliquable si pas d'URL
-    eventDidMount: (info) => {
-      const url = info.event.url;
-      if (!url) {
-        info.el.style.cursor = "default";
-        const a = info.el.querySelector("a");
-        if (a) {
-          a.removeAttribute("href");
-          a.style.pointerEvents = "none";
-          a.style.cursor = "default";
-          a.style.textDecoration = "none";
-        }
-      } else {
-        info.el.style.cursor = "pointer";
-      }
-    },
+      const start = isoLocal(dateInfo.year, dateInfo.month, dateInfo.day, parsed.hh, parsed.mm);
+      if (isTooOld(start)) return;
 
-    eventClick: (info) => {
-      const url = info.event.url;
-      if (!url) {
-        info.jsEvent.preventDefault();
-        return;
-      }
-      info.jsEvent.preventDefault();
-      window.open(url, "_blank", "noopener,noreferrer");
-    },
-
-    datesSet: () => {
-      updateTitle();
-      setActiveView(calendar.view.type);
-    }
-  });
-
-  calendar.render();
-  updateTitle();
-  setActiveView(calendar.view.type);
-
-  // boutons sidebar
-  document.getElementById("prevBtn").addEventListener("click", () => { calendar.prev(); updateTitle(); });
-  document.getElementById("nextBtn").addEventListener("click", () => { calendar.next(); updateTitle(); });
-  document.getElementById("todayBtn").addEventListener("click", () => { calendar.today(); updateTitle(); });
-
-  document.querySelectorAll(".btn.pill[data-view]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      calendar.changeView(btn.dataset.view);
-      updateTitle();
-      setActiveView(btn.dataset.view);
+      out.push({
+        title: `⚽ ${parsed.title}`,
+        start,
+        end: null,
+        source: "Foot Mercato (match)",
+        url, // on garde la page programme TV comme lien
+        tags: ["foot", tag],
+      });
     });
   });
+
+  // dédoublonnage interne (même lien peut apparaître plusieurs fois)
+  return dedupe(out);
 }
 
-function renderEvents() {
-  const events = filteredEvents();
-  calendar.removeAllEvents();
-  calendar.addEventSource(events);
-  scheduleNotifs(events);
-}
+async function fetchFootMatches() {
+  const out = [];
 
-async function refreshData() {
-  const [generated, sheet, status] = await Promise.all([loadGenerated(), loadSheet(), loadStatus()]);
-
-  const merged = [...generated, ...sheet];
-
-  allEvents = merged.map(e => ({
-    title: e.title,
-    start: e.start,
-    end: e.end || undefined,
-    url: e.url || e.extendedProps?.url || undefined,
-    extendedProps: {
-      source: e.source || e.extendedProps?.source || "Source",
-      tags: e.tags || e.extendedProps?.tags || [],
-      url: e.url || e.extendedProps?.url || undefined
+  // clubs
+  for (const club of FOOT_CLUB_PAGES) {
+    try {
+      const evs = await fetchFootMercatoPage(club);
+      out.push(...evs);
+    } catch (e) {
+      // on remontera l’erreur via status
+      throw new Error(`${club.label}: ${e.message}`);
     }
-  }));
+  }
 
-  renderStatus(status);
-  renderEvents();
+  // LDC (peut être vide selon la période)
+  try {
+    const ldc = await fetchFootMercatoPage(FOOT_LDC_PAGE);
+    // tag "ldc" + "foot"
+    for (const ev of ldc) {
+      ev.tags = Array.from(new Set([...(ev.tags || []), "ldc"]));
+    }
+    out.push(...ldc);
+  } catch (e) {
+    // pas bloquant
+  }
+
+  return dedupe(out);
 }
 
-document.getElementById("search").addEventListener("input", e => {
-  searchQuery = e.target.value || "";
-  renderEvents();
-});
+// ------------------ Main ------------------
+async function main() {
+  const errors = [];
+  const counts = {};
+  const all = [];
 
-document.getElementById("refresh").addEventListener("click", refreshData);
-
-document.getElementById("notif").addEventListener("click", async () => {
-  if (!("Notification" in window)) return alert("Notifications non supportées.");
-  const perm = await Notification.requestPermission();
-  if (perm === "granted") {
-    scheduleNotifs(filteredEvents());
-    alert("OK — notifications activées (tant que la page est ouverte).");
+  // Twitch
+  for (const ch of TWITCH_CHANNELS) {
+    try {
+      const evs = await fetchTwitchChannel(ch);
+      all.push(...evs);
+      counts[`Twitch:${ch.user}`] = evs.length;
+    } catch (e) {
+      counts[`Twitch:${ch.user}`] = 0;
+      errors.push(`Twitch:${ch.user}: ${e.message}`);
+    }
   }
-});
 
-buildCalendar();
-refreshData();
+  // Foot Mercato (matchs)
+  try {
+    const evs = await fetchFootMatches();
+    all.push(...evs);
+    counts["Foot Mercato (match)"] = evs.length;
+  } catch (e) {
+    counts["Foot Mercato (match)"] = 0;
+    errors.push(`Foot Mercato: ${e.message}`);
+  }
+
+  // tri + filtre final (sécurité)
+  const cleaned = dedupe(all)
+    .filter(ev => ev?.title && ev?.start)
+    .filter(ev => !isTooOld(ev.start))
+    .sort((a, b) => new Date(a.start) - new Date(b.start));
+
+  await writeJSON(OUT_PATH, cleaned);
+
+  await writeJSON(STATUS_PATH, {
+    generatedAt: new Date().toISOString(),
+    total: cleaned.length,
+    counts,
+    errors,
+  });
+
+  console.log(`Wrote ${cleaned.length} events -> ${OUT_PATH}`);
+  if (errors.length) console.warn("Errors:", errors);
+}
+
+main().catch(async (e) => {
+  console.error(e);
+  await writeJSON(STATUS_PATH, {
+    generatedAt: new Date().toISOString(),
+    total: 0,
+    counts: {},
+    errors: [String(e?.message || e)],
+  });
+  process.exit(1);
+});
