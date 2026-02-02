@@ -11,6 +11,32 @@ let searchQuery = "";
 
 const norm = s => (s || "").toString().trim().toLowerCase();
 
+const REPEAT_WEEKS_AHEAD = 52; // nombre de semaines générées pour repeat=oui
+
+function normalizeDate(s) {
+  const v = (s || "").trim();
+  if (!v) return "";
+  if (v.includes("T")) return v;
+  if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}$/.test(v)) return v.replace(" ", "T");
+  if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}$/.test(v)) return v.replace(" ", "T") + ":00";
+  return v;
+}
+
+function isOui(v) {
+  const s = (v || "").toString().trim().toLowerCase();
+  return s === "oui" || s === "yes" || s === "true" || s === "1";
+}
+
+function addWeeks(isoStr, weeks) {
+  const d = new Date(isoStr);
+  if (!Number.isFinite(d.getTime())) return null;
+  d.setDate(d.getDate() + 7 * weeks);
+  // on garde un format ISO local-ish (YYYY-MM-DDTHH:MM:SS)
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+}
+
+
 function matchesSearch(evt, q) {
   if (!q) return true;
   const hay = [
@@ -78,20 +104,65 @@ async function loadSheet() {
   const csv = await r.text();
   const parsed = Papa.parse(csv, { header: true, skipEmptyLines: true });
 
-  return (parsed.data || [])
-    .filter(row => row.title && row.start)
-    .map(row => ({
-      title: row.title,
-      start: row.start,
-      end: row.end || undefined,
-      url: row.url || undefined,
+  const rows = parsed.data || [];
+
+  const pick = (row, ...keys) => {
+    for (const k of keys) {
+      if (row[k] != null && String(row[k]).trim() !== "") return String(row[k]).trim();
+    }
+    return "";
+  };
+
+  const out = [];
+
+  for (const row of rows) {
+    const title = pick(row, "title", "Title");
+    const startRaw = pick(row, "start", "Start");
+    const endRaw = pick(row, "end", "End");
+    const tagsRaw = pick(row, "tags", "Tags");
+    const source = pick(row, "source", "Source") || "Google Sheet";
+    const url = pick(row, "url", "URL", "Url");
+    const repeatRaw = pick(row, "repeat", "Repeat");
+
+    const start = normalizeDate(startRaw);
+    const end = normalizeDate(endRaw);
+
+    if (!title || !start) continue;
+
+    const baseEvent = {
+      title,
+      start,
+      end: end || undefined,
+      url: url || undefined,
       extendedProps: {
-        source: row.source || "Google Sheet",
-        tags: (row.tags || "").split(",").map(s => s.trim()).filter(Boolean),
-        url: row.url || undefined
+        source,
+        tags: tagsRaw.split(",").map(s => s.trim()).filter(Boolean),
+        url: url || undefined,
+        repeat: isOui(repeatRaw)
       }
-    }));
+    };
+
+    out.push(baseEvent);
+
+    // Repeat: on génère des occurrences futures (weekly)
+    if (isOui(repeatRaw)) {
+      for (let w = 1; w <= REPEAT_WEEKS_AHEAD; w++) {
+        const nextStart = addWeeks(start, w);
+        if (!nextStart) continue;
+        const nextEnd = end ? addWeeks(end, w) : null;
+
+        out.push({
+          ...baseEvent,
+          start: nextStart,
+          end: nextEnd || undefined
+        });
+      }
+    }
+  }
+
+  return out;
 }
+
 
 function filteredEvents() {
   const q = norm(searchQuery);
