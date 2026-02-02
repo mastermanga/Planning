@@ -1,17 +1,13 @@
 {
-  "generatedAt": "2026-02-02T18:41:38.989Z",
-  "total": 72,
+  "generatedAt": "2026-02-02T23:18:52.792Z",
+  "total": 9,
   "counts": {
-    "Anime-sama": 75,
-    "Twitch:domingo": 0,
+    "Twitch:domingo": 8,
     "Twitch:rivenzi": 0,
-    "Twitch:joueur_du_grenier": 0,
-    "lolix.gg": 0,
+    "Twitch:joueur_du_grenier": 1,
     "Foot Mercato (match)": 0
   },
   "errors": [
-    "Twitch:domingo: Twitch iCal URL introuvable sur /schedule pour domingo",
-    "Twitch:rivenzi: Twitch iCal URL introuvable sur /schedule pour rivenzi",
-    "Twitch:joueur_du_grenier: Twitch iCal URL introuvable sur /schedule pour joueur_du_grenier"
+    "Foot Mercato: Saint-Étienne: FM HTTP 404"
   ]
 }
