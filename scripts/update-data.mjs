@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { load } from "cheerio";
-import * as ical from "node-ical";
+import cheerio from "cheerio";
+import ical from "node-ical";
 import { XMLParser } from "fast-xml-parser";
 
 const OUT_PATH = path.join("data", "generated.json");
@@ -72,8 +72,7 @@ async function fetchAnimeSama() {
   const res = await fetch(ANIMESAMA_PLANNING_URL, { headers: { "user-agent": "planning-bot/1.0" }});
   if (!res.ok) throw new Error(`Anime-sama HTTP ${res.status}`);
   const html = await res.text();
-  const $ = load(html);
-
+  const $ = cheerio.load(html);
 
   const DAY_NAMES = new Set(["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]);
   const events = [];
