@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-02T17:58:53.462Z",
+  "generatedAt": "2026-02-02T18:37:31.550Z",
   "total": 72,
   "counts": {
     "Anime-sama": 75,
@@ -10,8 +10,8 @@
     "Foot Mercato (match)": 0
   },
   "errors": [
-    "Twitch:domingo: Twitch: broadcaster id introuvable pour domingo",
-    "Twitch:rivenzi: Twitch: broadcaster id introuvable pour rivenzi",
-    "Twitch:joueur_du_grenier: Twitch: broadcaster id introuvable pour joueur_du_grenier"
+    "Twitch:domingo: Twitch iCal URL introuvable sur /schedule pour domingo",
+    "Twitch:rivenzi: Twitch iCal URL introuvable sur /schedule pour rivenzi",
+    "Twitch:joueur_du_grenier: Twitch iCal URL introuvable sur /schedule pour joueur_du_grenier"
   ]
 }
