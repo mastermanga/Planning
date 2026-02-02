@@ -4,6 +4,8 @@ const STATUS_JSON_URL = "./data/status.json";
 const SHEET_CSV_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vT36bHnWhI-sdvq6NOmAyYU1BQZJT4WAsIYozR7fnARi_xBgU0keZw0mTF-N3s3x7V5tcaAofqO78Aq/pub?output=csv";
 
+const REPEAT_WEEKS_AHEAD = 52; // occurrences générées pour repeat=oui
+
 let allEvents = [];
 let calendar = null;
 let timeouts = [];
@@ -11,8 +13,7 @@ let searchQuery = "";
 
 const norm = s => (s || "").toString().trim().toLowerCase();
 
-const REPEAT_WEEKS_AHEAD = 52; // nombre de semaines générées pour repeat=oui
-
+// Convertit "YYYY-MM-DD HH:MM:SS" -> "YYYY-MM-DDTHH:MM:SS"
 function normalizeDate(s) {
   const v = (s || "").trim();
   if (!v) return "";
@@ -31,11 +32,9 @@ function addWeeks(isoStr, weeks) {
   const d = new Date(isoStr);
   if (!Number.isFinite(d.getTime())) return null;
   d.setDate(d.getDate() + 7 * weeks);
-  // on garde un format ISO local-ish (YYYY-MM-DDTHH:MM:SS)
   const pad = (n) => String(n).padStart(2, "0");
-  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
 }
-
 
 function matchesSearch(evt, q) {
   if (!q) return true;
@@ -48,7 +47,10 @@ function matchesSearch(evt, q) {
   return hay.includes(q);
 }
 
-function clearNotifs() { timeouts.forEach(clearTimeout); timeouts = []; }
+function clearNotifs() {
+  timeouts.forEach(clearTimeout);
+  timeouts = [];
+}
 
 function scheduleNotifs(events) {
   clearNotifs();
@@ -77,7 +79,9 @@ async function loadGenerated() {
     if (!r.ok) return [];
     const data = await r.json();
     return Array.isArray(data) ? data : [];
-  } catch { return []; }
+  } catch {
+    return [];
+  }
 }
 
 async function loadStatus() {
@@ -85,7 +89,9 @@ async function loadStatus() {
     const r = await fetch(STATUS_JSON_URL, { cache: "no-store" });
     if (!r.ok) return null;
     return await r.json();
-  } catch { return null; }
+  } catch {
+    return null;
+  }
 }
 
 function renderStatus(status) {
@@ -132,8 +138,8 @@ async function loadSheet() {
     const baseEvent = {
       title,
       start,
-      end: end || undefined,
-      url: url || undefined,
+      end: end || undefined, // si vide -> pas de durée (OK)
+      url: url || undefined, // si vide -> pas cliquable (géré plus bas)
       extendedProps: {
         source,
         tags: tagsRaw.split(",").map(s => s.trim()).filter(Boolean),
@@ -144,7 +150,7 @@ async function loadSheet() {
 
     out.push(baseEvent);
 
-    // Repeat: on génère des occurrences futures (weekly)
+    // Repeat hebdo : on génère des occurrences futures
     if (isOui(repeatRaw)) {
       for (let w = 1; w <= REPEAT_WEEKS_AHEAD; w++) {
         const nextStart = addWeeks(start, w);
@@ -163,7 +169,6 @@ async function loadSheet() {
   return out;
 }
 
-
 function filteredEvents() {
   const q = norm(searchQuery);
   return allEvents.filter(e => matchesSearch(e, q));
@@ -178,20 +183,49 @@ function renderCalendar() {
       initialView: "dayGridMonth",
       height: "auto",
       nowIndicator: true,
+
       headerToolbar: {
         left: "prev,next today",
         center: "title",
         right: "dayGridMonth,timeGridWeek,timeGridDay,listYear"
       },
       views: { listYear: { buttonText: "Total" } },
-      eventClick: (info) => {
+
+      // ✅ 24h (plus de "4p")
+      eventTimeFormat: {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      },
+
+      // ✅ pas cliquable si pas d'URL
+      eventDidMount: (info) => {
         const url = info.event.url;
-        if (url) {
-          info.jsEvent.preventDefault();
-          window.open(url, "_blank", "noopener,noreferrer");
+        if (!url) {
+          info.el.style.cursor = "default";
+          const a = info.el.querySelector("a");
+          if (a) {
+            a.removeAttribute("href");
+            a.style.pointerEvents = "none";
+            a.style.cursor = "default";
+            a.style.textDecoration = "none";
+          }
+        } else {
+          info.el.style.cursor = "pointer";
         }
       },
+
+      eventClick: (info) => {
+        const url = info.event.url;
+        if (!url) {
+          info.jsEvent.preventDefault();
+          return;
+        }
+        info.jsEvent.preventDefault();
+        window.open(url, "_blank", "noopener,noreferrer");
+      },
     });
+
     calendar.render();
   }
 
@@ -200,7 +234,11 @@ function renderCalendar() {
 }
 
 async function refreshData() {
-  const [generated, sheet, status] = await Promise.all([loadGenerated(), loadSheet(), loadStatus()]);
+  const [generated, sheet, status] = await Promise.all([
+    loadGenerated(),
+    loadSheet(),
+    loadStatus()
+  ]);
 
   allEvents = [...generated, ...sheet].map(e => ({
     title: e.title,
