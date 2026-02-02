@@ -65,13 +65,11 @@ async function loadStatus() {
 function renderStatus(status) {
   const el = document.getElementById("status");
   if (!el) return;
-  if (!status) {
-    el.textContent = "";
-    return;
-  }
+  if (!status) { el.textContent = ""; return; }
+
   const counts = status.counts || {};
   const parts = Object.entries(counts).map(([k, v]) => `${k}: ${v}`);
-  el.textContent = `Sources (${status.total}): ` + parts.join(" • ");
+  el.textContent = `Sources (${status.total}) — ${parts.join(" • ")}`;
 }
 
 async function loadSheet() {
