@@ -1,0 +1,41 @@
+name: Update data and deploy Pages
+
+on:
+  schedule:
+    - cron: "0 * * * *" # toutes les heures (UTC) -> le script ne fait vraiment l’update qu’à 06:00 et 13:00 Paris
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Generate data
+        run: npm run update-data
+        env:
+          # sur push et workflow_dispatch, on force l’update (pratique pour tester)
+          FORCE_UPDATE: ${{ github.event_name != 'schedule' && '1' || '' }}
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - uses: actions/deploy-pages@v4
