@@ -1,10 +1,9 @@
 const GENERATED_JSON_URL = "./data/generated.json";
+const STATUS_JSON_URL = "./data/status.json";
 
-// ✅ ton lien Google Sheets (CSV public)
 const SHEET_CSV_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vT36bHnWhI-sdvq6NOmAyYU1BQZJT4WAsIYozR7fnARi_xBgU0keZw0mTF-N3s3x7V5tcaAofqO78Aq/pub?output=csv";
 
-// Colonnes attendues dans le Sheet : title,start,end,tags,source,url
 let allEvents = [];
 let calendar = null;
 let timeouts = [];
@@ -53,6 +52,26 @@ async function loadGenerated() {
     const data = await r.json();
     return Array.isArray(data) ? data : [];
   } catch { return []; }
+}
+
+async function loadStatus() {
+  try {
+    const r = await fetch(STATUS_JSON_URL, { cache: "no-store" });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function renderStatus(status) {
+  const el = document.getElementById("status");
+  if (!el) return;
+  if (!status) {
+    el.textContent = "";
+    return;
+  }
+  const counts = status.counts || {};
+  const parts = Object.entries(counts).map(([k, v]) => `${k}: ${v}`);
+  el.textContent = `Sources (${status.total}): ` + parts.join(" • ");
 }
 
 async function loadSheet() {
@@ -112,7 +131,8 @@ function renderCalendar() {
 }
 
 async function refreshData() {
-  const [generated, sheet] = await Promise.all([loadGenerated(), loadSheet()]);
+  const [generated, sheet, status] = await Promise.all([loadGenerated(), loadSheet(), loadStatus()]);
+
   allEvents = [...generated, ...sheet].map(e => ({
     title: e.title,
     start: e.start,
@@ -125,6 +145,7 @@ async function refreshData() {
     }
   }));
 
+  renderStatus(status);
   renderCalendar();
   scheduleNotifs(filteredEvents());
 }
@@ -133,7 +154,9 @@ document.getElementById("search").addEventListener("input", e => {
   searchQuery = e.target.value || "";
   renderCalendar();
 });
+
 document.getElementById("refresh").addEventListener("click", refreshData);
+
 document.getElementById("notif").addEventListener("click", async () => {
   if (!("Notification" in window)) return alert("Notifications non supportées.");
   const perm = await Notification.requestPermission();
