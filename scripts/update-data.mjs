@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { load } from "cheerio";
-import * as icalNS from "node-ical";
+import ical from "node-ical";
 import { XMLParser } from "fast-xml-parser";
 
 const OUT_PATH = path.join("data", "generated.json");
@@ -9,135 +9,45 @@ const STATUS_PATH = path.join("data", "status.json");
 
 // Sources
 const ANIMESAMA_PLANNING_URL = "https://anime-sama.si/planning/";
-
 const LOLIX_PRED_URL = "https://lolix.gg/predictions";
-const LOLIX_FALLBACK_DATA_URL = "https://lolix.gg/predictions/__data.json";
-
+const LOLIX_DATA_URL = "https://lolix.gg/predictions/__data.json";
 const FOOTMERCATO_RSS_URL = "https://www.footmercato.net/flux-rss";
 const FOOTMERCATO_SITEMAP_NEWS_URL = "https://www.footmercato.net/sitemap-news.xml";
 
-// Twitch channels (logins)
-const TWITCH_LOGINS = ["domingo", "rivenzi", "joueur_du_grenier"];
+// Twitch channels (IDs stables)
+const TWITCH_CHANNELS = [
+  { login: "domingo", display: "Domingo", broadcasterId: "40063341" },
+  { login: "rivenzi", display: "Rivenzi", broadcasterId: "32053915" },
+  { login: "joueur_du_grenier", display: "Joueur_du_Grenier", broadcasterId: "68078157" }
+];
 
-// =========================
-// Filtre temps : passé max 5h
-// =========================
-const PAST_LIMIT_MS = 5 * 60 * 60 * 1000;
-function keepNotTooOld(startISO) {
-  const t = new Date(startISO).getTime();
-  if (!Number.isFinite(t)) return false;
-  return t >= Date.now() - PAST_LIMIT_MS;
+// Run only at 06:00 & 13:00 Paris (gère l’heure d’été) — sauf FORCE_UPDATE=1
+function parisHM() {
+  const parts = new Intl.DateTimeFormat("fr-FR", {
+    timeZone: "Europe/Paris",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).formatToParts(new Date());
+  const h = parts.find(p => p.type === "hour")?.value ?? "00";
+  const m = parts.find(p => p.type === "minute")?.value ?? "00";
+  return `${h}:${m}`;
+}
+function shouldRunNow() {
+  if (process.env.FORCE_UPDATE) return true;
+  const hm = parisHM();
+  return hm === "06:00" || hm === "13:00";
+}
+if (!shouldRunNow()) {
+  console.log(`Skip: Paris time is ${parisHM()} (wanted 06:00 or 13:00)`);
+  process.exit(0);
 }
 
-// Dédup + tri
-function dedupe(events) {
-  const seen = new Set();
-  const out = [];
-  for (const e of events) {
-    const k = `${e.title}__${e.start}__${e.source}`;
-    if (seen.has(k)) continue;
-    seen.add(k);
-    out.push(e);
-  }
-  return out;
-}
-function sortByStart(events) {
-  return events.sort((a, b) => new Date(a.start) - new Date(b.start));
-}
-
-// =========================
-// Twitch : parseICS robuste + plusieurs chaînes
-// =========================
-function getParseICS() {
-  const fn = icalNS?.parseICS || icalNS?.default?.parseICS;
-  if (typeof fn !== "function") throw new Error("node-ical: parseICS introuvable.");
-  return fn;
-}
-
-// Trouve le broadcaster_id en scrapant la page Twitch (sans API/clé)
-async function resolveTwitchBroadcasterId(login) {
-  const url = `https://www.twitch.tv/${login}`;
-  const res = await fetch(url, {
-    headers: {
-      "user-agent": "planning-bot/1.0",
-      "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
-    },
-  });
-  if (!res.ok) throw new Error(`Twitch page HTTP ${res.status} (${login})`);
-  const html = await res.text();
-
-  // Plusieurs patterns possibles selon les versions Twitch
-  const patterns = [
-    /"channelId":"(\d+)"/,
-    /"channelID":"(\d+)"/,
-    /"broadcasterId":"(\d+)"/,
-    /"id":"(\d+)","login":"([^"]+)"/, // on vérifie login après
-  ];
-
-  for (const p of patterns) {
-    const m = html.match(p);
-    if (!m) continue;
-
-    if (p.source.includes('"id":"') && m[2]) {
-      if (m[2].toLowerCase() === login.toLowerCase()) return m[1];
-      continue;
-    }
-    return m[1];
-  }
-
-  throw new Error(`Twitch: broadcaster_id introuvable pour ${login}`);
-}
-
-async function fetchTwitchICalForLogin(login) {
-  const broadcasterId = await resolveTwitchBroadcasterId(login);
-  const icalUrl = `https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=${broadcasterId}`;
-
-  const res = await fetch(icalUrl, { headers: { "user-agent": "planning-bot/1.0" } });
-  if (!res.ok) throw new Error(`Twitch iCal HTTP ${res.status} (${login})`);
-  const icsText = await res.text();
-
-  const parseICS = getParseICS();
-  const parsed = parseICS(icsText);
-
-  const out = [];
-  for (const k of Object.keys(parsed)) {
-    const item = parsed[k];
-    if (item?.type !== "VEVENT") continue;
-
-    const startISO = item.start?.toISOString?.() || item.start;
-    if (!startISO) continue;
-
-    // filtre 5h
-    if (!keepNotTooOld(startISO)) continue;
-
-    out.push({
-      title: `${login} — ${item.summary || "Stream"}`,
-      start: startISO,
-      end: item.end?.toISOString?.() || item.end,
-      source: "Twitch",
-      url: `https://www.twitch.tv/${login}/schedule`,
-      tags: ["stream", login],
-    });
-  }
-  return out;
-}
-
-async function fetchAllTwitch() {
-  const all = [];
-  for (const login of TWITCH_LOGINS) {
-    try {
-      all.push(...await fetchTwitchICalForLogin(login));
-    } catch (e) {
-      // on laisse main() collecter l'erreur via throw
-      throw e;
-    }
-  }
-  return all;
-}
-
-// =========================
-// Anime-sama (simple, garde si tu veux)
-// =========================
+// Helpers dates
+const MONTHS_FR = {
+  janvier: 1, fevrier: 2, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
+  juillet: 7, aout: 8, août: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12, décembre: 12
+};
 function guessYear(day, month) {
   const now = new Date();
   let y = now.getFullYear();
@@ -152,6 +62,20 @@ function isoLocal(y, m, d, hh, mm) {
   const DD = String(d).padStart(2, "0");
   return `${y}-${MM}-${DD}T${hh}:${mm}:00`;
 }
+
+// Keep: pas d’events vieux de +5h (pour Lolix)
+function isTooOld(startISO, hours = 5) {
+  const t = new Date(startISO).getTime();
+  if (!Number.isFinite(t)) return false;
+  return t < Date.now() - hours * 3600_000;
+}
+
+// ---------- Anime-sama ----------
+function parseAnimeSamaTime(text) {
+  const m = text.match(/(\d{1,2})h(\d{2})/);
+  if (!m) return null;
+  return { hh: String(m[1]).padStart(2, "0"), mm: m[2] };
+}
 function cleanTitle(raw) {
   return raw
     .replace(/^\s*(Anime|Scans)\s+/i, "")
@@ -160,269 +84,281 @@ function cleanTitle(raw) {
     .trim();
 }
 async function fetchAnimeSama() {
-  const res = await fetch(ANIMESAMA_PLANNING_URL, {
-    headers: { "user-agent": "planning-bot/1.0" },
-  });
+  const res = await fetch(ANIMESAMA_PLANNING_URL, { headers: { "user-agent": "planning-bot/1.0" }});
   if (!res.ok) throw new Error(`Anime-sama HTTP ${res.status}`);
   const html = await res.text();
   const $ = load(html);
 
-  const text = $("body").text().replace(/\u00a0/g, " ");
-  const lines = text.split("\n").map((s) => s.trim()).filter(Boolean);
+  const DAY_NAMES = new Set(["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]);
+  const events = [];
 
-  let currentDate = null;
-  const out = [];
+  $("h2").each((_, h2) => {
+    const dayName = $(h2).text().trim();
+    if (!DAY_NAMES.has(dayName)) return;
 
-  for (const line of lines) {
-    const dm = line.match(/\b(\d{2})\/(\d{2})\b/);
-    if (dm) {
-      const d = Number(dm[1]);
-      const m = Number(dm[2]);
-      const y = guessYear(d, m);
-      currentDate = { y, m, d };
+    const dateText = $(h2).nextAll().text().match(/(\d{2})\/(\d{2})/)?.[0];
+    if (!dateText) return;
+
+    const [dd, mm] = dateText.split("/").map(Number);
+    const year = guessYear(dd, mm);
+
+    let node = $(h2).next();
+    while (node.length && node[0].tagName !== "h2") {
+      if (node[0].tagName === "a") {
+        const raw = node.text().replace(/\s+/g, " ").trim();
+        const time = parseAnimeSamaTime(raw);
+        if (time) {
+          const href = node.attr("href");
+          events.push({
+            title: cleanTitle(raw),
+            start: isoLocal(year, mm, dd, time.hh, time.mm),
+            source: "Anime-sama",
+            url: href ? new URL(href, ANIMESAMA_PLANNING_URL).toString() : ANIMESAMA_PLANNING_URL,
+            tags: [raw.toLowerCase().startsWith("scans") ? "scans" : "anime"]
+          });
+        }
+      }
+      node = node.next();
     }
-    if (!currentDate) continue;
+  });
 
-    const tm = line.match(/\b(\d{1,2})h(\d{2})\b/);
-    if (!tm) continue;
+  return events;
+}
 
-    const hh = String(tm[1]).padStart(2, "0");
-    const mm = tm[2];
+// ---------- Twitch iCalendar ----------
+async function fetchTwitchICalOne(ch) {
+  const icalUrl = `https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=${ch.broadcasterId}`;
+  const res = await fetch(icalUrl, { headers: { "user-agent": "planning-bot/1.0" }});
+  if (!res.ok) throw new Error(`Twitch ${ch.login} iCal HTTP ${res.status}`);
 
-    let title = line
-      .replace(/\b(\d{2})\/(\d{2})\b/g, "")
-      .replace(/\b(\d{1,2})h(\d{2})\b/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
+  const icsText = await res.text();
+  const parsed = ical.parseICS(icsText);
 
-    if (!title || title.length < 3) continue;
+  const events = [];
+  for (const k of Object.keys(parsed)) {
+    const item = parsed[k];
+    if (item?.type !== "VEVENT") continue;
 
-    const start = isoLocal(currentDate.y, currentDate.m, currentDate.d, hh, mm);
-    if (!keepNotTooOld(start)) continue;
+    const start = item.start?.toISOString?.() || item.start;
+    const end = item.end?.toISOString?.() || item.end;
 
-    out.push({
-      title: cleanTitle(title),
+    events.push({
+      title: `${ch.display} — ${item.summary || "Stream"}`,
       start,
-      source: "Anime-sama",
-      url: ANIMESAMA_PLANNING_URL,
-      tags: ["anime"],
+      end,
+      source: "Twitch",
+      url: `https://www.twitch.tv/${ch.login}/schedule`,
+      tags: ["stream", ch.login]
     });
   }
+  return events;
+}
+async function fetchTwitchAll() {
+  const all = [];
+  for (const ch of TWITCH_CHANNELS) {
+    const ev = await fetchTwitchICalOne(ch);
+    all.push(...ev);
+  }
+  return all;
+}
 
+// ---------- Lolix (SvelteKit __data.json) ----------
+function safePreview(str, max = 500) {
+  const s = String(str ?? "");
+  return s.length > max ? s.slice(0, max) + "..." : s;
+}
+
+// Helpers de résolution “pool”
+function poolGet(pool, ref) {
+  if (typeof ref === "number" && ref >= 0 && ref < pool.length) return pool[ref];
+  return ref;
+}
+function resolveString(pool, ref) {
+  const v = poolGet(pool, ref);
+  return typeof v === "string" ? v : (typeof ref === "string" ? ref : null);
+}
+function resolveArray(pool, ref) {
+  const v = poolGet(pool, ref);
+  return Array.isArray(v) ? v : (Array.isArray(ref) ? ref : null);
+}
+function resolveObj(pool, ref) {
+  const v = poolGet(pool, ref);
+  return (v && typeof v === "object" && !Array.isArray(v)) ? v : ((ref && typeof ref === "object" && !Array.isArray(ref)) ? ref : null);
+}
+
+function looksLikeLolixMatch(obj) {
+  if (!obj || typeof obj !== "object" || Array.isArray(obj)) return false;
+  return ("begin_at" in obj) && ("opponents" in obj) && ("status" in obj || "match_type" in obj || "tournament_id" in obj);
+}
+
+function decodeLolixMatch(pool, m) {
+  const begin = resolveString(pool, m.begin_at);
+  if (!begin) return null;
+
+  const startDate = new Date(begin);
+  if (!Number.isFinite(startDate.getTime())) return null;
+
+  const oppArr = resolveArray(pool, m.opponents);
+  if (!oppArr || oppArr.length < 2) return null;
+
+  const names = [];
+  for (const entry of oppArr) {
+    const entryObj = resolveObj(pool, entry) || entry;
+    const oppRef = entryObj?.opponent ?? entryObj;
+    const teamObj = resolveObj(pool, oppRef) || poolGet(pool, oppRef);
+
+    const nm =
+      resolveString(pool, teamObj?.name) ||
+      resolveString(pool, teamObj?.acronym) ||
+      resolveString(pool, teamObj?.slug);
+
+    if (nm) names.push(nm);
+  }
+  if (names.length < 2) return null;
+
+  // League / acronym (optionnel)
+  let leagueAcr = null;
+  const leagueObj = resolveObj(pool, m.league);
+  if (leagueObj) {
+    leagueAcr = resolveString(pool, leagueObj.acronym) || resolveString(pool, leagueObj.name);
+  }
+
+  const title = `${leagueAcr ? `[${leagueAcr}] ` : ""}${names[0]} vs ${names[1]}`;
+
+  return {
+    title,
+    start: startDate.toISOString(),
+    source: "lolix.gg",
+    url: LOLIX_PRED_URL,
+    tags: ["predictions", "esport", leagueAcr ? String(leagueAcr).toLowerCase() : "lolix"]
+  };
+}
+
+function extractLolixFromAnySvelteData(root) {
+  const out = [];
+  const seenKey = new Set();
+
+  function extractFromPool(pool) {
+    for (const item of pool) {
+      if (looksLikeLolixMatch(item)) {
+        const ev = decodeLolixMatch(pool, item);
+        if (ev) {
+          const key = `${ev.start}__${ev.title}`;
+          if (!seenKey.has(key)) {
+            seenKey.add(key);
+            out.push(ev);
+          }
+        }
+      }
+      // pools imbriqués
+      if (item && typeof item === "object" && item.type === "data" && Array.isArray(item.data)) {
+        extractFromPool(item.data);
+      }
+    }
+  }
+
+  function walk(node) {
+    if (!node || typeof node !== "object") return;
+
+    if (node.type === "data" && Array.isArray(node.data)) {
+      extractFromPool(node.data);
+    }
+    if (Array.isArray(node.nodes)) {
+      for (const n of node.nodes) walk(n);
+    }
+
+    // Cherche aussi des "type:data" un peu partout sans traverser toute la planète :
+    // on traverse uniquement les objets directs.
+    for (const v of Object.values(node)) {
+      if (v && typeof v === "object") {
+        if (v.type === "data" && Array.isArray(v.data)) walk(v);
+        if (Array.isArray(v)) {
+          for (const x of v) {
+            if (x && typeof x === "object" && x.type === "data" && Array.isArray(x.data)) walk(x);
+          }
+        }
+      }
+    }
+  }
+
+  walk(root);
   return out;
 }
 
-// =========================
-// Lolix : récupérer l’URL __data.json exacte (avec query) + debug
-// =========================
-
-// Résolution SvelteKit refs -> pool
-function resolveFromPool(pool, value, memo) {
-  // ref
-  if (Number.isInteger(value) && value >= 0 && value < pool.length) {
-    const target = pool[value];
-    if (target === null || typeof target !== "object") return target; // primitif
-    return resolveFromPool(pool, target, memo);
-  }
-
-  // array
-  if (Array.isArray(value)) return value.map(v => resolveFromPool(pool, v, memo));
-
-  // object
-  if (value && typeof value === "object") {
-    if (memo.has(value)) return memo.get(value);
-    const out = {};
-    memo.set(value, out);
-    for (const k of Object.keys(value)) out[k] = resolveFromPool(pool, value[k], memo);
-    return out;
-  }
-
-  return value;
-}
-
-function extractMatchesFromLolixSveltekit(json) {
-  const nodes = Array.isArray(json?.nodes) ? json.nodes : [];
-  let best = [];
-
-  for (const node of nodes) {
-    if (!node || node.type !== "data" || !Array.isArray(node.data)) continue;
-    const pool = node.data;
-
-    for (const item of pool) {
-      if (!item || typeof item !== "object") continue;
-      if (!("matches" in item)) continue;
-
-      const memo = new WeakMap();
-      const resolved = resolveFromPool(pool, item, memo);
-      const matches = resolved?.matches;
-
-      if (Array.isArray(matches) && matches.length > best.length) best = matches;
-    }
-  }
-  return best;
-}
-
-async function getLolixDataUrlFromHtml() {
-  const res = await fetch(LOLIX_PRED_URL, {
-    headers: { "user-agent": "planning-bot/1.0" },
-  });
-  if (!res.ok) throw new Error(`Lolix page HTTP ${res.status}`);
-  const html = await res.text();
-
-  // debug HTML reçu par GH Actions (pratique si blocage)
-  await fs.mkdir("data", { recursive: true });
-  await fs.writeFile(path.join("data", "lolix-page.html"), html, "utf-8");
-
-  // On cherche /predictions/__data.json?... (avec query si présent)
-  const m = html.match(/\/predictions\/__data\.json\?[^"'<> ]+/);
-  if (m) return new URL(m[0], "https://lolix.gg").toString();
-
-  // sinon sans query
-  const m2 = html.match(/\/predictions\/__data\.json/);
-  if (m2) return new URL(m2[0], "https://lolix.gg").toString();
-
-  // fallback
-  return LOLIX_FALLBACK_DATA_URL;
-}
-
 async function fetchLolixPredictions() {
-  const dataUrl = await getLolixDataUrlFromHtml();
+  // Important : reproduit le param vu dans ton navigateur
+  const dataUrl = `${LOLIX_DATA_URL}?x=sveltekit-invalidate-${Date.now()}`;
 
   const res = await fetch(dataUrl, {
     headers: {
       "user-agent": "planning-bot/1.0",
-      accept: "application/json",
-      "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
-      referer: LOLIX_PRED_URL,
-    },
+      "accept": "application/json, text/plain, */*",
+      "referer": LOLIX_PRED_URL
+    }
   });
+  if (!res.ok) throw new Error(`Lolix __data.json HTTP ${res.status}`);
 
-  const rawText = await res.text();
-  await fs.mkdir("data", { recursive: true });
-  await fs.writeFile(path.join("data", "lolix-raw.txt"), rawText, "utf-8");
+  const raw = await res.text();
 
-  if (!res.ok) throw new Error(`Lolix data HTTP ${res.status}`);
+  console.log(`[lolix] __data.json bytes=${raw.length} preview=${safePreview(raw, 180)}`);
 
   let json;
   try {
-    json = JSON.parse(rawText);
-  } catch {
-    throw new Error("Lolix: réponse non-JSON (voir data/lolix-raw.txt)");
+    json = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`Lolix: JSON.parse failed (${e.message}). preview=${safePreview(raw, 180)}`);
   }
 
-  // debug JSON (si vide, on le verra)
-  await fs.writeFile(path.join("data", "lolix-raw.json"), JSON.stringify(json, null, 2), "utf-8");
+  const extracted = extractLolixFromAnySvelteData(json);
 
-  // Si c’est vide: très probablement besoin de query spécifique ou données non publiques côté runner
-  if (Array.isArray(json) && json.length === 0) {
-    throw new Error("Lolix: __data.json renvoie [] sur GitHub Actions (voir data/lolix-raw.txt + lolix-page.html)");
-  }
+  // Filtre “pas besoin de ce qui est passé de plus de 5h”
+  const filtered = extracted.filter(ev => !isTooOld(ev.start, 5));
 
-  const matches = extractMatchesFromLolixSveltekit(json);
-  if (!matches.length) {
-    throw new Error("Lolix: 0 match extrait (structure inattendue). Voir data/lolix-raw.json");
-  }
-
-  const out = [];
-  for (const m of matches) {
-    const beginAt = m.begin_at || m.beginAt;
-    if (!beginAt) continue;
-
-    const d = new Date(beginAt);
-    if (!Number.isFinite(d.getTime())) continue;
-
-    const startISO = d.toISOString();
-    if (!keepNotTooOld(startISO)) continue;
-
-    const opp = m.opponents || [];
-    const t1 = opp?.[0]?.opponent?.name || opp?.[0]?.name;
-    const t2 = opp?.[1]?.opponent?.name || opp?.[1]?.name;
-    if (!t1 || !t2) continue;
-
-    const leagueName = m.league?.name || m.tournament?.league?.name || "";
-
-    out.push({
-      title: `${t1} vs ${t2}${leagueName ? ` (${leagueName})` : ""}`,
-      start: startISO,
-      source: "lolix.gg",
-      url: LOLIX_PRED_URL,
-      tags: ["esport", "predictions", leagueName ? String(leagueName).toLowerCase() : ""].filter(Boolean),
-    });
-  }
-
-  return dedupe(out);
+  console.log(`[lolix] extracted=${extracted.length} kept(last 5h+)=${filtered.length}`);
+  return filtered;
 }
 
-// =========================
-// FootMercato (on touche pas maintenant)
-// =========================
-const CLUB_KEYWORDS = [
-  "barcelone", "fc barcelone", "barça", "barca",
-  "real madrid", "madrid",
-  "manchester city", "man city",
-  "liverpool",
-  "bayern", "bayern munich", "bayern de munich",
-  "psg", "paris saint-germain", "paris sg",
-  "nice", "ogc nice",
-  "saint-etienne", "saint étienne", "asse"
-];
-const LDC_KEYWORDS = ["ligue des champions", "champions league", "ldc", "c1"];
-function classifyFM(title) {
-  const t = String(title || "").toLowerCase();
-  if (LDC_KEYWORDS.some(k => t.includes(k))) return "Foot Mercato (LDC)";
-  if (CLUB_KEYWORDS.some(k => t.includes(k))) return "Foot Mercato (clubs)";
-  return null;
-}
+// ---------- Foot Mercato (inchangé / à trier plus tard) ----------
 async function fetchFootMercato() {
   const parser = new XMLParser({ ignoreAttributes: false, removeNSPrefix: true });
 
   // RSS
   try {
-    const r = await fetch(FOOTMERCATO_RSS_URL, { headers: { "user-agent": "planning-bot/1.0" } });
+    const r = await fetch(FOOTMERCATO_RSS_URL, { headers: { "user-agent": "planning-bot/1.0" }});
     if (r.ok) {
       const xml = await r.text();
       const doc = parser.parse(xml);
       const items = doc?.rss?.channel?.item || [];
       const arr = Array.isArray(items) ? items : [items];
 
-      const out = [];
-      for (const it of arr) {
-        const title = it?.title;
-        const pubDate = it?.pubDate || it?.date;
-        const link = it?.link || FOOTMERCATO_RSS_URL;
-        if (!title || !pubDate) continue;
-
-        const cat = classifyFM(title);
-        if (!cat) continue;
-
-        const startISO = new Date(pubDate).toISOString();
-        if (!keepNotTooOld(startISO)) continue;
-
-        out.push({
-          title: `FM: ${title}`,
-          start: startISO,
-          source: cat,
-          url: link,
-          tags: ["foot", cat.includes("LDC") ? "ldc" : "clubs"],
-        });
-      }
-      return out;
+      return arr
+        .filter(it => it?.title && (it?.pubDate || it?.date))
+        .slice(0, 80)
+        .map(it => ({
+          title: `FM: ${it.title}`,
+          start: new Date(it.pubDate || it.date).toISOString(),
+          source: "Foot Mercato (RSS)",
+          url: it.link || FOOTMERCATO_RSS_URL,
+          tags: ["foot", "news"]
+        }));
     }
   } catch {
-    // fallback
+    // ignore -> fallback
   }
 
-  // sitemap
-  const res = await fetch(FOOTMERCATO_SITEMAP_NEWS_URL, { headers: { "user-agent": "planning-bot/1.0" } });
+  // Fallback sitemap-news.xml
+  const res = await fetch(FOOTMERCATO_SITEMAP_NEWS_URL, { headers: { "user-agent": "planning-bot/1.0" }});
   if (!res.ok) throw new Error(`FM sitemap HTTP ${res.status}`);
-
   const xml = await res.text();
   const doc = parser.parse(xml);
 
   let urls = doc?.urlset?.url || [];
   if (!Array.isArray(urls)) urls = [urls];
 
+  const now = Date.now();
+  const maxAgeMs = 7 * 24 * 60 * 60 * 1000;
   const out = [];
+
   for (const u of urls) {
     const loc = u.loc;
     const news = u.news;
@@ -430,54 +366,60 @@ async function fetchFootMercato() {
     const pub = news?.publication_date;
     if (!loc || !title || !pub) continue;
 
-    const cat = classifyFM(title);
-    if (!cat) continue;
-
-    const startISO = new Date(pub).toISOString();
-    if (!keepNotTooOld(startISO)) continue;
+    const t = new Date(pub).getTime();
+    if (!Number.isFinite(t)) continue;
+    if (now - t > maxAgeMs) continue;
 
     out.push({
       title: `FM: ${title}`,
-      start: startISO,
-      source: cat,
+      start: new Date(pub).toISOString(),
+      source: "Foot Mercato (sitemap)",
       url: loc,
-      tags: ["foot", cat.includes("LDC") ? "ldc" : "clubs"],
+      tags: ["foot", "news"]
     });
   }
   return out;
 }
 
-// =========================
-// Main
-// =========================
+// ---------- Main ----------
 async function main() {
-  const all = [];
+  const events = [];
   const errors = [];
-
-  try { all.push(...await fetchAnimeSama()); } catch (e) { errors.push(`Anime-sama: ${e.message}`); }
-  try { all.push(...await fetchAllTwitch()); } catch (e) { errors.push(`Twitch: ${e.message}`); }
-  try { all.push(...await fetchLolixPredictions()); } catch (e) { errors.push(`lolix.gg: ${e.message}`); }
-  try { all.push(...await fetchFootMercato()); } catch (e) { errors.push(`Foot Mercato: ${e.message}`); }
-
-  const filtered = all.filter(e => e?.start && keepNotTooOld(e.start));
-  const finalEvents = sortByStart(dedupe(filtered));
-
   const counts = {};
-  for (const e of finalEvents) counts[e.source] = (counts[e.source] || 0) + 1;
+
+  async function run(name, fn) {
+    try {
+      const arr = await fn();
+      counts[name] = arr.length;
+      events.push(...arr);
+    } catch (e) {
+      counts[name] = 0;
+      errors.push(`${name}: ${e.message}`);
+      console.warn(`${name} failed:`, e.message);
+    }
+  }
+
+  await run("Anime-sama", fetchAnimeSama);
+  await run("Twitch", fetchTwitchAll);
+  await run("lolix.gg", fetchLolixPredictions);
+  await run("Foot Mercato", fetchFootMercato);
+
+  // Tri + écriture
+  events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
-  await fs.writeFile(OUT_PATH, JSON.stringify(finalEvents, null, 2), "utf-8");
+  await fs.writeFile(OUT_PATH, JSON.stringify(events, null, 2), "utf-8");
 
   const status = {
     generatedAt: new Date().toISOString(),
-    total: finalEvents.length,
+    total: events.length,
     counts,
-    errors: errors.length ? errors : undefined,
+    errors
   };
   await fs.writeFile(STATUS_PATH, JSON.stringify(status, null, 2), "utf-8");
 
-  console.log(`Wrote ${finalEvents.length} events to ${OUT_PATH}`);
-  if (errors.length) console.warn(errors.join("\n"));
+  console.log(`Wrote ${events.length} events to ${OUT_PATH}`);
+  console.log(`Status -> ${STATUS_PATH}`);
 }
 
 main();
