@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-02-02T16:13:42.817Z",
-  "total": 14,
+  "generatedAt": "2026-02-02T16:32:37.867Z",
+  "total": 6,
   "counts": {
-    "Foot Mercato (clubs)": 6,
-    "Twitch": 8
+    "Foot Mercato (clubs)": 6
   },
   "errors": [
-    "lolix.gg: Lolix: 0 match trouvé dans __data.json (structure inattendue)."
+    "Twitch: Twitch: broadcaster_id introuvable pour domingo",
+    "lolix.gg: Lolix: 0 match extrait (structure inattendue). Voir data/lolix-raw.json"
   ]
 }
