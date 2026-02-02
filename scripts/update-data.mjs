@@ -2,7 +2,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { load } from "cheerio";
 import ical from "node-ical";
 
 // ------------------ Paths (toujours depuis la racine du projet) ------------------
@@ -10,51 +9,62 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 
-const OUT_PATH = path.join(PROJECT_ROOT, "data", "generated.json");
-const STATUS_PATH = path.join(PROJECT_ROOT, "data", "status.json");
+const OUT_EVENTS = path.join(PROJECT_ROOT, "data", "generated.json");
+const OUT_STATUS = path.join(PROJECT_ROOT, "data", "status.json");
+const OUT_LOLIX_RAW = path.join(PROJECT_ROOT, "data", "lolix-raw.json");
 
 // ------------------ Config ------------------
-/**
- * ✅ FIX TWITCH :
- * on utilise directement broadcasterId (fourni par toi)
- * => plus besoin de scraper /schedule pour trouver l’URL iCal
- */
-const TWITCH_CHANNELS = [
-  { user: "domingo", label: "Domingo", broadcasterId: "40063341", scheduleUrl: "https://www.twitch.tv/domingo/schedule?lang=fr" },
-  { user: "rivenzi", label: "Rivenzi", broadcasterId: "32053915", scheduleUrl: "https://www.twitch.tv/rivenzi/schedule?lang=fr" },
-  { user: "joueur_du_grenier", label: "Joueur du Grenier", broadcasterId: "68078157", scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule?lang=fr" },
-];
-
-const FOOT_CLUB_PAGES = [
-  { tag: "barcelone", label: "Barcelone", url: "https://www.footmercato.net/programme-tv/club/fc-barcelone" },
-  { tag: "real_madrid", label: "Real Madrid", url: "https://www.footmercato.net/programme-tv/club/real-madrid" },
-  { tag: "manchester_city", label: "Manchester City", url: "https://www.footmercato.net/programme-tv/club/manchester-city" },
-  { tag: "liverpool", label: "Liverpool", url: "https://www.footmercato.net/programme-tv/club/liverpool" },
-  { tag: "bayern", label: "Bayern", url: "https://www.footmercato.net/programme-tv/club/bayern-munich" },
-  { tag: "psg", label: "PSG", url: "https://www.footmercato.net/programme-tv/club/psg" },
-  { tag: "nice", label: "Nice", url: "https://www.footmercato.net/programme-tv/club/ogc-nice" },
-  { tag: "saint_etienne", label: "Saint-Étienne", url: "https://www.footmercato.net/programme-tv/club/saint_etienne" },
-];
-
-// Ligue des Champions
-const FOOT_LDC_PAGE = {
-  tag: "ldc",
-  label: "Ligue des Champions",
-  url: "https://www.footmercato.net/programme-tv/europe/ligue-des-champions-uefa",
-};
-
-// Filtre : pas d’event commencé il y a plus de 5h
+const UA = "planning-bot/1.0 (+github-actions)";
 const MAX_PAST_HOURS = 5;
 
-// ------------------ Utils ------------------
-const UA = "planning-bot/1.0 (+github-actions)";
+// Google sheet (pubhtml -> on force CSV)
+const SHEET_PUBHTML =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vT36bHnWhI-sdvq6NOmAyYU1BQZJT4WAsIYozR7fnARi_xBgU0keZw0mTF-N3s3x7V5tcaAofqO78Aq/pubhtml";
+const SHEET_CSV = SHEET_PUBHTML.replace(/\/pubhtml.*$/i, "/pub?output=csv");
 
-const MONTHS_FR = {
-  janvier: 1, fevrier: 2, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
-  juillet: 7, aout: 8, août: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12, décembre: 12,
-};
+// Repeat weekly horizon
+const REPEAT_WEEKS = 52;
 
-// Node 18+ requis pour fetch
+// Lolix API
+const LOLIX_MATCHES_API = "https://lolix.gg/api/predictions/matches";
+
+// Twitch channels (IDs fournis)
+const TWITCH_CHANNELS = [
+  { user: "domingo", label: "Domingo", broadcasterId: "40063341", scheduleUrl: "https://www.twitch.tv/domingo/schedule" },
+  { user: "rivenzi", label: "Rivenzi", broadcasterId: "32053915", scheduleUrl: "https://www.twitch.tv/rivenzi/schedule" },
+  { user: "joueur_du_grenier", label: "Joueur du Grenier", broadcasterId: "68078157", scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule" },
+];
+
+// ------------------ Football-data.org (API) ------------------
+// ⚠️ Mets ta clé dans l'env: FOOTBALL_DATA_TOKEN (GitHub Actions secret)
+const FOOTBALL_DATA_BASE = "https://api.football-data.org/v4";
+const FOOTBALL_DATA_TOKEN = process.env.FOOTBALL_DATA_TOKEN;
+
+// Compétitions à interroger (couvre tes clubs + LDC)
+const FOOT_COMPETITIONS = [
+  { code: "CL", tag: "ldc" },         // UEFA Champions League
+  { code: "PL", tag: "premier_league" },
+  { code: "PD", tag: "liga" },        // La Liga
+  { code: "BL1", tag: "bundesliga" },
+  { code: "FL1", tag: "ligue1" },     // Ligue 1
+];
+
+// Équipes suivies (matching “souple” via aliases)
+const FOOT_TEAMS = [
+  { tag: "barcelone", aliases: ["FC Barcelona", "Barcelona"] },
+  { tag: "real_madrid", aliases: ["Real Madrid CF", "Real Madrid"] },
+  { tag: "manchester_city", aliases: ["Manchester City FC", "Manchester City"] },
+  { tag: "liverpool", aliases: ["Liverpool FC", "Liverpool"] },
+  { tag: "bayern", aliases: ["FC Bayern München", "Bayern München", "Bayern Munchen", "Bayern"] },
+  { tag: "psg", aliases: ["Paris Saint-Germain FC", "Paris Saint Germain", "Paris SG", "PSG"] },
+  { tag: "nice", aliases: ["OGC Nice", "Nice"] },
+  { tag: "asse", aliases: ["AS Saint-Étienne", "AS Saint-Etienne", "Saint-Étienne", "Saint-Etienne", "ASSE"] },
+];
+
+// Horizon des matchs (en jours) qu’on récupère depuis football-data.org
+const FOOT_LOOKAHEAD_DAYS = 30;
+
+// ------------------ Guards / Fetch utils ------------------
 if (typeof fetch !== "function") {
   throw new Error("fetch() indisponible. Utilise Node 18+ (ou ajoute un polyfill fetch).");
 }
@@ -65,20 +75,22 @@ function fetchWithTimeout(url, opts = {}, timeoutMs = 20000) {
   return fetch(url, { ...opts, signal: controller.signal }).finally(() => clearTimeout(t));
 }
 
-function guessYear(day, month) {
-  const now = new Date();
-  let y = now.getFullYear();
-  const candidate = new Date(Date.UTC(y, month - 1, day));
-  const diffDays = (candidate - now) / 86400000;
-  if (diffDays < -180) y += 1;
-  if (diffDays > 180) y -= 1;
-  return y;
+async function writeJSON(filePath, obj) {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  await fs.writeFile(filePath, JSON.stringify(obj, null, 2), "utf-8");
 }
 
-function isoLocal(y, m, d, hh, mm) {
-  const MM = String(m).padStart(2, "0");
-  const DD = String(d).padStart(2, "0");
-  return `${y}-${MM}-${DD}T${hh}:${mm}:00`;
+function normSpaces(s) {
+  return String(s || "").replace(/\s+/g, " ").trim();
+}
+
+function safeTags(tags) {
+  if (!tags) return [];
+  if (Array.isArray(tags)) return tags.map(t => String(t).trim()).filter(Boolean);
+  return String(tags)
+    .split(",")
+    .map(t => t.trim())
+    .filter(Boolean);
 }
 
 function isTooOld(startISO) {
@@ -88,11 +100,15 @@ function isTooOld(startISO) {
   return t < cutoff;
 }
 
+function makeKey(ev) {
+  return `${ev.source}|${ev.title}|${ev.start}`.toLowerCase();
+}
+
 function dedupe(events) {
   const seen = new Set();
   const out = [];
   for (const ev of events) {
-    const key = `${ev.source}|${ev.title}|${ev.start}`;
+    const key = makeKey(ev);
     if (seen.has(key)) continue;
     seen.add(key);
     out.push(ev);
@@ -100,19 +116,188 @@ function dedupe(events) {
   return out;
 }
 
-async function writeJSON(filePath, obj) {
-  await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, JSON.stringify(obj, null, 2), "utf-8");
+// ------------------ CSV (simple parser) ------------------
+function detectDelimiter(firstLine) {
+  const c = (firstLine.match(/,/g) || []).length;
+  const s = (firstLine.match(/;/g) || []).length;
+  return s > c ? ";" : ",";
 }
 
-// ------------------ Twitch (✅ direct iCal via broadcasterId) ------------------
+function parseCSV(text) {
+  const lines = text.replace(/\r/g, "").split("\n");
+  const firstNonEmpty = lines.find(l => l.trim().length > 0) || "";
+  const delim = detectDelimiter(firstNonEmpty);
+
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+
+    if (inQuotes) {
+      if (ch === '"') {
+        const next = text[i + 1];
+        if (next === '"') {
+          field += '"';
+          i++;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        field += ch;
+      }
+      continue;
+    }
+
+    if (ch === '"') {
+      inQuotes = true;
+      continue;
+    }
+
+    if (ch === delim) {
+      row.push(field);
+      field = "";
+      continue;
+    }
+
+    if (ch === "\n") {
+      row.push(field);
+      rows.push(row);
+      row = [];
+      field = "";
+      continue;
+    }
+
+    if (ch === "\r") continue;
+
+    field += ch;
+  }
+
+  if (field.length || row.length) {
+    row.push(field);
+    rows.push(row);
+  }
+
+  return rows
+    .map(r => r.map(v => (v ?? "").toString().trim()))
+    .filter(r => r.some(v => v.length > 0));
+}
+
+function toIsoLocalFromSheet(s) {
+  const t = normSpaces(s);
+  if (!t) return null;
+
+  let iso = t.includes("T") ? t : t.replace(" ", "T");
+
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(iso)) iso += ":00";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(iso)) iso += "T00:00:00";
+
+  return iso;
+}
+
+function addDaysIsoLocal(isoLocal, days) {
+  const m = isoLocal.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})$/);
+  if (!m) return isoLocal;
+
+  const y = Number(m[1]);
+  const mo = Number(m[2]);
+  const d = Number(m[3]);
+  const hh = m[4], mm = m[5], ss = m[6];
+
+  const base = Date.UTC(y, mo - 1, d);
+  const next = new Date(base + days * 86400000);
+
+  const yy = next.getUTCFullYear();
+  const MM = String(next.getUTCMonth() + 1).padStart(2, "0");
+  const DD = String(next.getUTCDate()).padStart(2, "0");
+  return `${yy}-${MM}-${DD}T${hh}:${mm}:${ss}`;
+}
+
+// ------------------ Anime from Google Sheet (CSV) ------------------
+async function fetchAnimeFromSheet() {
+  const res = await fetchWithTimeout(SHEET_CSV, { headers: { "user-agent": UA } }, 20000);
+  if (!res.ok) throw new Error(`Google sheet CSV HTTP ${res.status}`);
+  const csv = await res.text();
+
+  const rows = parseCSV(csv);
+  if (rows.length < 2) return [];
+
+  const headers = rows[0].map(h => h.toLowerCase());
+  const idx = (name) => headers.indexOf(name);
+
+  const iTitle = idx("title");
+  const iStart = idx("start");
+  const iEnd = idx("end");
+  const iTags = idx("tags");
+  const iUrl = idx("url");
+  const iRepeat = idx("repeat");
+
+  if (iTitle === -1 || iStart === -1) {
+    throw new Error("Google sheet: colonnes minimales 'title' et 'start' introuvables");
+  }
+
+  const out = [];
+  for (let r = 1; r < rows.length; r++) {
+    const row = rows[r];
+
+    const title = normSpaces(row[iTitle]);
+    const start0 = toIsoLocalFromSheet(row[iStart]);
+    if (!title || !start0) continue;
+
+    const end0 = iEnd !== -1 ? toIsoLocalFromSheet(row[iEnd]) : null;
+    const url = iUrl !== -1 ? normSpaces(row[iUrl]) : "";
+    const tagsRaw = iTags !== -1 ? normSpaces(row[iTags]) : "";
+    const repeatRaw = iRepeat !== -1 ? normSpaces(row[iRepeat]) : "";
+
+    const tags = safeTags(tagsRaw).map(t => t.toLowerCase());
+    if (tags.length === 0 && tagsRaw) tags.push(tagsRaw.toLowerCase());
+
+    const shouldRepeat = repeatRaw.toLowerCase() === "oui";
+
+    const base = {
+      title,
+      start: start0,
+      end: end0 || undefined,
+      source: "Anime (sheet)",
+      url,
+      tags,
+    };
+
+    if (!shouldRepeat) {
+      if (!isTooOld(base.start)) out.push(base);
+      continue;
+    }
+
+    for (let k = 0; k < REPEAT_WEEKS; k++) {
+      const startK = addDaysIsoLocal(start0, k * 7);
+      const endK = end0 ? addDaysIsoLocal(end0, k * 7) : undefined;
+      if (isTooOld(startK)) continue;
+
+      out.push({
+        ...base,
+        start: startK,
+        end: endK,
+      });
+    }
+  }
+
+  return out;
+}
+
+// ------------------ Twitch (direct broadcasterId -> iCal) ------------------
+function twitchIcalUrl(broadcasterId) {
+  return `https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=${broadcasterId}`;
+}
+
 async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
-  const icalUrl = `https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=${broadcasterId}`;
+  const icalUrl = twitchIcalUrl(broadcasterId);
 
   const r = await fetchWithTimeout(icalUrl, { headers: { "user-agent": UA } }, 20000);
-  if (!r.ok) throw new Error(`iCal HTTP ${r.status}`);
-  const icsText = await r.text();
+  if (!r.ok) throw new Error(`Twitch iCal HTTP ${r.status}`);
 
+  const icsText = await r.text();
   const parsed = ical.sync.parseICS(icsText);
 
   const out = [];
@@ -121,13 +306,12 @@ async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
     if (item?.type !== "VEVENT") continue;
 
     const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
-    const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : null);
+    const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : undefined);
 
     if (!start || isTooOld(start)) continue;
 
-    const summary = item.summary || "Stream";
     out.push({
-      title: `${label} — ${summary}`,
+      title: `${label} — ${item.summary || "Stream"}`,
       start,
       end,
       source: `Twitch:${user}`,
@@ -135,157 +319,226 @@ async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
       tags: ["twitch", user],
     });
   }
+  return out;
+}
+
+// ------------------ Lolix (API JSON) ------------------
+function buildLolixTitle(match) {
+  const league = match?.league?.name ? String(match.league.name).trim() : "LOL";
+  const opp = Array.isArray(match?.opponents) ? match.opponents : [];
+
+  const teamNames = opp
+    .map(o => o?.opponent?.name || o?.opponent?.acronym)
+    .filter(Boolean)
+    .map(String);
+
+  if (teamNames.length >= 2) return `[${league}] ${teamNames[0]} vs ${teamNames[1]}`;
+  if (teamNames.length === 1) return `[${league}] ${teamNames[0]} (TBD)`;
+  return `[${league}] Match`;
+}
+
+function lolixTags(match) {
+  const tags = ["lolix", "esport", "lol"];
+  const league = match?.league?.name ? String(match.league.name).toLowerCase() : "";
+  if (league) tags.push(league);
+
+  const title = buildLolixTitle(match).toLowerCase();
+  if (title.includes("gen.g") || title.includes("geng")) tags.push("geng");
+  if (title.includes("fnatic") || title.includes("fnc")) tags.push("fnatic");
+  return Array.from(new Set(tags));
+}
+
+async function fetchLolixMatches() {
+  const res = await fetchWithTimeout(LOLIX_MATCHES_API, { headers: { "user-agent": UA } }, 20000);
+  if (!res.ok) throw new Error(`Lolix API HTTP ${res.status}`);
+
+  const data = await res.json();
+
+  const summary = {
+    fetchedAt: new Date().toISOString(),
+    endpoint: LOLIX_MATCHES_API,
+    topKeys: Object.keys(data || {}),
+    counts: {
+      past: Array.isArray(data?.past) ? data.past.length : 0,
+      running: Array.isArray(data?.running) ? data.running.length : 0,
+      upcoming: Array.isArray(data?.upcoming) ? data.upcoming.length : 0,
+    },
+  };
+
+  await writeJSON(OUT_LOLIX_RAW, { summary, payload: data });
+
+  const all = [
+    ...(Array.isArray(data?.past) ? data.past : []),
+    ...(Array.isArray(data?.running) ? data.running : []),
+    ...(Array.isArray(data?.upcoming) ? data.upcoming : []),
+  ];
+
+  const out = [];
+  for (const m of all) {
+    const start = m?.begin_at ? String(m.begin_at) : null;
+    if (!start) continue;
+    if (isTooOld(start)) continue;
+
+    out.push({
+      title: buildLolixTitle(m),
+      start,
+      end: undefined,
+      source: "lolix.gg",
+      url: "https://lolix.gg/predictions",
+      tags: lolixTags(m),
+    });
+  }
 
   return out;
 }
 
-// ------------------ Foot Mercato (matchs uniquement) ------------------
-function parseFMHeadingDate(text) {
-  // Exemple: "Samedi 07 février"
-  const m = text.trim().match(/^(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+(\d{1,2})\s+([A-Za-zÀ-ÿ]+)/i);
-  if (!m) return null;
-  const day = Number(m[2]);
-  const monthName = m[3].toLowerCase();
-  const month = MONTHS_FR[monthName];
-  if (!month) return null;
-  const year = guessYear(day, month);
-  return { year, month, day };
+// ------------------ Football-data.org (matchs) ------------------
+function normName(s) {
+  return String(s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function parseMatchAnchorText(text) {
-  const t = text.replace(/\s+/g, " ").trim();
-
-  // 16:15
-  let m = t.match(/(.+)\s+(\d{1,2}):(\d{2})\s*$/);
-  if (m) {
-    const title = m[1].trim();
-    const hh = String(m[2]).padStart(2, "0");
-    const mm = m[3];
-    return { title, hh, mm };
+function watchedTeamTag(teamName) {
+  const n = normName(teamName);
+  for (const t of FOOT_TEAMS) {
+    for (const alias of t.aliases) {
+      const a = normName(alias);
+      if (!a) continue;
+      if (n === a) return t.tag;
+      // matching souple (ex: "fc barcelona" contient "barcelona")
+      if (n.includes(a) || a.includes(n)) return t.tag;
+    }
   }
-
-  // 16h15
-  m = t.match(/(.+)\s+(\d{1,2})h(\d{2})\s*$/i);
-  if (m) {
-    const title = m[1].trim();
-    const hh = String(m[2]).padStart(2, "0");
-    const mm = m[3];
-    return { title, hh, mm };
-  }
-
   return null;
 }
 
-async function fetchFootMercatoPage({ url, tag }) {
-  const res = await fetchWithTimeout(url, { headers: { "user-agent": UA } }, 20000);
-  if (!res.ok) throw new Error(`FM HTTP ${res.status}`);
-  const html = await res.text();
-  const $ = load(html);
+function yyyyMmDd(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+async function fdFetchJson(urlPath, timeoutMs = 20000) {
+  if (!FOOTBALL_DATA_TOKEN) {
+    throw new Error("FOOTBALL_DATA_TOKEN manquant (env var). Ajoute-le dans les secrets GitHub Actions.");
+  }
+  const url = `${FOOTBALL_DATA_BASE}${urlPath}`;
+  const r = await fetchWithTimeout(url, {
+    headers: {
+      "user-agent": UA,
+      "X-Auth-Token": FOOTBALL_DATA_TOKEN,
+    },
+  }, timeoutMs);
+
+  if (!r.ok) {
+    const txt = await r.text().catch(() => "");
+    throw new Error(`football-data.org HTTP ${r.status}${txt ? ` — ${txt.slice(0, 200)}` : ""}`);
+  }
+  return r.json();
+}
+
+async function fetchFootMatchesFootballData() {
+  const now = new Date();
+  const dateFrom = yyyyMmDd(now);
+  const dateTo = yyyyMmDd(new Date(now.getTime() + FOOT_LOOKAHEAD_DAYS * 86400000));
 
   const out = [];
 
-  $("h2").each((_, h2) => {
-    const dateInfo = parseFMHeadingDate($(h2).text());
-    if (!dateInfo) return;
+  for (const c of FOOT_COMPETITIONS) {
+    const data = await fdFetchJson(`/competitions/${c.code}/matches?dateFrom=${dateFrom}&dateTo=${dateTo}`);
+    const matches = Array.isArray(data?.matches) ? data.matches : [];
 
-    const block = $(h2).nextUntil("h2");
-    const anchors = block.find("a");
+    for (const m of matches) {
+      const start = m?.utcDate ? String(m.utcDate) : "";
+      if (!start || isTooOld(start)) continue;
 
-    anchors.each((__, a) => {
-      const parsed = parseMatchAnchorText($(a).text());
-      if (!parsed) return;
+      const home = m?.homeTeam?.name || "";
+      const away = m?.awayTeam?.name || "";
+      const compName = m?.competition?.name || c.code;
 
-      const start = isoLocal(dateInfo.year, dateInfo.month, dateInfo.day, parsed.hh, parsed.mm);
-      if (isTooOld(start)) return;
+      const tagHome = watchedTeamTag(home);
+      const tagAway = watchedTeamTag(away);
+
+      // on ne garde que les matchs où au moins une équipe est suivie
+      if (!tagHome && !tagAway) continue;
 
       out.push({
-        title: `⚽ ${parsed.title}`,
-        start,
-        end: null,
-        source: "Foot Mercato (match)",
-        url,
-        tags: ["foot", tag],
+        title: `⚽ [${compName}] ${home} vs ${away}`,
+        start, // UTC ISO (Z)
+        end: undefined,
+        source: "football-data.org",
+        url: "https://www.football-data.org/",
+        tags: Array.from(new Set(["foot", c.tag, tagHome, tagAway].filter(Boolean))),
       });
-    });
-  });
-
-  return dedupe(out);
-}
-
-async function fetchFootMatches() {
-  const out = [];
-
-  for (const club of FOOT_CLUB_PAGES) {
-    try {
-      const evs = await fetchFootMercatoPage(club);
-      out.push(...evs);
-    } catch (e) {
-      throw new Error(`${club.label}: ${e.message}`);
     }
-  }
-
-  try {
-    const ldc = await fetchFootMercatoPage(FOOT_LDC_PAGE);
-    for (const ev of ldc) {
-      ev.tags = Array.from(new Set([...(ev.tags || []), "ldc"]));
-    }
-    out.push(...ldc);
-  } catch {
-    // pas bloquant
   }
 
   return dedupe(out);
 }
 
-// ------------------ Main ------------------
+// ------------------ MAIN ------------------
 async function main() {
   const errors = [];
   const counts = {};
   const all = [];
 
-  // Twitch
-  for (const ch of TWITCH_CHANNELS) {
+  async function run(name, fn) {
     try {
-      const evs = await fetchTwitchChannel(ch);
-      all.push(...evs);
-      counts[`Twitch:${ch.user}`] = evs.length;
+      const items = await fn();
+      counts[name] = items.length;
+      all.push(...items);
     } catch (e) {
-      counts[`Twitch:${ch.user}`] = 0;
-      errors.push(`Twitch:${ch.user}: ${e.message}`);
+      counts[name] = 0;
+      errors.push(`${name}: ${e?.message || String(e)}`);
     }
   }
 
-  // Foot Mercato
-  try {
-    const evs = await fetchFootMatches();
-    all.push(...evs);
-    counts["Foot Mercato (match)"] = evs.length;
-  } catch (e) {
-    counts["Foot Mercato (match)"] = 0;
-    errors.push(`Foot Mercato: ${e.message}`);
+  // Anime from sheet
+  await run("Anime (sheet)", fetchAnimeFromSheet);
+
+  // Twitch
+  for (const ch of TWITCH_CHANNELS) {
+    await run(`Twitch:${ch.user}`, () => fetchTwitchChannel(ch));
   }
 
+  // Lolix
+  await run("lolix.gg", fetchLolixMatches);
+
+  // Foot via football-data.org
+  await run("football-data.org (foot)", fetchFootMatchesFootballData);
+
+  // Normalize + filter
   const cleaned = dedupe(all)
     .filter(ev => ev?.title && ev?.start)
     .filter(ev => !isTooOld(ev.start))
+    .map(ev => ({
+      title: normSpaces(ev.title),
+      start: ev.start,
+      end: ev.end,
+      source: normSpaces(ev.source || "unknown"),
+      url: ev.url || "",
+      tags: safeTags(ev.tags).map(t => String(t).toLowerCase()),
+    }))
     .sort((a, b) => new Date(a.start) - new Date(b.start));
 
-  await writeJSON(OUT_PATH, cleaned);
-
-  await writeJSON(STATUS_PATH, {
+  await writeJSON(OUT_EVENTS, cleaned);
+  await writeJSON(OUT_STATUS, {
     generatedAt: new Date().toISOString(),
     total: cleaned.length,
     counts,
     errors,
   });
 
-  console.log(`Wrote ${cleaned.length} events -> ${OUT_PATH}`);
+  console.log(`Wrote ${cleaned.length} events -> ${OUT_EVENTS}`);
   if (errors.length) console.warn("Errors:", errors);
 }
 
 main().catch(async (e) => {
   console.error(e);
-  await writeJSON(STATUS_PATH, {
+  await writeJSON(OUT_STATUS, {
     generatedAt: new Date().toISOString(),
     total: 0,
     counts: {},
