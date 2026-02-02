@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-02-02T15:43:57.794Z",
-  "total": 5,
+  "generatedAt": "2026-02-02T16:09:05.289Z",
+  "total": 14,
   "counts": {
-    "Foot Mercato (clubs)": 5
+    "Foot Mercato (clubs)": 6,
+    "Twitch": 8
   },
   "errors": [
-    "Twitch: ical.parseICS is not a function"
+    "lolix.gg: Lolix: 0 match trouvé dans __data.json (structure inattendue)."
   ]
 }

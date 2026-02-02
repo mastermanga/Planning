@@ -1,15 +1,5 @@
 [
   {
-    "title": "FM: Barça : la période d’absence de Raphinha est connue",
-    "start": "2026-02-02T11:27:33.000Z",
-    "source": "Foot Mercato (clubs)",
-    "url": "https://www.footmercato.net/a2570455922943991046-barca-la-periode-dabsence-de-raphinha-est-connue",
-    "tags": [
-      "foot",
-      "clubs"
-    ]
-  },
-  {
     "title": "FM: PL : un ancien joueur de Liverpool estime le titre déjà acquis pour Arsenal ",
     "start": "2026-02-02T12:15:09.000Z",
     "source": "Foot Mercato (clubs)",
@@ -47,6 +37,106 @@
     "tags": [
       "foot",
       "clubs"
+    ]
+  },
+  {
+    "title": "FM: Le PSG va lever la clause de Khalil Ayari",
+    "start": "2026-02-02T15:46:03.000Z",
+    "source": "Foot Mercato (clubs)",
+    "url": "https://www.footmercato.net/a5739949726579847737-le-psg-va-lever-la-clause-de-khalil-ayari",
+    "tags": [
+      "foot",
+      "clubs"
+    ]
+  },
+  {
+    "title": "FM: Atlético de Madrid : le dossier Marcos Leonardo est au point mort",
+    "start": "2026-02-02T16:07:41.000Z",
+    "source": "Foot Mercato (clubs)",
+    "url": "https://www.footmercato.net/a3098630192172653369-le-dossier-marcos-leonardo-est-au-point-mort-a-latletico-de-madrid",
+    "tags": [
+      "foot",
+      "clubs"
+    ]
+  },
+  {
+    "title": "NOUVEAU REACT : ULTIMATUM",
+    "start": "2026-02-02T20:30:00.000Z",
+    "end": "2026-02-03T00:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "PRÉ LIVE",
+    "start": "2026-02-03T19:30:00.000Z",
+    "end": "2026-02-03T20:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "FIN DE SAISON AVEC BIRMINGHAM",
+    "start": "2026-02-03T20:00:00.000Z",
+    "end": "2026-02-04T00:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "PRÉ LIVE",
+    "start": "2026-02-04T19:30:00.000Z",
+    "end": "2026-02-04T20:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "MERCATO AVEC BIRMINGHAM",
+    "start": "2026-02-04T20:00:00.000Z",
+    "end": "2026-02-05T01:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "PRÉ LIVE",
+    "start": "2026-02-05T14:00:00.000Z",
+    "end": "2026-02-05T14:30:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "DÉBUT DE SAISON AVEC BIRMINGHAM",
+    "start": "2026-02-05T14:30:00.000Z",
+    "end": "2026-02-05T19:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
+    ]
+  },
+  {
+    "title": "OPENING NBA AVEC MISTERMV",
+    "start": "2026-02-06T12:30:00.000Z",
+    "end": "2026-02-06T15:00:00.000Z",
+    "source": "Twitch",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "stream"
     ]
   }
 ]
