@@ -34,6 +34,9 @@ body::before {
   display: flex;
   gap: 16px;
   padding: 16px;
+
+  /* ✅ IMPORTANT (flex) : évite les soucis de hauteur/scroll avec du contenu interne */
+  min-height: 0;
 }
 
 /* === sidebar === */
@@ -175,15 +178,29 @@ body::before {
   overflow: hidden;
   position: relative;
   z-index: 2;
+
+  /* ✅ IMPORTANT (flex) : empêche les bugs de rendu à cause des min-height implicites */
+  min-height: 0;
 }
 
 #calendar {
   height: 100%;
+
+  /* ✅ IMPORTANT : aide FullCalendar à calculer correctement la hauteur */
+  min-height: 0;
+
+  /* 🧪 DEBUG (décommente si tu veux vérifier que le div existe bien)
+  outline: 2px solid red;
+  */
 }
 
 /* FullCalendar : compact + lisible */
 .fc {
   height: 100% !important;
+
+  /* ✅ IMPORTANT : certains navigateurs/containers flex aiment ça */
+  min-height: 0 !important;
+
   --fc-page-bg-color: transparent;
   --fc-border-color: rgba(255,255,255,0.12);
   --fc-today-bg-color: rgba(0, 234, 255, 0.08);
