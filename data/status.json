@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-02-02T16:34:56.049Z",
-  "total": 6,
+  "generatedAt": "2026-02-02T17:00:59.968Z",
+  "total": 126,
   "counts": {
-    "Foot Mercato (clubs)": 6
+    "Anime-sama": 0,
+    "Twitch": 62,
+    "lolix.gg": 20,
+    "Foot Mercato": 44
   },
-  "errors": [
-    "Twitch: Twitch: broadcaster_id introuvable pour domingo",
-    "lolix.gg: Lolix: 0 match extrait (structure inattendue). Voir data/lolix-raw.json"
-  ]
+  "errors": []
 }
