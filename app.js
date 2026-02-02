@@ -1,11 +1,18 @@
 // scripts/update-data.mjs
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { load } from "cheerio";
 import ical from "node-ical";
 
-const OUT_PATH = path.join("data", "generated.json");
-const STATUS_PATH = path.join("data", "status.json");
+// ------------------ Paths (✅ fix: toujours depuis la racine du projet) ------------------
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// scripts/ -> racine projet
+const PROJECT_ROOT = path.resolve(__dirname, "..");
+
+const OUT_PATH = path.join(PROJECT_ROOT, "data", "generated.json");
+const STATUS_PATH = path.join(PROJECT_ROOT, "data", "status.json");
 
 // ------------------ Config ------------------
 const TWITCH_CHANNELS = [
@@ -22,10 +29,10 @@ const FOOT_CLUB_PAGES = [
   { tag: "bayern", label: "Bayern", url: "https://www.footmercato.net/programme-tv/club/bayern-munich" },
   { tag: "psg", label: "PSG", url: "https://www.footmercato.net/programme-tv/club/psg" },
   { tag: "nice", label: "Nice", url: "https://www.footmercato.net/programme-tv/club/ogc-nice" },
-  { tag: "saint_etienne", label: "Saint-Étienne", url: "https://www.footmercato.net/programme-tv/club/saint-etienne" },
+  { tag: "saint_etienne", label: "Saint-Étienne", url: "https://www.footmercato.net/programme-tv/club/saint_etienne" },
 ];
 
-// Ligue des Champions : il peut y avoir “Aucun match” hors période
+// Ligue des Champions
 const FOOT_LDC_PAGE = {
   tag: "ldc",
   label: "Ligue des Champions",
@@ -37,10 +44,23 @@ const MAX_PAST_HOURS = 5;
 
 // ------------------ Utils ------------------
 const UA = "planning-bot/1.0 (+github-actions)";
+
 const MONTHS_FR = {
   janvier: 1, fevrier: 2, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
   juillet: 7, aout: 8, août: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12, décembre: 12,
 };
+
+// ✅ check: Node doit avoir fetch (Node 18+)
+if (typeof fetch !== "function") {
+  throw new Error("fetch() indisponible. Utilise Node 18+ (ou ajoute un polyfill fetch).");
+}
+
+function fetchWithTimeout(url, opts = {}, timeoutMs = 20000) {
+  const controller = new AbortController();
+  const t = setTimeout(() => controller.abort(), timeoutMs);
+  return fetch(url, { ...opts, signal: controller.signal })
+    .finally(() => clearTimeout(t));
+}
 
 function guessYear(day, month) {
   const now = new Date();
@@ -52,6 +72,7 @@ function guessYear(day, month) {
   return y;
 }
 
+// ⚠️ Renvoie une date "locale" (sans timezone) → OK si ton agenda est en heure locale
 function isoLocal(y, m, d, hh, mm) {
   const MM = String(m).padStart(2, "0");
   const DD = String(d).padStart(2, "0");
@@ -83,24 +104,36 @@ async function writeJSON(filePath, obj) {
 }
 
 // ------------------ Twitch ------------------
+// ✅ fix: extraction iCal plus robuste (gère \u0026 etc.)
+function extractTwitchIcalUrlFromHtml(html) {
+  // On cherche un lien contenant "helix/schedule/icalendar"
+  const re = /https:\\\/\\\/api\.twitch\.tv\\\/helix\\\/schedule\\\/icalendar\?[^"'\\\s<]+/i;
+  const m = html.match(re);
+  if (!m) return null;
+
+  // Unescape JSON-style sequences
+  return m[0]
+    .replace(/\\u0026/g, "&")
+    .replace(/\\\//g, "/");
+}
+
 async function resolveTwitchIcal(scheduleUrl) {
-  const res = await fetch(scheduleUrl, { headers: { "user-agent": UA } });
+  const res = await fetchWithTimeout(scheduleUrl, { headers: { "user-agent": UA } }, 20000);
   if (!res.ok) throw new Error(`schedule HTTP ${res.status}`);
   const html = await res.text();
 
-  const m = html.match(/https:\/\/api\.twitch\.tv\/helix\/schedule\/icalendar\?broadcaster_id=\d+/);
-  if (!m) throw new Error("lien iCal introuvable sur la page /schedule");
-  return m[0];
+  const url = extractTwitchIcalUrlFromHtml(html);
+  if (!url) throw new Error("lien iCal introuvable sur la page /schedule");
+  return url;
 }
 
 async function fetchTwitchChannel({ user, label, scheduleUrl }) {
   const icalUrl = await resolveTwitchIcal(scheduleUrl);
 
-  const r = await fetch(icalUrl, { headers: { "user-agent": UA } });
+  const r = await fetchWithTimeout(icalUrl, { headers: { "user-agent": UA } }, 20000);
   if (!r.ok) throw new Error(`iCal HTTP ${r.status}`);
   const icsText = await r.text();
 
-  // node-ical : parseICS est dans sync
   const parsed = ical.sync.parseICS(icsText);
 
   const out = [];
@@ -139,20 +172,33 @@ function parseFMHeadingDate(text) {
   return { year, month, day };
 }
 
+// ✅ fix: accepte aussi "16h15" en plus de "16:15"
 function parseMatchAnchorText(text) {
-  // Exemple: "Barcelone Majorque 16:15"
   const t = text.replace(/\s+/g, " ").trim();
-  const m = t.match(/(.+)\s+(\d{1,2}):(\d{2})\s*$/);
-  if (!m) return null;
 
-  const title = m[1].trim();
-  const hh = String(m[2]).padStart(2, "0");
-  const mm = m[3];
-  return { title, hh, mm };
+  // 16:15
+  let m = t.match(/(.+)\s+(\d{1,2}):(\d{2})\s*$/);
+  if (m) {
+    const title = m[1].trim();
+    const hh = String(m[2]).padStart(2, "0");
+    const mm = m[3];
+    return { title, hh, mm };
+  }
+
+  // 16h15
+  m = t.match(/(.+)\s+(\d{1,2})h(\d{2})\s*$/i);
+  if (m) {
+    const title = m[1].trim();
+    const hh = String(m[2]).padStart(2, "0");
+    const mm = m[3];
+    return { title, hh, mm };
+  }
+
+  return null;
 }
 
 async function fetchFootMercatoPage({ url, label, tag }) {
-  const res = await fetch(url, { headers: { "user-agent": UA } });
+  const res = await fetchWithTimeout(url, { headers: { "user-agent": UA } }, 20000);
   if (!res.ok) throw new Error(`FM HTTP ${res.status}`);
   const html = await res.text();
   const $ = load(html);
@@ -178,39 +224,34 @@ async function fetchFootMercatoPage({ url, label, tag }) {
         start,
         end: null,
         source: "Foot Mercato (match)",
-        url, // on garde la page programme TV comme lien
+        url,
         tags: ["foot", tag],
       });
     });
   });
 
-  // dédoublonnage interne (même lien peut apparaître plusieurs fois)
   return dedupe(out);
 }
 
 async function fetchFootMatches() {
   const out = [];
 
-  // clubs
   for (const club of FOOT_CLUB_PAGES) {
     try {
       const evs = await fetchFootMercatoPage(club);
       out.push(...evs);
     } catch (e) {
-      // on remontera l’erreur via status
       throw new Error(`${club.label}: ${e.message}`);
     }
   }
 
-  // LDC (peut être vide selon la période)
   try {
     const ldc = await fetchFootMercatoPage(FOOT_LDC_PAGE);
-    // tag "ldc" + "foot"
     for (const ev of ldc) {
       ev.tags = Array.from(new Set([...(ev.tags || []), "ldc"]));
     }
     out.push(...ldc);
-  } catch (e) {
+  } catch {
     // pas bloquant
   }
 
@@ -235,7 +276,7 @@ async function main() {
     }
   }
 
-  // Foot Mercato (matchs)
+  // Foot Mercato
   try {
     const evs = await fetchFootMatches();
     all.push(...evs);
@@ -245,7 +286,6 @@ async function main() {
     errors.push(`Foot Mercato: ${e.message}`);
   }
 
-  // tri + filtre final (sécurité)
   const cleaned = dedupe(all)
     .filter(ev => ev?.title && ev?.start)
     .filter(ev => !isTooOld(ev.start))
