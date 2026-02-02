@@ -1,11 +1,17 @@
 {
-  "generatedAt": "2026-02-02T17:00:59.968Z",
-  "total": 126,
+  "generatedAt": "2026-02-02T17:33:31.760Z",
+  "total": 72,
   "counts": {
-    "Anime-sama": 0,
-    "Twitch": 62,
-    "lolix.gg": 20,
-    "Foot Mercato": 44
+    "Anime-sama": 75,
+    "Twitch:domingo": 0,
+    "Twitch:rivenzi": 0,
+    "Twitch:joueur_du_grenier": 0,
+    "lolix.gg": 0,
+    "Foot Mercato (match)": 0
   },
-  "errors": []
+  "errors": [
+    "Twitch:domingo: Twitch: broadcaster id introuvable pour domingo",
+    "Twitch:rivenzi: Twitch: broadcaster id introuvable pour rivenzi",
+    "Twitch:joueur_du_grenier: Twitch: broadcaster id introuvable pour joueur_du_grenier"
+  ]
 }
