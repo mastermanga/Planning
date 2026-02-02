@@ -189,60 +189,97 @@ async function fetchTwitchICal() {
   return events;
 }
 
-// --- Lolix predictions (best effort) ---
 async function fetchLolixPredictions() {
   const res = await fetch(LOLIX_PRED_URL, { headers: { "user-agent": "planning-bot/1.0" }});
   if (!res.ok) throw new Error(`Lolix HTTP ${res.status}`);
   const html = await res.text();
-
-  // ✅ IMPORTANT: c’est load(), pas cheerio.load()
   const $ = load(html);
 
-  const lines = $("body").text().split("\n").map(s => s.trim()).filter(Boolean);
-  let curDay = null;   // {y,m,d}
-  let curTime = null;  // "HH:MM"
+  const lines = $("body")
+    .text()
+    .replace(/\u00a0/g, " ")
+    .split("\n")
+    .map(s => s.trim())
+    .filter(Boolean);
+
+  const DAY_RE = /^(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+(\d{1,2})\s+([a-zéûôîàç]+)(?:\s+(\d{4}))?$/i;
+  const TIME_RE = /^(\d{1,2}):(\d{2})$/;
+
+  const junk = (s) => {
+    const t = s.toLowerCase();
+    return (
+      !s ||
+      /^\d{1,3}%$/.test(s) ||
+      /^bo\d$/i.test(s) ||
+      /regular season|group stage|matchs passés|prédictions|tous|lec|lck/i.test(t) ||
+      /^[0-9]+$/.test(s)
+    );
+  };
+
+  let curDay = null; // { y, m, d }
   const out = [];
+
+  const now = Date.now();
+  const minMs = now - 7 * 24 * 60 * 60 * 1000;     // -7 jours
+  const maxMs = now + 45 * 24 * 60 * 60 * 1000;    // +45 jours
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
-    const mDate = line.match(/^(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+(\d{1,2})\s+([a-zéûôîàç]+)$/i);
+    // 1) Date header: "Samedi 31 janvier" (année optionnelle)
+    const mDate = line.match(DAY_RE);
     if (mDate) {
       const d = Number(mDate[2]);
       const monthName = mDate[3].toLowerCase();
       const m = MONTHS_FR[monthName];
-      if (m) curDay = { y: guessYear(d, m), m, d };
+      if (!m) continue;
+      const y = mDate[4] ? Number(mDate[4]) : guessYear(d, m);
+      curDay = { y, m, d };
       continue;
     }
 
-    const mTime = line.match(/^(\d{1,2}):(\d{2})$/);
-    if (mTime) {
-      curTime = `${String(mTime[1]).padStart(2,"0")}:${mTime[2]}`;
-      continue;
+    // 2) Time line
+    const mTime = line.match(TIME_RE);
+    if (!mTime || !curDay) continue;
+
+    const hh = String(mTime[1]).padStart(2, "0");
+    const mm = mTime[2];
+
+    // 3) Take next “clean” lines as teams (2 teams)
+    const teams = [];
+    let j = i + 1;
+
+    while (j < lines.length && teams.length < 2) {
+      const cand = lines[j];
+
+      // stop if next date or next time encountered
+      if (DAY_RE.test(cand) || TIME_RE.test(cand)) break;
+
+      if (!junk(cand)) teams.push(cand);
+      j++;
     }
 
-    if (curDay && curTime && /%$/.test(line)) {
-      const a = line.match(/^(.+?)\s+(\d{1,3})%$/);
-      const bLine = lines[i + 1] || "";
-      const b = bLine.match(/^(.+?)\s+(\d{1,3})%$/);
-      if (a && b) {
-        const [hh, mm] = curTime.split(":");
-        const start = isoLocal(curDay.y, curDay.m, curDay.d, hh, mm);
-        if (!withinHorizon(start, 30)) continue;
+    if (teams.length < 2) continue;
 
-        out.push({
-          title: `${a[1].trim()} vs ${b[1].trim()} (${a[2]}/${b[2]})`,
-          start,
-          source: "lolix.gg",
-          url: LOLIX_PRED_URL,
-          tags: ["predictions", "esport"]
-        });
-        i += 1;
-      }
-    }
+    const start = isoLocal(curDay.y, curDay.m, curDay.d, hh, mm);
+    const startMs = new Date(start).getTime();
+    if (!Number.isFinite(startMs)) continue;
+
+    // filtre anti-spam : on garde ±7 jours à +45 jours
+    if (startMs < minMs || startMs > maxMs) continue;
+
+    out.push({
+      title: `${teams[0]} vs ${teams[1]}`,
+      start,
+      source: "lolix.gg",
+      url: LOLIX_PRED_URL,
+      tags: ["esport", "predictions"]
+    });
   }
+
   return out;
 }
+
 
 // --- FootMercato: club calendars (upcoming only, all-day) ---
 async function fetchFootMercatoClubMatches({ label, url }) {
