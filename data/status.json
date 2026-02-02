@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-02-02T23:24:12.341Z",
-  "total": 9,
+  "generatedAt": "2026-02-02T23:38:45.800Z",
+  "total": 794,
   "counts": {
+    "Anime (sheet)": 729,
     "Twitch:domingo": 8,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 1,
-    "Foot Mercato (match)": 0
+    "lolix.gg": 19,
+    "football-data.org (foot)": 37
   },
-  "errors": [
-    "Foot Mercato: Saint-Étienne: FM HTTP 404"
-  ]
+  "errors": []
 }
