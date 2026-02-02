@@ -1,316 +1,306 @@
-// scripts/update-data.mjs
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import { load } from "cheerio";
-import ical from "node-ical";
+// app.js (FRONT - navigateur)
+(() => {
+  const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
-// ------------------ Paths (✅ fix: toujours depuis la racine du projet) ------------------
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-// scripts/ -> racine projet
-const PROJECT_ROOT = path.resolve(__dirname, "..");
+  const calendarEl = $("#calendar");
+  const statusEl = $("#status");
+  const currentTitleEl = $("#currentTitle");
 
-const OUT_PATH = path.join(PROJECT_ROOT, "data", "generated.json");
-const STATUS_PATH = path.join(PROJECT_ROOT, "data", "status.json");
+  const searchEl = $("#search");
+  const prevBtn = $("#prevBtn");
+  const nextBtn = $("#nextBtn");
+  const todayBtn = $("#todayBtn");
+  const refreshBtn = $("#refresh");
+  const notifBtn = $("#notif");
 
-// ------------------ Config ------------------
-const TWITCH_CHANNELS = [
-  { user: "domingo", label: "Domingo", scheduleUrl: "https://www.twitch.tv/domingo/schedule" },
-  { user: "joueur_du_grenier", label: "Joueur du Grenier", scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule" },
-  { user: "rivenzi", label: "Rivenzi", scheduleUrl: "https://www.twitch.tv/rivenzi/schedule" },
-];
-
-const FOOT_CLUB_PAGES = [
-  { tag: "barcelone", label: "Barcelone", url: "https://www.footmercato.net/programme-tv/club/fc-barcelone" },
-  { tag: "real_madrid", label: "Real Madrid", url: "https://www.footmercato.net/programme-tv/club/real-madrid" },
-  { tag: "manchester_city", label: "Manchester City", url: "https://www.footmercato.net/programme-tv/club/manchester-city" },
-  { tag: "liverpool", label: "Liverpool", url: "https://www.footmercato.net/programme-tv/club/liverpool" },
-  { tag: "bayern", label: "Bayern", url: "https://www.footmercato.net/programme-tv/club/bayern-munich" },
-  { tag: "psg", label: "PSG", url: "https://www.footmercato.net/programme-tv/club/psg" },
-  { tag: "nice", label: "Nice", url: "https://www.footmercato.net/programme-tv/club/ogc-nice" },
-  { tag: "saint_etienne", label: "Saint-Étienne", url: "https://www.footmercato.net/programme-tv/club/saint_etienne" },
-];
-
-// Ligue des Champions
-const FOOT_LDC_PAGE = {
-  tag: "ldc",
-  label: "Ligue des Champions",
-  url: "https://www.footmercato.net/programme-tv/europe/ligue-des-champions-uefa",
-};
-
-// Filtre : pas d’event commencé il y a plus de 5h
-const MAX_PAST_HOURS = 5;
-
-// ------------------ Utils ------------------
-const UA = "planning-bot/1.0 (+github-actions)";
-
-const MONTHS_FR = {
-  janvier: 1, fevrier: 2, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,
-  juillet: 7, aout: 8, août: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12, décembre: 12,
-};
-
-// ✅ check: Node doit avoir fetch (Node 18+)
-if (typeof fetch !== "function") {
-  throw new Error("fetch() indisponible. Utilise Node 18+ (ou ajoute un polyfill fetch).");
-}
-
-function fetchWithTimeout(url, opts = {}, timeoutMs = 20000) {
-  const controller = new AbortController();
-  const t = setTimeout(() => controller.abort(), timeoutMs);
-  return fetch(url, { ...opts, signal: controller.signal })
-    .finally(() => clearTimeout(t));
-}
-
-function guessYear(day, month) {
-  const now = new Date();
-  let y = now.getFullYear();
-  const candidate = new Date(Date.UTC(y, month - 1, day));
-  const diffDays = (candidate - now) / 86400000;
-  if (diffDays < -180) y += 1;
-  if (diffDays > 180) y -= 1;
-  return y;
-}
-
-// ⚠️ Renvoie une date "locale" (sans timezone) → OK si ton agenda est en heure locale
-function isoLocal(y, m, d, hh, mm) {
-  const MM = String(m).padStart(2, "0");
-  const DD = String(d).padStart(2, "0");
-  return `${y}-${MM}-${DD}T${hh}:${mm}:00`;
-}
-
-function isTooOld(startISO) {
-  const t = new Date(startISO).getTime();
-  if (!Number.isFinite(t)) return false;
-  const cutoff = Date.now() - MAX_PAST_HOURS * 3600 * 1000;
-  return t < cutoff;
-}
-
-function dedupe(events) {
-  const seen = new Set();
-  const out = [];
-  for (const ev of events) {
-    const key = `${ev.source}|${ev.title}|${ev.start}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push(ev);
+  if (!calendarEl) {
+    console.error("❌ #calendar introuvable dans le DOM.");
+    return;
   }
-  return out;
-}
+  if (!window.FullCalendar) {
+    console.error("❌ FullCalendar introuvable. Vérifie le script CDN.");
+    return;
+  }
 
-async function writeJSON(filePath, obj) {
-  await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, JSON.stringify(obj, null, 2), "utf-8");
-}
+  // ---------- Helpers ----------
+  const colorVarFromEvent = (ev) => {
+    const tags = (ev.extendedProps?.tags || []).map(String).map(t => t.toLowerCase());
+    const title = String(ev.title || "").toLowerCase();
+    const source = String(ev.extendedProps?.source || "").toLowerCase();
 
-// ------------------ Twitch ------------------
-// ✅ fix: extraction iCal plus robuste (gère \u0026 etc.)
-function extractTwitchIcalUrlFromHtml(html) {
-  // On cherche un lien contenant "helix/schedule/icalendar"
-  const re = /https:\\\/\\\/api\.twitch\.tv\\\/helix\\\/schedule\\\/icalendar\?[^"'\\\s<]+/i;
-  const m = html.match(re);
-  if (!m) return null;
+    // Anime
+    if (tags.includes("anime") || source.includes("anime-sama")) return "--c-anime";
 
-  // Unescape JSON-style sequences
-  return m[0]
-    .replace(/\\u0026/g, "&")
-    .replace(/\\\//g, "/");
-}
+    // Twitch
+    if (tags.includes("twitch") || source.includes("twitch")) {
+      if (tags.includes("domingo") || title.includes("domingo")) return "--c-tw-domingo";
+      if (tags.includes("rivenzi") || title.includes("rivenzi")) return "--c-tw-rivenzi";
+      if (tags.includes("joueur_du_grenier") || title.includes("joueur du grenier") || title.includes("jdg")) return "--c-tw-jdg";
+      return "--c-tw-domingo";
+    }
 
-async function resolveTwitchIcal(scheduleUrl) {
-  const res = await fetchWithTimeout(scheduleUrl, { headers: { "user-agent": UA } }, 20000);
-  if (!res.ok) throw new Error(`schedule HTTP ${res.status}`);
-  const html = await res.text();
+    // LoL
+    if (tags.includes("lec")) return "--c-lec";
+    if (tags.includes("lck")) return "--c-lck";
+    if (tags.includes("geng")) return "--c-geng";
+    if (tags.includes("fnatic")) return "--c-fnatic";
 
-  const url = extractTwitchIcalUrlFromHtml(html);
-  if (!url) throw new Error("lien iCal introuvable sur la page /schedule");
-  return url;
-}
+    // Foot
+    if (tags.includes("barcelone") || tags.includes("barcelona")) return "--c-barca";
+    if (tags.includes("ldc")) return "--c-default";
 
-async function fetchTwitchChannel({ user, label, scheduleUrl }) {
-  const icalUrl = await resolveTwitchIcal(scheduleUrl);
+    return "--c-default";
+  };
 
-  const r = await fetchWithTimeout(icalUrl, { headers: { "user-agent": UA } }, 20000);
-  if (!r.ok) throw new Error(`iCal HTTP ${r.status}`);
-  const icsText = await r.text();
+  const normalizeEvents = (arr) => {
+    if (!Array.isArray(arr)) return [];
+    return arr
+      .filter(e => e && e.title && e.start)
+      .map(e => ({
+        title: String(e.title),
+        start: e.start,
+        end: e.end || null,
+        source: e.source ? String(e.source) : "",
+        url: e.url ? String(e.url) : "",
+        tags: Array.isArray(e.tags) ? e.tags.map(String) : []
+      }));
+  };
 
-  const parsed = ical.sync.parseICS(icsText);
+  const makeId = (e) => `${e.source}|${e.start}|${e.title}`.toLowerCase();
 
-  const out = [];
-  for (const k of Object.keys(parsed)) {
-    const item = parsed[k];
-    if (item?.type !== "VEVENT") continue;
+  const setStatus = (msg) => {
+    if (statusEl) statusEl.textContent = msg;
+  };
 
-    const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
-    const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : null);
+  const updateTitle = () => {
+    if (currentTitleEl) currentTitleEl.textContent = calendar.view?.title || "";
+  };
 
-    if (!start || isTooOld(start)) continue;
-
-    const summary = item.summary || "Stream";
-    out.push({
-      title: `${label} — ${summary}`,
-      start,
-      end,
-      source: `Twitch:${user}`,
-      url: scheduleUrl,
-      tags: ["twitch", user],
+  const setActiveViewButton = (viewName) => {
+    $$(".btn.pill[data-view]").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.view === viewName);
     });
+  };
+
+  const debounce = (fn, ms = 200) => {
+    let t;
+    return (...args) => {
+      clearTimeout(t);
+      t = setTimeout(() => fn(...args), ms);
+    };
+  };
+
+  // ---------- State ----------
+  let allEvents = [];
+  let searchTerm = "";
+  let notificationsEnabled = false;
+  const notified = new Set();
+
+  // ---------- Calendar init ----------
+  const calendar = new FullCalendar.Calendar(calendarEl, {
+    locale: "fr",
+    firstDay: 1,
+    initialView: "timeGridWeek",
+    height: "100%",
+    expandRows: true,
+    nowIndicator: true,
+    headerToolbar: false,
+
+    eventClick: (info) => {
+      const url = info.event.extendedProps?.url;
+      if (url) {
+        info.jsEvent.preventDefault();
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
+    },
+
+    eventDidMount: (info) => {
+      const v = colorVarFromEvent(info.event);
+      info.el.style.setProperty("--event-color", `var(${v})`);
+    },
+
+    eventContent: (arg) => {
+      // Petit rendu custom pour coller à ton CSS (.event-item / .event-block)
+      const viewType = arg.view.type;
+      const container = document.createElement("div");
+
+      // listYear / month : style "event-item"
+      if (viewType.includes("list") || viewType.includes("dayGrid")) {
+        container.className = "event-item";
+        container.style.setProperty("--event-color", arg.el?.style.getPropertyValue("--event-color") || "var(--c-default)");
+
+        const dot = document.createElement("span");
+        dot.className = "dot";
+
+        const text = document.createElement("span");
+        text.textContent = arg.event.title;
+
+        container.appendChild(dot);
+        container.appendChild(text);
+        return { domNodes: [container] };
+      }
+
+      // week/day : style "event-block"
+      container.className = "event-block";
+      container.style.setProperty("--event-color", arg.el?.style.getPropertyValue("--event-color") || "var(--c-default)");
+      container.textContent = arg.event.title;
+      return { domNodes: [container] };
+    }
+  });
+
+  calendar.render();
+  updateTitle();
+  setActiveViewButton(calendar.view.type);
+
+  // ---------- Data loading ----------
+  async function loadStatusJSON() {
+    try {
+      const r = await fetch(`./data/status.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) return null;
+      return await r.json();
+    } catch {
+      return null;
+    }
   }
-  return out;
-}
 
-// ------------------ Foot Mercato (matchs uniquement) ------------------
-function parseFMHeadingDate(text) {
-  // Exemple: "Samedi 07 février"
-  const m = text.trim().match(/^(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)\s+(\d{1,2})\s+([A-Za-zÀ-ÿ]+)/i);
-  if (!m) return null;
-  const day = Number(m[2]);
-  const monthName = m[3].toLowerCase();
-  const month = MONTHS_FR[monthName];
-  if (!month) return null;
-  const year = guessYear(day, month);
-  return { year, month, day };
-}
+  async function loadEvents() {
+    setStatus("Chargement des événements…");
 
-// ✅ fix: accepte aussi "16h15" en plus de "16:15"
-function parseMatchAnchorText(text) {
-  const t = text.replace(/\s+/g, " ").trim();
+    // Le calendrier s'affiche même si le fetch échoue.
+    try {
+      const r = await fetch(`./data/generated.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
 
-  // 16:15
-  let m = t.match(/(.+)\s+(\d{1,2}):(\d{2})\s*$/);
-  if (m) {
-    const title = m[1].trim();
-    const hh = String(m[2]).padStart(2, "0");
-    const mm = m[3];
-    return { title, hh, mm };
+      const data = await r.json();
+      allEvents = normalizeEvents(data);
+
+      const st = await loadStatusJSON();
+      if (st?.errors?.length) {
+        setStatus(`${allEvents.length} événements — ⚠️ erreurs: ${st.errors.length} (voir data/status.json)`);
+      } else {
+        setStatus(`${allEvents.length} événements`);
+      }
+
+      applyFilters();
+    } catch (e) {
+      console.error(e);
+      allEvents = [];
+      applyFilters();
+
+      setStatus(
+        "Erreur de chargement de data/generated.json. " +
+        "⚠️ Si tu ouvres le fichier en 'file://', fetch est souvent bloqué : lance un serveur local."
+      );
+    }
   }
 
-  // 16h15
-  m = t.match(/(.+)\s+(\d{1,2})h(\d{2})\s*$/i);
-  if (m) {
-    const title = m[1].trim();
-    const hh = String(m[2]).padStart(2, "0");
-    const mm = m[3];
-    return { title, hh, mm };
-  }
+  function applyFilters() {
+    const term = searchTerm.trim().toLowerCase();
 
-  return null;
-}
+    const filtered = term
+      ? allEvents.filter(e => {
+          const hay = `${e.title} ${e.source} ${(e.tags || []).join(" ")}`.toLowerCase();
+          return hay.includes(term);
+        })
+      : allEvents;
 
-async function fetchFootMercatoPage({ url, label, tag }) {
-  const res = await fetchWithTimeout(url, { headers: { "user-agent": UA } }, 20000);
-  if (!res.ok) throw new Error(`FM HTTP ${res.status}`);
-  const html = await res.text();
-  const $ = load(html);
-
-  const out = [];
-
-  $("h2").each((_, h2) => {
-    const dateInfo = parseFMHeadingDate($(h2).text());
-    if (!dateInfo) return;
-
-    const block = $(h2).nextUntil("h2");
-    const anchors = block.find("a");
-
-    anchors.each((__, a) => {
-      const parsed = parseMatchAnchorText($(a).text());
-      if (!parsed) return;
-
-      const start = isoLocal(dateInfo.year, dateInfo.month, dateInfo.day, parsed.hh, parsed.mm);
-      if (isTooOld(start)) return;
-
-      out.push({
-        title: `⚽ ${parsed.title}`,
-        start,
-        end: null,
-        source: "Foot Mercato (match)",
-        url,
-        tags: ["foot", tag],
+    // Recharge les events dans FullCalendar
+    calendar.removeAllEvents();
+    filtered.forEach(e => {
+      calendar.addEvent({
+        id: makeId(e),
+        title: e.title,
+        start: e.start,
+        end: e.end || null,
+        extendedProps: {
+          source: e.source || "",
+          tags: e.tags || [],
+          url: e.url || ""
+        }
       });
     });
+
+    updateTitle();
+  }
+
+  // ---------- Controls ----------
+  prevBtn?.addEventListener("click", () => {
+    calendar.prev();
+    updateTitle();
   });
 
-  return dedupe(out);
-}
-
-async function fetchFootMatches() {
-  const out = [];
-
-  for (const club of FOOT_CLUB_PAGES) {
-    try {
-      const evs = await fetchFootMercatoPage(club);
-      out.push(...evs);
-    } catch (e) {
-      throw new Error(`${club.label}: ${e.message}`);
-    }
-  }
-
-  try {
-    const ldc = await fetchFootMercatoPage(FOOT_LDC_PAGE);
-    for (const ev of ldc) {
-      ev.tags = Array.from(new Set([...(ev.tags || []), "ldc"]));
-    }
-    out.push(...ldc);
-  } catch {
-    // pas bloquant
-  }
-
-  return dedupe(out);
-}
-
-// ------------------ Main ------------------
-async function main() {
-  const errors = [];
-  const counts = {};
-  const all = [];
-
-  // Twitch
-  for (const ch of TWITCH_CHANNELS) {
-    try {
-      const evs = await fetchTwitchChannel(ch);
-      all.push(...evs);
-      counts[`Twitch:${ch.user}`] = evs.length;
-    } catch (e) {
-      counts[`Twitch:${ch.user}`] = 0;
-      errors.push(`Twitch:${ch.user}: ${e.message}`);
-    }
-  }
-
-  // Foot Mercato
-  try {
-    const evs = await fetchFootMatches();
-    all.push(...evs);
-    counts["Foot Mercato (match)"] = evs.length;
-  } catch (e) {
-    counts["Foot Mercato (match)"] = 0;
-    errors.push(`Foot Mercato: ${e.message}`);
-  }
-
-  const cleaned = dedupe(all)
-    .filter(ev => ev?.title && ev?.start)
-    .filter(ev => !isTooOld(ev.start))
-    .sort((a, b) => new Date(a.start) - new Date(b.start));
-
-  await writeJSON(OUT_PATH, cleaned);
-
-  await writeJSON(STATUS_PATH, {
-    generatedAt: new Date().toISOString(),
-    total: cleaned.length,
-    counts,
-    errors,
+  nextBtn?.addEventListener("click", () => {
+    calendar.next();
+    updateTitle();
   });
 
-  console.log(`Wrote ${cleaned.length} events -> ${OUT_PATH}`);
-  if (errors.length) console.warn("Errors:", errors);
-}
-
-main().catch(async (e) => {
-  console.error(e);
-  await writeJSON(STATUS_PATH, {
-    generatedAt: new Date().toISOString(),
-    total: 0,
-    counts: {},
-    errors: [String(e?.message || e)],
+  todayBtn?.addEventListener("click", () => {
+    calendar.today();
+    updateTitle();
   });
-  process.exit(1);
-});
+
+  $$(".btn.pill[data-view]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const view = btn.dataset.view;
+      if (!view) return;
+      calendar.changeView(view);
+      setActiveViewButton(view);
+      updateTitle();
+    });
+  });
+
+  refreshBtn?.addEventListener("click", () => {
+    loadEvents();
+  });
+
+  searchEl?.addEventListener("input", debounce((e) => {
+    searchTerm = e.target.value || "";
+    applyFilters();
+  }, 200));
+
+  // ---------- Notifications (optionnel) ----------
+  async function toggleNotifications() {
+    if (!("Notification" in window)) {
+      alert("Les notifications ne sont pas supportées sur ce navigateur.");
+      return;
+    }
+    if (Notification.permission !== "granted") {
+      const p = await Notification.requestPermission();
+      if (p !== "granted") {
+        notificationsEnabled = false;
+        setStatus("Notifications refusées.");
+        return;
+      }
+    }
+    notificationsEnabled = !notificationsEnabled;
+    setStatus(notificationsEnabled ? "Notifications activées ✅" : "Notifications désactivées ❌");
+  }
+
+  notifBtn?.addEventListener("click", toggleNotifications);
+
+  // Check toutes les 30s : notif au début (une seule fois)
+  setInterval(() => {
+    if (!notificationsEnabled) return;
+
+    const now = Date.now();
+    const events = calendar.getEvents();
+
+    for (const ev of events) {
+      const start = ev.start?.getTime?.();
+      if (!start) continue;
+
+      // Début d'événement (fenêtre 60s)
+      if (now >= start && now < start + 60_000) {
+        if (notified.has(ev.id)) continue;
+        notified.add(ev.id);
+
+        const src = ev.extendedProps?.source ? ` (${ev.extendedProps.source})` : "";
+        new Notification(`📅 ${ev.title}${src}`);
+      }
+    }
+  }, 30_000);
+
+  // ---------- Go ----------
+  loadEvents();
+})();
