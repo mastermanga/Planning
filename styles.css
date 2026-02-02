@@ -1,37 +1,160 @@
-:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
-body { margin: 0; background: #0b0f17; color: #e8eefc; }
-.topbar{
-  position: sticky; top: 0;
-  display:flex; justify-content:space-between; gap:12px;
-  padding: 12px 16px;
-  background: rgba(11,15,23,.9);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  z-index: 10;
+/* ===== THEME (reprend ton visuel) ===== */
+body {
+  background: radial-gradient(circle at 50% 25%, #263859 0%, #121212 100%);
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
 }
-.topbar h1{ margin: 0 12px 0 0; font-size: 18px; }
-.left{ display:flex; align-items:center; gap:10px; flex:1; }
-.right{ display:flex; align-items:center; gap:10px; }
+
+/* Particules */
+body::before {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle, #00fff94d 2px, transparent 3px) 30vw 20vh/120px 120px repeat,
+    radial-gradient(circle, #42a5f577 1.5px, transparent 3px) 70vw 75vh/90px 90px repeat;
+  animation: moveParticles 18s linear infinite alternate;
+  opacity: 0.27;
+}
+@keyframes moveParticles {
+  0%   { background-position: 30vw 20vh, 70vw 75vh; }
+  100% { background-position: 33vw 22vh, 68vw 78vh; }
+}
+
+/* ===== HEADER (ta topbar) ===== */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 14px 10px 14px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.topbar h1{
+  margin: 0 12px 0 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-shadow:
+    0 0 6px #00eaff,
+    0 0 18px #00eaff99,
+    0 2px 8px #00bcd477,
+    0 0 10px #fff1;
+}
+
+.topbar .left{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  flex: 1;
+}
+
+.topbar .right{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+
+/* Inputs */
 input[type="search"]{
   width: min(520px, 100%);
   padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,.12);
-  background: rgba(255,255,255,.04);
-  color: inherit;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(18, 30, 39, 0.55);
+  color: #eaffff;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 234, 255, 0.15);
 }
+
+/* Boutons (style toggle-btn) */
 button{
+  background-color: #00bcd4;
+  color: #121212;
+  border: none;
   padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,.12);
-  background: rgba(255,255,255,.06);
-  color: inherit;
+  border-radius: 12px;
   cursor: pointer;
+  font-weight: 800;
+  transition: transform .12s, box-shadow .2s, background .2s, color .2s;
+  box-shadow: 0 1px 7px #00bcd466;
 }
-main{ padding: 12px; }
+button:hover{
+  transform: translateY(-1px);
+  background: linear-gradient(120deg, #1de9b6 80%, #1565c0 100%);
+  color: #fff;
+  text-shadow: 0 0 10px #fff9;
+  box-shadow: 0 10px 34px #00eaffd7, 0 2.5px 14px #1976d277;
+}
+
+/* ===== CONTAINER CALENDAR ===== */
+main{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 14px 18px 14px;
+  position: relative;
+  z-index: 2;
+}
+
 #calendar{
-  background: rgba(255,255,255,.03);
+  background-color: #161e27ef;
+  border-radius: 20px;
+  padding: 14px;
+  box-shadow: 0 0 32px 5px #00bcd444;
   border: 1px solid rgba(255,255,255,.10);
-  border-radius: 14px;
-  padding: 10px;
+}
+
+/* ===== FullCalendar (custom) ===== */
+.fc{
+  color: #e8eefc;
+}
+.fc .fc-toolbar-title{
+  text-shadow: 0 0 10px rgba(0,234,255,0.35);
+  font-weight: 800;
+}
+.fc .fc-button{
+  background: rgba(18, 30, 39, 0.55) !important;
+  border: 1px solid rgba(255,255,255,.14) !important;
+  color: #eaffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 10px rgba(0,234,255,0.12);
+}
+.fc .fc-button:hover{
+  background: linear-gradient(120deg, #1de9b6 80%, #1565c0 100%) !important;
+  border-color: rgba(255,255,255,.35) !important;
+}
+.fc .fc-daygrid-day-number{
+  color: rgba(255,255,255,.85);
+}
+.fc a{
+  color: #9fefff;
+  text-decoration: none;
+}
+.fc a:hover{
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px){
+  .topbar{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .topbar .right{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 }
