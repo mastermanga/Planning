@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-02-02T15:00:47.826Z",
-  "total": 1,
+  "generatedAt": "2026-02-02T15:43:57.794Z",
+  "total": 5,
   "counts": {
-    "Foot Mercato (clubs)": 0,
-    "Foot Mercato (LDC)": 1,
-    "Anime-sama": 0,
-    "Twitch": 0,
-    "lolix.gg": 0
-  }
+    "Foot Mercato (clubs)": 5
+  },
+  "errors": [
+    "Twitch: ical.parseICS is not a function"
+  ]
 }
