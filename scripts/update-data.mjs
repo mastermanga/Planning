@@ -291,13 +291,31 @@ function twitchIcalUrl(broadcasterId) {
   return `https://api.twitch.tv/helix/schedule/icalendar?broadcaster_id=${broadcasterId}`;
 }
 
+/**
+ * Twitch renvoie souvent des TZID non standard (ex: TZID=/America/New_York).
+ * node-ical peut alors interpréter l'heure comme "floating"/locale (souvent UTC sur CI),
+ * ce qui cause un décalage (ex: +1h en Europe/Paris l'hiver).
+ *
+ * On normalise donc l'ICS avant parsing.
+ */
+function normalizeTwitchIcs(icsText) {
+  return String(icsText || "")
+    // TZID=/America/New_York  -> TZID=America/New_York
+    .replace(/TZID=\/([^:;]+)/g, "TZID=$1")
+    // TZID="/America/New_York" -> TZID="America/New_York" (au cas où)
+    .replace(/TZID="\/([^"]+)"/g, 'TZID="$1"')
+    // X-WR-TIMEZONE:/America/New_York -> X-WR-TIMEZONE:America/New_York
+    .replace(/X-WR-TIMEZONE:\/([^\r\n]+)/g, "X-WR-TIMEZONE:$1");
+}
+
 async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
   const icalUrl = twitchIcalUrl(broadcasterId);
 
   const r = await fetchWithTimeout(icalUrl, { headers: { "user-agent": UA } }, 20000);
   if (!r.ok) throw new Error(`Twitch iCal HTTP ${r.status}`);
 
-  const icsText = await r.text();
+  const rawIcs = await r.text();
+  const icsText = normalizeTwitchIcs(rawIcs);
   const parsed = ical.sync.parseICS(icsText);
 
   const out = [];
@@ -305,6 +323,7 @@ async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
     const item = parsed[k];
     if (item?.type !== "VEVENT") continue;
 
+    // node-ical donne des Date (instant exact) si la timezone a été comprise
     const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
     const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : undefined);
 
