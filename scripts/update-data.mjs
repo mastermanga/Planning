@@ -45,7 +45,6 @@ const FOOT_COMPETITIONS = [
   { code: "CL", tag: "ldc" },         // UEFA Champions League
   { code: "PL", tag: "premier_league" },
   { code: "PD", tag: "liga" },        // La Liga
-  { code: "CDR", tag: "copa_del_rey" },
   { code: "BL1", tag: "bundesliga" },
   { code: "FL1", tag: "ligue1" },     // Ligue 1
 ];
