@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-02-03T01:31:28.165Z",
-  "total": 792,
+  "generatedAt": "2026-02-03T01:49:38.007Z",
+  "total": 754,
   "counts": {
     "Anime (sheet)": 729,
     "Twitch:domingo": 7,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 1,
-    "lolix.gg": 18,
-    "football-data.org (foot)": 37
+    "lolix.gg": 17,
+    "football-data.org (foot)": 0
   },
-  "errors": []
+  "errors": [
+    "football-data.org (foot): football-data.org HTTP 403 — {\"message\":\"The resource you are looking for is restricted and apparently not within your permissions. Please check your subscription.\",\"errorCode\":403}"
+  ]
 }
