@@ -23,31 +23,141 @@
     return;
   }
 
+  // ---------- Const URLs ----------
+  const LOL_URL = "https://www.twitch.tv/traytonlol";
+  const FOOT_URL = "https://www.fctv33.quest/fr";
+
   // ---------- Helpers ----------
+  const lower = (v) => String(v ?? "").toLowerCase();
+
+  const stripSchedule = (url) => {
+    const u = String(url || "").trim();
+    if (!u) return "";
+    return u.replace(/\/schedule\/?$/i, "");
+  };
+
+  const uniqLowerTags = (tags) => {
+    if (!Array.isArray(tags)) return [];
+    const s = new Set(tags.map(t => lower(t)).filter(Boolean));
+    return Array.from(s);
+  };
+
+  const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
+    const t = lower(rawTitle);
+    const out = new Set(existingTags.map(lower));
+
+    // LoL (depuis préfixes courants)
+    if (/\[\s*lec\s*\]/i.test(rawTitle) || /\blec\b/i.test(rawTitle)) out.add("lec");
+    if (/\[\s*lck\s*\]/i.test(rawTitle) || /\blck\b/i.test(rawTitle)) out.add("lck");
+
+    if (/\bfnatic\b/i.test(rawTitle)) out.add("fnatic");
+    if (/\bgen\.?\s*g\b/i.test(rawTitle) || /\bgeng\b/i.test(rawTitle)) out.add("geng");
+
+    // Twitch (si on repère un streamer)
+    if (/\bdomingo\b/i.test(rawTitle) || /\brivenzi\b/i.test(rawTitle) || /\bjdg\b/i.test(rawTitle) || /joueur du grenier/i.test(rawTitle)) {
+      out.add("twitch");
+      if (/\bdomingo\b/i.test(rawTitle)) out.add("domingo");
+      if (/\brivenzi\b/i.test(rawTitle)) out.add("rivenzi");
+      if (/\bjdg\b/i.test(rawTitle) || /joueur du grenier/i.test(rawTitle)) out.add("joueur_du_grenier");
+    }
+
+    // Foot (si on voit des ligues ou équipes très typées)
+    if (/ligue\s*1/i.test(rawTitle) || /primera\s*division/i.test(rawTitle) || /saint-germain|marseille|monaco|nice|barcelona|real madrid/i.test(rawTitle) || /^⚽/u.test(rawTitle)) {
+      out.add("foot");
+    }
+    if (/barcelone|barcelona/i.test(rawTitle)) out.add("barcelona");
+
+    return Array.from(out);
+  };
+
+  const isLoLEvent = (tags, rawTitle, source) => {
+    const t = lower(rawTitle);
+    const s = lower(source);
+    const has = (x) => tags.includes(x);
+
+    return (
+      has("lec") || has("lck") || has("geng") || has("fnatic") ||
+      /\[\s*(lec|lck)\s*\]/i.test(rawTitle) ||
+      /\b(lec|lck)\b/i.test(rawTitle) ||
+      /\bgen\.?\s*g\b/i.test(rawTitle) ||
+      s.includes("lec") || s.includes("lck")
+    );
+  };
+
+  const isFootEvent = (tags, rawTitle, source) => {
+    const t = lower(rawTitle);
+    const s = lower(source);
+    const has = (x) => tags.includes(x);
+
+    return (
+      has("foot") || has("barcelone") || has("barcelona") || has("ldc") ||
+      /ligue\s*1|primera\s*division|champions\s*league|ldc/i.test(t) ||
+      /^⚽/u.test(rawTitle) ||
+      s.includes("foot")
+    );
+  };
+
+  const cleanTitleForDisplay = (rawTitle, tags) => {
+    let title = String(rawTitle || "");
+
+    // Enlever emoji foot au début (si présent)
+    title = title.replace(/^⚽\s*/u, "");
+
+    // Enlever le premier "[...]" au début (ex: [LEC], [LCK], [Ligue 1], [Primera Division])
+    title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
+
+    // Si foot: enlever noms de ligue (même sans crochets)
+    const isFoot = tags.includes("foot") || tags.includes("barcelona") || tags.includes("barcelone") || tags.includes("ldc");
+    if (isFoot) {
+      title = title
+        .replace(/\bLigue\s*1\b/gi, "")
+        .replace(/\bPrimera\s*Division\b/gi, "")
+        .replace(/\bLa\s*Liga\b/gi, "")
+        .replace(/\bSerie\s*A\b/gi, "")
+        .replace(/\bPremier\s*League\b/gi, "")
+        .replace(/\bBundesliga\b/gi, "")
+        .replace(/\bLigue\s*des\s*Champions\b/gi, "")
+        .replace(/\bChampions\s*League\b/gi, "");
+    }
+
+    // Nettoyage espaces
+    title = title.replace(/\s{2,}/g, " ").trim();
+    title = title.replace(/^[-–—]\s*/u, ""); // si un dash reste en tête
+
+    return title || String(rawTitle || "");
+  };
+
   const colorVarFromEvent = (ev) => {
-    const tags = (ev.extendedProps?.tags || []).map(String).map(t => t.toLowerCase());
-    const title = String(ev.title || "").toLowerCase();
-    const source = String(ev.extendedProps?.source || "").toLowerCase();
+    const tags = uniqLowerTags(ev.extendedProps?.tags || []);
+    const title = lower(ev.title);
+    const rawTitle = lower(ev.extendedProps?.rawTitle || "");
+    const source = lower(ev.extendedProps?.source || "");
+    const text = `${title} ${rawTitle}`.trim();
 
     // Anime
     if (tags.includes("anime") || source.includes("anime-sama")) return "--c-anime";
 
     // Twitch
-    if (tags.includes("twitch") || source.includes("twitch")) {
-      if (tags.includes("domingo") || title.includes("domingo")) return "--c-tw-domingo";
-      if (tags.includes("rivenzi") || title.includes("rivenzi")) return "--c-tw-rivenzi";
-      if (tags.includes("joueur_du_grenier") || title.includes("joueur du grenier") || title.includes("jdg")) return "--c-tw-jdg";
+    const looksLikeTwitch =
+      tags.includes("twitch") ||
+      source.includes("twitch") ||
+      /domingo|rivenzi|joueur du grenier|\bjdg\b/i.test(text);
+
+    if (looksLikeTwitch) {
+      if (tags.includes("domingo") || text.includes("domingo")) return "--c-tw-domingo";
+      if (tags.includes("rivenzi") || text.includes("rivenzi")) return "--c-tw-rivenzi";
+      if (tags.includes("joueur_du_grenier") || text.includes("joueur du grenier") || text.includes("jdg")) return "--c-tw-jdg";
       return "--c-tw-domingo";
     }
 
     // LoL
-    if (tags.includes("lec")) return "--c-lec";
-    if (tags.includes("lck")) return "--c-lck";
-    if (tags.includes("geng")) return "--c-geng";
-    if (tags.includes("fnatic")) return "--c-fnatic";
+    if (tags.includes("lec") || /\b(lec)\b/i.test(text)) return "--c-lec";
+    if (tags.includes("lck") || /\b(lck)\b/i.test(text)) return "--c-lck";
+    if (tags.includes("geng") || /\bgen\.?\s*g\b/i.test(text) || /\bgeng\b/i.test(text)) return "--c-geng";
+    if (tags.includes("fnatic") || /\bfnatic\b/i.test(text)) return "--c-fnatic";
 
     // Foot
-    if (tags.includes("barcelone") || tags.includes("barcelona")) return "--c-barca";
+    if (tags.includes("barcelone") || tags.includes("barcelona") || text.includes("barcelona") || text.includes("barcelone")) return "--c-barca";
     if (tags.includes("ldc")) return "--c-default";
 
     return "--c-default";
@@ -57,17 +167,35 @@
     if (!Array.isArray(arr)) return [];
     return arr
       .filter(e => e && e.title && e.start)
-      .map(e => ({
-        title: String(e.title),
-        start: e.start,
-        end: e.end || null,
-        source: e.source ? String(e.source) : "",
-        url: e.url ? String(e.url) : "",
-        tags: Array.isArray(e.tags) ? e.tags.map(String) : []
-      }));
+      .map(e => {
+        const rawTitle = String(e.title || "");
+        const baseTags = Array.isArray(e.tags) ? e.tags.map(String) : [];
+        const tags = uniqLowerTags(deriveTagsFromTitle(rawTitle, baseTags));
+
+        const source = e.source ? String(e.source) : "";
+
+        // URL: garder la source, mais retirer /schedule pour streamers
+        let url = stripSchedule(e.url ? String(e.url) : "");
+
+        // Overrides demandés
+        if (isLoLEvent(tags, rawTitle, source)) url = LOL_URL;
+        if (isFootEvent(tags, rawTitle, source)) url = FOOT_URL;
+
+        const title = cleanTitleForDisplay(rawTitle, tags);
+
+        return {
+          rawTitle,
+          title,
+          start: e.start,
+          end: e.end || null,
+          source,
+          url,
+          tags
+        };
+      });
   };
 
-  const makeId = (e) => `${e.source}|${e.start}|${e.title}`.toLowerCase();
+  const makeId = (e) => `${e.source}|${e.start}|${e.rawTitle}`.toLowerCase();
 
   const setStatus = (msg) => {
     if (statusEl) statusEl.textContent = msg;
@@ -108,7 +236,7 @@
     headerToolbar: false,
 
     eventClick: (info) => {
-      const url = info.event.extendedProps?.url;
+      const url = info.event.extendedProps?.url || "";
       if (url) {
         info.jsEvent.preventDefault();
         window.open(url, "_blank", "noopener,noreferrer");
@@ -117,34 +245,32 @@
 
     eventDidMount: (info) => {
       const v = colorVarFromEvent(info.event);
+      // On pose une couleur exploitable par le CSS
       info.el.style.setProperty("--event-color", `var(${v})`);
     },
 
     eventContent: (arg) => {
-      // Petit rendu custom pour coller à ton CSS (.event-item / .event-block)
+      // Rendu custom: week/day et month/list
       const viewType = arg.view.type;
-      const container = document.createElement("div");
 
-      // listYear / month : style "event-item"
+      const container = document.createElement("div");
+      const dot = document.createElement("span");
+      const text = document.createElement("span");
+
+      dot.className = "dot";
+      text.className = "txt";
+      text.textContent = arg.event.title;
+
       if (viewType.includes("list") || viewType.includes("dayGrid")) {
         container.className = "event-item";
-        container.style.setProperty("--event-color", arg.el?.style.getPropertyValue("--event-color") || "var(--c-default)");
-
-        const dot = document.createElement("span");
-        dot.className = "dot";
-
-        const text = document.createElement("span");
-        text.textContent = arg.event.title;
-
         container.appendChild(dot);
         container.appendChild(text);
         return { domNodes: [container] };
       }
 
-      // week/day : style "event-block"
       container.className = "event-block";
-      container.style.setProperty("--event-color", arg.el?.style.getPropertyValue("--event-color") || "var(--c-default)");
-      container.textContent = arg.event.title;
+      container.appendChild(dot);
+      container.appendChild(text);
       return { domNodes: [container] };
     }
   });
@@ -167,7 +293,6 @@
   async function loadEvents() {
     setStatus("Chargement des événements…");
 
-    // Le calendrier s'affiche même si le fetch échoue.
     try {
       const r = await fetch(`./data/generated.json?ts=${Date.now()}`, { cache: "no-store" });
       if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
@@ -196,27 +321,29 @@
   }
 
   function applyFilters() {
-    const term = searchTerm.trim().toLowerCase();
+    const term = (searchTerm || "").trim().toLowerCase();
 
     const filtered = term
       ? allEvents.filter(e => {
-          const hay = `${e.title} ${e.source} ${(e.tags || []).join(" ")}`.toLowerCase();
+          // recherche: titre nettoyé + titre brut + source + tags
+          const hay = `${e.title} ${e.rawTitle} ${e.source} ${(e.tags || []).join(" ")}`.toLowerCase();
           return hay.includes(term);
         })
       : allEvents;
 
-    // Recharge les events dans FullCalendar
     calendar.removeAllEvents();
+
     filtered.forEach(e => {
       calendar.addEvent({
         id: makeId(e),
-        title: e.title,
+        title: e.title,         // ✅ affichage nettoyé
         start: e.start,
         end: e.end || null,
         extendedProps: {
           source: e.source || "",
           tags: e.tags || [],
-          url: e.url || ""
+          url: e.url || "",
+          rawTitle: e.rawTitle || "" // ✅ conserve l’info d’origine (utile pour couleur/détection)
         }
       });
     });
@@ -290,7 +417,6 @@
       const start = ev.start?.getTime?.();
       if (!start) continue;
 
-      // Début d'événement (fenêtre 60s)
       if (now >= start && now < start + 60_000) {
         if (notified.has(ev.id)) continue;
         notified.add(ev.id);
