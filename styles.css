@@ -321,18 +321,25 @@ body::before {
 
 /* ====== Color tokens ====== */
 :root{
-  --c-anime:#7c4dff;
-  --c-tw-domingo:#00e5ff;
-  --c-tw-rivenzi:#18ffff;
-  --c-tw-jdg:#64ffda;
+  --c-anime:  #7C4DFF;
 
-  --c-lec:#00c853;
-  --c-lck:#ffd600;
+  /* Domingo = bleu clair azur */
+  --c-domingo:#5AD7FF;
 
-  --c-geng:#ff6d00;
-  --c-fnatic:#ff1744;
+  --c-rivenzi:#00B0FF;
+  --c-jdg:    #64FFDA;
 
-  --c-barca:#2962ff;
+  /* LoL (LEC + LCK) = jaune “or” */
+  --c-lol:    #D4AF37;
 
-  --c-default:#90a4ae;
+  /* importants */
+  --c-geng:   #FF9100;
+  --c-fnatic: #FF1744;
+  --c-barca:  #2979FF;
+
+  /* Foot + LDC = sombre noir (charbon) */
+  --c-foot:   #0B0F14;
+
+  --c-default:#607D8B;
 }
+
