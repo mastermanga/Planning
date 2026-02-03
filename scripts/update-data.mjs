@@ -45,13 +45,14 @@ const FOOT_COMPETITIONS = [
   { code: "CL", tag: "ldc" },         // UEFA Champions League
   { code: "PL", tag: "premier_league" },
   { code: "PD", tag: "liga" },        // La Liga
+  { code: "CDR", tag: "copa_del_rey" },
   { code: "BL1", tag: "bundesliga" },
   { code: "FL1", tag: "ligue1" },     // Ligue 1
 ];
 
 // Équipes suivies (matching “souple” via aliases)
 const FOOT_TEAMS = [
-  { tag: "barcelone", aliases: ["FC Barcelona", "Barcelona"] },
+  { tag: "barcelone", aliases: ["FC Barcelona", "Futbol Club Barcelona"] },
   { tag: "real_madrid", aliases: ["Real Madrid CF", "Real Madrid"] },
   { tag: "manchester_city", aliases: ["Manchester City FC", "Manchester City"] },
   { tag: "liverpool", aliases: ["Liverpool FC", "Liverpool"] },
