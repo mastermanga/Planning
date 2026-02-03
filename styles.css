@@ -338,7 +338,7 @@ body::before {
   --c-barca:  #2979FF;
 
   /* Foot + LDC = sombre noir (charbon) */
-  --c-foot:   #0B0F14;
+  --c-foot: #1E293B;   /* bleu nuit (très lisible) */
 
   --c-default:#607D8B;
 }
