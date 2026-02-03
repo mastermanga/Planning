@@ -23,17 +23,22 @@
     return;
   }
 
-  // ---------- Const URLs ----------
+  // ---------- URLs fixes ----------
   const LOL_URL = "https://www.twitch.tv/traytonlol";
   const FOOT_URL = "https://www.fctv33.quest/fr";
 
   // ---------- Helpers ----------
   const lower = (v) => String(v ?? "").toLowerCase();
 
-  const stripSchedule = (url) => {
+  // Enlève /schedule uniquement pour Twitch
+  const stripTwitchSchedule = (url) => {
     const u = String(url || "").trim();
     if (!u) return "";
-    return u.replace(/\/schedule\/?$/i, "");
+    return u.replace(/^(https?:\/\/)?(www\.)?twitch\.tv\/([^\/?#]+)\/schedule\/?$/i, (m, p1, p2, channel) => {
+      const proto = p1 || "https://";
+      const www = p2 || "";
+      return `${proto}${www}twitch.tv/${channel}`;
+    });
   };
 
   const uniqLowerTags = (tags) => {
@@ -42,30 +47,30 @@
     return Array.from(s);
   };
 
+  // Ajoute des tags dérivés depuis le titre (utile si ton JSON n’a pas toujours tags)
   const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
-    const t = lower(rawTitle);
     const out = new Set(existingTags.map(lower));
+    const t = String(rawTitle || "");
 
-    // LoL (depuis préfixes courants)
-    if (/\[\s*lec\s*\]/i.test(rawTitle) || /\blec\b/i.test(rawTitle)) out.add("lec");
-    if (/\[\s*lck\s*\]/i.test(rawTitle) || /\blck\b/i.test(rawTitle)) out.add("lck");
+    // LoL
+    if (/\[\s*lec\s*\]/i.test(t) || /\blec\b/i.test(t)) out.add("lec");
+    if (/\[\s*lck\s*\]/i.test(t) || /\blck\b/i.test(t)) out.add("lck");
+    if (/\bfnatic\b/i.test(t)) out.add("fnatic");
+    if (/\bgen\.?\s*g\b/i.test(t) || /\bgeng\b/i.test(t)) out.add("geng");
 
-    if (/\bfnatic\b/i.test(rawTitle)) out.add("fnatic");
-    if (/\bgen\.?\s*g\b/i.test(rawTitle) || /\bgeng\b/i.test(rawTitle)) out.add("geng");
+    // Barca
+    if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
 
-    // Twitch (si on repère un streamer)
-    if (/\bdomingo\b/i.test(rawTitle) || /\brivenzi\b/i.test(rawTitle) || /\bjdg\b/i.test(rawTitle) || /joueur du grenier/i.test(rawTitle)) {
-      out.add("twitch");
-      if (/\bdomingo\b/i.test(rawTitle)) out.add("domingo");
-      if (/\brivenzi\b/i.test(rawTitle)) out.add("rivenzi");
-      if (/\bjdg\b/i.test(rawTitle) || /joueur du grenier/i.test(rawTitle)) out.add("joueur_du_grenier");
-    }
+    // Twitch (spécifique seulement)
+    if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
+    if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
+    if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) { out.add("twitch"); out.add("joueur_du_grenier"); }
 
-    // Foot (si on voit des ligues ou équipes très typées)
-    if (/ligue\s*1/i.test(rawTitle) || /primera\s*division/i.test(rawTitle) || /saint-germain|marseille|monaco|nice|barcelona|real madrid/i.test(rawTitle) || /^⚽/u.test(rawTitle)) {
+    // Foot/LDC
+    if (/ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|ldc|champions\s*league/i.test(t) || /^⚽/u.test(t)) {
       out.add("foot");
     }
-    if (/barcelone|barcelona/i.test(rawTitle)) out.add("barcelona");
+    if (/\bldc\b/i.test(t) || /champions\s*league/i.test(t)) out.add("ldc");
 
     return Array.from(out);
   };
@@ -73,13 +78,10 @@
   const isLoLEvent = (tags, rawTitle, source) => {
     const t = lower(rawTitle);
     const s = lower(source);
-    const has = (x) => tags.includes(x);
-
     return (
-      has("lec") || has("lck") || has("geng") || has("fnatic") ||
-      /\[\s*(lec|lck)\s*\]/i.test(rawTitle) ||
-      /\b(lec|lck)\b/i.test(rawTitle) ||
-      /\bgen\.?\s*g\b/i.test(rawTitle) ||
+      tags.includes("lec") || tags.includes("lck") || tags.includes("geng") || tags.includes("fnatic") ||
+      /\[\s*(lec|lck)\s*\]/i.test(rawTitle) || /\b(lec|lck)\b/i.test(t) ||
+      /\bgeng\b/i.test(t) || /\bgen\.?\s*g\b/i.test(t) || /\bfnatic\b/i.test(t) ||
       s.includes("lec") || s.includes("lck")
     );
   };
@@ -87,27 +89,23 @@
   const isFootEvent = (tags, rawTitle, source) => {
     const t = lower(rawTitle);
     const s = lower(source);
-    const has = (x) => tags.includes(x);
-
     return (
-      has("foot") || has("barcelone") || has("barcelona") || has("ldc") ||
-      /ligue\s*1|primera\s*division|champions\s*league|ldc/i.test(t) ||
+      tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone") ||
+      /ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|champions\s*league|\bldc\b/i.test(t) ||
       /^⚽/u.test(rawTitle) ||
       s.includes("foot")
     );
   };
 
+  // Nettoyage affichage titres : supprime [LEC]/[LCK] + ligues foot
   const cleanTitleForDisplay = (rawTitle, tags) => {
     let title = String(rawTitle || "");
 
-    // Enlever emoji foot au début (si présent)
     title = title.replace(/^⚽\s*/u, "");
-
-    // Enlever le premier "[...]" au début (ex: [LEC], [LCK], [Ligue 1], [Primera Division])
+    // enlève le premier [....] en début (ex: [LEC], [LCK], [Ligue 1], etc.)
     title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
 
-    // Si foot: enlever noms de ligue (même sans crochets)
-    const isFoot = tags.includes("foot") || tags.includes("barcelona") || tags.includes("barcelone") || tags.includes("ldc");
+    const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
     if (isFoot) {
       title = title
         .replace(/\bLigue\s*1\b/gi, "")
@@ -120,47 +118,57 @@
         .replace(/\bChampions\s*League\b/gi, "");
     }
 
-    // Nettoyage espaces
     title = title.replace(/\s{2,}/g, " ").trim();
-    title = title.replace(/^[-–—]\s*/u, ""); // si un dash reste en tête
-
+    title = title.replace(/^[-–—]\s*/u, "");
     return title || String(rawTitle || "");
   };
 
-  const colorVarFromEvent = (ev) => {
+  // --- Catégorisation : badge + couleur + important ---
+  const CATS = {
+    geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
+    fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
+    barca:  { key: "barca",  cssVar: "--c-barca",  icon: "🔵🔴", label: "FC Barcelone", important: true },
+
+    lol:    { key: "lol",    cssVar: "--c-lol",    icon: "🎮", label: "LoL (LEC/LCK)", important: false },
+
+    domingo:{ key: "domingo",cssVar: "--c-domingo",icon: "📺", label: "Domingo", important: false },
+    rivenzi:{ key: "rivenzi",cssVar: "--c-rivenzi",icon: "🟦", label: "Rivenzi", important: false },
+    jdg:    { key: "jdg",    cssVar: "--c-jdg",    icon: "🕹️", label: "JDG", important: false },
+
+    anime:  { key: "anime",  cssVar: "--c-anime",  icon: "🎬", label: "Anime", important: false },
+
+    foot:   { key: "foot",   cssVar: "--c-foot",   icon: "⚽", label: "Foot / LDC", important: false },
+
+    def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
+  };
+
+  const getCategory = (ev) => {
     const tags = uniqLowerTags(ev.extendedProps?.tags || []);
-    const title = lower(ev.title);
+    const title = lower(ev.title || "");
     const rawTitle = lower(ev.extendedProps?.rawTitle || "");
     const source = lower(ev.extendedProps?.source || "");
     const text = `${title} ${rawTitle}`.trim();
 
+    // Priorité: importants
+    if (tags.includes("geng") || /\bgeng\b/.test(text) || /\bgen\.?\s*g\b/.test(text)) return CATS.geng;
+    if (tags.includes("fnatic") || /\bfnatic\b/.test(text)) return CATS.fnatic;
+    if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
+
+    // LoL (LEC+LCK même couleur)
+    if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
+
+    // Twitch : pas de générique => uniquement si identifié précisément
+    if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
+    if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
+    if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
+
     // Anime
-    if (tags.includes("anime") || source.includes("anime-sama")) return "--c-anime";
+    if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
 
-    // Twitch
-    const looksLikeTwitch =
-      tags.includes("twitch") ||
-      source.includes("twitch") ||
-      /domingo|rivenzi|joueur du grenier|\bjdg\b/i.test(text);
+    // Foot/LDC (même couleur)
+    if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
 
-    if (looksLikeTwitch) {
-      if (tags.includes("domingo") || text.includes("domingo")) return "--c-tw-domingo";
-      if (tags.includes("rivenzi") || text.includes("rivenzi")) return "--c-tw-rivenzi";
-      if (tags.includes("joueur_du_grenier") || text.includes("joueur du grenier") || text.includes("jdg")) return "--c-tw-jdg";
-      return "--c-tw-domingo";
-    }
-
-    // LoL
-    if (tags.includes("lec") || /\b(lec)\b/i.test(text)) return "--c-lec";
-    if (tags.includes("lck") || /\b(lck)\b/i.test(text)) return "--c-lck";
-    if (tags.includes("geng") || /\bgen\.?\s*g\b/i.test(text) || /\bgeng\b/i.test(text)) return "--c-geng";
-    if (tags.includes("fnatic") || /\bfnatic\b/i.test(text)) return "--c-fnatic";
-
-    // Foot
-    if (tags.includes("barcelone") || tags.includes("barcelona") || text.includes("barcelona") || text.includes("barcelone")) return "--c-barca";
-    if (tags.includes("ldc")) return "--c-default";
-
-    return "--c-default";
+    return CATS.def;
   };
 
   const normalizeEvents = (arr) => {
@@ -174,8 +182,9 @@
 
         const source = e.source ? String(e.source) : "";
 
-        // URL: garder la source, mais retirer /schedule pour streamers
-        let url = stripSchedule(e.url ? String(e.url) : "");
+        // URL: Twitch => enlever /schedule
+        let url = e.url ? String(e.url) : "";
+        url = stripTwitchSchedule(url);
 
         // Overrides demandés
         if (isLoLEvent(tags, rawTitle, source)) url = LOL_URL;
@@ -244,33 +253,32 @@
     },
 
     eventDidMount: (info) => {
-      const v = colorVarFromEvent(info.event);
-      // On pose une couleur exploitable par le CSS
-      info.el.style.setProperty("--event-color", `var(${v})`);
+      const cat = getCategory(info.event);
+      info.el.style.setProperty("--event-color", `var(${cat.cssVar})`);
+
+      // important events (glow)
+      info.el.classList.toggle("is-important", !!cat.important);
     },
 
     eventContent: (arg) => {
-      // Rendu custom: week/day et month/list
       const viewType = arg.view.type;
+      const cat = getCategory(arg.event);
 
       const container = document.createElement("div");
-      const dot = document.createElement("span");
-      const text = document.createElement("span");
+      container.className = (viewType.includes("list") || viewType.includes("dayGrid")) ? "event-item" : "event-block";
 
-      dot.className = "dot";
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.textContent = cat.icon;
+      badge.title = cat.label;
+
+      const text = document.createElement("span");
       text.className = "txt";
       text.textContent = arg.event.title;
 
-      if (viewType.includes("list") || viewType.includes("dayGrid")) {
-        container.className = "event-item";
-        container.appendChild(dot);
-        container.appendChild(text);
-        return { domNodes: [container] };
-      }
-
-      container.className = "event-block";
-      container.appendChild(dot);
+      container.appendChild(badge);
       container.appendChild(text);
+
       return { domNodes: [container] };
     }
   });
@@ -325,7 +333,6 @@
 
     const filtered = term
       ? allEvents.filter(e => {
-          // recherche: titre nettoyé + titre brut + source + tags
           const hay = `${e.title} ${e.rawTitle} ${e.source} ${(e.tags || []).join(" ")}`.toLowerCase();
           return hay.includes(term);
         })
@@ -336,14 +343,14 @@
     filtered.forEach(e => {
       calendar.addEvent({
         id: makeId(e),
-        title: e.title,         // ✅ affichage nettoyé
+        title: e.title,
         start: e.start,
         end: e.end || null,
         extendedProps: {
           source: e.source || "",
           tags: e.tags || [],
           url: e.url || "",
-          rawTitle: e.rawTitle || "" // ✅ conserve l’info d’origine (utile pour couleur/détection)
+          rawTitle: e.rawTitle || ""
         }
       });
     });
@@ -377,9 +384,7 @@
     });
   });
 
-  refreshBtn?.addEventListener("click", () => {
-    loadEvents();
-  });
+  refreshBtn?.addEventListener("click", () => loadEvents());
 
   searchEl?.addEventListener("input", debounce((e) => {
     searchTerm = e.target.value || "";
@@ -406,7 +411,6 @@
 
   notifBtn?.addEventListener("click", toggleNotifications);
 
-  // Check toutes les 30s : notif au début (une seule fois)
   setInterval(() => {
     if (!notificationsEnabled) return;
 
