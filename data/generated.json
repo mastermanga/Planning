@@ -1,27 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-02-03T18:30:00.000Z",
-    "end": "2026-02-03T19:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — FIN DE SAISON AVEC BIRMINGHAM",
-    "start": "2026-02-03T19:00:00.000Z",
-    "end": "2026-02-03T23:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Jack Of All Trades",
     "start": "2026-02-04T16:20:00",
     "source": "Anime (sheet)",
@@ -1222,6 +1200,17 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs Borussia Mönchengladbach",
+    "start": "2026-03-07T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
     ]
   },
   {
