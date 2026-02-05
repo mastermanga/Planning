@@ -1,27 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-02-05T13:00:00.000Z",
-    "end": "2026-02-05T13:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — DÉBUT DE SAISON AVEC BIRMINGHAM",
-    "start": "2026-02-05T13:30:00.000Z",
-    "end": "2026-02-05T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Sentenced To Be A Hero",
     "start": "2026-02-05T15:20:00",
     "source": "Anime (sheet)",
