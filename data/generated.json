@@ -1,14 +1,5 @@
 [
   {
-    "title": "Ao no Miburo",
-    "start": "2026-02-07T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] FC Barcelona vs RCD Mallorca",
     "start": "2026-02-07T15:15:00Z",
     "source": "football-data.org",
@@ -34,7 +25,7 @@
   },
   {
     "title": "[LEC] Shifters vs Karmine Corp Blue",
-    "start": "2026-02-07T16:45:00Z",
+    "start": "2026-02-07T16:41:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
@@ -100,7 +91,7 @@
   },
   {
     "title": "[LEC] Karmine Corp vs GIANTX",
-    "start": "2026-02-07T19:30:00Z",
+    "start": "2026-02-07T19:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
