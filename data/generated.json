@@ -1,50 +1,5 @@
 [
   {
-    "title": "[LEC] Natus Vincere vs G2 Esports",
-    "start": "2026-02-07T18:27:45Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "Medalist",
-    "start": "2026-02-07T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "[LEC] Team Vitality vs Movistar KOI",
-    "start": "2026-02-07T19:17:57Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs GIANTX",
-    "start": "2026-02-07T20:15:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "[LCK] DRX vs Nongshim Red Force",
     "start": "2026-02-08T08:00:00Z",
     "source": "lolix.gg",
@@ -2192,6 +2147,17 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] FC Barcelona vs Villarreal CF",
+    "start": "2026-02-28T15:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Leeds United FC vs Manchester City FC",
     "start": "2026-02-28T17:30:00Z",
     "source": "football-data.org",
@@ -2240,28 +2206,6 @@
       "foot",
       "ligue1",
       "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Villarreal CF",
-    "start": "2026-03-01T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Getafe CF",
-    "start": "2026-03-01T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -2429,6 +2373,17 @@
     "url": "",
     "tags": [
       "d&d"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Getafe CF",
+    "start": "2026-03-02T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   },
   {
@@ -2841,6 +2796,17 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs AS Monaco FC",
+    "start": "2026-03-06T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-07T08:30:00",
     "end": "2026-03-07T09:00:00",
@@ -2930,28 +2896,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] OGC Nice vs Stade Rennais FC 1901",
-    "start": "2026-03-08T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs AS Monaco FC",
-    "start": "2026-03-08T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-03-08T08:30:00",
     "end": "2026-03-08T09:00:00",
@@ -2998,6 +2942,17 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Stade Rennais FC 1901",
+    "start": "2026-03-08T16:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
@@ -3195,6 +3150,17 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
