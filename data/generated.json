@@ -68,19 +68,7 @@
   },
   {
     "title": "[LEC] SK Gaming vs Shifters",
-    "start": "2026-02-08T17:30:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Natus Vincere vs Movistar KOI",
-    "start": "2026-02-08T18:15:00Z",
+    "start": "2026-02-08T17:35:28Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
@@ -100,8 +88,8 @@
     ]
   },
   {
-    "title": "[LEC] Team Heretics vs Karmine Corp",
-    "start": "2026-02-08T19:00:00Z",
+    "title": "[LEC] Natus Vincere vs Movistar KOI",
+    "start": "2026-02-08T18:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
@@ -112,16 +100,15 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs G2 Esports",
-    "start": "2026-02-08T19:45:00Z",
+    "title": "[LEC] Team Heretics vs Karmine Corp",
+    "start": "2026-02-08T19:15:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
       "lolix",
       "esport",
       "lol",
-      "lec",
-      "fnatic"
+      "lec"
     ]
   },
   {
@@ -133,6 +120,19 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs G2 Esports",
+    "start": "2026-02-08T20:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
