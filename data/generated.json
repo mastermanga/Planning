@@ -1,16 +1,5 @@
 [
   {
-    "title": "⚽ [Ligue 1] OGC Nice vs AS Monaco FC",
-    "start": "2026-02-08T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "[LEC] Team Vitality vs Los Ratones",
     "start": "2026-02-08T15:46:07Z",
     "source": "lolix.gg",
@@ -89,7 +78,7 @@
   },
   {
     "title": "[LEC] Natus Vincere vs Movistar KOI",
-    "start": "2026-02-08T18:30:00Z",
+    "start": "2026-02-08T18:31:14Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
@@ -101,7 +90,7 @@
   },
   {
     "title": "[LEC] Team Heretics vs Karmine Corp",
-    "start": "2026-02-08T19:15:00Z",
+    "start": "2026-02-08T19:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
@@ -123,19 +112,6 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs G2 Esports",
-    "start": "2026-02-08T20:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
     "start": "2026-02-08T20:00:00Z",
     "source": "football-data.org",
@@ -144,6 +120,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs G2 Esports",
+    "start": "2026-02-08T20:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
