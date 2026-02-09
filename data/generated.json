@@ -1,35 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-02-09T13:00:00",
-    "end": "2026-02-09T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-02-09T14:00:00",
-    "end": "2026-02-09T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
-    "title": "Learning",
-    "start": "2026-02-09T14:30:00",
-    "end": "2026-02-09T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "learning"
-    ]
-  },
-  {
     "title": "Vigilantes",
     "start": "2026-02-09T15:20:00",
     "source": "Anime (sheet)",
@@ -127,6 +97,17 @@
     "url": "",
     "tags": [
       "learning"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Helldivers 2 avec Alpha et LittleBigWhale",
+    "start": "2026-02-10T17:00:00.000Z",
+    "end": "2026-02-11T13:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -611,6 +592,17 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Soirée Anime pour la Saint-Valentin",
+    "start": "2026-02-14T18:45:00.000Z",
+    "end": "2026-02-14T23:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
     "start": "2026-02-14T20:00:00Z",
     "source": "football-data.org",
@@ -857,6 +849,18 @@
     ]
   },
   {
+    "title": "[LEC] Team Heretics vs G2 Esports",
+    "start": "2026-02-17T15:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-02-17T16:00:00",
     "end": "2026-02-17T16:30:00",
@@ -884,6 +888,18 @@
     "url": "",
     "tags": [
       "learning"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs GIANTX",
+    "start": "2026-02-17T17:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
