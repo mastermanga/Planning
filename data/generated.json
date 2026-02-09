@@ -1,15 +1,5 @@
 [
   {
-    "title": "Lecture",
-    "start": "2026-02-09T09:00:00",
-    "end": "2026-02-09T09:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-02-09T09:30:00",
     "end": "2026-02-09T10:00:00",
@@ -76,6 +66,17 @@
     "url": "",
     "tags": [
       "d&d"
+    ]
+  },
+  {
+    "title": "Domingo — REACT ULTIMATUM",
+    "start": "2026-02-09T19:30:00.000Z",
+    "end": "2026-02-09T23:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
