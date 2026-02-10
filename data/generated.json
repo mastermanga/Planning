@@ -1,26 +1,5 @@
 [
   {
-    "title": "Learning",
-    "start": "2026-02-10T17:00:00",
-    "end": "2026-02-10T19:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "learning"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Helldivers 2 avec Alpha et LittleBigWhale",
-    "start": "2026-02-10T17:00:00.000Z",
-    "end": "2026-02-11T13:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-10T19:00:00",
     "end": "2026-02-10T19:30:00",
