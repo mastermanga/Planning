@@ -1,26 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-02-12T13:00:00",
-    "end": "2026-02-12T16:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-02-12T13:00:00.000Z",
-    "end": "2026-02-12T14:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — SUITE DE LA SAISON",
     "start": "2026-02-12T14:00:00.000Z",
     "end": "2026-02-12T18:00:00.000Z",
