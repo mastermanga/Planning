@@ -1,17 +1,5 @@
 [
   {
-    "title": "[LCK] Dplus KIA vs DRX",
-    "start": "2026-02-13T08:01:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-13T09:00:00",
     "end": "2026-02-13T09:30:00",
@@ -124,7 +112,7 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G (TBD)",
+    "title": "[LCK] Gen.G vs Dplus KIA",
     "start": "2026-02-14T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -227,7 +215,7 @@
     ]
   },
   {
-    "title": "[LCK] T1 (TBD)",
+    "title": "[LCK] T1 vs BNK FEARX",
     "start": "2026-02-15T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -624,6 +612,18 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "[LCK] DN SOOPers vs DRX",
+    "start": "2026-02-19T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
