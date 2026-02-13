@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-02-13T07:51:46.884Z",
-  "total": 2771,
+  "generatedAt": "2026-02-13T08:37:49.700Z",
+  "total": 49,
   "counts": {
-    "Anime (sheet)": 2722,
+    "Anime (sheet)": 0,
     "Twitch:domingo": 2,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 2,
     "lolix.gg": 7,
     "football-data.org (foot)": 38
   },
-  "errors": []
+  "errors": [
+    "Anime (sheet): fetch failed"
+  ]
 }
