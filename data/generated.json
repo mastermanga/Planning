@@ -1,36 +1,5 @@
 [
   {
-    "title": "Medalist",
-    "start": "2026-02-14T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Soirée Anime pour la Saint-Valentin",
-    "start": "2026-02-14T18:45:00.000Z",
-    "end": "2026-02-14T23:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
-    "start": "2026-02-14T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "[LCK] T1 vs BNK FEARX",
     "start": "2026-02-15T08:00:00Z",
     "source": "lolix.gg",
@@ -2847,6 +2816,17 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
