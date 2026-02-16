@@ -1,15 +1,5 @@
 [
   {
-    "title": "Lecture",
-    "start": "2026-02-16T09:00:00",
-    "end": "2026-02-16T09:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-02-16T09:30:00",
     "end": "2026-02-16T10:00:00",
@@ -104,6 +94,17 @@
     ]
   },
   {
+    "title": "Domingo — FIN DU REACT ULTIMATUM AVEC RICHY",
+    "start": "2026-02-16T19:30:00.000Z",
+    "end": "2026-02-16T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Girona FC vs FC Barcelona",
     "start": "2026-02-16T20:00:00Z",
     "source": "football-data.org",
@@ -112,6 +113,17 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Domingo — SOIRÉE REACT",
+    "start": "2026-02-16T22:00:00.000Z",
+    "end": "2026-02-17T00:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -152,6 +164,28 @@
     "url": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-02-17T13:00:00.000Z",
+    "end": "2026-02-17T14:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — RUSH FIN DE SAISON",
+    "start": "2026-02-17T14:00:00.000Z",
+    "end": "2026-02-17T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -278,6 +312,28 @@
     "url": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-02-18T13:00:00.000Z",
+    "end": "2026-02-18T14:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — FIN DE SAISON",
+    "start": "2026-02-18T14:00:00.000Z",
+    "end": "2026-02-18T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -431,6 +487,17 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-02-19T18:30:00.000Z",
+    "end": "2026-02-19T19:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-02-19T19:00:00",
     "end": "2026-02-19T19:30:00",
@@ -438,6 +505,17 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "Domingo — ON JOUE À NEWS TOWER",
+    "start": "2026-02-19T19:30:00.000Z",
+    "end": "2026-02-19T23:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -490,6 +568,28 @@
     "url": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-02-20T13:00:00.000Z",
+    "end": "2026-02-20T14:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — ON TEST NGL BIATHLON",
+    "start": "2026-02-20T14:00:00.000Z",
+    "end": "2026-02-20T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
