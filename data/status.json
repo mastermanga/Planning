@@ -1,15 +1,13 @@
 {
-  "generatedAt": "2026-02-16T15:36:45.558Z",
-  "total": 61,
+  "generatedAt": "2026-02-16T16:38:04.526Z",
+  "total": 2760,
   "counts": {
-    "Anime (sheet)": 0,
+    "Anime (sheet)": 2699,
     "Twitch:domingo": 10,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 1,
     "lolix.gg": 15,
     "football-data.org (foot)": 35
   },
-  "errors": [
-    "Anime (sheet): Google sheet CSV HTTP 500"
-  ]
+  "errors": []
 }
