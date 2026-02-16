@@ -1,25 +1,5 @@
 [
   {
-    "title": "Journal With Witch",
-    "start": "2026-02-15T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Olympique Lyonnais vs OGC Nice",
-    "start": "2026-02-15T19:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-16T09:00:00",
     "end": "2026-02-16T09:30:00",
@@ -924,6 +904,18 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-02-23T15:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
