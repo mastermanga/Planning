@@ -1,24 +1,5 @@
 [
   {
-    "title": "Learning",
-    "start": "2026-02-16T14:30:00",
-    "end": "2026-02-16T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "learning"
-    ]
-  },
-  {
-    "title": "Vigilantes",
-    "start": "2026-02-16T15:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "[LEC] Natus Vincere vs Fnatic",
     "start": "2026-02-16T15:48:00Z",
     "source": "lolix.gg",
@@ -594,7 +575,7 @@
     ]
   },
   {
-    "title": "[LEC] Natus Vincere (TBD)",
+    "title": "[LEC] Natus Vincere vs Movistar KOI",
     "start": "2026-02-20T17:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -709,7 +690,7 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic (TBD)",
+    "title": "[LEC] Fnatic vs Team Vitality",
     "start": "2026-02-21T17:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
