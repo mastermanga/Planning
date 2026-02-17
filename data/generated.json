@@ -1,27 +1,5 @@
 [
   {
-    "title": "Domingo — FIN DU REACT ULTIMATUM AVEC RICHY",
-    "start": "2026-02-16T19:30:00.000Z",
-    "end": "2026-02-16T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Girona FC vs FC Barcelona",
-    "start": "2026-02-16T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Domingo — SOIRÉE REACT",
     "start": "2026-02-16T22:00:00.000Z",
     "end": "2026-02-17T00:00:00.000Z",
@@ -911,6 +889,18 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-02-23T15:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
