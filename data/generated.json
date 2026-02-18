@@ -1,16 +1,5 @@
 [
   {
-    "title": "Domingo — FIN DE SAISON",
-    "start": "2026-02-18T14:00:00.000Z",
-    "end": "2026-02-18T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-18T16:00:00",
     "end": "2026-02-18T17:00:00",
