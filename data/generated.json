@@ -1,15 +1,5 @@
 [
   {
-    "title": "Lecture",
-    "start": "2026-02-18T19:00:00",
-    "end": "2026-02-18T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
     "title": "[LCK] DN SOOPers vs DRX",
     "start": "2026-02-19T08:00:00Z",
     "source": "lolix.gg",
@@ -639,6 +629,18 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-02-23T15:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2900,6 +2902,28 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Brighton & Hove Albion FC vs Liverpool FC",
+    "start": "2026-03-21T12:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Union Berlin",
+    "start": "2026-03-21T14:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
     "title": "Kamen Rider",
     "start": "2026-03-21T18:20:00",
     "source": "Anime (sheet)",
@@ -2915,6 +2939,40 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Rayo Vallecano de Madrid",
+    "start": "2026-03-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Club Atlético de Madrid",
+    "start": "2026-03-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Paris Saint-Germain FC",
+    "start": "2026-03-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice",
+      "psg"
     ]
   },
   {
