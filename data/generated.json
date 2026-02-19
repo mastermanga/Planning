@@ -1,14 +1,5 @@
 [
   {
-    "title": "JJK",
-    "start": "2026-02-19T17:50:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-02-19T18:30:00.000Z",
     "end": "2026-02-19T19:30:00.000Z",
@@ -527,18 +518,6 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "[LEC] Match",
-    "start": "2026-02-23T15:45:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
