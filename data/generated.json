@@ -1,16 +1,5 @@
 [
   {
-    "title": "Domingo — ON TEST NGL BIATHLON",
-    "start": "2026-02-20T14:00:00.000Z",
-    "end": "2026-02-20T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "[LEC] Natus Vincere vs Movistar KOI",
     "start": "2026-02-20T15:47:24Z",
     "source": "lolix.gg",
