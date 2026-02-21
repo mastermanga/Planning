@@ -1,15 +1,5 @@
 [
   {
-    "title": "Lecture",
-    "start": "2026-02-21T09:00:00",
-    "end": "2026-02-21T09:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-02-21T09:30:00",
     "end": "2026-02-21T10:00:00",
@@ -671,7 +661,7 @@
     ]
   },
   {
-    "title": "[LEC] Movistar KOI vs G2 Esports",
+    "title": "[LEC] G2 Esports vs Movistar KOI",
     "start": "2026-02-27T15:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
