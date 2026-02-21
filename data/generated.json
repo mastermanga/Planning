@@ -1,25 +1,5 @@
 [
   {
-    "title": "⚽ [Primera Division] CA Osasuna vs Real Madrid CF",
-    "start": "2026-02-21T17:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "Kamen Rider",
-    "start": "2026-02-21T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Medalist",
     "start": "2026-02-21T18:30:00",
     "source": "Anime (sheet)",
@@ -256,18 +236,6 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "[LEC] Match",
-    "start": "2026-02-23T15:45:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
