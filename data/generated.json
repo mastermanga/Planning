@@ -32,19 +32,6 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs Team Vitality",
-    "start": "2026-02-21T17:30:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] CA Osasuna vs Real Madrid CF",
     "start": "2026-02-21T17:30:00Z",
     "source": "football-data.org",
@@ -71,6 +58,19 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs Team Vitality",
+    "start": "2026-02-21T18:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
@@ -169,7 +169,7 @@
     ]
   },
   {
-    "title": "[LEC] Natus Vincere (TBD)",
+    "title": "[LEC] Natus Vincere vs GIANTX",
     "start": "2026-02-22T15:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
