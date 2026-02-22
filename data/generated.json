@@ -1,16 +1,5 @@
 [
   {
-    "title": "⚽ [Premier League] Nottingham Forest FC vs Liverpool FC",
-    "start": "2026-02-22T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] FC Barcelona vs Levante UD",
     "start": "2026-02-22T15:15:00Z",
     "source": "football-data.org",
@@ -64,7 +53,7 @@
   },
   {
     "title": "[LEC] Karmine Corp vs Team Vitality",
-    "start": "2026-02-22T18:30:00Z",
+    "start": "2026-02-22T18:35:07Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "tags": [
