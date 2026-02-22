@@ -1,28 +1,5 @@
 [
   {
-    "title": "[LEC] Natus Vincere vs GIANTX",
-    "start": "2026-02-22T15:47:27Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Lorient",
-    "start": "2026-02-22T16:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "Hell's Paradise",
     "start": "2026-02-22T16:35:00",
     "source": "Anime (sheet)",
@@ -122,7 +99,7 @@
     ]
   },
   {
-    "title": "[LEC] GIANTX (TBD)",
+    "title": "[LEC] G2 Esports vs Movistar KOI",
     "start": "2026-02-23T15:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -463,18 +440,6 @@
     ]
   },
   {
-    "title": "[LEC] G2 Esports vs Movistar KOI",
-    "start": "2026-02-27T15:45:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-27T16:00:00",
     "end": "2026-02-27T17:00:00",
@@ -482,6 +447,18 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "[LEC] GIANTX vs Karmine Corp",
+    "start": "2026-02-27T16:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
