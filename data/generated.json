@@ -1,49 +1,5 @@
 [
   {
-    "title": "Medalist",
-    "start": "2026-02-21T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "[LEC] Fnatic vs Team Vitality",
-    "start": "2026-02-21T18:40:04Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Newcastle United FC",
-    "start": "2026-02-21T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Metz",
-    "start": "2026-02-21T20:05:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "[LCK] T1 vs Dplus KIA",
     "start": "2026-02-22T08:00:00Z",
     "source": "lolix.gg",
@@ -236,6 +192,18 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-02-23T15:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
