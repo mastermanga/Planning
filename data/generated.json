@@ -1,25 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-02-23T13:00:00",
-    "end": "2026-02-23T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-02-23T14:00:00",
-    "end": "2026-02-23T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
     "title": "Learning",
     "start": "2026-02-23T14:30:00",
     "end": "2026-02-23T16:30:00",
@@ -559,7 +539,7 @@
     ]
   },
   {
-    "title": "[LEC] Match",
+    "title": "[LEC] Movistar KOI (TBD)",
     "start": "2026-02-28T15:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -685,7 +665,7 @@
     ]
   },
   {
-    "title": "[LEC] Match",
+    "title": "[LEC] G2 Esports (TBD)",
     "start": "2026-03-01T15:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
