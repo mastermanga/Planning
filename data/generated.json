@@ -1,26 +1,5 @@
 [
   {
-    "title": "Journal With Witch",
-    "start": "2026-02-22T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs Team Vitality",
-    "start": "2026-02-22T18:35:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Lecture",
     "start": "2026-02-23T09:00:00",
     "end": "2026-02-23T09:30:00",
