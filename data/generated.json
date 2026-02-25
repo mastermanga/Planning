@@ -1,24 +1,5 @@
 [
   {
-    "title": "Lecture",
-    "start": "2026-02-25T16:00:00",
-    "end": "2026-02-25T17:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
-    "title": "Oshi No Ko",
-    "start": "2026-02-25T16:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Learning",
     "start": "2026-02-25T17:00:00",
     "end": "2026-02-25T19:00:00",
