@@ -1,38 +1,6 @@
 [
   {
     "title": "Lecture",
-    "start": "2026-02-25T19:00:00",
-    "end": "2026-02-25T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "lecture"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Real Madrid CF vs Sport Lisboa e Benfica",
-    "start": "2026-02-25T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs AS Monaco FC",
-    "start": "2026-02-25T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "psg"
-    ]
-  },
-  {
-    "title": "Lecture",
     "start": "2026-02-26T09:00:00",
     "end": "2026-02-26T09:30:00",
     "source": "Anime (sheet)",
