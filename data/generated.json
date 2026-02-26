@@ -1205,7 +1205,86 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Galatasaray SK vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Atalanta BC vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Newcastle United FC vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FK Bodø/Glimt vs",
+    "start": "2026-03-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Bayer 04 Leverkusen vs",
     "start": "2026-03-11T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1822,7 +1901,86 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] vs Paris Saint-Germain FC",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Galatasaray SK",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Real Madrid CF",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Atalanta BC",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Newcastle United FC",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Club Atlético de Madrid",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs FK Bodø/Glimt",
+    "start": "2026-03-18T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Bayer 04 Leverkusen",
     "start": "2026-03-18T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
