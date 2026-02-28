@@ -1,27 +1,5 @@
 [
   {
-    "title": "⚽ [Premier League] Liverpool FC vs West Ham United FC",
-    "start": "2026-02-28T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Villarreal CF",
-    "start": "2026-02-28T15:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "[LEC] Movistar KOI vs Karmine Corp",
     "start": "2026-02-28T16:13:01Z",
     "source": "lolix.gg",
