@@ -699,6 +699,17 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] RC Celta de Vigo vs Real Madrid CF",
+    "start": "2026-03-06T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-07T09:00:00",
     "end": "2026-03-07T09:30:00",
@@ -756,14 +767,14 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] RC Celta de Vigo vs Real Madrid CF",
+    "title": "⚽ [Primera Division] Athletic Club vs FC Barcelona",
     "start": "2026-03-07T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
       "foot",
       "liga",
-      "real_madrid"
+      "barcelone"
     ]
   },
   {
@@ -803,17 +814,6 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Athletic Club vs FC Barcelona",
-    "start": "2026-03-08T15:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -995,6 +995,17 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] Galatasaray SK vs Liverpool FC",
+    "start": "2026-03-10T17:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-10T19:00:00",
     "end": "2026-03-10T19:30:00",
@@ -1005,87 +1016,19 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs",
-    "start": "2026-03-11T00:00:00Z",
+    "title": "⚽ [UEFA Champions League] Atalanta BC vs FC Bayern München",
+    "start": "2026-03-10T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
       "foot",
       "ldc",
-      "psg",
-      "barcelone"
+      "bayern"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Galatasaray SK vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Real Madrid CF vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Atalanta BC vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Newcastle United FC vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FK Bodø/Glimt vs",
-    "start": "2026-03-11T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Bayer 04 Leverkusen vs",
-    "start": "2026-03-11T00:00:00Z",
+    "title": "⚽ [UEFA Champions League] Newcastle United FC vs FC Barcelona",
+    "start": "2026-03-10T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
@@ -1171,6 +1114,29 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Chelsea FC",
+    "start": "2026-03-11T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs Manchester City FC",
+    "start": "2026-03-11T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid",
+      "manchester_city"
     ]
   },
   {
@@ -1390,17 +1356,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] West Ham United FC vs Manchester City FC",
-    "start": "2026-03-14T12:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "⚽ [Bundesliga] Bayer 04 Leverkusen vs FC Bayern München",
     "start": "2026-03-14T14:30:00Z",
     "source": "football-data.org",
@@ -1409,6 +1364,17 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Angers SCO vs OGC Nice",
+    "start": "2026-03-14T18:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
@@ -1427,6 +1393,17 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] West Ham United FC vs Manchester City FC",
+    "start": "2026-03-14T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   },
   {
@@ -1449,17 +1426,6 @@
       "foot",
       "ligue1",
       "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Angers SCO vs OGC Nice",
-    "start": "2026-03-15T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
     ]
   },
   {
@@ -1701,93 +1667,26 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Paris Saint-Germain FC",
-    "start": "2026-03-18T00:00:00Z",
+    "title": "⚽ [UEFA Champions League] Chelsea FC vs Paris Saint-Germain FC",
+    "start": "2026-03-17T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
       "foot",
       "ldc",
-      "barcelone",
       "psg"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Galatasaray SK",
-    "start": "2026-03-18T00:00:00Z",
+    "title": "⚽ [UEFA Champions League] Manchester City FC vs Real Madrid CF",
+    "start": "2026-03-17T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs Real Madrid CF",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone",
+      "manchester_city",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs Atalanta BC",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs Newcastle United FC",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs Club Atlético de Madrid",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs FK Bodø/Glimt",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs Bayer 04 Leverkusen",
-    "start": "2026-03-18T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
     ]
   },
   {
@@ -1860,6 +1759,17 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] FC Barcelona vs Newcastle United FC",
+    "start": "2026-03-18T17:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-18T19:00:00",
     "end": "2026-03-18T19:30:00",
@@ -1867,6 +1777,28 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs Galatasaray SK",
+    "start": "2026-03-18T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Atalanta BC",
+    "start": "2026-03-18T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern"
     ]
   },
   {
