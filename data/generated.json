@@ -1,34 +1,5 @@
 [
   {
-    "title": "Kamen Rider",
-    "start": "2026-02-28T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Medalist",
-    "start": "2026-02-28T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Le Havre AC vs Paris Saint-Germain FC",
-    "start": "2026-02-28T20:05:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "[LCK] Gen.G vs BNK FEARX",
     "start": "2026-03-01T08:00:00Z",
     "source": "lolix.gg",
