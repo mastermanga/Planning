@@ -130,6 +130,17 @@
     ]
   },
   {
+    "title": "Domingo — DEBRIEF MR BEAST",
+    "start": "2026-03-03T18:30:00.000Z",
+    "end": "2026-03-03T19:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-03T19:00:00",
     "end": "2026-03-03T19:30:00",
@@ -137,6 +148,17 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-03-03T19:30:00.000Z",
+    "end": "2026-03-03T23:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -191,6 +213,28 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-03-04T13:00:00.000Z",
+    "end": "2026-03-04T14:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — SAISON 3 SUR NGL BIATHLON",
+    "start": "2026-03-04T14:00:00.000Z",
+    "end": "2026-03-04T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Lecture",
     "start": "2026-03-04T16:00:00",
     "end": "2026-03-04T17:00:00",
@@ -227,6 +271,17 @@
     "url": "",
     "tags": [
       "lecture"
+    ]
+  },
+  {
+    "title": "Domingo — ZACK EN ROUE LIBRE CHEZ ZACK NANI",
+    "start": "2026-03-04T19:00:00.000Z",
+    "end": "2026-03-04T21:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -376,6 +431,28 @@
     "url": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-03-06T13:00:00.000Z",
+    "end": "2026-03-06T14:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — PONEY CUP FT. PLEIN DE STREAMERS",
+    "start": "2026-03-06T14:00:00.000Z",
+    "end": "2026-03-06T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
