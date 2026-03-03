@@ -1,15 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-03-03T07:00:00",
-    "end": "2026-03-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-03T09:00:00",
     "end": "2026-03-03T10:30:00",
@@ -295,7 +285,7 @@
   {
     "title": "Réveil",
     "start": "2026-03-06T07:00:00",
-    "end": "2026-03-05T09:00:00",
+    "end": "2026-03-06T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -305,7 +295,7 @@
   {
     "title": "Work",
     "start": "2026-03-06T09:00:00",
-    "end": "2026-03-05T10:30:00",
+    "end": "2026-03-06T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -315,7 +305,7 @@
   {
     "title": "Sport",
     "start": "2026-03-06T10:30:00",
-    "end": "2026-03-05T11:30:00",
+    "end": "2026-03-06T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -325,7 +315,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-06T11:30:00",
-    "end": "2026-03-05T14:00:00",
+    "end": "2026-03-06T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -346,7 +336,7 @@
   {
     "title": "Work",
     "start": "2026-03-06T14:00:00",
-    "end": "2026-03-05T15:30:00",
+    "end": "2026-03-06T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -367,7 +357,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-06T15:30:00",
-    "end": "2026-03-05T23:59:00",
+    "end": "2026-03-06T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -573,12 +563,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-03-09T07:00:00",
+    "end": "2026-03-09T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-09T09:00:00",
+    "end": "2026-03-09T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-03-09T10:30:00",
+    "end": "2026-03-09T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-09T11:30:00",
+    "end": "2026-03-09T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-09T14:00:00",
+    "end": "2026-03-09T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-03-09T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-09T15:30:00",
+    "end": "2026-03-09T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -847,7 +897,7 @@
   {
     "title": "Réveil",
     "start": "2026-03-13T07:00:00",
-    "end": "2026-03-12T09:00:00",
+    "end": "2026-03-13T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -857,7 +907,7 @@
   {
     "title": "Work",
     "start": "2026-03-13T09:00:00",
-    "end": "2026-03-12T10:30:00",
+    "end": "2026-03-13T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -867,7 +917,7 @@
   {
     "title": "Sport",
     "start": "2026-03-13T10:30:00",
-    "end": "2026-03-12T11:30:00",
+    "end": "2026-03-13T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -877,7 +927,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-13T11:30:00",
-    "end": "2026-03-12T14:00:00",
+    "end": "2026-03-13T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -887,7 +937,7 @@
   {
     "title": "Work",
     "start": "2026-03-13T14:00:00",
-    "end": "2026-03-12T15:30:00",
+    "end": "2026-03-13T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -897,7 +947,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-13T15:30:00",
-    "end": "2026-03-12T23:59:00",
+    "end": "2026-03-13T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1125,12 +1175,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-03-16T07:00:00",
+    "end": "2026-03-16T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-16T09:00:00",
+    "end": "2026-03-16T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-03-16T10:30:00",
+    "end": "2026-03-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-16T11:30:00",
+    "end": "2026-03-16T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-16T14:00:00",
+    "end": "2026-03-16T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-03-16T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-16T15:30:00",
+    "end": "2026-03-16T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -1399,7 +1509,7 @@
   {
     "title": "Réveil",
     "start": "2026-03-20T07:00:00",
-    "end": "2026-03-19T09:00:00",
+    "end": "2026-03-20T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1409,7 +1519,7 @@
   {
     "title": "Work",
     "start": "2026-03-20T09:00:00",
-    "end": "2026-03-19T10:30:00",
+    "end": "2026-03-20T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1419,7 +1529,7 @@
   {
     "title": "Sport",
     "start": "2026-03-20T10:30:00",
-    "end": "2026-03-19T11:30:00",
+    "end": "2026-03-20T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1429,7 +1539,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-20T11:30:00",
-    "end": "2026-03-19T14:00:00",
+    "end": "2026-03-20T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1439,7 +1549,7 @@
   {
     "title": "Work",
     "start": "2026-03-20T14:00:00",
-    "end": "2026-03-19T15:30:00",
+    "end": "2026-03-20T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1449,7 +1559,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-20T15:30:00",
-    "end": "2026-03-19T23:59:00",
+    "end": "2026-03-20T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1667,12 +1777,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-03-23T07:00:00",
+    "end": "2026-03-23T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-23T09:00:00",
+    "end": "2026-03-23T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-03-23T10:30:00",
+    "end": "2026-03-23T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-23T11:30:00",
+    "end": "2026-03-23T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-23T14:00:00",
+    "end": "2026-03-23T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-03-23T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-23T15:30:00",
+    "end": "2026-03-23T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -1885,7 +2055,7 @@
   {
     "title": "Réveil",
     "start": "2026-03-27T07:00:00",
-    "end": "2026-03-26T09:00:00",
+    "end": "2026-03-27T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1895,7 +2065,7 @@
   {
     "title": "Work",
     "start": "2026-03-27T09:00:00",
-    "end": "2026-03-26T10:30:00",
+    "end": "2026-03-27T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1905,7 +2075,7 @@
   {
     "title": "Sport",
     "start": "2026-03-27T10:30:00",
-    "end": "2026-03-26T11:30:00",
+    "end": "2026-03-27T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1915,7 +2085,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-27T11:30:00",
-    "end": "2026-03-26T14:00:00",
+    "end": "2026-03-27T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1925,7 +2095,7 @@
   {
     "title": "Work",
     "start": "2026-03-27T14:00:00",
-    "end": "2026-03-26T15:30:00",
+    "end": "2026-03-27T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -1935,7 +2105,7 @@
   {
     "title": "Free Time",
     "start": "2026-03-27T15:30:00",
-    "end": "2026-03-26T23:59:00",
+    "end": "2026-03-27T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2095,12 +2265,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-03-30T07:00:00",
+    "end": "2026-03-30T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-30T09:00:00",
+    "end": "2026-03-30T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-03-30T10:30:00",
+    "end": "2026-03-30T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-30T11:30:00",
+    "end": "2026-03-30T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-03-30T14:00:00",
+    "end": "2026-03-30T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-03-30T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-03-30T15:30:00",
+    "end": "2026-03-30T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -2313,7 +2543,7 @@
   {
     "title": "Réveil",
     "start": "2026-04-03T07:00:00",
-    "end": "2026-04-02T09:00:00",
+    "end": "2026-04-03T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2323,7 +2553,7 @@
   {
     "title": "Work",
     "start": "2026-04-03T09:00:00",
-    "end": "2026-04-02T10:30:00",
+    "end": "2026-04-03T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2333,7 +2563,7 @@
   {
     "title": "Sport",
     "start": "2026-04-03T10:30:00",
-    "end": "2026-04-02T11:30:00",
+    "end": "2026-04-03T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2343,7 +2573,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-03T11:30:00",
-    "end": "2026-04-02T14:00:00",
+    "end": "2026-04-03T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2353,7 +2583,7 @@
   {
     "title": "Work",
     "start": "2026-04-03T14:00:00",
-    "end": "2026-04-02T15:30:00",
+    "end": "2026-04-03T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2363,7 +2593,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-03T15:30:00",
-    "end": "2026-04-02T23:59:00",
+    "end": "2026-04-03T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2514,12 +2744,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-04-06T07:00:00",
+    "end": "2026-04-06T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-06T09:00:00",
+    "end": "2026-04-06T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-06T10:30:00",
+    "end": "2026-04-06T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-06T11:30:00",
+    "end": "2026-04-06T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-06T14:00:00",
+    "end": "2026-04-06T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-04-06T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-06T15:30:00",
+    "end": "2026-04-06T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -2732,7 +3022,7 @@
   {
     "title": "Réveil",
     "start": "2026-04-10T07:00:00",
-    "end": "2026-04-09T09:00:00",
+    "end": "2026-04-10T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2742,7 +3032,7 @@
   {
     "title": "Work",
     "start": "2026-04-10T09:00:00",
-    "end": "2026-04-09T10:30:00",
+    "end": "2026-04-10T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2752,7 +3042,7 @@
   {
     "title": "Sport",
     "start": "2026-04-10T10:30:00",
-    "end": "2026-04-09T11:30:00",
+    "end": "2026-04-10T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2762,7 +3052,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-10T11:30:00",
-    "end": "2026-04-09T14:00:00",
+    "end": "2026-04-10T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2772,7 +3062,7 @@
   {
     "title": "Work",
     "start": "2026-04-10T14:00:00",
-    "end": "2026-04-09T15:30:00",
+    "end": "2026-04-10T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2782,7 +3072,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-10T15:30:00",
-    "end": "2026-04-09T23:59:00",
+    "end": "2026-04-10T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -2942,12 +3232,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-04-13T07:00:00",
+    "end": "2026-04-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-13T09:00:00",
+    "end": "2026-04-13T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-13T10:30:00",
+    "end": "2026-04-13T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-13T11:30:00",
+    "end": "2026-04-13T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-13T14:00:00",
+    "end": "2026-04-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-04-13T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-13T15:30:00",
+    "end": "2026-04-13T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -3160,7 +3510,7 @@
   {
     "title": "Réveil",
     "start": "2026-04-17T07:00:00",
-    "end": "2026-04-16T09:00:00",
+    "end": "2026-04-17T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3170,7 +3520,7 @@
   {
     "title": "Work",
     "start": "2026-04-17T09:00:00",
-    "end": "2026-04-16T10:30:00",
+    "end": "2026-04-17T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3180,7 +3530,7 @@
   {
     "title": "Sport",
     "start": "2026-04-17T10:30:00",
-    "end": "2026-04-16T11:30:00",
+    "end": "2026-04-17T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3190,7 +3540,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-17T11:30:00",
-    "end": "2026-04-16T14:00:00",
+    "end": "2026-04-17T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3200,7 +3550,7 @@
   {
     "title": "Work",
     "start": "2026-04-17T14:00:00",
-    "end": "2026-04-16T15:30:00",
+    "end": "2026-04-17T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3210,7 +3560,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-17T15:30:00",
-    "end": "2026-04-16T23:59:00",
+    "end": "2026-04-17T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3361,12 +3711,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-04-20T07:00:00",
+    "end": "2026-04-20T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-20T09:00:00",
+    "end": "2026-04-20T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-20T10:30:00",
+    "end": "2026-04-20T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-20T11:30:00",
+    "end": "2026-04-20T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-20T14:00:00",
+    "end": "2026-04-20T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-04-20T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-20T15:30:00",
+    "end": "2026-04-20T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -3579,7 +3989,7 @@
   {
     "title": "Réveil",
     "start": "2026-04-24T07:00:00",
-    "end": "2026-04-23T09:00:00",
+    "end": "2026-04-24T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3589,7 +3999,7 @@
   {
     "title": "Work",
     "start": "2026-04-24T09:00:00",
-    "end": "2026-04-23T10:30:00",
+    "end": "2026-04-24T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3599,7 +4009,7 @@
   {
     "title": "Sport",
     "start": "2026-04-24T10:30:00",
-    "end": "2026-04-23T11:30:00",
+    "end": "2026-04-24T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3609,7 +4019,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-24T11:30:00",
-    "end": "2026-04-23T14:00:00",
+    "end": "2026-04-24T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3619,7 +4029,7 @@
   {
     "title": "Work",
     "start": "2026-04-24T14:00:00",
-    "end": "2026-04-23T15:30:00",
+    "end": "2026-04-24T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3629,7 +4039,7 @@
   {
     "title": "Free Time",
     "start": "2026-04-24T15:30:00",
-    "end": "2026-04-23T23:59:00",
+    "end": "2026-04-24T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -3780,12 +4190,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-04-27T07:00:00",
+    "end": "2026-04-27T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-27T09:00:00",
+    "end": "2026-04-27T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-27T10:30:00",
+    "end": "2026-04-27T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-27T11:30:00",
+    "end": "2026-04-27T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-27T14:00:00",
+    "end": "2026-04-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-04-27T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-04-27T15:30:00",
+    "end": "2026-04-27T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -3998,7 +4468,7 @@
   {
     "title": "Réveil",
     "start": "2026-05-01T07:00:00",
-    "end": "2026-04-30T09:00:00",
+    "end": "2026-05-01T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4008,7 +4478,7 @@
   {
     "title": "Work",
     "start": "2026-05-01T09:00:00",
-    "end": "2026-04-30T10:30:00",
+    "end": "2026-05-01T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4018,7 +4488,7 @@
   {
     "title": "Sport",
     "start": "2026-05-01T10:30:00",
-    "end": "2026-04-30T11:30:00",
+    "end": "2026-05-01T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4028,7 +4498,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-01T11:30:00",
-    "end": "2026-04-30T14:00:00",
+    "end": "2026-05-01T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4038,7 +4508,7 @@
   {
     "title": "Work",
     "start": "2026-05-01T14:00:00",
-    "end": "2026-04-30T15:30:00",
+    "end": "2026-05-01T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4048,7 +4518,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-01T15:30:00",
-    "end": "2026-04-30T23:59:00",
+    "end": "2026-05-01T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4199,12 +4669,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-04T07:00:00",
+    "end": "2026-05-04T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-04T09:00:00",
+    "end": "2026-05-04T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-04T10:30:00",
+    "end": "2026-05-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-04T11:30:00",
+    "end": "2026-05-04T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-04T14:00:00",
+    "end": "2026-05-04T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-05-04T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-04T15:30:00",
+    "end": "2026-05-04T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -4417,7 +4947,7 @@
   {
     "title": "Réveil",
     "start": "2026-05-08T07:00:00",
-    "end": "2026-05-07T09:00:00",
+    "end": "2026-05-08T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4427,7 +4957,7 @@
   {
     "title": "Work",
     "start": "2026-05-08T09:00:00",
-    "end": "2026-05-07T10:30:00",
+    "end": "2026-05-08T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4437,7 +4967,7 @@
   {
     "title": "Sport",
     "start": "2026-05-08T10:30:00",
-    "end": "2026-05-07T11:30:00",
+    "end": "2026-05-08T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4447,7 +4977,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-08T11:30:00",
-    "end": "2026-05-07T14:00:00",
+    "end": "2026-05-08T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4457,7 +4987,7 @@
   {
     "title": "Work",
     "start": "2026-05-08T14:00:00",
-    "end": "2026-05-07T15:30:00",
+    "end": "2026-05-08T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4467,7 +4997,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-08T15:30:00",
-    "end": "2026-05-07T23:59:00",
+    "end": "2026-05-08T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4618,12 +5148,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-11T07:00:00",
+    "end": "2026-05-11T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-11T09:00:00",
+    "end": "2026-05-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-11T10:30:00",
+    "end": "2026-05-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-11T11:30:00",
+    "end": "2026-05-11T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-11T14:00:00",
+    "end": "2026-05-11T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-05-11T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-11T15:30:00",
+    "end": "2026-05-11T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -4836,7 +5426,7 @@
   {
     "title": "Réveil",
     "start": "2026-05-15T07:00:00",
-    "end": "2026-05-14T09:00:00",
+    "end": "2026-05-15T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4846,7 +5436,7 @@
   {
     "title": "Work",
     "start": "2026-05-15T09:00:00",
-    "end": "2026-05-14T10:30:00",
+    "end": "2026-05-15T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4856,7 +5446,7 @@
   {
     "title": "Sport",
     "start": "2026-05-15T10:30:00",
-    "end": "2026-05-14T11:30:00",
+    "end": "2026-05-15T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4866,7 +5456,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-15T11:30:00",
-    "end": "2026-05-14T14:00:00",
+    "end": "2026-05-15T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4876,7 +5466,7 @@
   {
     "title": "Work",
     "start": "2026-05-15T14:00:00",
-    "end": "2026-05-14T15:30:00",
+    "end": "2026-05-15T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -4886,7 +5476,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-15T15:30:00",
-    "end": "2026-05-14T23:59:00",
+    "end": "2026-05-15T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5037,12 +5627,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-18T07:00:00",
+    "end": "2026-05-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T09:00:00",
+    "end": "2026-05-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-18T10:30:00",
+    "end": "2026-05-18T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-18T11:30:00",
+    "end": "2026-05-18T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T14:00:00",
+    "end": "2026-05-18T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-05-18T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-18T15:30:00",
+    "end": "2026-05-18T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -5255,7 +5905,7 @@
   {
     "title": "Réveil",
     "start": "2026-05-22T07:00:00",
-    "end": "2026-05-21T09:00:00",
+    "end": "2026-05-22T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5265,7 +5915,7 @@
   {
     "title": "Work",
     "start": "2026-05-22T09:00:00",
-    "end": "2026-05-21T10:30:00",
+    "end": "2026-05-22T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5275,7 +5925,7 @@
   {
     "title": "Sport",
     "start": "2026-05-22T10:30:00",
-    "end": "2026-05-21T11:30:00",
+    "end": "2026-05-22T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5285,7 +5935,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-22T11:30:00",
-    "end": "2026-05-21T14:00:00",
+    "end": "2026-05-22T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5295,7 +5945,7 @@
   {
     "title": "Work",
     "start": "2026-05-22T14:00:00",
-    "end": "2026-05-21T15:30:00",
+    "end": "2026-05-22T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5305,7 +5955,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-22T15:30:00",
-    "end": "2026-05-21T23:59:00",
+    "end": "2026-05-22T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5456,12 +6106,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-25T09:00:00",
+    "end": "2026-05-25T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-25T10:30:00",
+    "end": "2026-05-25T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-25T11:30:00",
+    "end": "2026-05-25T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-25T14:00:00",
+    "end": "2026-05-25T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-05-25T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-05-25T15:30:00",
+    "end": "2026-05-25T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -5674,7 +6384,7 @@
   {
     "title": "Réveil",
     "start": "2026-05-29T07:00:00",
-    "end": "2026-05-28T09:00:00",
+    "end": "2026-05-29T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5684,7 +6394,7 @@
   {
     "title": "Work",
     "start": "2026-05-29T09:00:00",
-    "end": "2026-05-28T10:30:00",
+    "end": "2026-05-29T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5694,7 +6404,7 @@
   {
     "title": "Sport",
     "start": "2026-05-29T10:30:00",
-    "end": "2026-05-28T11:30:00",
+    "end": "2026-05-29T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5704,7 +6414,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-29T11:30:00",
-    "end": "2026-05-28T14:00:00",
+    "end": "2026-05-29T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5714,7 +6424,7 @@
   {
     "title": "Work",
     "start": "2026-05-29T14:00:00",
-    "end": "2026-05-28T15:30:00",
+    "end": "2026-05-29T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5724,7 +6434,7 @@
   {
     "title": "Free Time",
     "start": "2026-05-29T15:30:00",
-    "end": "2026-05-28T23:59:00",
+    "end": "2026-05-29T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -5875,12 +6585,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-01T07:00:00",
+    "end": "2026-06-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-01T09:00:00",
+    "end": "2026-06-01T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-01T10:30:00",
+    "end": "2026-06-01T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-01T11:30:00",
+    "end": "2026-06-01T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-01T14:00:00",
+    "end": "2026-06-01T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-06-01T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-01T15:30:00",
+    "end": "2026-06-01T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -6093,7 +6863,7 @@
   {
     "title": "Réveil",
     "start": "2026-06-05T07:00:00",
-    "end": "2026-06-04T09:00:00",
+    "end": "2026-06-05T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6103,7 +6873,7 @@
   {
     "title": "Work",
     "start": "2026-06-05T09:00:00",
-    "end": "2026-06-04T10:30:00",
+    "end": "2026-06-05T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6113,7 +6883,7 @@
   {
     "title": "Sport",
     "start": "2026-06-05T10:30:00",
-    "end": "2026-06-04T11:30:00",
+    "end": "2026-06-05T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6123,7 +6893,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-05T11:30:00",
-    "end": "2026-06-04T14:00:00",
+    "end": "2026-06-05T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6133,7 +6903,7 @@
   {
     "title": "Work",
     "start": "2026-06-05T14:00:00",
-    "end": "2026-06-04T15:30:00",
+    "end": "2026-06-05T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6143,7 +6913,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-05T15:30:00",
-    "end": "2026-06-04T23:59:00",
+    "end": "2026-06-05T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6294,12 +7064,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-08T07:00:00",
+    "end": "2026-06-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-08T09:00:00",
+    "end": "2026-06-08T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-08T10:30:00",
+    "end": "2026-06-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-08T11:30:00",
+    "end": "2026-06-08T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-08T14:00:00",
+    "end": "2026-06-08T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-06-08T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-08T15:30:00",
+    "end": "2026-06-08T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -6512,7 +7342,7 @@
   {
     "title": "Réveil",
     "start": "2026-06-12T07:00:00",
-    "end": "2026-06-11T09:00:00",
+    "end": "2026-06-12T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6522,7 +7352,7 @@
   {
     "title": "Work",
     "start": "2026-06-12T09:00:00",
-    "end": "2026-06-11T10:30:00",
+    "end": "2026-06-12T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6532,7 +7362,7 @@
   {
     "title": "Sport",
     "start": "2026-06-12T10:30:00",
-    "end": "2026-06-11T11:30:00",
+    "end": "2026-06-12T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6542,7 +7372,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-12T11:30:00",
-    "end": "2026-06-11T14:00:00",
+    "end": "2026-06-12T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6552,7 +7382,7 @@
   {
     "title": "Work",
     "start": "2026-06-12T14:00:00",
-    "end": "2026-06-11T15:30:00",
+    "end": "2026-06-12T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6562,7 +7392,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-12T15:30:00",
-    "end": "2026-06-11T23:59:00",
+    "end": "2026-06-12T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6713,12 +7543,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-15T07:00:00",
+    "end": "2026-06-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-15T09:00:00",
+    "end": "2026-06-15T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-15T10:30:00",
+    "end": "2026-06-15T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-15T11:30:00",
+    "end": "2026-06-15T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-15T14:00:00",
+    "end": "2026-06-15T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-06-15T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-15T15:30:00",
+    "end": "2026-06-15T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -6931,7 +7821,7 @@
   {
     "title": "Réveil",
     "start": "2026-06-19T07:00:00",
-    "end": "2026-06-18T09:00:00",
+    "end": "2026-06-19T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6941,7 +7831,7 @@
   {
     "title": "Work",
     "start": "2026-06-19T09:00:00",
-    "end": "2026-06-18T10:30:00",
+    "end": "2026-06-19T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6951,7 +7841,7 @@
   {
     "title": "Sport",
     "start": "2026-06-19T10:30:00",
-    "end": "2026-06-18T11:30:00",
+    "end": "2026-06-19T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6961,7 +7851,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-19T11:30:00",
-    "end": "2026-06-18T14:00:00",
+    "end": "2026-06-19T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6971,7 +7861,7 @@
   {
     "title": "Work",
     "start": "2026-06-19T14:00:00",
-    "end": "2026-06-18T15:30:00",
+    "end": "2026-06-19T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -6981,7 +7871,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-19T15:30:00",
-    "end": "2026-06-18T23:59:00",
+    "end": "2026-06-19T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7132,12 +8022,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-22T07:00:00",
+    "end": "2026-06-22T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-22T09:00:00",
+    "end": "2026-06-22T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-22T10:30:00",
+    "end": "2026-06-22T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-22T11:30:00",
+    "end": "2026-06-22T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-22T14:00:00",
+    "end": "2026-06-22T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-06-22T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-22T15:30:00",
+    "end": "2026-06-22T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -7350,7 +8300,7 @@
   {
     "title": "Réveil",
     "start": "2026-06-26T07:00:00",
-    "end": "2026-06-25T09:00:00",
+    "end": "2026-06-26T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7360,7 +8310,7 @@
   {
     "title": "Work",
     "start": "2026-06-26T09:00:00",
-    "end": "2026-06-25T10:30:00",
+    "end": "2026-06-26T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7370,7 +8320,7 @@
   {
     "title": "Sport",
     "start": "2026-06-26T10:30:00",
-    "end": "2026-06-25T11:30:00",
+    "end": "2026-06-26T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7380,7 +8330,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-26T11:30:00",
-    "end": "2026-06-25T14:00:00",
+    "end": "2026-06-26T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7390,7 +8340,7 @@
   {
     "title": "Work",
     "start": "2026-06-26T14:00:00",
-    "end": "2026-06-25T15:30:00",
+    "end": "2026-06-26T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7400,7 +8350,7 @@
   {
     "title": "Free Time",
     "start": "2026-06-26T15:30:00",
-    "end": "2026-06-25T23:59:00",
+    "end": "2026-06-26T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7551,12 +8501,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-29T07:00:00",
+    "end": "2026-06-29T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-29T09:00:00",
+    "end": "2026-06-29T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-29T10:30:00",
+    "end": "2026-06-29T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-29T11:30:00",
+    "end": "2026-06-29T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-29T14:00:00",
+    "end": "2026-06-29T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-06-29T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-06-29T15:30:00",
+    "end": "2026-06-29T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -7769,7 +8779,7 @@
   {
     "title": "Réveil",
     "start": "2026-07-03T07:00:00",
-    "end": "2026-07-02T09:00:00",
+    "end": "2026-07-03T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7779,7 +8789,7 @@
   {
     "title": "Work",
     "start": "2026-07-03T09:00:00",
-    "end": "2026-07-02T10:30:00",
+    "end": "2026-07-03T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7789,7 +8799,7 @@
   {
     "title": "Sport",
     "start": "2026-07-03T10:30:00",
-    "end": "2026-07-02T11:30:00",
+    "end": "2026-07-03T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7799,7 +8809,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-03T11:30:00",
-    "end": "2026-07-02T14:00:00",
+    "end": "2026-07-03T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7809,7 +8819,7 @@
   {
     "title": "Work",
     "start": "2026-07-03T14:00:00",
-    "end": "2026-07-02T15:30:00",
+    "end": "2026-07-03T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7819,7 +8829,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-03T15:30:00",
-    "end": "2026-07-02T23:59:00",
+    "end": "2026-07-03T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -7970,12 +8980,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-06T07:00:00",
+    "end": "2026-07-06T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-06T09:00:00",
+    "end": "2026-07-06T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-06T10:30:00",
+    "end": "2026-07-06T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-06T11:30:00",
+    "end": "2026-07-06T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-06T14:00:00",
+    "end": "2026-07-06T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-07-06T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-06T15:30:00",
+    "end": "2026-07-06T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -8188,7 +9258,7 @@
   {
     "title": "Réveil",
     "start": "2026-07-10T07:00:00",
-    "end": "2026-07-09T09:00:00",
+    "end": "2026-07-10T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8198,7 +9268,7 @@
   {
     "title": "Work",
     "start": "2026-07-10T09:00:00",
-    "end": "2026-07-09T10:30:00",
+    "end": "2026-07-10T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8208,7 +9278,7 @@
   {
     "title": "Sport",
     "start": "2026-07-10T10:30:00",
-    "end": "2026-07-09T11:30:00",
+    "end": "2026-07-10T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8218,7 +9288,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-10T11:30:00",
-    "end": "2026-07-09T14:00:00",
+    "end": "2026-07-10T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8228,7 +9298,7 @@
   {
     "title": "Work",
     "start": "2026-07-10T14:00:00",
-    "end": "2026-07-09T15:30:00",
+    "end": "2026-07-10T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8238,7 +9308,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-10T15:30:00",
-    "end": "2026-07-09T23:59:00",
+    "end": "2026-07-10T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8389,12 +9459,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-13T07:00:00",
+    "end": "2026-07-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-13T09:00:00",
+    "end": "2026-07-13T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-13T10:30:00",
+    "end": "2026-07-13T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-13T11:30:00",
+    "end": "2026-07-13T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-13T14:00:00",
+    "end": "2026-07-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-07-13T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-13T15:30:00",
+    "end": "2026-07-13T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -8607,7 +9737,7 @@
   {
     "title": "Réveil",
     "start": "2026-07-17T07:00:00",
-    "end": "2026-07-16T09:00:00",
+    "end": "2026-07-17T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8617,7 +9747,7 @@
   {
     "title": "Work",
     "start": "2026-07-17T09:00:00",
-    "end": "2026-07-16T10:30:00",
+    "end": "2026-07-17T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8627,7 +9757,7 @@
   {
     "title": "Sport",
     "start": "2026-07-17T10:30:00",
-    "end": "2026-07-16T11:30:00",
+    "end": "2026-07-17T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8637,7 +9767,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-17T11:30:00",
-    "end": "2026-07-16T14:00:00",
+    "end": "2026-07-17T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8647,7 +9777,7 @@
   {
     "title": "Work",
     "start": "2026-07-17T14:00:00",
-    "end": "2026-07-16T15:30:00",
+    "end": "2026-07-17T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8657,7 +9787,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-17T15:30:00",
-    "end": "2026-07-16T23:59:00",
+    "end": "2026-07-17T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -8808,12 +9938,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-20T07:00:00",
+    "end": "2026-07-20T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-20T09:00:00",
+    "end": "2026-07-20T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-20T10:30:00",
+    "end": "2026-07-20T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-20T11:30:00",
+    "end": "2026-07-20T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-20T14:00:00",
+    "end": "2026-07-20T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-07-20T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-20T15:30:00",
+    "end": "2026-07-20T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -9026,7 +10216,7 @@
   {
     "title": "Réveil",
     "start": "2026-07-24T07:00:00",
-    "end": "2026-07-23T09:00:00",
+    "end": "2026-07-24T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9036,7 +10226,7 @@
   {
     "title": "Work",
     "start": "2026-07-24T09:00:00",
-    "end": "2026-07-23T10:30:00",
+    "end": "2026-07-24T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9046,7 +10236,7 @@
   {
     "title": "Sport",
     "start": "2026-07-24T10:30:00",
-    "end": "2026-07-23T11:30:00",
+    "end": "2026-07-24T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9056,7 +10246,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-24T11:30:00",
-    "end": "2026-07-23T14:00:00",
+    "end": "2026-07-24T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9066,7 +10256,7 @@
   {
     "title": "Work",
     "start": "2026-07-24T14:00:00",
-    "end": "2026-07-23T15:30:00",
+    "end": "2026-07-24T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9076,7 +10266,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-24T15:30:00",
-    "end": "2026-07-23T23:59:00",
+    "end": "2026-07-24T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9227,12 +10417,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-27T07:00:00",
+    "end": "2026-07-27T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-27T09:00:00",
+    "end": "2026-07-27T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-27T10:30:00",
+    "end": "2026-07-27T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-27T11:30:00",
+    "end": "2026-07-27T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-27T14:00:00",
+    "end": "2026-07-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-07-27T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-07-27T15:30:00",
+    "end": "2026-07-27T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -9445,7 +10695,7 @@
   {
     "title": "Réveil",
     "start": "2026-07-31T07:00:00",
-    "end": "2026-07-30T09:00:00",
+    "end": "2026-07-31T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9455,7 +10705,7 @@
   {
     "title": "Work",
     "start": "2026-07-31T09:00:00",
-    "end": "2026-07-30T10:30:00",
+    "end": "2026-07-31T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9465,7 +10715,7 @@
   {
     "title": "Sport",
     "start": "2026-07-31T10:30:00",
-    "end": "2026-07-30T11:30:00",
+    "end": "2026-07-31T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9475,7 +10725,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-31T11:30:00",
-    "end": "2026-07-30T14:00:00",
+    "end": "2026-07-31T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9485,7 +10735,7 @@
   {
     "title": "Work",
     "start": "2026-07-31T14:00:00",
-    "end": "2026-07-30T15:30:00",
+    "end": "2026-07-31T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9495,7 +10745,7 @@
   {
     "title": "Free Time",
     "start": "2026-07-31T15:30:00",
-    "end": "2026-07-30T23:59:00",
+    "end": "2026-07-31T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9646,12 +10896,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-03T07:00:00",
+    "end": "2026-08-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-03T09:00:00",
+    "end": "2026-08-03T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-03T10:30:00",
+    "end": "2026-08-03T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-03T11:30:00",
+    "end": "2026-08-03T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-03T14:00:00",
+    "end": "2026-08-03T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-08-03T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-03T15:30:00",
+    "end": "2026-08-03T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -9864,7 +11174,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-07T07:00:00",
-    "end": "2026-08-06T09:00:00",
+    "end": "2026-08-07T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9874,7 +11184,7 @@
   {
     "title": "Work",
     "start": "2026-08-07T09:00:00",
-    "end": "2026-08-06T10:30:00",
+    "end": "2026-08-07T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9884,7 +11194,7 @@
   {
     "title": "Sport",
     "start": "2026-08-07T10:30:00",
-    "end": "2026-08-06T11:30:00",
+    "end": "2026-08-07T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9894,7 +11204,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-07T11:30:00",
-    "end": "2026-08-06T14:00:00",
+    "end": "2026-08-07T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9904,7 +11214,7 @@
   {
     "title": "Work",
     "start": "2026-08-07T14:00:00",
-    "end": "2026-08-06T15:30:00",
+    "end": "2026-08-07T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -9914,7 +11224,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-07T15:30:00",
-    "end": "2026-08-06T23:59:00",
+    "end": "2026-08-07T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10065,12 +11375,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-10T09:00:00",
+    "end": "2026-08-10T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-10T10:30:00",
+    "end": "2026-08-10T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-10T11:30:00",
+    "end": "2026-08-10T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-10T14:00:00",
+    "end": "2026-08-10T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-08-10T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-10T15:30:00",
+    "end": "2026-08-10T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -10283,7 +11653,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-14T07:00:00",
-    "end": "2026-08-13T09:00:00",
+    "end": "2026-08-14T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10293,7 +11663,7 @@
   {
     "title": "Work",
     "start": "2026-08-14T09:00:00",
-    "end": "2026-08-13T10:30:00",
+    "end": "2026-08-14T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10303,7 +11673,7 @@
   {
     "title": "Sport",
     "start": "2026-08-14T10:30:00",
-    "end": "2026-08-13T11:30:00",
+    "end": "2026-08-14T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10313,7 +11683,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-14T11:30:00",
-    "end": "2026-08-13T14:00:00",
+    "end": "2026-08-14T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10323,7 +11693,7 @@
   {
     "title": "Work",
     "start": "2026-08-14T14:00:00",
-    "end": "2026-08-13T15:30:00",
+    "end": "2026-08-14T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10333,7 +11703,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-14T15:30:00",
-    "end": "2026-08-13T23:59:00",
+    "end": "2026-08-14T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10484,12 +11854,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-17T07:00:00",
+    "end": "2026-08-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-17T09:00:00",
+    "end": "2026-08-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-17T10:30:00",
+    "end": "2026-08-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-17T11:30:00",
+    "end": "2026-08-17T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-17T14:00:00",
+    "end": "2026-08-17T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-08-17T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-17T15:30:00",
+    "end": "2026-08-17T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -10702,7 +12132,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-21T07:00:00",
-    "end": "2026-08-20T09:00:00",
+    "end": "2026-08-21T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10712,7 +12142,7 @@
   {
     "title": "Work",
     "start": "2026-08-21T09:00:00",
-    "end": "2026-08-20T10:30:00",
+    "end": "2026-08-21T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10722,7 +12152,7 @@
   {
     "title": "Sport",
     "start": "2026-08-21T10:30:00",
-    "end": "2026-08-20T11:30:00",
+    "end": "2026-08-21T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10732,7 +12162,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-21T11:30:00",
-    "end": "2026-08-20T14:00:00",
+    "end": "2026-08-21T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10742,7 +12172,7 @@
   {
     "title": "Work",
     "start": "2026-08-21T14:00:00",
-    "end": "2026-08-20T15:30:00",
+    "end": "2026-08-21T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10752,7 +12182,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-21T15:30:00",
-    "end": "2026-08-20T23:59:00",
+    "end": "2026-08-21T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -10903,12 +12333,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-24T07:00:00",
+    "end": "2026-08-24T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-24T09:00:00",
+    "end": "2026-08-24T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-24T10:30:00",
+    "end": "2026-08-24T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-24T11:30:00",
+    "end": "2026-08-24T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-24T14:00:00",
+    "end": "2026-08-24T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-08-24T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-24T15:30:00",
+    "end": "2026-08-24T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -11121,7 +12611,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-28T07:00:00",
-    "end": "2026-08-27T09:00:00",
+    "end": "2026-08-28T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11131,7 +12621,7 @@
   {
     "title": "Work",
     "start": "2026-08-28T09:00:00",
-    "end": "2026-08-27T10:30:00",
+    "end": "2026-08-28T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11141,7 +12631,7 @@
   {
     "title": "Sport",
     "start": "2026-08-28T10:30:00",
-    "end": "2026-08-27T11:30:00",
+    "end": "2026-08-28T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11151,7 +12641,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-28T11:30:00",
-    "end": "2026-08-27T14:00:00",
+    "end": "2026-08-28T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11161,7 +12651,7 @@
   {
     "title": "Work",
     "start": "2026-08-28T14:00:00",
-    "end": "2026-08-27T15:30:00",
+    "end": "2026-08-28T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11171,7 +12661,7 @@
   {
     "title": "Free Time",
     "start": "2026-08-28T15:30:00",
-    "end": "2026-08-27T23:59:00",
+    "end": "2026-08-28T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11322,12 +12812,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-31T07:00:00",
+    "end": "2026-08-31T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-31T09:00:00",
+    "end": "2026-08-31T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-31T10:30:00",
+    "end": "2026-08-31T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-31T11:30:00",
+    "end": "2026-08-31T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-31T14:00:00",
+    "end": "2026-08-31T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-08-31T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-31T15:30:00",
+    "end": "2026-08-31T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -11540,7 +13090,7 @@
   {
     "title": "Réveil",
     "start": "2026-09-04T07:00:00",
-    "end": "2026-09-03T09:00:00",
+    "end": "2026-09-04T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11550,7 +13100,7 @@
   {
     "title": "Work",
     "start": "2026-09-04T09:00:00",
-    "end": "2026-09-03T10:30:00",
+    "end": "2026-09-04T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11560,7 +13110,7 @@
   {
     "title": "Sport",
     "start": "2026-09-04T10:30:00",
-    "end": "2026-09-03T11:30:00",
+    "end": "2026-09-04T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11570,7 +13120,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-04T11:30:00",
-    "end": "2026-09-03T14:00:00",
+    "end": "2026-09-04T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11580,7 +13130,7 @@
   {
     "title": "Work",
     "start": "2026-09-04T14:00:00",
-    "end": "2026-09-03T15:30:00",
+    "end": "2026-09-04T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11590,7 +13140,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-04T15:30:00",
-    "end": "2026-09-03T23:59:00",
+    "end": "2026-09-04T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11741,12 +13291,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-09-07T07:00:00",
+    "end": "2026-09-07T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-07T09:00:00",
+    "end": "2026-09-07T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-09-07T10:30:00",
+    "end": "2026-09-07T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-07T11:30:00",
+    "end": "2026-09-07T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-07T14:00:00",
+    "end": "2026-09-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-09-07T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-07T15:30:00",
+    "end": "2026-09-07T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -11959,7 +13569,7 @@
   {
     "title": "Réveil",
     "start": "2026-09-11T07:00:00",
-    "end": "2026-09-10T09:00:00",
+    "end": "2026-09-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11969,7 +13579,7 @@
   {
     "title": "Work",
     "start": "2026-09-11T09:00:00",
-    "end": "2026-09-10T10:30:00",
+    "end": "2026-09-11T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11979,7 +13589,7 @@
   {
     "title": "Sport",
     "start": "2026-09-11T10:30:00",
-    "end": "2026-09-10T11:30:00",
+    "end": "2026-09-11T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11989,7 +13599,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-11T11:30:00",
-    "end": "2026-09-10T14:00:00",
+    "end": "2026-09-11T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -11999,7 +13609,7 @@
   {
     "title": "Work",
     "start": "2026-09-11T14:00:00",
-    "end": "2026-09-10T15:30:00",
+    "end": "2026-09-11T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12009,7 +13619,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-11T15:30:00",
-    "end": "2026-09-10T23:59:00",
+    "end": "2026-09-11T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12160,12 +13770,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-09-14T07:00:00",
+    "end": "2026-09-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-14T09:00:00",
+    "end": "2026-09-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-09-14T10:30:00",
+    "end": "2026-09-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-14T11:30:00",
+    "end": "2026-09-14T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-14T14:00:00",
+    "end": "2026-09-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-09-14T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-14T15:30:00",
+    "end": "2026-09-14T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -12378,7 +14048,7 @@
   {
     "title": "Réveil",
     "start": "2026-09-18T07:00:00",
-    "end": "2026-09-17T09:00:00",
+    "end": "2026-09-18T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12388,7 +14058,7 @@
   {
     "title": "Work",
     "start": "2026-09-18T09:00:00",
-    "end": "2026-09-17T10:30:00",
+    "end": "2026-09-18T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12398,7 +14068,7 @@
   {
     "title": "Sport",
     "start": "2026-09-18T10:30:00",
-    "end": "2026-09-17T11:30:00",
+    "end": "2026-09-18T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12408,7 +14078,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-18T11:30:00",
-    "end": "2026-09-17T14:00:00",
+    "end": "2026-09-18T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12418,7 +14088,7 @@
   {
     "title": "Work",
     "start": "2026-09-18T14:00:00",
-    "end": "2026-09-17T15:30:00",
+    "end": "2026-09-18T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12428,7 +14098,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-18T15:30:00",
-    "end": "2026-09-17T23:59:00",
+    "end": "2026-09-18T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12579,12 +14249,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-09-21T07:00:00",
+    "end": "2026-09-21T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-21T09:00:00",
+    "end": "2026-09-21T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-09-21T10:30:00",
+    "end": "2026-09-21T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-21T11:30:00",
+    "end": "2026-09-21T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-21T14:00:00",
+    "end": "2026-09-21T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-09-21T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-21T15:30:00",
+    "end": "2026-09-21T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -12797,7 +14527,7 @@
   {
     "title": "Réveil",
     "start": "2026-09-25T07:00:00",
-    "end": "2026-09-24T09:00:00",
+    "end": "2026-09-25T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12807,7 +14537,7 @@
   {
     "title": "Work",
     "start": "2026-09-25T09:00:00",
-    "end": "2026-09-24T10:30:00",
+    "end": "2026-09-25T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12817,7 +14547,7 @@
   {
     "title": "Sport",
     "start": "2026-09-25T10:30:00",
-    "end": "2026-09-24T11:30:00",
+    "end": "2026-09-25T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12827,7 +14557,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-25T11:30:00",
-    "end": "2026-09-24T14:00:00",
+    "end": "2026-09-25T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12837,7 +14567,7 @@
   {
     "title": "Work",
     "start": "2026-09-25T14:00:00",
-    "end": "2026-09-24T15:30:00",
+    "end": "2026-09-25T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12847,7 +14577,7 @@
   {
     "title": "Free Time",
     "start": "2026-09-25T15:30:00",
-    "end": "2026-09-24T23:59:00",
+    "end": "2026-09-25T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -12998,12 +14728,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-09-28T07:00:00",
+    "end": "2026-09-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-28T09:00:00",
+    "end": "2026-09-28T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-09-28T10:30:00",
+    "end": "2026-09-28T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-28T11:30:00",
+    "end": "2026-09-28T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-09-28T14:00:00",
+    "end": "2026-09-28T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-09-28T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-28T15:30:00",
+    "end": "2026-09-28T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -13216,7 +15006,7 @@
   {
     "title": "Réveil",
     "start": "2026-10-02T07:00:00",
-    "end": "2026-10-01T09:00:00",
+    "end": "2026-10-02T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13226,7 +15016,7 @@
   {
     "title": "Work",
     "start": "2026-10-02T09:00:00",
-    "end": "2026-10-01T10:30:00",
+    "end": "2026-10-02T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13236,7 +15026,7 @@
   {
     "title": "Sport",
     "start": "2026-10-02T10:30:00",
-    "end": "2026-10-01T11:30:00",
+    "end": "2026-10-02T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13246,7 +15036,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-02T11:30:00",
-    "end": "2026-10-01T14:00:00",
+    "end": "2026-10-02T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13256,7 +15046,7 @@
   {
     "title": "Work",
     "start": "2026-10-02T14:00:00",
-    "end": "2026-10-01T15:30:00",
+    "end": "2026-10-02T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13266,7 +15056,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-02T15:30:00",
-    "end": "2026-10-01T23:59:00",
+    "end": "2026-10-02T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13417,12 +15207,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-10-05T07:00:00",
+    "end": "2026-10-05T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-05T09:00:00",
+    "end": "2026-10-05T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-10-05T10:30:00",
+    "end": "2026-10-05T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-05T11:30:00",
+    "end": "2026-10-05T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-05T14:00:00",
+    "end": "2026-10-05T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-10-05T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-05T15:30:00",
+    "end": "2026-10-05T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -13635,7 +15485,7 @@
   {
     "title": "Réveil",
     "start": "2026-10-09T07:00:00",
-    "end": "2026-10-08T09:00:00",
+    "end": "2026-10-09T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13645,7 +15495,7 @@
   {
     "title": "Work",
     "start": "2026-10-09T09:00:00",
-    "end": "2026-10-08T10:30:00",
+    "end": "2026-10-09T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13655,7 +15505,7 @@
   {
     "title": "Sport",
     "start": "2026-10-09T10:30:00",
-    "end": "2026-10-08T11:30:00",
+    "end": "2026-10-09T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13665,7 +15515,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-09T11:30:00",
-    "end": "2026-10-08T14:00:00",
+    "end": "2026-10-09T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13675,7 +15525,7 @@
   {
     "title": "Work",
     "start": "2026-10-09T14:00:00",
-    "end": "2026-10-08T15:30:00",
+    "end": "2026-10-09T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13685,7 +15535,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-09T15:30:00",
-    "end": "2026-10-08T23:59:00",
+    "end": "2026-10-09T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -13836,12 +15686,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-10-12T07:00:00",
+    "end": "2026-10-12T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-12T09:00:00",
+    "end": "2026-10-12T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-10-12T10:30:00",
+    "end": "2026-10-12T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-12T11:30:00",
+    "end": "2026-10-12T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-12T14:00:00",
+    "end": "2026-10-12T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-10-12T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-12T15:30:00",
+    "end": "2026-10-12T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -14054,7 +15964,7 @@
   {
     "title": "Réveil",
     "start": "2026-10-16T07:00:00",
-    "end": "2026-10-15T09:00:00",
+    "end": "2026-10-16T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14064,7 +15974,7 @@
   {
     "title": "Work",
     "start": "2026-10-16T09:00:00",
-    "end": "2026-10-15T10:30:00",
+    "end": "2026-10-16T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14074,7 +15984,7 @@
   {
     "title": "Sport",
     "start": "2026-10-16T10:30:00",
-    "end": "2026-10-15T11:30:00",
+    "end": "2026-10-16T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14084,7 +15994,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-16T11:30:00",
-    "end": "2026-10-15T14:00:00",
+    "end": "2026-10-16T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14094,7 +16004,7 @@
   {
     "title": "Work",
     "start": "2026-10-16T14:00:00",
-    "end": "2026-10-15T15:30:00",
+    "end": "2026-10-16T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14104,7 +16014,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-16T15:30:00",
-    "end": "2026-10-15T23:59:00",
+    "end": "2026-10-16T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14255,12 +16165,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-10-19T07:00:00",
+    "end": "2026-10-19T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-19T09:00:00",
+    "end": "2026-10-19T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-10-19T10:30:00",
+    "end": "2026-10-19T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-19T11:30:00",
+    "end": "2026-10-19T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-19T14:00:00",
+    "end": "2026-10-19T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-10-19T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-19T15:30:00",
+    "end": "2026-10-19T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -14473,7 +16443,7 @@
   {
     "title": "Réveil",
     "start": "2026-10-23T07:00:00",
-    "end": "2026-10-22T09:00:00",
+    "end": "2026-10-23T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14483,7 +16453,7 @@
   {
     "title": "Work",
     "start": "2026-10-23T09:00:00",
-    "end": "2026-10-22T10:30:00",
+    "end": "2026-10-23T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14493,7 +16463,7 @@
   {
     "title": "Sport",
     "start": "2026-10-23T10:30:00",
-    "end": "2026-10-22T11:30:00",
+    "end": "2026-10-23T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14503,7 +16473,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-23T11:30:00",
-    "end": "2026-10-22T14:00:00",
+    "end": "2026-10-23T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14513,7 +16483,7 @@
   {
     "title": "Work",
     "start": "2026-10-23T14:00:00",
-    "end": "2026-10-22T15:30:00",
+    "end": "2026-10-23T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14523,7 +16493,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-23T15:30:00",
-    "end": "2026-10-22T23:59:00",
+    "end": "2026-10-23T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14674,12 +16644,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-10-26T07:00:00",
+    "end": "2026-10-26T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-26T09:00:00",
+    "end": "2026-10-26T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-10-26T10:30:00",
+    "end": "2026-10-26T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-26T11:30:00",
+    "end": "2026-10-26T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-10-26T14:00:00",
+    "end": "2026-10-26T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-10-26T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-26T15:30:00",
+    "end": "2026-10-26T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -14892,7 +16922,7 @@
   {
     "title": "Réveil",
     "start": "2026-10-30T07:00:00",
-    "end": "2026-10-29T09:00:00",
+    "end": "2026-10-30T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14902,7 +16932,7 @@
   {
     "title": "Work",
     "start": "2026-10-30T09:00:00",
-    "end": "2026-10-29T10:30:00",
+    "end": "2026-10-30T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14912,7 +16942,7 @@
   {
     "title": "Sport",
     "start": "2026-10-30T10:30:00",
-    "end": "2026-10-29T11:30:00",
+    "end": "2026-10-30T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14922,7 +16952,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-30T11:30:00",
-    "end": "2026-10-29T14:00:00",
+    "end": "2026-10-30T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14932,7 +16962,7 @@
   {
     "title": "Work",
     "start": "2026-10-30T14:00:00",
-    "end": "2026-10-29T15:30:00",
+    "end": "2026-10-30T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -14942,7 +16972,7 @@
   {
     "title": "Free Time",
     "start": "2026-10-30T15:30:00",
-    "end": "2026-10-29T23:59:00",
+    "end": "2026-10-30T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15093,12 +17123,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-11-02T07:00:00",
+    "end": "2026-11-02T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-02T09:00:00",
+    "end": "2026-11-02T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-11-02T10:30:00",
+    "end": "2026-11-02T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-02T11:30:00",
+    "end": "2026-11-02T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-02T14:00:00",
+    "end": "2026-11-02T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-11-02T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-02T15:30:00",
+    "end": "2026-11-02T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -15311,7 +17401,7 @@
   {
     "title": "Réveil",
     "start": "2026-11-06T07:00:00",
-    "end": "2026-11-05T09:00:00",
+    "end": "2026-11-06T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15321,7 +17411,7 @@
   {
     "title": "Work",
     "start": "2026-11-06T09:00:00",
-    "end": "2026-11-05T10:30:00",
+    "end": "2026-11-06T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15331,7 +17421,7 @@
   {
     "title": "Sport",
     "start": "2026-11-06T10:30:00",
-    "end": "2026-11-05T11:30:00",
+    "end": "2026-11-06T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15341,7 +17431,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-06T11:30:00",
-    "end": "2026-11-05T14:00:00",
+    "end": "2026-11-06T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15351,7 +17441,7 @@
   {
     "title": "Work",
     "start": "2026-11-06T14:00:00",
-    "end": "2026-11-05T15:30:00",
+    "end": "2026-11-06T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15361,7 +17451,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-06T15:30:00",
-    "end": "2026-11-05T23:59:00",
+    "end": "2026-11-06T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15512,12 +17602,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-11-09T07:00:00",
+    "end": "2026-11-09T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-09T09:00:00",
+    "end": "2026-11-09T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-11-09T10:30:00",
+    "end": "2026-11-09T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-09T11:30:00",
+    "end": "2026-11-09T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-09T14:00:00",
+    "end": "2026-11-09T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-11-09T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-09T15:30:00",
+    "end": "2026-11-09T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -15730,7 +17880,7 @@
   {
     "title": "Réveil",
     "start": "2026-11-13T07:00:00",
-    "end": "2026-11-12T09:00:00",
+    "end": "2026-11-13T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15740,7 +17890,7 @@
   {
     "title": "Work",
     "start": "2026-11-13T09:00:00",
-    "end": "2026-11-12T10:30:00",
+    "end": "2026-11-13T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15750,7 +17900,7 @@
   {
     "title": "Sport",
     "start": "2026-11-13T10:30:00",
-    "end": "2026-11-12T11:30:00",
+    "end": "2026-11-13T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15760,7 +17910,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-13T11:30:00",
-    "end": "2026-11-12T14:00:00",
+    "end": "2026-11-13T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15770,7 +17920,7 @@
   {
     "title": "Work",
     "start": "2026-11-13T14:00:00",
-    "end": "2026-11-12T15:30:00",
+    "end": "2026-11-13T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15780,7 +17930,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-13T15:30:00",
-    "end": "2026-11-12T23:59:00",
+    "end": "2026-11-13T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -15931,12 +18081,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-11-16T07:00:00",
+    "end": "2026-11-16T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-16T09:00:00",
+    "end": "2026-11-16T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-11-16T10:30:00",
+    "end": "2026-11-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-16T11:30:00",
+    "end": "2026-11-16T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-16T14:00:00",
+    "end": "2026-11-16T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-11-16T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-16T15:30:00",
+    "end": "2026-11-16T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -16149,7 +18359,7 @@
   {
     "title": "Réveil",
     "start": "2026-11-20T07:00:00",
-    "end": "2026-11-19T09:00:00",
+    "end": "2026-11-20T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16159,7 +18369,7 @@
   {
     "title": "Work",
     "start": "2026-11-20T09:00:00",
-    "end": "2026-11-19T10:30:00",
+    "end": "2026-11-20T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16169,7 +18379,7 @@
   {
     "title": "Sport",
     "start": "2026-11-20T10:30:00",
-    "end": "2026-11-19T11:30:00",
+    "end": "2026-11-20T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16179,7 +18389,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-20T11:30:00",
-    "end": "2026-11-19T14:00:00",
+    "end": "2026-11-20T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16189,7 +18399,7 @@
   {
     "title": "Work",
     "start": "2026-11-20T14:00:00",
-    "end": "2026-11-19T15:30:00",
+    "end": "2026-11-20T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16199,7 +18409,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-20T15:30:00",
-    "end": "2026-11-19T23:59:00",
+    "end": "2026-11-20T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16350,12 +18560,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-11-23T07:00:00",
+    "end": "2026-11-23T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-23T09:00:00",
+    "end": "2026-11-23T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-11-23T10:30:00",
+    "end": "2026-11-23T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-23T11:30:00",
+    "end": "2026-11-23T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-23T14:00:00",
+    "end": "2026-11-23T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-11-23T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-23T15:30:00",
+    "end": "2026-11-23T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -16568,7 +18838,7 @@
   {
     "title": "Réveil",
     "start": "2026-11-27T07:00:00",
-    "end": "2026-11-26T09:00:00",
+    "end": "2026-11-27T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16578,7 +18848,7 @@
   {
     "title": "Work",
     "start": "2026-11-27T09:00:00",
-    "end": "2026-11-26T10:30:00",
+    "end": "2026-11-27T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16588,7 +18858,7 @@
   {
     "title": "Sport",
     "start": "2026-11-27T10:30:00",
-    "end": "2026-11-26T11:30:00",
+    "end": "2026-11-27T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16598,7 +18868,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-27T11:30:00",
-    "end": "2026-11-26T14:00:00",
+    "end": "2026-11-27T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16608,7 +18878,7 @@
   {
     "title": "Work",
     "start": "2026-11-27T14:00:00",
-    "end": "2026-11-26T15:30:00",
+    "end": "2026-11-27T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16618,7 +18888,7 @@
   {
     "title": "Free Time",
     "start": "2026-11-27T15:30:00",
-    "end": "2026-11-26T23:59:00",
+    "end": "2026-11-27T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16769,12 +19039,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-11-30T07:00:00",
+    "end": "2026-11-30T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-30T09:00:00",
+    "end": "2026-11-30T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-11-30T10:30:00",
+    "end": "2026-11-30T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-30T11:30:00",
+    "end": "2026-11-30T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-11-30T14:00:00",
+    "end": "2026-11-30T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-11-30T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-30T15:30:00",
+    "end": "2026-11-30T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -16987,7 +19317,7 @@
   {
     "title": "Réveil",
     "start": "2026-12-04T07:00:00",
-    "end": "2026-12-03T09:00:00",
+    "end": "2026-12-04T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -16997,7 +19327,7 @@
   {
     "title": "Work",
     "start": "2026-12-04T09:00:00",
-    "end": "2026-12-03T10:30:00",
+    "end": "2026-12-04T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17007,7 +19337,7 @@
   {
     "title": "Sport",
     "start": "2026-12-04T10:30:00",
-    "end": "2026-12-03T11:30:00",
+    "end": "2026-12-04T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17017,7 +19347,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-04T11:30:00",
-    "end": "2026-12-03T14:00:00",
+    "end": "2026-12-04T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17027,7 +19357,7 @@
   {
     "title": "Work",
     "start": "2026-12-04T14:00:00",
-    "end": "2026-12-03T15:30:00",
+    "end": "2026-12-04T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17037,7 +19367,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-04T15:30:00",
-    "end": "2026-12-03T23:59:00",
+    "end": "2026-12-04T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17188,12 +19518,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-12-07T07:00:00",
+    "end": "2026-12-07T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-07T09:00:00",
+    "end": "2026-12-07T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-12-07T10:30:00",
+    "end": "2026-12-07T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-07T11:30:00",
+    "end": "2026-12-07T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-07T14:00:00",
+    "end": "2026-12-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-12-07T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-07T15:30:00",
+    "end": "2026-12-07T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -17406,7 +19796,7 @@
   {
     "title": "Réveil",
     "start": "2026-12-11T07:00:00",
-    "end": "2026-12-10T09:00:00",
+    "end": "2026-12-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17416,7 +19806,7 @@
   {
     "title": "Work",
     "start": "2026-12-11T09:00:00",
-    "end": "2026-12-10T10:30:00",
+    "end": "2026-12-11T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17426,7 +19816,7 @@
   {
     "title": "Sport",
     "start": "2026-12-11T10:30:00",
-    "end": "2026-12-10T11:30:00",
+    "end": "2026-12-11T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17436,7 +19826,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-11T11:30:00",
-    "end": "2026-12-10T14:00:00",
+    "end": "2026-12-11T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17446,7 +19836,7 @@
   {
     "title": "Work",
     "start": "2026-12-11T14:00:00",
-    "end": "2026-12-10T15:30:00",
+    "end": "2026-12-11T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17456,7 +19846,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-11T15:30:00",
-    "end": "2026-12-10T23:59:00",
+    "end": "2026-12-11T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17607,12 +19997,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-12-14T07:00:00",
+    "end": "2026-12-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-14T09:00:00",
+    "end": "2026-12-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-12-14T10:30:00",
+    "end": "2026-12-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-14T11:30:00",
+    "end": "2026-12-14T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-14T14:00:00",
+    "end": "2026-12-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-12-14T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-14T15:30:00",
+    "end": "2026-12-14T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -17825,7 +20275,7 @@
   {
     "title": "Réveil",
     "start": "2026-12-18T07:00:00",
-    "end": "2026-12-17T09:00:00",
+    "end": "2026-12-18T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17835,7 +20285,7 @@
   {
     "title": "Work",
     "start": "2026-12-18T09:00:00",
-    "end": "2026-12-17T10:30:00",
+    "end": "2026-12-18T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17845,7 +20295,7 @@
   {
     "title": "Sport",
     "start": "2026-12-18T10:30:00",
-    "end": "2026-12-17T11:30:00",
+    "end": "2026-12-18T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17855,7 +20305,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-18T11:30:00",
-    "end": "2026-12-17T14:00:00",
+    "end": "2026-12-18T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17865,7 +20315,7 @@
   {
     "title": "Work",
     "start": "2026-12-18T14:00:00",
-    "end": "2026-12-17T15:30:00",
+    "end": "2026-12-18T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -17875,7 +20325,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-18T15:30:00",
-    "end": "2026-12-17T23:59:00",
+    "end": "2026-12-18T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18026,12 +20476,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-12-21T07:00:00",
+    "end": "2026-12-21T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-21T09:00:00",
+    "end": "2026-12-21T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-12-21T10:30:00",
+    "end": "2026-12-21T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-21T11:30:00",
+    "end": "2026-12-21T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-21T14:00:00",
+    "end": "2026-12-21T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-12-21T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-21T15:30:00",
+    "end": "2026-12-21T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -18244,7 +20754,7 @@
   {
     "title": "Réveil",
     "start": "2026-12-25T07:00:00",
-    "end": "2026-12-24T09:00:00",
+    "end": "2026-12-25T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18254,7 +20764,7 @@
   {
     "title": "Work",
     "start": "2026-12-25T09:00:00",
-    "end": "2026-12-24T10:30:00",
+    "end": "2026-12-25T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18264,7 +20774,7 @@
   {
     "title": "Sport",
     "start": "2026-12-25T10:30:00",
-    "end": "2026-12-24T11:30:00",
+    "end": "2026-12-25T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18274,7 +20784,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-25T11:30:00",
-    "end": "2026-12-24T14:00:00",
+    "end": "2026-12-25T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18284,7 +20794,7 @@
   {
     "title": "Work",
     "start": "2026-12-25T14:00:00",
-    "end": "2026-12-24T15:30:00",
+    "end": "2026-12-25T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18294,7 +20804,7 @@
   {
     "title": "Free Time",
     "start": "2026-12-25T15:30:00",
-    "end": "2026-12-24T23:59:00",
+    "end": "2026-12-25T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18445,12 +20955,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-12-28T07:00:00",
+    "end": "2026-12-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-28T09:00:00",
+    "end": "2026-12-28T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-12-28T10:30:00",
+    "end": "2026-12-28T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-28T11:30:00",
+    "end": "2026-12-28T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-12-28T14:00:00",
+    "end": "2026-12-28T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-12-28T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-28T15:30:00",
+    "end": "2026-12-28T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -18663,7 +21233,7 @@
   {
     "title": "Réveil",
     "start": "2027-01-01T07:00:00",
-    "end": "2026-12-31T09:00:00",
+    "end": "2027-01-01T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18673,7 +21243,7 @@
   {
     "title": "Work",
     "start": "2027-01-01T09:00:00",
-    "end": "2026-12-31T10:30:00",
+    "end": "2027-01-01T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18683,7 +21253,7 @@
   {
     "title": "Sport",
     "start": "2027-01-01T10:30:00",
-    "end": "2026-12-31T11:30:00",
+    "end": "2027-01-01T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18693,7 +21263,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-01T11:30:00",
-    "end": "2026-12-31T14:00:00",
+    "end": "2027-01-01T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18703,7 +21273,7 @@
   {
     "title": "Work",
     "start": "2027-01-01T14:00:00",
-    "end": "2026-12-31T15:30:00",
+    "end": "2027-01-01T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18713,7 +21283,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-01T15:30:00",
-    "end": "2026-12-31T23:59:00",
+    "end": "2027-01-01T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -18864,12 +21434,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2027-01-04T07:00:00",
+    "end": "2027-01-04T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-04T09:00:00",
+    "end": "2027-01-04T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-01-04T10:30:00",
+    "end": "2027-01-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-04T11:30:00",
+    "end": "2027-01-04T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-04T14:00:00",
+    "end": "2027-01-04T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2027-01-04T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-04T15:30:00",
+    "end": "2027-01-04T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -19082,7 +21712,7 @@
   {
     "title": "Réveil",
     "start": "2027-01-08T07:00:00",
-    "end": "2027-01-07T09:00:00",
+    "end": "2027-01-08T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19092,7 +21722,7 @@
   {
     "title": "Work",
     "start": "2027-01-08T09:00:00",
-    "end": "2027-01-07T10:30:00",
+    "end": "2027-01-08T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19102,7 +21732,7 @@
   {
     "title": "Sport",
     "start": "2027-01-08T10:30:00",
-    "end": "2027-01-07T11:30:00",
+    "end": "2027-01-08T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19112,7 +21742,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-08T11:30:00",
-    "end": "2027-01-07T14:00:00",
+    "end": "2027-01-08T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19122,7 +21752,7 @@
   {
     "title": "Work",
     "start": "2027-01-08T14:00:00",
-    "end": "2027-01-07T15:30:00",
+    "end": "2027-01-08T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19132,7 +21762,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-08T15:30:00",
-    "end": "2027-01-07T23:59:00",
+    "end": "2027-01-08T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19283,12 +21913,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2027-01-11T07:00:00",
+    "end": "2027-01-11T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-11T09:00:00",
+    "end": "2027-01-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-01-11T10:30:00",
+    "end": "2027-01-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-11T11:30:00",
+    "end": "2027-01-11T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-11T14:00:00",
+    "end": "2027-01-11T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2027-01-11T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-11T15:30:00",
+    "end": "2027-01-11T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -19501,7 +22191,7 @@
   {
     "title": "Réveil",
     "start": "2027-01-15T07:00:00",
-    "end": "2027-01-14T09:00:00",
+    "end": "2027-01-15T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19511,7 +22201,7 @@
   {
     "title": "Work",
     "start": "2027-01-15T09:00:00",
-    "end": "2027-01-14T10:30:00",
+    "end": "2027-01-15T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19521,7 +22211,7 @@
   {
     "title": "Sport",
     "start": "2027-01-15T10:30:00",
-    "end": "2027-01-14T11:30:00",
+    "end": "2027-01-15T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19531,7 +22221,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-15T11:30:00",
-    "end": "2027-01-14T14:00:00",
+    "end": "2027-01-15T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19541,7 +22231,7 @@
   {
     "title": "Work",
     "start": "2027-01-15T14:00:00",
-    "end": "2027-01-14T15:30:00",
+    "end": "2027-01-15T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19551,7 +22241,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-15T15:30:00",
-    "end": "2027-01-14T23:59:00",
+    "end": "2027-01-15T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19702,12 +22392,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2027-01-18T07:00:00",
+    "end": "2027-01-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-18T09:00:00",
+    "end": "2027-01-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-01-18T10:30:00",
+    "end": "2027-01-18T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-18T11:30:00",
+    "end": "2027-01-18T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-18T14:00:00",
+    "end": "2027-01-18T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2027-01-18T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-18T15:30:00",
+    "end": "2027-01-18T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -19920,7 +22670,7 @@
   {
     "title": "Réveil",
     "start": "2027-01-22T07:00:00",
-    "end": "2027-01-21T09:00:00",
+    "end": "2027-01-22T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19930,7 +22680,7 @@
   {
     "title": "Work",
     "start": "2027-01-22T09:00:00",
-    "end": "2027-01-21T10:30:00",
+    "end": "2027-01-22T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19940,7 +22690,7 @@
   {
     "title": "Sport",
     "start": "2027-01-22T10:30:00",
-    "end": "2027-01-21T11:30:00",
+    "end": "2027-01-22T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19950,7 +22700,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-22T11:30:00",
-    "end": "2027-01-21T14:00:00",
+    "end": "2027-01-22T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19960,7 +22710,7 @@
   {
     "title": "Work",
     "start": "2027-01-22T14:00:00",
-    "end": "2027-01-21T15:30:00",
+    "end": "2027-01-22T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -19970,7 +22720,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-22T15:30:00",
-    "end": "2027-01-21T23:59:00",
+    "end": "2027-01-22T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20121,12 +22871,72 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2027-01-25T07:00:00",
+    "end": "2027-01-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-25T09:00:00",
+    "end": "2027-01-25T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-01-25T10:30:00",
+    "end": "2027-01-25T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-25T11:30:00",
+    "end": "2027-01-25T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-01-25T14:00:00",
+    "end": "2027-01-25T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2027-01-25T15:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-01-25T15:30:00",
+    "end": "2027-01-25T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -20339,7 +23149,7 @@
   {
     "title": "Réveil",
     "start": "2027-01-29T07:00:00",
-    "end": "2027-01-28T09:00:00",
+    "end": "2027-01-29T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20349,7 +23159,7 @@
   {
     "title": "Work",
     "start": "2027-01-29T09:00:00",
-    "end": "2027-01-28T10:30:00",
+    "end": "2027-01-29T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20359,7 +23169,7 @@
   {
     "title": "Sport",
     "start": "2027-01-29T10:30:00",
-    "end": "2027-01-28T11:30:00",
+    "end": "2027-01-29T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20369,7 +23179,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-29T11:30:00",
-    "end": "2027-01-28T14:00:00",
+    "end": "2027-01-29T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20379,7 +23189,7 @@
   {
     "title": "Work",
     "start": "2027-01-29T14:00:00",
-    "end": "2027-01-28T15:30:00",
+    "end": "2027-01-29T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20389,7 +23199,7 @@
   {
     "title": "Free Time",
     "start": "2027-01-29T15:30:00",
-    "end": "2027-01-28T23:59:00",
+    "end": "2027-01-29T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20537,6 +23347,66 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2027-02-01T07:00:00",
+    "end": "2027-02-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-01T09:00:00",
+    "end": "2027-02-01T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-02-01T10:30:00",
+    "end": "2027-02-01T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-01T11:30:00",
+    "end": "2027-02-01T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-01T14:00:00",
+    "end": "2027-02-01T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-01T15:30:00",
+    "end": "2027-02-01T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
     ]
   },
   {
@@ -20722,7 +23592,7 @@
   {
     "title": "Réveil",
     "start": "2027-02-05T07:00:00",
-    "end": "2027-02-04T09:00:00",
+    "end": "2027-02-05T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20732,7 +23602,7 @@
   {
     "title": "Work",
     "start": "2027-02-05T09:00:00",
-    "end": "2027-02-04T10:30:00",
+    "end": "2027-02-05T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20742,7 +23612,7 @@
   {
     "title": "Sport",
     "start": "2027-02-05T10:30:00",
-    "end": "2027-02-04T11:30:00",
+    "end": "2027-02-05T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20752,7 +23622,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-05T11:30:00",
-    "end": "2027-02-04T14:00:00",
+    "end": "2027-02-05T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20762,7 +23632,7 @@
   {
     "title": "Work",
     "start": "2027-02-05T14:00:00",
-    "end": "2027-02-04T15:30:00",
+    "end": "2027-02-05T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20772,7 +23642,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-05T15:30:00",
-    "end": "2027-02-04T23:59:00",
+    "end": "2027-02-05T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -20853,6 +23723,66 @@
     "title": "Free Time",
     "start": "2027-02-07T11:30:00",
     "end": "2027-02-07T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2027-02-08T07:00:00",
+    "end": "2027-02-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-08T09:00:00",
+    "end": "2027-02-08T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-02-08T10:30:00",
+    "end": "2027-02-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-08T11:30:00",
+    "end": "2027-02-08T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-08T14:00:00",
+    "end": "2027-02-08T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-08T15:30:00",
+    "end": "2027-02-08T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21042,7 +23972,7 @@
   {
     "title": "Réveil",
     "start": "2027-02-12T07:00:00",
-    "end": "2027-02-11T09:00:00",
+    "end": "2027-02-12T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21052,7 +23982,7 @@
   {
     "title": "Work",
     "start": "2027-02-12T09:00:00",
-    "end": "2027-02-11T10:30:00",
+    "end": "2027-02-12T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21062,7 +23992,7 @@
   {
     "title": "Sport",
     "start": "2027-02-12T10:30:00",
-    "end": "2027-02-11T11:30:00",
+    "end": "2027-02-12T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21072,7 +24002,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-12T11:30:00",
-    "end": "2027-02-11T14:00:00",
+    "end": "2027-02-12T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21082,7 +24012,7 @@
   {
     "title": "Work",
     "start": "2027-02-12T14:00:00",
-    "end": "2027-02-11T15:30:00",
+    "end": "2027-02-12T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21092,7 +24022,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-12T15:30:00",
-    "end": "2027-02-11T23:59:00",
+    "end": "2027-02-12T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21173,6 +24103,66 @@
     "title": "Free Time",
     "start": "2027-02-14T11:30:00",
     "end": "2027-02-14T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2027-02-15T07:00:00",
+    "end": "2027-02-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-15T09:00:00",
+    "end": "2027-02-15T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-02-15T10:30:00",
+    "end": "2027-02-15T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-15T11:30:00",
+    "end": "2027-02-15T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-15T14:00:00",
+    "end": "2027-02-15T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-15T15:30:00",
+    "end": "2027-02-15T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21362,7 +24352,7 @@
   {
     "title": "Réveil",
     "start": "2027-02-19T07:00:00",
-    "end": "2027-02-18T09:00:00",
+    "end": "2027-02-19T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21372,7 +24362,7 @@
   {
     "title": "Work",
     "start": "2027-02-19T09:00:00",
-    "end": "2027-02-18T10:30:00",
+    "end": "2027-02-19T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21382,7 +24372,7 @@
   {
     "title": "Sport",
     "start": "2027-02-19T10:30:00",
-    "end": "2027-02-18T11:30:00",
+    "end": "2027-02-19T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21392,7 +24382,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-19T11:30:00",
-    "end": "2027-02-18T14:00:00",
+    "end": "2027-02-19T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21402,7 +24392,7 @@
   {
     "title": "Work",
     "start": "2027-02-19T14:00:00",
-    "end": "2027-02-18T15:30:00",
+    "end": "2027-02-19T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21412,7 +24402,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-19T15:30:00",
-    "end": "2027-02-18T23:59:00",
+    "end": "2027-02-19T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21493,6 +24483,66 @@
     "title": "Free Time",
     "start": "2027-02-21T11:30:00",
     "end": "2027-02-21T23:59:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2027-02-22T07:00:00",
+    "end": "2027-02-22T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-22T09:00:00",
+    "end": "2027-02-22T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2027-02-22T10:30:00",
+    "end": "2027-02-22T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-22T11:30:00",
+    "end": "2027-02-22T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "free"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2027-02-22T14:00:00",
+    "end": "2027-02-22T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2027-02-22T15:30:00",
+    "end": "2027-02-22T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21682,7 +24732,7 @@
   {
     "title": "Réveil",
     "start": "2027-02-26T07:00:00",
-    "end": "2027-02-25T09:00:00",
+    "end": "2027-02-26T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21692,7 +24742,7 @@
   {
     "title": "Work",
     "start": "2027-02-26T09:00:00",
-    "end": "2027-02-25T10:30:00",
+    "end": "2027-02-26T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21702,7 +24752,7 @@
   {
     "title": "Sport",
     "start": "2027-02-26T10:30:00",
-    "end": "2027-02-25T11:30:00",
+    "end": "2027-02-26T11:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21712,7 +24762,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-26T11:30:00",
-    "end": "2027-02-25T14:00:00",
+    "end": "2027-02-26T14:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21722,7 +24772,7 @@
   {
     "title": "Work",
     "start": "2027-02-26T14:00:00",
-    "end": "2027-02-25T15:30:00",
+    "end": "2027-02-26T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
@@ -21732,7 +24782,7 @@
   {
     "title": "Free Time",
     "start": "2027-02-26T15:30:00",
-    "end": "2027-02-25T23:59:00",
+    "end": "2027-02-26T23:59:00",
     "source": "Anime (sheet)",
     "url": "",
     "tags": [
