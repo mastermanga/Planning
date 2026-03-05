@@ -1,15 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-03-05T09:00:00",
-    "end": "2026-03-05T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-03-05T10:30:00",
     "end": "2026-03-05T11:30:00",
@@ -2404,17 +2394,6 @@
     ]
   },
   {
-    "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
-    "start": "2026-04-04T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-04T07:00:00",
     "end": "2026-04-04T09:00:00",
@@ -2461,6 +2440,17 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
+    "start": "2026-04-04T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
     ]
   },
   {
