@@ -1,27 +1,5 @@
 [
   {
-    "title": "Domingo — ZACK EN ROUE LIBRE CHEZ ZACK NANI",
-    "start": "2026-03-04T19:00:00.000Z",
-    "end": "2026-03-04T21:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Nottingham Forest FC",
-    "start": "2026-03-04T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-05T07:00:00",
     "end": "2026-03-05T09:00:00",
@@ -2511,6 +2489,50 @@
     "url": "https://mastermanga.github.io/AnimeTracker/",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-04-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] RCD Mallorca vs Real Madrid CF",
+    "start": "2026-04-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Toulouse FC",
+    "start": "2026-04-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs OGC Nice",
+    "start": "2026-04-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
