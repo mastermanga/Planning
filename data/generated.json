@@ -1,14 +1,5 @@
 [
   {
-    "title": "JJK",
-    "start": "2026-03-05T17:50:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTracker/",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "JDR Ombre",
     "start": "2026-03-05T20:30:00",
     "source": "Anime (sheet)",
@@ -1412,7 +1403,7 @@
   },
   {
     "title": "⚽ [Ligue 1] OGC Nice vs Paris Saint-Germain FC",
-    "start": "2026-03-22T00:00:00Z",
+    "start": "2026-03-21T20:05:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "tags": [
