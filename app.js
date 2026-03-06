@@ -13,6 +13,7 @@
   const todayBtn = $("#todayBtn");
   const refreshBtn = $("#refresh");
   const notifBtn = $("#notif");
+  const missedListEl = $("#missedList");
 
   if (!calendarEl) {
     console.error("❌ #calendar introuvable dans le DOM.");
@@ -26,6 +27,9 @@
   // ---------- URLs fixes ----------
   const LOL_URL = "https://www.twitch.tv/traytonlol";
   const FOOT_URL = "https://www.fctv33.quest/fr";
+
+  // ---------- Storage ----------
+  const MISSED_STORAGE_KEY = "planning_seen_anime";
 
   // ---------- Helpers ----------
   const lower = (v) => String(v ?? "").toLowerCase();
@@ -228,6 +232,102 @@
     };
   };
 
+  const isAnimeEvent = (e) => {
+    const tags = uniqLowerTags(e.tags || e.extendedProps?.tags || []);
+    const source = lower(e.source || e.extendedProps?.source || "");
+    return tags.includes("anime") || source.includes("anime");
+  };
+
+  const getEventStorageId = (e) => {
+    const rawTitle = e.rawTitle || e.extendedProps?.rawTitle || e.title || "";
+    const source = e.source || e.extendedProps?.source || "";
+    const start = e.start instanceof Date ? e.start.toISOString() : e.start || "";
+    return `${source}|${rawTitle}|${start}`.toLowerCase();
+  };
+
+  function loadSeenAnime() {
+    try {
+      const raw = localStorage.getItem(MISSED_STORAGE_KEY);
+      const arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveSeenAnime(set) {
+    try {
+      localStorage.setItem(MISSED_STORAGE_KEY, JSON.stringify(Array.from(set)));
+    } catch (e) {
+      console.warn("Impossible de sauvegarder les animés vus :", e);
+    }
+  }
+
+  function renderMissedAnime() {
+    if (!missedListEl) return;
+
+    const seen = loadSeenAnime();
+    const now = Date.now();
+
+    const missed = allEvents
+      .filter(e => isAnimeEvent(e))
+      .filter(e => {
+        const start = new Date(e.start).getTime();
+        return Number.isFinite(start) && start <= now;
+      })
+      .filter(e => !seen.has(getEventStorageId(e)))
+      .sort((a, b) => new Date(a.start) - new Date(b.start));
+
+    missedListEl.innerHTML = "";
+
+    if (missed.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "missedEmpty";
+      empty.textContent = "Rien à rattraper";
+      missedListEl.appendChild(empty);
+      return;
+    }
+
+    missed.forEach(e => {
+      const item = document.createElement("button");
+      item.className = "missedItem";
+      item.type = "button";
+      item.title = "Cliquer pour marquer comme vu";
+
+      const name = document.createElement("span");
+      name.className = "missedItemTitle";
+      name.textContent = e.title;
+
+      const meta = document.createElement("span");
+      meta.className = "missedItemMeta";
+
+      const d = new Date(e.start);
+      const dateTxt = Number.isFinite(d.getTime())
+        ? d.toLocaleString("fr-FR", {
+            weekday: "short",
+            day: "2-digit",
+            month: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit"
+          })
+        : "";
+
+      meta.textContent = dateTxt;
+
+      item.appendChild(name);
+      item.appendChild(meta);
+
+      item.addEventListener("click", () => {
+        const updated = loadSeenAnime();
+        updated.add(getEventStorageId(e));
+        saveSeenAnime(updated);
+        renderMissedAnime();
+      });
+
+      missedListEl.appendChild(item);
+    });
+  }
+
   // ---------- State ----------
   let allEvents = [];
   let searchTerm = "";
@@ -316,10 +416,12 @@
       }
 
       applyFilters();
+      renderMissedAnime();
     } catch (e) {
       console.error(e);
       allEvents = [];
       applyFilters();
+      renderMissedAnime();
 
       setStatus(
         "Erreur de chargement de data/generated.json. " +
@@ -430,6 +532,10 @@
       }
     }
   }, 30_000);
+
+  setInterval(() => {
+    renderMissedAnime();
+  }, 60_000);
 
   // ---------- Go ----------
   loadEvents();
