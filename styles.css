@@ -343,3 +343,91 @@ body::before {
   --c-default:#607D8B;
 }
 
+/* === À rattraper === */
+.missedSection {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 140px;
+}
+
+.missedHeader {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(10, 18, 26, 0.45);
+  border: 1px solid rgba(255,255,255,0.10);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.08);
+}
+
+.missedList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.missedItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+  padding: 10px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  text-align: left;
+
+  background: color-mix(in srgb, var(--c-anime) 20%, rgba(0,0,0,.35));
+  border: 1px solid color-mix(in srgb, var(--c-anime) 48%, rgba(255,255,255,0.10));
+  border-left: 4px solid var(--c-anime);
+  color: #f3ecff;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.22);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.missedItem:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px rgba(0,0,0,.28);
+  border-color: color-mix(in srgb, var(--c-anime) 68%, rgba(255,255,255,0.12));
+}
+
+.missedItemTitle {
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.missedItemMeta {
+  font-size: 0.8rem;
+  opacity: 0.82;
+  line-height: 1.2;
+}
+
+.missedEmpty {
+  padding: 8px 4px;
+  font-size: 0.9rem;
+  opacity: 0.72;
+  text-align: center;
+}
+
+/* scrollbar discrète */
+.missedList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.missedList::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.14);
+  border-radius: 999px;
+}
+
+.missedList::-webkit-scrollbar-track {
+  background: transparent;
+}
