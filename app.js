@@ -106,7 +106,6 @@
     let title = String(rawTitle || "");
 
     title = title.replace(/^⚽\s*/u, "");
-    // enlève le premier [....] en début (ex: [LEC], [LCK], [Ligue 1], etc.)
     title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
 
     const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
@@ -153,23 +152,18 @@
     const source = lower(ev.extendedProps?.source || "");
     const text = `${title} ${rawTitle}`.trim();
 
-    // Priorité: importants
     if (tags.includes("geng") || /\bgeng\b/.test(text) || /\bgen\.?\s*g\b/.test(text)) return CATS.geng;
     if (tags.includes("fnatic") || /\bfnatic\b/.test(text)) return CATS.fnatic;
     if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
 
-    // LoL (LEC+LCK même couleur)
     if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
 
-    // Twitch : pas de générique => uniquement si identifié précisément
     if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
     if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
     if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
 
-    // Anime
     if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
 
-    // Foot/LDC (même couleur)
     if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
 
     return CATS.def;
@@ -186,11 +180,9 @@
 
         const source = e.source ? String(e.source) : "";
 
-        // URL: Twitch => enlever /schedule
         let url = e.url ? String(e.url) : "";
         url = stripTwitchSchedule(url);
 
-        // Overrides demandés
         if (isLoLEvent(tags, rawTitle, source)) url = LOL_URL;
         if (isFootEvent(tags, rawTitle, source)) url = FOOT_URL;
 
@@ -203,6 +195,7 @@
           end: e.end || null,
           source,
           url,
+          googleSheetUrl: e.googleSheetUrl ? String(e.googleSheetUrl) : "",
           tags
         };
       });
@@ -234,8 +227,7 @@
 
   const isAnimeEvent = (e) => {
     const tags = uniqLowerTags(e.tags || e.extendedProps?.tags || []);
-    const source = lower(e.source || e.extendedProps?.source || "");
-    return tags.includes("anime") || source.includes("anime");
+    return tags.includes("anime");
   };
 
   const getEventStorageId = (e) => {
@@ -292,7 +284,7 @@
       const item = document.createElement("button");
       item.className = "missedItem";
       item.type = "button";
-      item.title = "Cliquer pour marquer comme vu";
+      item.title = "Cliquer pour ouvrir et marquer comme vu";
 
       const name = document.createElement("span");
       name.className = "missedItemTitle";
@@ -318,6 +310,17 @@
       item.appendChild(meta);
 
       item.addEventListener("click", () => {
+        const url1 = String(e.url || "").trim();
+        const url2 = String(e.googleSheetUrl || "").trim();
+
+        if (url1) {
+          window.open(url1, "_blank", "noopener,noreferrer");
+        }
+
+        if (url2) {
+          window.open(url2, "_blank", "noopener,noreferrer");
+        }
+
         const updated = loadSeenAnime();
         updated.add(getEventStorageId(e));
         saveSeenAnime(updated);
@@ -355,8 +358,6 @@
     eventDidMount: (info) => {
       const cat = getCategory(info.event);
       info.el.style.setProperty("--event-color", `var(${cat.cssVar})`);
-
-      // important events (glow)
       info.el.classList.toggle("is-important", !!cat.important);
     },
 
@@ -452,6 +453,7 @@
           source: e.source || "",
           tags: e.tags || [],
           url: e.url || "",
+          googleSheetUrl: e.googleSheetUrl || "",
           rawTitle: e.rawTitle || ""
         }
       });
