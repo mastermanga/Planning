@@ -233,6 +233,7 @@ async function fetchAnimeFromSheet() {
   const iTags = idx("tags");
   const iUrl = idx("url");
   const iRepeat = idx("repeat");
+  const iGoogleSheet = idx("google sheet");
 
   if (iTitle === -1 || iStart === -1) {
     throw new Error("Google sheet: colonnes minimales 'title' et 'start' introuvables");
@@ -248,6 +249,7 @@ async function fetchAnimeFromSheet() {
 
     const end0 = iEnd !== -1 ? toIsoLocalFromSheet(row[iEnd]) : null;
     const url = iUrl !== -1 ? normSpaces(row[iUrl]) : "";
+    const googleSheetUrl = iGoogleSheet !== -1 ? normSpaces(row[iGoogleSheet]) : "";
     const tagsRaw = iTags !== -1 ? normSpaces(row[iTags]) : "";
     const repeatRaw = iRepeat !== -1 ? normSpaces(row[iRepeat]) : "";
 
@@ -262,6 +264,7 @@ async function fetchAnimeFromSheet() {
       end: end0 || undefined,
       source: "Anime (sheet)",
       url,
+      googleSheetUrl,
       tags,
     };
 
@@ -300,11 +303,8 @@ function twitchIcalUrl(broadcasterId) {
  */
 function normalizeTwitchIcs(icsText) {
   return String(icsText || "")
-    // TZID=/America/New_York  -> TZID=America/New_York
     .replace(/TZID=\/([^:;]+)/g, "TZID=$1")
-    // TZID="/America/New_York" -> TZID="America/New_York" (au cas où)
     .replace(/TZID="\/([^"]+)"/g, 'TZID="$1"')
-    // X-WR-TIMEZONE:/America/New_York -> X-WR-TIMEZONE:America/New_York
     .replace(/X-WR-TIMEZONE:\/([^\r\n]+)/g, "X-WR-TIMEZONE:$1");
 }
 
@@ -323,7 +323,6 @@ async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
     const item = parsed[k];
     if (item?.type !== "VEVENT") continue;
 
-    // node-ical donne des Date (instant exact) si la timezone a été comprise
     const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
     const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : undefined);
 
@@ -429,7 +428,6 @@ function watchedTeamTag(teamName) {
       const a = normName(alias);
       if (!a) continue;
       if (n === a) return t.tag;
-      // matching souple (ex: "fc barcelona" contient "barcelona")
       if (n.includes(a) || a.includes(n)) return t.tag;
     }
   }
@@ -481,12 +479,11 @@ async function fetchFootMatchesFootballData() {
       const tagHome = watchedTeamTag(home);
       const tagAway = watchedTeamTag(away);
 
-      // on ne garde que les matchs où au moins une équipe est suivie
       if (!tagHome && !tagAway) continue;
 
       out.push({
         title: `⚽ [${compName}] ${home} vs ${away}`,
-        start, // UTC ISO (Z)
+        start,
         end: undefined,
         source: "football-data.org",
         url: "https://www.football-data.org/",
@@ -515,21 +512,15 @@ async function main() {
     }
   }
 
-  // Anime from sheet
   await run("Anime (sheet)", fetchAnimeFromSheet);
 
-  // Twitch
   for (const ch of TWITCH_CHANNELS) {
     await run(`Twitch:${ch.user}`, () => fetchTwitchChannel(ch));
   }
 
-  // Lolix
   await run("lolix.gg", fetchLolixMatches);
-
-  // Foot via football-data.org
   await run("football-data.org (foot)", fetchFootMatchesFootballData);
 
-  // Normalize + filter
   const cleaned = dedupe(all)
     .filter(ev => ev?.title && ev?.start)
     .filter(ev => !isTooOld(ev.start))
@@ -539,6 +530,7 @@ async function main() {
       end: ev.end,
       source: normSpaces(ev.source || "unknown"),
       url: ev.url || "",
+      googleSheetUrl: ev.googleSheetUrl || "",
       tags: safeTags(ev.tags).map(t => String(t).toLowerCase()),
     }))
     .sort((a, b) => new Date(a.start) - new Date(b.start));
