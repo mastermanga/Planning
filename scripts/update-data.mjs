@@ -22,6 +22,10 @@ const SHEET_PUBHTML =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vT36bHnWhI-sdvq6NOmAyYU1BQZJT4WAsIYozR7fnARi_xBgU0keZw0mTF-N3s3x7V5tcaAofqO78Aq/pubhtml";
 const SHEET_CSV = SHEET_PUBHTML.replace(/\/pubhtml.*$/i, "/pub?output=csv");
 
+// Apps Script API (Feuille 2 "À rattraper")
+const MISSED_API_URL =
+  "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
+
 // Repeat weekly horizon
 const REPEAT_WEEKS = 52;
 
@@ -114,6 +118,32 @@ function dedupe(events) {
     out.push(ev);
   }
   return out;
+}
+
+function lower(v) {
+  return String(v ?? "").toLowerCase();
+}
+
+function uniqLowerTags(tags) {
+  if (!Array.isArray(tags)) return [];
+  return Array.from(new Set(tags.map(t => lower(t)).filter(Boolean)));
+}
+
+function isAnimeEvent(ev) {
+  const tags = uniqLowerTags(ev.tags || []);
+  return tags.includes("anime");
+}
+
+function formatStartForMissedSheet(startValue) {
+  const d = new Date(startValue);
+  if (!Number.isFinite(d.getTime())) return String(startValue || "");
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const dd = String(d.getDate()).padStart(2, "0");
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mi = String(d.getMinutes()).padStart(2, "0");
+  const ss = String(d.getSeconds()).padStart(2, "0");
+  return `${yyyy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
 }
 
 // ------------------ CSV (simple parser) ------------------
@@ -495,6 +525,76 @@ async function fetchFootMatchesFootballData() {
   return dedupe(out);
 }
 
+// ------------------ Missed anime sheet sync ------------------
+async function fetchExistingMissedKeys() {
+  const res = await fetchWithTimeout(MISSED_API_URL, {
+    headers: { "user-agent": UA }
+  }, 20000);
+
+  if (!res.ok) {
+    throw new Error(`Missed sheet GET HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+  if (!Array.isArray(data)) return new Set();
+
+  return new Set(
+    data
+      .map(item => lower(item?.key))
+      .filter(Boolean)
+  );
+}
+
+async function addMissedAnimeToSheet(ev) {
+  const payload = {
+    action: "add",
+    key: makeKey(ev),
+    anime: normSpaces(ev.title),
+    start: formatStartForMissedSheet(ev.start),
+    url: ev.url || ""
+  };
+
+  const res = await fetchWithTimeout(MISSED_API_URL, {
+    method: "POST",
+    headers: {
+      "user-agent": UA,
+      "content-type": "text/plain;charset=utf-8"
+    },
+    body: JSON.stringify(payload)
+  }, 20000);
+
+  if (!res.ok) {
+    throw new Error(`Missed sheet POST HTTP ${res.status}`);
+  }
+
+  return res.text();
+}
+
+async function syncMissedAnime(events) {
+  const existingKeys = await fetchExistingMissedKeys();
+
+  const candidates = dedupe(events)
+    .filter(ev => ev?.title && ev?.start)
+    .filter(ev => isAnimeEvent(ev))
+    .filter(ev => {
+      const t = new Date(ev.start).getTime();
+      return Number.isFinite(t) && t <= Date.now();
+    });
+
+  let added = 0;
+
+  for (const ev of candidates) {
+    const key = makeKey(ev);
+    if (existingKeys.has(key)) continue;
+
+    await addMissedAnimeToSheet(ev);
+    existingKeys.add(key);
+    added++;
+  }
+
+  return { added, totalCandidates: candidates.length };
+}
+
 // ------------------ MAIN ------------------
 async function main() {
   const errors = [];
@@ -535,6 +635,16 @@ async function main() {
     }))
     .sort((a, b) => new Date(a.start) - new Date(b.start));
 
+  let missedSync = { added: 0, totalCandidates: 0 };
+  try {
+    missedSync = await syncMissedAnime(cleaned);
+  } catch (e) {
+    errors.push(`missed-anime-sync: ${e?.message || String(e)}`);
+  }
+
+  counts["missed_anime_added"] = missedSync.added;
+  counts["missed_anime_candidates"] = missedSync.totalCandidates;
+
   await writeJSON(OUT_EVENTS, cleaned);
   await writeJSON(OUT_STATUS, {
     generatedAt: new Date().toISOString(),
@@ -544,6 +654,7 @@ async function main() {
   });
 
   console.log(`Wrote ${cleaned.length} events -> ${OUT_EVENTS}`);
+  console.log(`Missed anime sync: added ${missedSync.added}/${missedSync.totalCandidates}`);
   if (errors.length) console.warn("Errors:", errors);
 }
 
