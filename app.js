@@ -120,7 +120,6 @@
     return title || String(rawTitle || "");
   };
 
-  // --- Catégorisation : badge + couleur + important ---
   const CATS = {
     geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
     fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
@@ -197,6 +196,13 @@
 
   const makeId = (e) => `${e.source}|${e.start}|${e.rawTitle}`.toLowerCase();
 
+  const makeMissedKeyFromCalendarEvent = (ev) => {
+    const source = ev.extendedProps?.source || "";
+    const rawTitle = ev.extendedProps?.rawTitle || ev.title || "";
+    const start = ev.start instanceof Date ? ev.start.toISOString() : "";
+    return `${source}|${rawTitle}|${start}`.toLowerCase();
+  };
+
   const setStatus = (msg) => {
     if (statusEl) statusEl.textContent = msg;
   };
@@ -249,6 +255,11 @@
       .sort((a, b) => new Date(a.start) - new Date(b.start));
   }
 
+  async function fetchMissedKeysSet() {
+    const list = await fetchMissedAnime();
+    return new Set(list.map(item => lower(item.key)).filter(Boolean));
+  }
+
   async function deleteMissedAnime(key) {
     const r = await fetch(MISSED_API_URL, {
       method: "POST",
@@ -259,6 +270,37 @@
         action: "delete",
         key
       })
+    });
+
+    if (!r.ok) {
+      throw new Error(`Missed API POST ${r.status}`);
+    }
+
+    return r.text();
+  }
+
+  async function addMissedAnimeFromCalendarEvent(ev) {
+    const tags = uniqLowerTags(ev.extendedProps?.tags || []);
+    if (!tags.includes("anime")) return;
+
+    const key = makeMissedKeyFromCalendarEvent(ev);
+    const existingKeys = await fetchMissedKeysSet();
+    if (existingKeys.has(key)) return;
+
+    const payload = {
+      action: "add",
+      key,
+      anime: ev.title || "",
+      start: ev.start instanceof Date ? ev.start.toISOString() : "",
+      url: ev.extendedProps?.url || ""
+    };
+
+    const r = await fetch(MISSED_API_URL, {
+      method: "POST",
+      headers: {
+        "content-type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify(payload)
     });
 
     if (!r.ok) {
@@ -493,7 +535,7 @@
     applyFilters();
   }, 200));
 
-  // ---------- Notifications (optionnel) ----------
+  // ---------- Notifications ----------
   async function toggleNotifications() {
     if (!("Notification" in window)) {
       alert("Les notifications ne sont pas supportées sur ce navigateur.");
@@ -513,7 +555,7 @@
 
   notifBtn?.addEventListener("click", toggleNotifications);
 
-  setInterval(() => {
+  setInterval(async () => {
     if (!notificationsEnabled) return;
 
     const now = Date.now();
@@ -529,6 +571,13 @@
 
         const src = ev.extendedProps?.source ? ` (${ev.extendedProps.source})` : "";
         new Notification(`📅 ${ev.title}${src}`);
+
+        try {
+          await addMissedAnimeFromCalendarEvent(ev);
+          await renderMissedAnime();
+        } catch (e) {
+          console.error("Erreur ajout Feuille 2 :", e);
+        }
       }
     }
   }, 30_000);
