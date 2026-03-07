@@ -20,55 +20,191 @@
     return;
   }
   if (!window.FullCalendar) {
-    console.error("❌ FullCalendar introuvable.");
+    console.error("❌ FullCalendar introuvable. Vérifie le script CDN.");
     return;
   }
 
-  const MISSED_API_URL =
-    "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
-
+  // ---------- URLs fixes ----------
   const LOL_URL = "https://www.twitch.tv/traytonlol";
   const FOOT_URL = "https://www.fctv33.quest/fr";
 
-  const lower = (v) => String(v ?? "").toLowerCase();
+  // ---------- API ----------
+  const MISSED_API_URL =
+    "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
 
-  const uniqLowerTags = (tags) => {
-    if (!Array.isArray(tags)) return [];
-    return Array.from(new Set(tags.map(t => lower(t)).filter(Boolean)));
-  };
+  // ---------- Helpers ----------
+  const lower = (v) => String(v ?? "").toLowerCase();
 
   const stripTwitchSchedule = (url) => {
     const u = String(url || "").trim();
     if (!u) return "";
-    return u.replace(/^(https?:\/\/)?(www\.)?twitch\.tv\/([^\/?#]+)\/schedule\/?$/i,
-      (m, p1, p2, channel) => {
-        const proto = p1 || "https://";
-        const www = p2 || "";
-        return `${proto}${www}twitch.tv/${channel}`;
-      }
+    return u.replace(/^(https?:\/\/)?(www\.)?twitch\.tv\/([^\/?#]+)\/schedule\/?$/i, (m, p1, p2, channel) => {
+      const proto = p1 || "https://";
+      const www = p2 || "";
+      return `${proto}${www}twitch.tv/${channel}`;
+    });
+  };
+
+  const uniqLowerTags = (tags) => {
+    if (!Array.isArray(tags)) return [];
+    const s = new Set(tags.map(t => lower(t)).filter(Boolean));
+    return Array.from(s);
+  };
+
+  const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
+    const out = new Set(existingTags.map(lower));
+    const t = String(rawTitle || "");
+
+    // LoL
+    if (/\[\s*lec\s*\]/i.test(t) || /\blec\b/i.test(t)) out.add("lec");
+    if (/\[\s*lck\s*\]/i.test(t) || /\blck\b/i.test(t)) out.add("lck");
+    if (/\bfnatic\b/i.test(t)) out.add("fnatic");
+    if (/\bgen\.?\s*g\b/i.test(t) || /\bgeng\b/i.test(t)) out.add("geng");
+
+    // Barca
+    if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
+
+    // Twitch
+    if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
+    if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
+    if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) { out.add("twitch"); out.add("joueur_du_grenier"); }
+
+    // Foot/LDC
+    if (/ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|ldc|champions\s*league/i.test(t) || /^⚽/u.test(t)) {
+      out.add("foot");
+    }
+    if (/\bldc\b/i.test(t) || /champions\s*league/i.test(t)) out.add("ldc");
+
+    return Array.from(out);
+  };
+
+  const isLoLEvent = (tags, rawTitle, source) => {
+    const t = lower(rawTitle);
+    const s = lower(source);
+    return (
+      tags.includes("lec") || tags.includes("lck") || tags.includes("geng") || tags.includes("fnatic") ||
+      /\[\s*(lec|lck)\s*\]/i.test(rawTitle) || /\b(lec|lck)\b/i.test(t) ||
+      /\bgeng\b/i.test(t) || /\bgen\.?\s*g\b/i.test(t) || /\bfnatic\b/i.test(t) ||
+      s.includes("lec") || s.includes("lck")
     );
+  };
+
+  const isFootEvent = (tags, rawTitle, source) => {
+    const t = lower(rawTitle);
+    const s = lower(source);
+    return (
+      tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone") ||
+      /ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|champions\s*league|\bldc\b/i.test(t) ||
+      /^⚽/u.test(rawTitle) ||
+      s.includes("foot")
+    );
+  };
+
+  const cleanTitleForDisplay = (rawTitle, tags) => {
+    let title = String(rawTitle || "");
+
+    title = title.replace(/^⚽\s*/u, "");
+    title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
+
+    const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
+    if (isFoot) {
+      title = title
+        .replace(/\bLigue\s*1\b/gi, "")
+        .replace(/\bPrimera\s*Division\b/gi, "")
+        .replace(/\bLa\s*Liga\b/gi, "")
+        .replace(/\bSerie\s*A\b/gi, "")
+        .replace(/\bPremier\s*League\b/gi, "")
+        .replace(/\bBundesliga\b/gi, "")
+        .replace(/\bLigue\s*des\s*Champions\b/gi, "")
+        .replace(/\bChampions\s*League\b/gi, "");
+    }
+
+    title = title.replace(/\s{2,}/g, " ").trim();
+    title = title.replace(/^[-–—]\s*/u, "");
+    return title || String(rawTitle || "");
+  };
+
+  // --- Catégorisation : badge + couleur + important ---
+  const CATS = {
+    geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
+    fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
+    barca:  { key: "barca",  cssVar: "--c-barca",  icon: "🔵🔴", label: "FC Barcelone", important: true },
+
+    lol:    { key: "lol",    cssVar: "--c-lol",    icon: "🎮", label: "LoL (LEC/LCK)", important: false },
+
+    domingo:{ key: "domingo",cssVar: "--c-domingo",icon: "📺", label: "Domingo", important: false },
+    rivenzi:{ key: "rivenzi",cssVar: "--c-rivenzi",icon: "🟦", label: "Rivenzi", important: false },
+    jdg:    { key: "jdg",    cssVar: "--c-jdg",    icon: "🕹️", label: "JDG", important: false },
+
+    anime:  { key: "anime",  cssVar: "--c-anime",  icon: "🎬", label: "Anime", important: false },
+
+    foot:   { key: "foot",   cssVar: "--c-foot",   icon: "⚽", label: "Foot / LDC", important: false },
+
+    def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
+  };
+
+  const getCategory = (ev) => {
+    const tags = uniqLowerTags(ev.extendedProps?.tags || []);
+    const title = lower(ev.title || "");
+    const rawTitle = lower(ev.extendedProps?.rawTitle || "");
+    const source = lower(ev.extendedProps?.source || "");
+    const text = `${title} ${rawTitle}`.trim();
+
+    if (tags.includes("geng") || /\bgeng\b/.test(text) || /\bgen\.?\s*g\b/.test(text)) return CATS.geng;
+    if (tags.includes("fnatic") || /\bfnatic\b/.test(text)) return CATS.fnatic;
+    if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
+
+    if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
+
+    if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
+    if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
+    if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
+
+    if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
+
+    if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
+
+    return CATS.def;
   };
 
   const normalizeEvents = (arr) => {
     if (!Array.isArray(arr)) return [];
-    return arr.map(e => ({
-      rawTitle: e.title,
-      title: e.title,
-      start: e.start,
-      end: e.end || null,
-      source: e.source || "",
-      url: stripTwitchSchedule(e.url || ""),
-      tags: uniqLowerTags(e.tags || [])
-    }));
+    return arr
+      .filter(e => e && e.title && e.start)
+      .map(e => {
+        const rawTitle = String(e.title || "");
+        const baseTags = Array.isArray(e.tags) ? e.tags.map(String) : [];
+        const tags = uniqLowerTags(deriveTagsFromTitle(rawTitle, baseTags));
+
+        const source = e.source ? String(e.source) : "";
+
+        let url = e.url ? String(e.url) : "";
+        url = stripTwitchSchedule(url);
+
+        if (isLoLEvent(tags, rawTitle, source)) url = LOL_URL;
+        if (isFootEvent(tags, rawTitle, source)) url = FOOT_URL;
+
+        const title = cleanTitleForDisplay(rawTitle, tags);
+
+        return {
+          rawTitle,
+          title,
+          start: e.start,
+          end: e.end || null,
+          source,
+          url,
+          googleSheetUrl: e.googleSheetUrl ? String(e.googleSheetUrl) : "",
+          tags
+        };
+      });
   };
 
-  const makeId = (e) =>
-    `${e.source}|${e.start}|${e.rawTitle}`.toLowerCase();
+  const makeId = (e) => `${e.source}|${e.start}|${e.rawTitle}`.toLowerCase();
 
   const makeMissedKeyFromCalendarEvent = (ev) => {
     const source = ev.extendedProps?.source || "";
     const rawTitle = ev.extendedProps?.rawTitle || ev.title || "";
-    const start = ev.start?.toISOString?.() || "";
+    const start = ev.start instanceof Date ? ev.start.toISOString() : "";
     return `${source}|${rawTitle}|${start}`.toLowerCase();
   };
 
@@ -80,6 +216,12 @@
     if (currentTitleEl) currentTitleEl.textContent = calendar.view?.title || "";
   };
 
+  const setActiveViewButton = (viewName) => {
+    $$(".btn.pill[data-view]").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.view === viewName);
+    });
+  };
+
   const debounce = (fn, ms = 200) => {
     let t;
     return (...args) => {
@@ -88,25 +230,58 @@
     };
   };
 
+  function formatMissedDate(value) {
+    const d = new Date(value);
+    if (!Number.isFinite(d.getTime())) return String(value || "");
+    return d.toLocaleString("fr-FR", {
+      weekday: "short",
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+  }
+
   async function fetchMissedAnime() {
     const r = await fetch(`${MISSED_API_URL}?ts=${Date.now()}`, { cache: "no-store" });
-    if (!r.ok) throw new Error("Erreur API missed");
+    if (!r.ok) throw new Error(`Missed API GET ${r.status}`);
 
     const data = await r.json();
     if (!Array.isArray(data)) return [];
 
-    return data.sort((a, b) => new Date(a.start) - new Date(b.start));
+    return data
+      .map(item => ({
+        key: String(item?.key || "").trim(),
+        anime: String(item?.anime || "").trim(),
+        start: item?.start || "",
+        url: String(item?.url || "").trim(),
+      }))
+      .filter(item => item.key && item.anime)
+      .sort((a, b) => new Date(a.start) - new Date(b.start));
+  }
+
+  async function fetchMissedKeysSet() {
+    const list = await fetchMissedAnime();
+    return new Set(list.map(item => lower(item.key)).filter(Boolean));
   }
 
   async function deleteMissedAnime(key) {
-    await fetch(MISSED_API_URL, {
+    const r = await fetch(MISSED_API_URL, {
       method: "POST",
-      headers: { "content-type": "text/plain;charset=utf-8" },
+      headers: {
+        "content-type": "text/plain;charset=utf-8"
+      },
       body: JSON.stringify({
         action: "delete",
         key
       })
     });
+
+    if (!r.ok) {
+      throw new Error(`Missed API POST ${r.status}`);
+    }
+
+    return r.text();
   }
 
   async function addMissedAnimeFromCalendarEvent(ev) {
@@ -114,18 +289,30 @@
     if (!tags.includes("anime")) return;
 
     const key = makeMissedKeyFromCalendarEvent(ev);
+    const existingKeys = await fetchMissedKeysSet();
+    if (existingKeys.has(key)) return;
 
-    await fetch(MISSED_API_URL, {
+    const payload = {
+      action: "add",
+      key,
+      anime: ev.title || "",
+      start: ev.start instanceof Date ? ev.start.toISOString() : "",
+      url: ev.extendedProps?.url || ""
+    };
+
+    const r = await fetch(MISSED_API_URL, {
       method: "POST",
-      headers: { "content-type": "text/plain;charset=utf-8" },
-      body: JSON.stringify({
-        action: "add",
-        key,
-        anime: ev.title,
-        start: ev.start.toISOString(),
-        url: ev.extendedProps?.url || ""
-      })
+      headers: {
+        "content-type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify(payload)
     });
+
+    if (!r.ok) {
+      throw new Error(`Missed API POST ${r.status}`);
+    }
+
+    return r.text();
   }
 
   async function renderMissedAnime() {
@@ -136,7 +323,7 @@
     try {
       const missed = await fetchMissedAnime();
 
-      if (!missed.length) {
+      if (missed.length === 0) {
         const empty = document.createElement("div");
         empty.className = "missedEmpty";
         empty.textContent = "Rien à rattraper";
@@ -147,6 +334,8 @@
       missed.forEach(itemData => {
         const item = document.createElement("button");
         item.className = "missedItem";
+        item.type = "button";
+        item.title = "Cliquer pour ouvrir et retirer de la liste";
 
         const name = document.createElement("span");
         name.className = "missedItemTitle";
@@ -154,56 +343,102 @@
 
         const meta = document.createElement("span");
         meta.className = "missedItemMeta";
-        meta.textContent = new Date(itemData.start).toLocaleString("fr-FR");
+        meta.textContent = formatMissedDate(itemData.start);
 
         item.appendChild(name);
         item.appendChild(meta);
 
         item.addEventListener("click", async () => {
-          if (itemData.url) {
-            window.open(itemData.url, "_blank");
-          }
+          item.disabled = true;
 
-          await deleteMissedAnime(itemData.key);
-          await renderMissedAnime();
+          try {
+            if (itemData.url) {
+              window.open(itemData.url, "_blank", "noopener,noreferrer");
+            }
+
+            await deleteMissedAnime(itemData.key);
+            await renderMissedAnime();
+          } catch (e) {
+            console.error(e);
+            item.disabled = false;
+            alert("Impossible de supprimer cet anime de la liste.");
+          }
         });
 
         missedListEl.appendChild(item);
       });
-
     } catch (e) {
       console.error(e);
+      const err = document.createElement("div");
+      err.className = "missedEmpty";
+      err.textContent = "Erreur de chargement";
+      missedListEl.appendChild(err);
     }
   }
 
+  // ---------- State ----------
   let allEvents = [];
   let searchTerm = "";
   let notificationsEnabled = false;
   const notified = new Set();
 
+  // ---------- Calendar init ----------
   const calendar = new FullCalendar.Calendar(calendarEl, {
     locale: "fr",
     firstDay: 1,
     initialView: "timeGridWeek",
     height: "100%",
+    expandRows: true,
     nowIndicator: true,
     headerToolbar: false,
 
     eventClick: (info) => {
-      const url = info.event.extendedProps?.url;
+      const url = info.event.extendedProps?.url || "";
       if (url) {
         info.jsEvent.preventDefault();
-        window.open(url, "_blank");
+        window.open(url, "_blank", "noopener,noreferrer");
       }
+    },
+
+    eventDidMount: (info) => {
+      const cat = getCategory(info.event);
+      info.el.style.setProperty("--event-color", `var(${cat.cssVar})`);
+      info.el.classList.toggle("is-important", !!cat.important);
+    },
+
+    eventContent: (arg) => {
+      const viewType = arg.view.type;
+      const cat = getCategory(arg.event);
+
+      const container = document.createElement("div");
+      container.className = (viewType.includes("list") || viewType.includes("dayGrid"))
+        ? "event-item"
+        : "event-block";
+
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.textContent = cat.icon;
+      badge.title = cat.label;
+
+      const text = document.createElement("span");
+      text.className = "txt";
+      text.textContent = arg.event.title;
+
+      container.appendChild(badge);
+      container.appendChild(text);
+
+      return { domNodes: [container] };
     }
   });
 
   calendar.render();
   updateTitle();
+  setActiveViewButton(calendar.view.type);
 
+  // ---------- Data loading ----------
   async function loadStatusJSON() {
     try {
-      const r = await fetch(`./data/status.json?ts=${Date.now()}`);
+      const r = await fetch(`./data/status.json?ts=${Date.now()}`, { cache: "no-store" });
       if (!r.ok) return null;
       return await r.json();
     } catch {
@@ -212,39 +447,45 @@
   }
 
   async function loadEvents() {
-    setStatus("Chargement…");
+    setStatus("Chargement des événements…");
 
     try {
-      const r = await fetch(`./data/generated.json?ts=${Date.now()}`);
-      const data = await r.json();
+      const r = await fetch(`./data/generated.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
 
+      const data = await r.json();
       allEvents = normalizeEvents(data);
 
       const st = await loadStatusJSON();
       if (st?.errors?.length) {
-        setStatus(`⚠️ ${st.errors.length} erreurs`);
+        setStatus(`${allEvents.length} événements — ⚠️ erreurs: ${st.errors.length} (voir data/status.json)`);
       } else {
         setStatus(`${allEvents.length} événements`);
       }
 
       applyFilters();
       await renderMissedAnime();
-
     } catch (e) {
       console.error(e);
-      setStatus("Erreur chargement planning");
+      allEvents = [];
+      applyFilters();
+      await renderMissedAnime();
+
+      setStatus(
+        "Erreur de chargement de data/generated.json. " +
+        "⚠️ Si tu ouvres le fichier en 'file://', fetch est souvent bloqué : lance un serveur local."
+      );
     }
   }
 
   function applyFilters() {
-    const term = (searchTerm || "").toLowerCase();
+    const term = (searchTerm || "").trim().toLowerCase();
 
     const filtered = term
-      ? allEvents.filter(e =>
-          `${e.title} ${e.source} ${(e.tags || []).join(" ")}`
-            .toLowerCase()
-            .includes(term)
-        )
+      ? allEvents.filter(e => {
+          const hay = `${e.title} ${e.rawTitle} ${e.source} ${(e.tags || []).join(" ")}`.toLowerCase();
+          return hay.includes(term);
+        })
       : allEvents;
 
     calendar.removeAllEvents();
@@ -254,12 +495,13 @@
         id: makeId(e),
         title: e.title,
         start: e.start,
-        end: e.end,
+        end: e.end || null,
         extendedProps: {
-          source: e.source,
-          tags: e.tags,
-          url: e.url,
-          rawTitle: e.rawTitle
+          source: e.source || "",
+          tags: e.tags || [],
+          url: e.url || "",
+          googleSheetUrl: e.googleSheetUrl || "",
+          rawTitle: e.rawTitle || ""
         }
       });
     });
@@ -267,6 +509,7 @@
     updateTitle();
   }
 
+  // ---------- Controls ----------
   prevBtn?.addEventListener("click", () => {
     calendar.prev();
     updateTitle();
@@ -282,30 +525,42 @@
     updateTitle();
   });
 
+  $$(".btn.pill[data-view]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const view = btn.dataset.view;
+      if (!view) return;
+      calendar.changeView(view);
+      setActiveViewButton(view);
+      updateTitle();
+    });
+  });
+
   refreshBtn?.addEventListener("click", async () => {
     await loadEvents();
     await renderMissedAnime();
   });
 
   searchEl?.addEventListener("input", debounce((e) => {
-    searchTerm = e.target.value;
+    searchTerm = e.target.value || "";
     applyFilters();
-  }));
+  }, 200));
 
+  // ---------- Notifications ----------
   async function toggleNotifications() {
-    if (!("Notification" in window)) return;
-
+    if (!("Notification" in window)) {
+      alert("Les notifications ne sont pas supportées sur ce navigateur.");
+      return;
+    }
     if (Notification.permission !== "granted") {
       const p = await Notification.requestPermission();
-      if (p !== "granted") return;
+      if (p !== "granted") {
+        notificationsEnabled = false;
+        setStatus("Notifications refusées.");
+        return;
+      }
     }
-
     notificationsEnabled = !notificationsEnabled;
-    setStatus(
-      notificationsEnabled
-        ? "Notifications activées"
-        : "Notifications désactivées"
-    );
+    setStatus(notificationsEnabled ? "Notifications activées ✅" : "Notifications désactivées ❌");
   }
 
   notifBtn?.addEventListener("click", toggleNotifications);
@@ -320,21 +575,23 @@
       const start = ev.start?.getTime?.();
       if (!start) continue;
 
-      if (now >= start && now < start + 60000) {
+      if (now >= start && now < start + 60_000) {
         if (notified.has(ev.id)) continue;
         notified.add(ev.id);
 
-        new Notification(`📅 ${ev.title}`);
+        const src = ev.extendedProps?.source ? ` (${ev.extendedProps.source})` : "";
+        new Notification(`📅 ${ev.title}${src}`);
 
         try {
           await addMissedAnimeFromCalendarEvent(ev);
           await renderMissedAnime();
         } catch (e) {
-          console.error(e);
+          console.error("Erreur ajout Feuille 2 :", e);
         }
       }
     }
-  }, 30000);
+  }, 30_000);
 
+  // ---------- Go ----------
   loadEvents();
 })();
