@@ -1,41 +1,5 @@
 [
   {
-    "title": "⚽ [Bundesliga] FC Bayern München vs Borussia Mönchengladbach",
-    "start": "2026-03-06T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs AS Monaco FC",
-    "start": "2026-03-06T19:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] RC Celta de Vigo vs Real Madrid CF",
-    "start": "2026-03-06T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-07T07:00:00",
     "end": "2026-03-07T09:00:00",
@@ -2461,6 +2425,18 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Toulouse FC",
+    "start": "2026-04-03T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-04-04T07:00:00",
     "end": "2026-04-04T09:00:00",
@@ -2527,6 +2503,18 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs OGC Nice",
+    "start": "2026-04-04T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
     "title": "Kamen Rider",
     "start": "2026-04-04T18:20:00",
     "source": "Anime (sheet)",
@@ -2568,30 +2556,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Toulouse FC",
-    "start": "2026-04-05T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs OGC Nice",
-    "start": "2026-04-05T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
     ]
   },
   {
@@ -2742,6 +2706,18 @@
     "googleSheetUrl": "",
     "tags": [
       "free"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-07T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
