@@ -28,13 +28,13 @@
   const LOL_URL = "https://www.twitch.tv/traytonlol";
   const FOOT_URL = "https://www.fctv33.quest/fr";
 
-  // ---------- Storage ----------
-  const MISSED_STORAGE_KEY = "planning_seen_anime";
+  // ---------- API ----------
+  const MISSED_API_URL =
+    "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
 
   // ---------- Helpers ----------
   const lower = (v) => String(v ?? "").toLowerCase();
 
-  // Enlève /schedule uniquement pour Twitch
   const stripTwitchSchedule = (url) => {
     const u = String(url || "").trim();
     if (!u) return "";
@@ -51,26 +51,21 @@
     return Array.from(s);
   };
 
-  // Ajoute des tags dérivés depuis le titre (utile si ton JSON n’a pas toujours tags)
   const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
     const out = new Set(existingTags.map(lower));
     const t = String(rawTitle || "");
 
-    // LoL
     if (/\[\s*lec\s*\]/i.test(t) || /\blec\b/i.test(t)) out.add("lec");
     if (/\[\s*lck\s*\]/i.test(t) || /\blck\b/i.test(t)) out.add("lck");
     if (/\bfnatic\b/i.test(t)) out.add("fnatic");
     if (/\bgen\.?\s*g\b/i.test(t) || /\bgeng\b/i.test(t)) out.add("geng");
 
-    // Barca
     if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
 
-    // Twitch (spécifique seulement)
     if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
     if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
     if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) { out.add("twitch"); out.add("joueur_du_grenier"); }
 
-    // Foot/LDC
     if (/ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|ldc|champions\s*league/i.test(t) || /^⚽/u.test(t)) {
       out.add("foot");
     }
@@ -101,7 +96,6 @@
     );
   };
 
-  // Nettoyage affichage titres : supprime [LEC]/[LCK] + ligues foot
   const cleanTitleForDisplay = (rawTitle, tags) => {
     let title = String(rawTitle || "");
 
@@ -225,110 +219,114 @@
     };
   };
 
-  const isAnimeEvent = (e) => {
-    const tags = uniqLowerTags(e.tags || e.extendedProps?.tags || []);
-    return tags.includes("anime");
-  };
-
-  const getEventStorageId = (e) => {
-    const rawTitle = e.rawTitle || e.extendedProps?.rawTitle || e.title || "";
-    const source = e.source || e.extendedProps?.source || "";
-    const start = e.start instanceof Date ? e.start.toISOString() : e.start || "";
-    return `${source}|${rawTitle}|${start}`.toLowerCase();
-  };
-
-  function loadSeenAnime() {
-    try {
-      const raw = localStorage.getItem(MISSED_STORAGE_KEY);
-      const arr = raw ? JSON.parse(raw) : [];
-      return new Set(Array.isArray(arr) ? arr : []);
-    } catch {
-      return new Set();
-    }
+  function formatMissedDate(value) {
+    const d = new Date(value);
+    if (!Number.isFinite(d.getTime())) return String(value || "");
+    return d.toLocaleString("fr-FR", {
+      weekday: "short",
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
   }
 
-  function saveSeenAnime(set) {
-    try {
-      localStorage.setItem(MISSED_STORAGE_KEY, JSON.stringify(Array.from(set)));
-    } catch (e) {
-      console.warn("Impossible de sauvegarder les animés vus :", e);
-    }
-  }
+  async function fetchMissedAnime() {
+    const r = await fetch(`${MISSED_API_URL}?ts=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(`Missed API GET ${r.status}`);
 
-  function renderMissedAnime() {
-    if (!missedListEl) return;
+    const data = await r.json();
+    if (!Array.isArray(data)) return [];
 
-    const seen = loadSeenAnime();
-    const now = Date.now();
-
-    const missed = allEvents
-      .filter(e => isAnimeEvent(e))
-      .filter(e => {
-        const start = new Date(e.start).getTime();
-        return Number.isFinite(start) && start <= now;
-      })
-      .filter(e => !seen.has(getEventStorageId(e)))
+    return data
+      .map(item => ({
+        key: String(item?.key || "").trim(),
+        anime: String(item?.anime || "").trim(),
+        start: item?.start || "",
+        url: String(item?.url || "").trim(),
+      }))
+      .filter(item => item.key && item.anime)
       .sort((a, b) => new Date(a.start) - new Date(b.start));
+  }
+
+  async function deleteMissedAnime(key) {
+    const r = await fetch(MISSED_API_URL, {
+      method: "POST",
+      headers: {
+        "content-type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify({
+        action: "delete",
+        key
+      })
+    });
+
+    if (!r.ok) {
+      throw new Error(`Missed API POST ${r.status}`);
+    }
+
+    return r.text();
+  }
+
+  async function renderMissedAnime() {
+    if (!missedListEl) return;
 
     missedListEl.innerHTML = "";
 
-    if (missed.length === 0) {
-      const empty = document.createElement("div");
-      empty.className = "missedEmpty";
-      empty.textContent = "Rien à rattraper";
-      missedListEl.appendChild(empty);
-      return;
-    }
+    try {
+      const missed = await fetchMissedAnime();
 
-    missed.forEach(e => {
-      const item = document.createElement("button");
-      item.className = "missedItem";
-      item.type = "button";
-      item.title = "Cliquer pour ouvrir et marquer comme vu";
+      if (missed.length === 0) {
+        const empty = document.createElement("div");
+        empty.className = "missedEmpty";
+        empty.textContent = "Rien à rattraper";
+        missedListEl.appendChild(empty);
+        return;
+      }
 
-      const name = document.createElement("span");
-      name.className = "missedItemTitle";
-      name.textContent = e.title;
+      missed.forEach(itemData => {
+        const item = document.createElement("button");
+        item.className = "missedItem";
+        item.type = "button";
+        item.title = "Cliquer pour ouvrir et retirer de la liste";
 
-      const meta = document.createElement("span");
-      meta.className = "missedItemMeta";
+        const name = document.createElement("span");
+        name.className = "missedItemTitle";
+        name.textContent = itemData.anime;
 
-      const d = new Date(e.start);
-      const dateTxt = Number.isFinite(d.getTime())
-        ? d.toLocaleString("fr-FR", {
-            weekday: "short",
-            day: "2-digit",
-            month: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit"
-          })
-        : "";
+        const meta = document.createElement("span");
+        meta.className = "missedItemMeta";
+        meta.textContent = formatMissedDate(itemData.start);
 
-      meta.textContent = dateTxt;
+        item.appendChild(name);
+        item.appendChild(meta);
 
-      item.appendChild(name);
-      item.appendChild(meta);
+        item.addEventListener("click", async () => {
+          item.disabled = true;
 
-      item.addEventListener("click", () => {
-        const url1 = String(e.url || "").trim();
-        const url2 = String(e.googleSheetUrl || "").trim();
+          try {
+            if (itemData.url) {
+              window.open(itemData.url, "_blank", "noopener,noreferrer");
+            }
 
-        if (url1) {
-          window.open(url1, "_blank", "noopener,noreferrer");
-        }
+            await deleteMissedAnime(itemData.key);
+            await renderMissedAnime();
+          } catch (e) {
+            console.error(e);
+            item.disabled = false;
+            alert("Impossible de supprimer cet anime de la liste.");
+          }
+        });
 
-        if (url2) {
-          window.open(url2, "_blank", "noopener,noreferrer");
-        }
-
-        const updated = loadSeenAnime();
-        updated.add(getEventStorageId(e));
-        saveSeenAnime(updated);
-        renderMissedAnime();
+        missedListEl.appendChild(item);
       });
-
-      missedListEl.appendChild(item);
-    });
+    } catch (e) {
+      console.error(e);
+      const err = document.createElement("div");
+      err.className = "missedEmpty";
+      err.textContent = "Erreur de chargement";
+      missedListEl.appendChild(err);
+    }
   }
 
   // ---------- State ----------
@@ -417,12 +415,12 @@
       }
 
       applyFilters();
-      renderMissedAnime();
+      await renderMissedAnime();
     } catch (e) {
       console.error(e);
       allEvents = [];
       applyFilters();
-      renderMissedAnime();
+      await renderMissedAnime();
 
       setStatus(
         "Erreur de chargement de data/generated.json. " +
@@ -536,7 +534,7 @@
   }, 30_000);
 
   setInterval(() => {
-    renderMissedAnime();
+    renderMissedAnime().catch(console.error);
   }, 60_000);
 
   // ---------- Go ----------
