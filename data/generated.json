@@ -1,26 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-03-07T11:30:00",
-    "end": "2026-03-07T23:59:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "tags": [
-      "free"
-    ]
-  },
-  {
-    "title": "Ao no Miburo",
-    "start": "2026-03-07T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://v6.voiranime.com/anime/ao-no-miburo-2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Kamen Rider",
     "start": "2026-03-07T18:20:00",
     "source": "Anime (sheet)",
