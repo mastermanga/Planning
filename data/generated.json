@@ -1,26 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-03-08T11:30:00",
-    "end": "2026-03-08T23:59:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "tags": [
-      "free"
-    ]
-  },
-  {
-    "title": "You and I are Polar Opposites",
-    "start": "2026-03-08T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://anime-sama.to/catalogue/seihantai-na-kimi-to-boku/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "⚽ [Ligue 1] OGC Nice vs Stade Rennais FC 1901",
     "start": "2026-03-08T16:15:00Z",
     "source": "football-data.org",
