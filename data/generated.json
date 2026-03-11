@@ -1,28 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-03-11T14:00:00",
-    "end": "2026-03-11T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Domingo — OLÉ AUX JO D'HIVER",
-    "start": "2026-03-11T14:00:00.000Z",
-    "end": "2026-03-11T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-03-11T15:30:00",
     "end": "2026-03-11T23:59:00",
@@ -57,7 +34,7 @@
   },
   {
     "title": "[EMEA Masters] French Flair vs 3BL Esports",
-    "start": "2026-03-11T19:00:00Z",
+    "start": "2026-03-11T19:34:23Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
