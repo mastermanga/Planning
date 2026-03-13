@@ -1,18 +1,5 @@
 [
   {
-    "title": "[EMEA Masters] Barcząca Esports vs French Flair",
-    "start": "2026-03-13T15:08:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "emea masters"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-03-13T15:30:00",
     "end": "2026-03-13T23:59:00",
@@ -231,6 +218,19 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "[EMEA Masters] French Flair (TBD)",
+    "start": "2026-03-15T16:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "emea masters"
     ]
   },
   {
