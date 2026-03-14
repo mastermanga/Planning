@@ -1,27 +1,5 @@
 [
   {
-    "title": "⚽ [Ligue 1] Angers SCO vs OGC Nice",
-    "start": "2026-03-14T18:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "Kamen Rider",
-    "start": "2026-03-14T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://anime-sama.to/catalogue/tojima-wants-to-be-a-kamen-rider/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Medalist",
     "start": "2026-03-14T18:30:00",
     "source": "Anime (sheet)",
@@ -134,19 +112,6 @@
     ]
   },
   {
-    "title": "[EMEA Masters] French Flair vs Barcząca Esports",
-    "start": "2026-03-15T16:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "emea masters"
-    ]
-  },
-  {
     "title": "⚽ [Premier League] Liverpool FC vs Tottenham Hotspur FC",
     "start": "2026-03-15T16:30:00Z",
     "source": "football-data.org",
@@ -176,6 +141,19 @@
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[EMEA Masters] French Flair vs Barcząca Esports",
+    "start": "2026-03-15T19:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "emea masters"
     ]
   },
   {
