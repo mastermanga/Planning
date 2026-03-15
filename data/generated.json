@@ -34,18 +34,8 @@
     ]
   },
   {
-    "title": "Journal With Witch",
-    "start": "2026-03-15T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://anime-sama.to/catalogue/ikoku-nikki/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "[EMEA Masters] French Flair vs Barcząca Esports",
-    "start": "2026-03-15T19:00:00Z",
+    "start": "2026-03-15T18:01:10Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -54,6 +44,16 @@
       "esport",
       "lol",
       "emea masters"
+    ]
+  },
+  {
+    "title": "Journal With Witch",
+    "start": "2026-03-15T18:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://anime-sama.to/catalogue/ikoku-nikki/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "tags": [
+      "anime"
     ]
   },
   {
