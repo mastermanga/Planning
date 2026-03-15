@@ -1,39 +1,5 @@
 [
   {
-    "title": "Medalist",
-    "start": "2026-03-14T18:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://anime-sama.to/catalogue/medalist/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] West Ham United FC vs Manchester City FC",
-    "start": "2026-03-14T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Elche CF",
-    "start": "2026-03-14T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Nantes",
     "start": "2026-03-15T00:00:00Z",
     "source": "football-data.org",
@@ -929,6 +895,19 @@
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[First Stand] Match",
+    "start": "2026-03-22T13:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "first stand"
     ]
   },
   {
