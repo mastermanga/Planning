@@ -89,6 +89,15 @@
     [/\bFC Union Berlin\b/gi, "Union"],
     [/\bBrighton & Hove Albion FC\b/gi, "Brighton"],
 
+    [/\Rayo Vallecano de Madrid\b/gi, "Rayo"],
+    [/\bCrystal Palace FC\b/gi, "Crystal Palace"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bFulham FC\b/gi, "Fulham"],
+
     // Esport
     [/\bG2\s*Esports\b/gi, "G2"],
     [/\bTeam\s*Secret\b/gi, "TS"],
