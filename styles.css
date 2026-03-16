@@ -1,181 +1,452 @@
+/* === base === */
+* { box-sizing: border-box; }
+
 body {
-  background: radial-gradient(circle at 50% 25%, #263859 0%, #121212 100%);
-  color: #eee;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
   margin: 0;
-  padding: 2rem 1rem;
-  overflow-x: hidden;
-  transition: background-color 0.3s, color 0.3s;
-  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  background: radial-gradient(circle at 50% 25%, #263859 0%, #121212 100%);
+  color: #eaf7ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Particules animées */
+/* petites particules */
 body::before {
   content: "";
   position: fixed;
-  z-index: 0;
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(circle, #00fff94d 2px, transparent 3px) 30vw 20vh / 120px 120px repeat,
-    radial-gradient(circle, #42a5f577 1.5px, transparent 3px) 70vw 75vh / 90px 90px repeat;
+    radial-gradient(circle, #00fff94d 2px, transparent 3px) 30vw 20vh/120px 120px repeat,
+    radial-gradient(circle, #42a5f577 1.5px, transparent 3px) 70vw 75vh/90px 90px repeat;
   animation: moveParticles 18s linear infinite alternate;
-  opacity: 0.27;
+  opacity: 0.23;
 }
-
 @keyframes moveParticles {
-  0% {
-    background-position: 30vw 20vh, 70vw 75vh;
-  }
-  100% {
-    background-position: 33vw 22vh, 68vw 78vh;
-  }
+  0%   { background-position: 30vw 20vh, 70vw 75vh; }
+  100% { background-position: 33vw 22vh, 68vw 78vh; }
 }
 
-h1 {
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  min-height: 0;
+}
+
+/* === sidebar === */
+.sidebar {
+  width: 330px;
+  min-width: 280px;
+  height: calc(100vh - 32px);
+
+  background: rgba(18, 30, 39, 0.65);
+  border: 1px solid rgba(0, 188, 212, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 0 26px rgba(0, 188, 212, 0.25);
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
   position: relative;
   z-index: 2;
-  text-align: center;
+}
 
-  font-size: 3.2rem;
+.brand h1 {
+  margin: 0;
+  font-size: 1.8rem;
   font-weight: 900;
-  letter-spacing: 3px;
-
-  margin-bottom: 3rem;
-
-  background: linear-gradient(90deg,#00eaff,#4fc3f7,#00eaff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  letter-spacing: 0.5px;
   text-shadow:
-    0 0 12px rgba(0,234,255,0.4),
-    0 0 24px rgba(0,188,212,0.3);
-}
-#container {
-  background-color: #161e27ef;
-  border-radius: 20px;
-  padding: 2rem;
-  width: min(95%, 1800px);
-  margin: 1rem auto 0 auto;
-  box-shadow: 0 0 32px 5px #00bcd444;
+    0 0 6px #00eaff,
+    0 0 18px #00eaff99,
+    0 2px 8px #00bcd477;
 }
 
-#anime-list {
+.search {
   width: 100%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(10, 18, 26, 0.55);
+  color: #eaf7ff;
+  outline: none;
+}
+.search:focus {
+  border-color: rgba(0, 234, 255, 0.65);
+  box-shadow: 0 0 0 2px rgba(0, 234, 255, 0.18);
+}
+
+.status {
+  font-size: 0.92rem;
+  color: rgba(234,247,255,0.9);
+  opacity: 0.9;
+}
+
+.viewTitle {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(10, 18, 26, 0.45);
+  border: 1px solid rgba(255,255,255,0.10);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.10);
+}
+
+.navRow, .viewRow, .actionRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.viewRow { justify-content: space-between; }
+
+.btn {
+  border: none;
+  border-radius: 14px;
+  padding: 10px 12px;
+  cursor: pointer;
+  user-select: none;
+
+  background: rgba(10, 18, 26, 0.55);
+  color: #eaf7ff;
+  border: 1px solid rgba(255,255,255,0.14);
+
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(0, 234, 255, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 234, 255, 0.18);
+}
+
+.btn.small { padding: 10px 12px; width: 100px; }
+.btn.small#prevBtn, .btn.small#nextBtn { width: 56px; font-size: 1.2rem; font-weight: 900; }
+.btn.small#todayBtn { flex: 1; }
+
+.btn.pill {
+  padding: 10px 12px;
+  flex: 1;
+  font-weight: 800;
+  border-radius: 999px;
+}
+
+.btn.pill.active {
+  background: linear-gradient(120deg, #1de9b6 30%, #00bcd4 100%);
+  color: #0b1720;
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 10px 34px rgba(0, 234, 255, 0.25);
+}
+
+.btn.primary {
+  flex: 1;
+  font-weight: 900;
+  background: linear-gradient(120deg, #00bcd4 10%, #1e88e5 100%);
+  color: #07141c;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.hint {
+  margin-top: auto;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  line-height: 1.3;
+}
+
+/* === main/calendar === */
+.main {
+  flex: 1;
+  height: calc(100vh - 32px);
+  border-radius: 20px;
+  background: rgba(18, 30, 39, 0.65);
+  border: 1px solid rgba(0, 188, 212, 0.25);
+  box-shadow: 0 0 26px rgba(0, 188, 212, 0.25);
+  padding: 12px;
+
+  overflow: hidden;
   position: relative;
   z-index: 2;
+  min-height: 0;
 }
 
-.anime-card {
-  background: linear-gradient(145deg, rgba(24, 35, 48, 0.96), rgba(17, 24, 34, 0.96));
-  border: 1px solid rgba(0, 188, 212, 0.18);
-  border-radius: 20px;
-  box-shadow: 0 2px 14px #00bcd433, 0 1.5px 10px rgba(30, 136, 229, 0.2);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-  position: relative;
+#calendar {
+  height: 100%;
+  min-height: 0;
+}
+
+/* ===== FullCalendar: base ===== */
+.fc {
+  height: 100% !important;
+  min-height: 0 !important;
+
+  --fc-page-bg-color: transparent;
+  --fc-border-color: rgba(255,255,255,0.12);
+  --fc-today-bg-color: rgba(0, 234, 255, 0.08);
+  --fc-neutral-bg-color: transparent;
+  --fc-list-event-hover-bg-color: rgba(0, 234, 255, 0.10);
+
+  font-size: 0.90rem; /* global un peu plus petit */
+}
+
+.fc .fc-timegrid-slot-label,
+.fc .fc-col-header-cell-cushion,
+.fc .fc-daygrid-day-number {
+  color: rgba(234,247,255,0.95);
+}
+
+.fc .fc-scrollgrid,
+.fc .fc-scrollgrid-section > td {
+  background: transparent;
+}
+
+/* =========================
+   ✅ Couleurs par event
+   ========================= */
+
+/* Chaque event reçoit --event-color via JS (eventDidMount) */
+.fc .fc-event {
+  --_c: var(--event-color, var(--c-default));
+
+  border-radius: 12px;
+
+  /* fallback */
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,0.14);
+
+  /* override moderne si supporté */
+  background: color-mix(in srgb, var(--_c) 22%, rgba(0,0,0,.40));
+  border: 1px solid color-mix(in srgb, var(--_c) 55%, rgba(255,255,255,0.12));
+
+  /* Important: border-left APRÈS border (sinon il se fait écraser) */
+  border-left: 4px solid var(--_c);
+
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+
+.fc .fc-event:hover {
+  box-shadow: 0 14px 34px rgba(0,0,0,.30);
+}
+
+.fc .fc-event .fc-event-main {
+  color: #eaf7ff;
+  font-weight: 700;
+}
+
+.fc .fc-event.is-important{
+  border-left: 6px solid var(--_c);
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--_c) 40%, transparent),
+    0 8px 24px rgba(0,0,0,.35);
+  transform: scale(1.02);
+}
+
+/* Réduire les paddings FC, on gère dans notre rendu */
+.fc .fc-timegrid-event .fc-event-main,
+.fc .fc-daygrid-event .fc-event-main,
+.fc .fc-list-event .fc-event-main {
+  padding: 0 !important;
+}
+
+/* ====== Event content custom ====== */
+.event-item{
+  display:flex;
+  gap:.42rem;
+  align-items:center;
+
+  padding: .12rem .30rem;
+  border-radius: .55rem;
+
+  /* léger fond interne (list/month) */
+  background: rgba(0,0,0,.12);
+
+  overflow:hidden;
+  max-width: 100%;
+}
+.event-item .dot{
+  width:.55rem;height:.55rem;border-radius:999px;
+  flex:0 0 auto;
+  background: var(--event-color, var(--c-default));
+  box-shadow: 0 0 10px rgba(0,0,0,.28);
+}
+.event-item .txt{
+  font-size: .80rem;
+  line-height: 1.15;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* bloc week/day */
+.event-block{
+  display:flex;
+  gap:.42rem;
+  align-items:flex-start;
+
+  padding: .18rem .35rem;
+  width: 100%;
+  height: 100%;
+
+  border-radius: .65rem;
+
+  /* on laisse le fond à .fc-event */
+  background: transparent;
+}
+.event-block .dot{
+  width:.55rem;height:.55rem;border-radius:999px;
+  flex:0 0 auto;
+  margin-top: .12rem;
+  background: var(--event-color, var(--c-default));
+  box-shadow: 0 0 10px rgba(0,0,0,.28);
+}
+.event-block .txt{
+  font-size: .82rem;  /* ✅ texte plus petit */
+  line-height: 1.15;
   overflow: hidden;
-  opacity: 0;
-  transform: translateY(22px);
-  animation: fadeUp 0.55s cubic-bezier(.47, 1.64, .41, .8) forwards;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* évite les pavés énormes */
+  -webkit-box-orient: vertical;
 }
 
-.anime-card:hover {
-  transform: translateY(-6px) scale(1.01);
-  box-shadow: 0 10px 34px #00eaff66, 0 2.5px 14px #1976d244;
-  border-color: rgba(0, 234, 255, 0.35);
+/* liste (listYear) souvent très dense -> encore un poil plus petit */
+.fc .fc-list-event-title .event-item .txt{
+  font-size: .78rem;
 }
 
-.anime-card img {
+/* Mobile : sidebar en haut */
+@media (max-width: 900px) {
+  body { overflow: auto; height: auto; }
+  #app { flex-direction: column; height: auto; overflow: auto; }
+  .sidebar, .main { width: 100%; height: auto; }
+  #calendar { height: 75vh; }
+}
+
+/* ====== Color tokens ====== */
+:root{
+  --c-anime:  #22D3EE; /* bleu clair néon */
+
+  --c-domingo:#6B21A8; /* violet twitch */
+  --c-rivenzi:#6B21A8; /* violet twitch */
+  --c-jdg:    #6B21A8; /* violet twitch */
+
+  --c-jdr:    #D4AF37; /* or */
+
+  --c-lol:    #22C55E; /* vert esport */
+
+  --c-geng:   #D4AF37; /* or */
+  --c-fnatic: #D4AF37; /* or */
+  --c-barca:  #D4AF37; /* or */
+
+  --c-foot:   #EA580C; /* orange vif */
+  --c-work:   #334155; /* sombre */
+  --c-default:#607D8B; /* gris bleu */
+}
+
+/* === À rattraper === */
+.missedSection {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 140px;
+}
+
+.missedHeader {
+  padding: 10px 12px;
   border-radius: 14px;
+  background: rgba(10, 18, 26, 0.45);
+  border: 1px solid rgba(255,255,255,0.10);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.08);
+}
+
+.missedList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.missedItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+  padding: 10px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  text-align: left;
+
+  background: color-mix(in srgb, var(--c-anime) 20%, rgba(0,0,0,.35));
+  border: 1px solid color-mix(in srgb, var(--c-anime) 48%, rgba(255,255,255,0.10));
+  border-left: 4px solid var(--c-anime);
+  color: #f3ecff;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.22);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.missedItem:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px rgba(0,0,0,.28);
+  border-color: color-mix(in srgb, var(--c-anime) 68%, rgba(255,255,255,0.12));
+}
+
+.missedItemTitle {
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.missedItemMeta {
+  font-size: 0.8rem;
+  opacity: 0.82;
+  line-height: 1.2;
+}
+
+.missedEmpty {
+  padding: 8px 4px;
+  font-size: 0.9rem;
+  opacity: 0.72;
+  text-align: center;
+}
+
+/* scrollbar discrète */
+.missedList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.missedList::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.14);
+  border-radius: 999px;
+}
+
+.missedList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.missedHeaderLink {
   display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
 }
 
-.anime-card h2 {
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 0.7rem;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.08);
-}
-
-.anime-card p {
-  color: #d9e4ec;
-  line-height: 1.4;
-}
-
-.anime-card .episodes-vus {
-  color: #b8ffd2;
-  font-weight: 600;
-}
-
-.anime-card .a-voir {
-  color: #7ee7ff;
-  font-weight: 700;
-  text-shadow: 0 0 8px rgba(0, 234, 255, 0.18);
-}
-
-.anime-card a,
-.anime-card button {
-  margin-top: 0.6rem;
-  font-weight: 700;
-  box-shadow: 0 2px 14px #00bcd455, 0 1.5px 10px #1e88e544;
-  transition:
-    transform 0.16s cubic-bezier(.4, 2, .5, 1),
-    box-shadow 0.16s,
-    filter 0.16s;
-}
-
-.anime-card a:hover,
-.anime-card button:hover:not(:disabled) {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 10px 24px #00eaff88, 0 2px 12px #1976d255;
-  filter: brightness(1.05);
-}
-
-.anime-card a:active,
-.anime-card button:active:not(:disabled) {
-  transform: scale(0.98);
-}
-
-.success-message,
-.error-message {
-  font-weight: 600;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.anime-card:nth-child(1) { animation-delay: 0.05s; }
-.anime-card:nth-child(2) { animation-delay: 0.10s; }
-.anime-card:nth-child(3) { animation-delay: 0.15s; }
-.anime-card:nth-child(4) { animation-delay: 0.20s; }
-.anime-card:nth-child(5) { animation-delay: 0.25s; }
-.anime-card:nth-child(6) { animation-delay: 0.30s; }
-.anime-card:nth-child(n+7) { animation-delay: 0.35s; }
-
-@media (max-width: 768px) {
-  body {
-    padding: 1.2rem 0.75rem;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  #container {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  #container {
-    width: 98vw;
-    padding: 1rem 0.5rem 1.2rem 0.5rem;
-    box-shadow: 0 0 13px 2px #00bcd4;
-  }
+.missedHeaderLink:hover {
+  transform: translateY(-1px);
+  border-color: rgba(0, 234, 255, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 234, 255, 0.12);
 }
