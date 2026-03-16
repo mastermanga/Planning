@@ -661,7 +661,7 @@ async function fetchF1Sessions() {
       headers: {
         "user-agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36",
-        accept: "text/html",
+        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
       },
     },
@@ -673,35 +673,77 @@ async function fetchF1Sessions() {
   }
 
   const html = await r.text();
-
   console.log("[F1] html size:", html.length);
 
   const $ = cheerio.load(html);
 
-  console.log("[F1] title:", $("title").text());
+  console.log("[F1] title:", $("title").text().trim());
 
+  const main = $("main").first();
   console.log("[F1] main count:", $("main").length);
 
-  console.log("[F1] table count:", $("table").length);
+  const mainChildren = main.children("div");
+  console.log("[F1] main direct div count:", mainChildren.length);
 
-  console.log("[F1] events-table count:", $("#events-table").length);
+  mainChildren.each((i, el) => {
+    const child = $(el);
+    const childHtml = child.html() || "";
+    const tables = child.find("table");
+    const tbodies = child.find("tbody");
+    const times = child.find("time[datetime]");
 
-  console.log("[F1] tbody count:", $("tbody").length);
+    console.log(
+      `[F1] main > div #${i + 1}: htmlSize=${childHtml.length} tables=${tables.length} tbodies=${tbodies.length} times=${times.length}`
+    );
 
-  if ($("main").length) {
-    const sample = $("main").html().slice(0, 2000);
-    console.log("[F1] main HTML sample:");
-    console.log(sample);
-  }
-
-  $("tbody").each((i, el) => {
-    console.log("[F1] tbody id:", $(el).attr("id"));
+    console.log(`[F1] main > div #${i + 1} sample:`);
+    console.log(childHtml.slice(0, 1200));
   });
 
+  const secondDiv = mainChildren.eq(1);
+  console.log("[F1] second div exists:", secondDiv.length);
+
+  if (secondDiv.length) {
+    console.log("[F1] second div table count:", secondDiv.find("table").length);
+    console.log("[F1] second div tbody count:", secondDiv.find("tbody").length);
+    console.log("[F1] second div tr count:", secondDiv.find("tr").length);
+    console.log("[F1] second div time count:", secondDiv.find("time[datetime]").length);
+
+    secondDiv.find("tbody").each((i, tbodyNode) => {
+      const tbody = $(tbodyNode);
+      console.log(`[F1] second div tbody #${i + 1} id=`, tbody.attr("id"));
+
+      const rows = tbody.find("tr");
+      console.log(`[F1] second div tbody #${i + 1} rows=`, rows.length);
+
+      rows.each((j, trNode) => {
+        if (j >= 3) return false;
+
+        const row = $(trNode);
+        const cells = row
+          .find("td")
+          .map((_, td) => normSpaces($(td).text()))
+          .get();
+
+        const timeAttrs = row
+          .find("time[datetime]")
+          .map((_, t) => $(t).attr("datetime"))
+          .get();
+
+        console.log(
+          `[F1] row sample tbody=${i + 1} row=${j + 1} cells=`,
+          cells
+        );
+        console.log(
+          `[F1] row sample tbody=${i + 1} row=${j + 1} datetimes=`,
+          timeAttrs
+        );
+      });
+    });
+  }
+
   const out = [];
-
   console.log("[F1] parsed events:", out.length);
-
   return out;
 }
 
