@@ -170,34 +170,43 @@
     );
   };
 
-  const cleanTitleForDisplay = (rawTitle, tags) => {
-    let title = String(rawTitle || "");
+const cleanTitleForDisplay = (rawTitle, tags) => {
+  let title = String(rawTitle || "");
 
-    // Twitch simplifié
-    if (tags.includes("domingo")) return "Domingo";
-    if (tags.includes("rivenzi")) return "Rivenzi";
-    if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
+  // Twitch simplifié
+  if (tags.includes("domingo")) return "Domingo";
+  if (tags.includes("rivenzi")) return "Rivenzi";
+  if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
 
-    title = title.replace(/^⚽\s*/u, "");
-    title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
+  title = title.replace(/^⚽\s*/u, "");
+  title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
 
-    const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
-    if (isFoot) {
-      title = title
-        .replace(/\bLigue\s*1\b/gi, "")
-        .replace(/\bPrimera\s*Division\b/gi, "")
-        .replace(/\bLa\s*Liga\b/gi, "")
-        .replace(/\bSerie\s*A\b/gi, "")
-        .replace(/\bPremier\s*League\b/gi, "")
-        .replace(/\bBundesliga\b/gi, "")
-        .replace(/\bLigue\s*des\s*Champions\b/gi, "")
-        .replace(/\bChampions\s*League\b/gi, "");
-    }
+  const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
+  if (isFoot) {
+    title = title
+      .replace(/\bLigue\s*1\b/gi, "")
+      .replace(/\bPrimera\s*Division\b/gi, "")
+      .replace(/\bLa\s*Liga\b/gi, "")
+      .replace(/\bSerie\s*A\b/gi, "")
+      .replace(/\bPremier\s*League\b/gi, "")
+      .replace(/\bBundesliga\b/gi, "")
+      .replace(/\bLigue\s*des\s*Champions\b/gi, "")
+      .replace(/\bChampions\s*League\b/gi, "")
 
-    title = title.replace(/\s{2,}/g, " ").trim();
-    title = title.replace(/^[-–—]\s*/u, "");
-    return title || String(rawTitle || "");
-  };
+      // Noms clubs simplifiés
+      .replace(/\bFC\s*Barcelona\b/gi, "FCB")
+      .replace(/\bParis\s*Saint-?Germain\b/gi, "PSG")
+      .replace(/\bOGC\s*Nice\b/gi, "Nice")
+      .replace(/\bReal\s*Madrid\s*CF\b/gi, "Madrid")
+      .replace(/\bFC\s*Bayern\s*München\b/gi, "Bayern")
+      .replace(/\bFC\s*Bayern\s*Munchen\b/gi, "Bayern")
+      .replace(/\bLiverpool\s*FC\b/gi, "Liverpool");
+  }
+
+  title = title.replace(/\s{2,}/g, " ").trim();
+  title = title.replace(/^[-–—]\s*/u, "");
+  return title || String(rawTitle || "");
+};
 
   // ---------- Catégories ----------
   const CATS = {
