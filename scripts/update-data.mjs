@@ -19,8 +19,8 @@ const UA = "planning-bot/1.0 (+github-actions)";
 // Garde les événements passés pendant 7 jours
 const MAX_PAST_DAYS = 7;
 
-// Limite les événements anime à 3 mois (~90 jours) dans le futur
-const ANIME_LOOKAHEAD_DAYS = 90;
+// Limite les événements anime à 2 semaines (~14 jours) dans le futur
+const ANIME_LOOKAHEAD_DAYS = 14;
 
 // Repeat weekly horizon (on garde 52, mais on coupe avant avec isTooFarInFuture)
 const REPEAT_WEEKS = 52;
