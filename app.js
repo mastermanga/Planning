@@ -146,29 +146,32 @@ const CATS = {
   def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
 };
 
-  const getCategory = (ev) => {
-    const tags = uniqLowerTags(ev.extendedProps?.tags || []);
-    const title = lower(ev.title || "");
-    const rawTitle = lower(ev.extendedProps?.rawTitle || "");
-    const source = lower(ev.extendedProps?.source || "");
-    const text = `${title} ${rawTitle}`.trim();
+const getCategory = (ev) => {
+  const tags = uniqLowerTags(ev.extendedProps?.tags || []);
+  const title = lower(ev.title || "");
+  const rawTitle = lower(ev.extendedProps?.rawTitle || "");
+  const source = lower(ev.extendedProps?.source || "");
+  const text = `${title} ${rawTitle}`.trim();
 
-    if (tags.includes("geng") || /\bgeng\b/.test(text) || /\bgen\.?\s*g\b/.test(text)) return CATS.geng;
-    if (tags.includes("fnatic") || /\bfnatic\b/.test(text)) return CATS.fnatic;
-    if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
+  if (tags.includes("geng") || /\bgeng\b/.test(text) || /\bgen\.?\s*g\b/.test(text)) return CATS.geng;
+  if (tags.includes("fnatic") || /\bfnatic\b/.test(text)) return CATS.fnatic;
+  if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
 
-    if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
+  if (tags.includes("jdr") || /\bjdr\b/.test(text) || /jeu de rôle|jeu de role|dungeons|donjons/.test(text)) return CATS.jdr;
+  if (tags.includes("work") || /\bwork\b/.test(text)) return CATS.work;
 
-    if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
-    if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
-    if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
+  if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
 
-    if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
+  if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
+  if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
+  if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
 
-    if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
+  if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
 
-    return CATS.def;
-  };
+  if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
+
+  return CATS.def;
+};
 
   const normalizeEvents = (arr) => {
     if (!Array.isArray(arr)) return [];
