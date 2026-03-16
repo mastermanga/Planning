@@ -86,8 +86,8 @@
     
     [/\bBilibili Gaming\b/gi, "BLG"],
     [/\bBNK FEARX\b/gi, "FearX"],
-    [/\bBarcelona\b/gi, "FCB"],
-    [/\bBarcelona\b/gi, "FCB"],
+    [/\bFC Union Berlin\b/gi, "Union"],
+    [/\bBrighton & Hove Albion FC\b/gi, "Brighton"],
 
     // Esport
     [/\bG2\s*Esports\b/gi, "G2"],
