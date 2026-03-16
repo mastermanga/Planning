@@ -170,7 +170,7 @@
   const cleanTitleForDisplay = (rawTitle, tags) => {
     let title = String(rawTitle || "");
 
-    // Streams Twitch => nom simple uniquement
+    // Twitch simplifié
     if (tags.includes("domingo")) return "Domingo";
     if (tags.includes("rivenzi")) return "Rivenzi";
     if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
@@ -273,8 +273,16 @@
     return CAT_PRIORITY[cat.key] ?? 1000;
   };
 
+  const getPriorityClass = (priority) => {
+    if (priority <= 1) return "prio-1";
+    if (priority <= 100) return "prio-100";
+    if (priority <= 500) return "prio-500";
+    return "prio-1000";
+  };
+
   const buildEventTooltip = (ev) => {
     const cat = getCategory(ev);
+    const priority = getCategoryPriority(ev);
     const source = ev.extendedProps?.source ? `Source : ${ev.extendedProps.source}` : "";
     const tags = Array.isArray(ev.extendedProps?.tags) && ev.extendedProps.tags.length
       ? `Tags : ${ev.extendedProps.tags.join(", ")}`
@@ -283,6 +291,7 @@
     return [
       ev.title || "",
       cat.label ? `Catégorie : ${cat.label}` : "",
+      `Priorité : ${priority}`,
       source,
       tags
     ].filter(Boolean).join("\n");
@@ -374,8 +383,7 @@
 
       if (pa !== pb) return pa - pb;
 
-      // Si même priorité :
-      // on met les plus courts devant pour mieux lire
+      // Si même priorité : les plus courts devant
       const da = Math.max(0, (a.end?.getTime?.() || a.start?.getTime?.() || 0) - (a.start?.getTime?.() || 0));
       const db = Math.max(0, (b.end?.getTime?.() || b.start?.getTime?.() || 0) - (b.start?.getTime?.() || 0));
       if (da !== db) return da - db;
@@ -394,14 +402,12 @@
     eventDidMount: (info) => {
       const cat = getCategory(info.event);
       const priority = getCategoryPriority(info.event);
+      const prioClass = getPriorityClass(priority);
 
       info.el.style.setProperty("--event-color", `var(${cat.cssVar})`);
       info.el.classList.toggle("is-important", !!cat.important);
 
-      // classes pour gérer le rendu CSS ensuite
-      info.el.classList.toggle("is-background-event", priority >= 1000);
-      info.el.classList.toggle("is-foreground-event", priority < 1000);
-
+      info.el.classList.add(prioClass);
       info.el.dataset.priority = String(priority);
       info.el.dataset.category = cat.key;
 
