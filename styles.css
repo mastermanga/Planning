@@ -23,6 +23,7 @@ body::before {
   animation: moveParticles 18s linear infinite alternate;
   opacity: 0.23;
 }
+
 @keyframes moveParticles {
   0%   { background-position: 30vw 20vh, 70vw 75vh; }
   100% { background-position: 33vw 22vh, 68vw 78vh; }
@@ -77,6 +78,7 @@ body::before {
   color: #eaf7ff;
   outline: none;
 }
+
 .search:focus {
   border-color: rgba(0, 234, 255, 0.65);
   box-shadow: 0 0 0 2px rgba(0, 234, 255, 0.18);
@@ -121,6 +123,7 @@ body::before {
 
   transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
 }
+
 .btn:hover {
   transform: translateY(-1px);
   border-color: rgba(0, 234, 255, 0.45);
@@ -206,23 +209,42 @@ body::before {
   background: transparent;
 }
 
+/* =========================================================
+   TimeGrid overlay large style B
+   ========================================================= */
+
+/* Les harness prennent presque toute la largeur de la colonne */
+.fc .fc-timegrid-col-events .fc-timegrid-event-harness {
+  left: 2% !important;
+  right: 2% !important;
+  margin: 0 !important;
+}
+
+/* Event timegrid : large, centré, overlay */
+.fc .fc-timegrid-event {
+  width: auto !important;
+  min-width: 92% !important;
+  max-width: 96% !important;
+  margin: 0 auto !important;
+}
+
 /* =========================
-   ✅ Couleurs par event
+   Couleurs / style par event
    ========================= */
 .fc .fc-event {
   --_c: var(--event-color, var(--c-default));
 
   border-radius: 12px;
-
-  background: rgba(0,0,0,.22);
-  border: 1px solid rgba(255,255,255,0.14);
-
   background: color-mix(in srgb, var(--_c) 22%, rgba(0,0,0,.40));
   border: 1px solid color-mix(in srgb, var(--_c) 55%, rgba(255,255,255,0.12));
-
   border-left: 4px solid var(--_c);
-
   box-shadow: 0 10px 24px rgba(0,0,0,.25);
+
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease,
+    opacity 0.12s ease,
+    filter 0.12s ease;
 }
 
 .fc .fc-event:hover {
@@ -234,102 +256,141 @@ body::before {
   font-weight: 700;
 }
 
-.fc .fc-event.is-important{
+/* Event important */
+.fc .fc-event.is-important {
   border-left: 6px solid var(--_c);
   box-shadow:
     0 0 14px color-mix(in srgb, var(--_c) 40%, transparent),
     0 8px 24px rgba(0,0,0,.35);
-  transform: scale(1.02);
-
-  z-index: 50; /* AJOUT */
+  transform: scale(1.015);
+  z-index: 50 !important;
 }
-/* Réduire les paddings FC, on gère dans notre rendu */
+
+/* Event foreground : devant */
+.fc .fc-event.is-foreground-event {
+  opacity: 1;
+  z-index: 30 !important;
+}
+
+/* Event background : derrière, discret */
+.fc .fc-event.is-background-event {
+  opacity: 0.34;
+  z-index: 4 !important;
+  filter: saturate(0.82);
+  border-left-width: 2px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.16);
+}
+
+/* Important + foreground = tout devant */
+.fc .fc-event.is-important.is-foreground-event {
+  z-index: 60 !important;
+}
+
+/* Réduire les paddings FullCalendar, on gère dans notre rendu */
 .fc .fc-timegrid-event .fc-event-main,
 .fc .fc-daygrid-event .fc-event-main,
 .fc .fc-list-event .fc-event-main {
   padding: 0 !important;
 }
 
-/* ====== Event content custom ====== */
-.badge{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:1rem;
-  min-width:1rem;
-  height:1rem;
-  flex:0 0 auto;
-  font-size:.78rem;
-  line-height:1;
+/* Pour éviter que le timegrid écrase trop les événements */
+.fc .fc-timegrid-event-harness-inset .fc-timegrid-event,
+.fc .fc-timegrid-event.fc-event-mirror,
+.fc .fc-timegrid-more-link {
+  box-shadow: none;
 }
 
-.event-item{
-  display:flex;
-  gap:.42rem;
-  align-items:center;
+/* ====== Event content custom ====== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  min-width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+  font-size: .78rem;
+  line-height: 1;
+}
 
-  padding: .12rem .30rem;
+.event-item {
+  display: flex;
+  gap: .42rem;
+  align-items: center;
+
+  padding: .16rem .34rem;
   border-radius: .55rem;
 
   background: rgba(0,0,0,.12);
 
-  overflow:hidden;
+  overflow: hidden;
   max-width: 100%;
 }
 
-.event-item .dot{
-  width:.55rem;
-  height:.55rem;
-  border-radius:999px;
-  flex:0 0 auto;
-  background: var(--event-color, var(--c-default));
-  box-shadow: 0 0 10px rgba(0,0,0,.28);
-}
-
-.event-item .txt{
+.event-item .txt {
   font-size: .80rem;
   line-height: 1.15;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* bloc week/day */
-.event-block{
-  display:flex;
-  gap:.42rem;
-  align-items:flex-start;
+.event-block {
+  display: flex;
+  gap: .48rem;
+  align-items: flex-start;
 
-  padding: .18rem .35rem;
+  padding: .24rem .42rem;
   width: 100%;
   height: 100%;
+  min-height: 100%;
 
   border-radius: .65rem;
   background: transparent;
 }
 
-.event-block .dot{
-  width:.55rem;
-  height:.55rem;
-  border-radius:999px;
-  flex:0 0 auto;
-  margin-top: .12rem;
-  background: var(--event-color, var(--c-default));
-  box-shadow: 0 0 10px rgba(0,0,0,.28);
-}
+.event-block .txt {
+  flex: 1 1 auto;
+  min-width: 0;
 
-.event-block .txt{
-  font-size: .82rem;
-  line-height: 1.15;
+  font-size: .84rem;
+  line-height: 1.18;
+  font-weight: 700;
+
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
+  word-break: break-word;
 }
 
-/* liste (listYear) souvent très dense -> encore un poil plus petit */
-.fc .fc-list-event-title .event-item .txt{
+/* Les events du fond doivent être plus discrets, texte un peu plus petit */
+.fc .fc-event.is-background-event .event-block .txt {
+  font-size: .76rem;
+  line-height: 1.12;
+  opacity: 0.86;
+  -webkit-line-clamp: 5;
+}
+
+/* Les events utiles un peu plus lisibles */
+.fc .fc-event.is-foreground-event .event-block .txt {
+  font-size: .86rem;
+  line-height: 1.2;
+}
+
+/* Liste (listYear) dense */
+.fc .fc-list-event-title .event-item .txt {
   font-size: .78rem;
+}
+
+/* Vue mois : un peu plus propre */
+.fc .fc-daygrid-event {
+  min-height: 24px;
+}
+
+.fc .fc-daygrid-event .event-item {
+  padding: .18rem .34rem;
 }
 
 /* Mobile : sidebar en haut */
@@ -338,11 +399,26 @@ body::before {
   #app { flex-direction: column; height: auto; overflow: auto; }
   .sidebar, .main { width: 100%; height: auto; }
   #calendar { height: 75vh; }
+
+  .fc .fc-timegrid-col-events .fc-timegrid-event-harness {
+    left: 1.5% !important;
+    right: 1.5% !important;
+  }
+
+  .fc .fc-timegrid-event {
+    min-width: 95% !important;
+    max-width: 98% !important;
+  }
+
+  .event-block .txt {
+    font-size: .80rem;
+    -webkit-line-clamp: 5;
+  }
 }
 
 /* ====== Color tokens ====== */
-:root{
-  --c-anime:  #22D3EE; /* bleu clair néon */
+:root {
+  --c-anime:  #22D3EE;
 
   --c-domingo:#6B21A8;
   --c-rivenzi:#6B21A8;
@@ -356,11 +432,11 @@ body::before {
   --c-fnatic: #D4AF37;
   --c-barca:  #D4AF37;
 
-  --c-foot: #FF8C00;
-  --c-work: #FF3B30;
+  --c-foot:   #FF8C00;
+  --c-work:   #FF3B30;
 
-  --c-sport: #E11D8A;
-  --c-f1:    #F8FAFC;   /* blanc lumineux */
+  --c-sport:  #E11D8A;
+  --c-f1:     #F8FAFC;
 
   --c-default:#607D8B;
 }
