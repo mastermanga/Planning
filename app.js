@@ -92,6 +92,10 @@
     [/\bJD Gaming\b/gi, "JDG"],
     [/\bTS Whales\b/gi, "TW"],
 
+    [/\bFrench Flair\b/gi, "FF"],
+    
+    [/\bEssais Libres\b/gi, "FP"],
+
     // Streamers / créateurs
     [/\bJoueur\s*du\s*Grenier\b/gi, "JDG"],
 
