@@ -125,23 +125,26 @@
   };
 
   // --- Catégorisation : badge + couleur + important ---
-  const CATS = {
-    geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
-    fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
-    barca:  { key: "barca",  cssVar: "--c-barca",  icon: "🔵🔴", label: "FC Barcelone", important: true },
+const CATS = {
+  geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
+  fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
+  barca:  { key: "barca",  cssVar: "--c-barca",  icon: "🔵🔴", label: "FC Barcelone", important: true },
 
-    lol:    { key: "lol",    cssVar: "--c-lol",    icon: "🎮", label: "LoL (LEC/LCK)", important: false },
+  jdr:    { key: "jdr",    cssVar: "--c-jdr",    icon: "🎲", label: "JDR", important: true },
+  work:   { key: "work",   cssVar: "--c-work",   icon: "💼", label: "Work", important: false },
 
-    domingo:{ key: "domingo",cssVar: "--c-domingo",icon: "📺", label: "Domingo", important: false },
-    rivenzi:{ key: "rivenzi",cssVar: "--c-rivenzi",icon: "🟦", label: "Rivenzi", important: false },
-    jdg:    { key: "jdg",    cssVar: "--c-jdg",    icon: "🕹️", label: "JDG", important: false },
+  lol:    { key: "lol",    cssVar: "--c-lol",    icon: "🎮", label: "LoL (LEC/LCK)", important: false },
 
-    anime:  { key: "anime",  cssVar: "--c-anime",  icon: "🎬", label: "Anime", important: false },
+  domingo:{ key: "domingo",cssVar: "--c-domingo",icon: "📺", label: "Domingo", important: false },
+  rivenzi:{ key: "rivenzi",cssVar: "--c-rivenzi",icon: "🟦", label: "Rivenzi", important: false },
+  jdg:    { key: "jdg",    cssVar: "--c-jdg",    icon: "🕹️", label: "JDG", important: false },
 
-    foot:   { key: "foot",   cssVar: "--c-foot",   icon: "⚽", label: "Foot / LDC", important: false },
+  anime:  { key: "anime",  cssVar: "--c-anime",  icon: "🎬", label: "Anime", important: false },
 
-    def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
-  };
+  foot:   { key: "foot",   cssVar: "--c-foot",   icon: "⚽", label: "Foot / LDC", important: false },
+
+  def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
+};
 
   const getCategory = (ev) => {
     const tags = uniqLowerTags(ev.extendedProps?.tags || []);
