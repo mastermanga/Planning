@@ -39,9 +39,24 @@ const LOLIX_MATCHES_API = "https://lolix.gg/api/predictions/matches";
 
 // Twitch channels (IDs fournis)
 const TWITCH_CHANNELS = [
-  { user: "domingo", label: "Domingo", broadcasterId: "40063341", scheduleUrl: "https://www.twitch.tv/domingo/schedule" },
-  { user: "rivenzi", label: "Rivenzi", broadcasterId: "32053915", scheduleUrl: "https://www.twitch.tv/rivenzi/schedule" },
-  { user: "joueur_du_grenier", label: "Joueur du Grenier", broadcasterId: "68078157", scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule" },
+  {
+    user: "domingo",
+    label: "Domingo",
+    broadcasterId: "40063341",
+    scheduleUrl: "https://www.twitch.tv/domingo/schedule",
+  },
+  {
+    user: "rivenzi",
+    label: "Rivenzi",
+    broadcasterId: "32053915",
+    scheduleUrl: "https://www.twitch.tv/rivenzi/schedule",
+  },
+  {
+    user: "joueur_du_grenier",
+    label: "Joueur du Grenier",
+    broadcasterId: "68078157",
+    scheduleUrl: "https://www.twitch.tv/joueur_du_grenier/schedule",
+  },
 ];
 
 // ------------------ Football-data.org (API) ------------------
@@ -51,11 +66,11 @@ const FOOTBALL_DATA_TOKEN = process.env.FOOTBALL_DATA_TOKEN;
 
 // Compétitions à interroger (couvre tes clubs + LDC)
 const FOOT_COMPETITIONS = [
-  { code: "CL", tag: "ldc" },         // UEFA Champions League
+  { code: "CL", tag: "ldc" }, // UEFA Champions League
   { code: "PL", tag: "premier_league" },
-  { code: "PD", tag: "liga" },        // La Liga
+  { code: "PD", tag: "liga" }, // La Liga
   { code: "BL1", tag: "bundesliga" },
-  { code: "FL1", tag: "ligue1" },     // Ligue 1
+  { code: "FL1", tag: "ligue1" }, // Ligue 1
 ];
 
 // Équipes suivies (matching “souple” via aliases)
@@ -64,14 +79,27 @@ const FOOT_TEAMS = [
   { tag: "real_madrid", aliases: ["Real Madrid CF", "Real Madrid"] },
   { tag: "manchester_city", aliases: ["Manchester City FC", "Manchester City"] },
   { tag: "liverpool", aliases: ["Liverpool FC", "Liverpool"] },
-  { tag: "bayern", aliases: ["FC Bayern München", "Bayern München", "Bayern Munchen", "Bayern"] },
+  {
+    tag: "bayern",
+    aliases: ["FC Bayern München", "Bayern München", "Bayern Munchen", "Bayern"],
+  },
   { tag: "psg", aliases: ["Paris Saint-Germain FC", "Paris Saint Germain", "Paris SG", "PSG"] },
   { tag: "nice", aliases: ["OGC Nice", "Nice"] },
-  { tag: "asse", aliases: ["AS Saint-Étienne", "AS Saint-Etienne", "Saint-Étienne", "Saint-Etienne", "ASSE"] },
+  {
+    tag: "asse",
+    aliases: ["AS Saint-Étienne", "AS Saint-Etienne", "Saint-Étienne", "Saint-Etienne", "ASSE"],
+  },
 ];
 
 // Horizon des matchs (en jours) qu’on récupère depuis football-data.org
 const FOOT_LOOKAHEAD_DAYS = 30;
+
+// ------------------ F1 (official iCal) ------------------
+// Mets ici l'URL ICS officielle F1 via variable d'environnement.
+const F1_ICAL_URL = process.env.F1_ICAL_URL;
+
+// Horizon de récupération F1
+const F1_LOOKAHEAD_DAYS = 120;
 
 // ------------------ Guards / Fetch utils ------------------
 if (typeof fetch !== "function") {
@@ -95,10 +123,10 @@ function normSpaces(s) {
 
 function safeTags(tags) {
   if (!tags) return [];
-  if (Array.isArray(tags)) return tags.map(t => String(t).trim()).filter(Boolean);
+  if (Array.isArray(tags)) return tags.map((t) => String(t).trim()).filter(Boolean);
   return String(tags)
     .split(",")
-    .map(t => t.trim())
+    .map((t) => t.trim())
     .filter(Boolean);
 }
 
@@ -114,6 +142,13 @@ function isTooFarInFuture(startISO, maxDays = ANIME_LOOKAHEAD_DAYS) {
   if (!Number.isFinite(t)) return false;
   const limit = Date.now() + maxDays * 86400000;
   return t > limit;
+}
+
+function isWithinFutureWindow(startISO, maxDays) {
+  const t = new Date(startISO).getTime();
+  if (!Number.isFinite(t)) return false;
+  const limit = Date.now() + maxDays * 86400000;
+  return t <= limit;
 }
 
 function makeKey(ev) {
@@ -138,7 +173,7 @@ function lower(v) {
 
 function uniqLowerTags(tags) {
   if (!Array.isArray(tags)) return [];
-  return Array.from(new Set(tags.map(t => lower(t)).filter(Boolean)));
+  return Array.from(new Set(tags.map((t) => lower(t)).filter(Boolean)));
 }
 
 function isAnimeEvent(ev) {
@@ -167,7 +202,7 @@ function detectDelimiter(firstLine) {
 
 function parseCSV(text) {
   const lines = text.replace(/\r/g, "").split("\n");
-  const firstNonEmpty = lines.find(l => l.trim().length > 0) || "";
+  const firstNonEmpty = lines.find((l) => l.trim().length > 0) || "";
   const delim = detectDelimiter(firstNonEmpty);
 
   const rows = [];
@@ -223,8 +258,8 @@ function parseCSV(text) {
   }
 
   return rows
-    .map(r => r.map(v => (v ?? "").toString().trim()))
-    .filter(r => r.some(v => v.length > 0));
+    .map((r) => r.map((v) => (v ?? "").toString().trim()))
+    .filter((r) => r.some((v) => v.length > 0));
 }
 
 function toIsoLocalFromSheet(s) {
@@ -246,7 +281,9 @@ function addDaysIsoLocal(isoLocal, days) {
   const y = Number(m[1]);
   const mo = Number(m[2]);
   const d = Number(m[3]);
-  const hh = m[4], mm = m[5], ss = m[6];
+  const hh = m[4];
+  const mm = m[5];
+  const ss = m[6];
 
   const base = Date.UTC(y, mo - 1, d);
   const next = new Date(base + days * 86400000);
@@ -266,7 +303,7 @@ async function fetchAnimeFromSheet() {
   const rows = parseCSV(csv);
   if (rows.length < 2) return [];
 
-  const headers = rows[0].map(h => h.toLowerCase());
+  const headers = rows[0].map((h) => h.toLowerCase());
   const idx = (name) => headers.indexOf(name);
 
   const iTitle = idx("title");
@@ -295,7 +332,7 @@ async function fetchAnimeFromSheet() {
     const tagsRaw = iTags !== -1 ? normSpaces(row[iTags]) : "";
     const repeatRaw = iRepeat !== -1 ? normSpaces(row[iRepeat]) : "";
 
-    const tags = safeTags(tagsRaw).map(t => t.toLowerCase());
+    const tags = safeTags(tagsRaw).map((t) => t.toLowerCase());
     if (tags.length === 0 && tagsRaw) tags.push(tagsRaw.toLowerCase());
 
     const shouldRepeat = repeatRaw.toLowerCase() === "oui";
@@ -370,7 +407,8 @@ async function fetchTwitchChannel({ user, label, broadcasterId, scheduleUrl }) {
     if (item?.type !== "VEVENT") continue;
 
     const start = item.start instanceof Date ? item.start.toISOString() : String(item.start);
-    const end = item.end instanceof Date ? item.end.toISOString() : (item.end ? String(item.end) : undefined);
+    const end =
+      item.end instanceof Date ? item.end.toISOString() : item.end ? String(item.end) : undefined;
 
     if (!start || isTooOld(start)) continue;
 
@@ -392,7 +430,7 @@ function buildLolixTitle(match) {
   const opp = Array.isArray(match?.opponents) ? match.opponents : [];
 
   const teamNames = opp
-    .map(o => o?.opponent?.name || o?.opponent?.acronym)
+    .map((o) => o?.opponent?.name || o?.opponent?.acronym)
     .filter(Boolean)
     .map(String);
 
@@ -489,12 +527,16 @@ async function fdFetchJson(urlPath, timeoutMs = 20000) {
     throw new Error("FOOTBALL_DATA_TOKEN manquant (env var). Ajoute-le dans les secrets GitHub Actions.");
   }
   const url = `${FOOTBALL_DATA_BASE}${urlPath}`;
-  const r = await fetchWithTimeout(url, {
-    headers: {
-      "user-agent": UA,
-      "X-Auth-Token": FOOTBALL_DATA_TOKEN,
+  const r = await fetchWithTimeout(
+    url,
+    {
+      headers: {
+        "user-agent": UA,
+        "X-Auth-Token": FOOTBALL_DATA_TOKEN,
+      },
     },
-  }, timeoutMs);
+    timeoutMs
+  );
 
   if (!r.ok) {
     const txt = await r.text().catch(() => "");
@@ -541,11 +583,84 @@ async function fetchFootMatchesFootballData() {
   return dedupe(out);
 }
 
+// ------------------ F1 (official iCal) ------------------
+function detectF1SessionType(summary = "", description = "") {
+  const s = `${summary} ${description}`.toLowerCase();
+
+  if (/\b(fp1|free practice 1|practice 1|essais libres 1)\b/.test(s)) return "fp1";
+  if (/\b(fp2|free practice 2|practice 2|essais libres 2)\b/.test(s)) return "fp2";
+  if (/\b(fp3|free practice 3|practice 3|essais libres 3)\b/.test(s)) return "fp3";
+
+  if (/\b(sprint qualifying|sprint shootout)\b/.test(s)) return "sprint_qualifying";
+  if (/\bqualifying\b/.test(s)) return "qualification";
+  if (/\bsprint\b/.test(s)) return "sprint";
+  if (/\b(grand prix|race)\b/.test(s)) return "course";
+
+  return "session";
+}
+
+function buildF1Tags(summary = "", description = "") {
+  const type = detectF1SessionType(summary, description);
+  return Array.from(new Set(["f1", "formula1", "sport_auto", type].filter(Boolean)));
+}
+
+function normalizeF1Title(summary = "") {
+  const raw = normSpaces(summary || "F1 Session");
+  return raw.startsWith("F1") || raw.startsWith("FORMULA 1") ? `🏎️ ${raw}` : `🏎️ F1 — ${raw}`;
+}
+
+async function fetchF1Sessions() {
+  if (!F1_ICAL_URL) {
+    throw new Error("F1_ICAL_URL manquant. Ajoute l'URL iCal officielle F1 dans les variables d'environnement.");
+  }
+
+  const r = await fetchWithTimeout(F1_ICAL_URL, { headers: { "user-agent": UA } }, 20000);
+  if (!r.ok) throw new Error(`F1 iCal HTTP ${r.status}`);
+
+  const icsText = await r.text();
+  const parsed = ical.sync.parseICS(icsText);
+
+  const out = [];
+
+  for (const k of Object.keys(parsed)) {
+    const item = parsed[k];
+    if (item?.type !== "VEVENT") continue;
+
+    const start = item.start instanceof Date ? item.start.toISOString() : String(item.start || "");
+    const end =
+      item.end instanceof Date ? item.end.toISOString() : item.end ? String(item.end) : undefined;
+
+    if (!start) continue;
+    if (isTooOld(start)) continue;
+    if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) continue;
+
+    const summary = normSpaces(item.summary || "F1 Session");
+    const description = normSpaces(item.description || "");
+    const location = normSpaces(item.location || "");
+
+    out.push({
+      title: normalizeF1Title(summary),
+      start,
+      end,
+      source: "F1 (official calendar)",
+      url: "https://calendar.formula1.com/",
+      location,
+      tags: buildF1Tags(summary, description),
+    });
+  }
+
+  return dedupe(out);
+}
+
 // ------------------ Missed anime sheet sync ------------------
 async function fetchExistingMissedKeys() {
-  const res = await fetchWithTimeout(MISSED_API_URL, {
-    headers: { "user-agent": UA }
-  }, 20000);
+  const res = await fetchWithTimeout(
+    MISSED_API_URL,
+    {
+      headers: { "user-agent": UA },
+    },
+    20000
+  );
 
   if (!res.ok) {
     throw new Error(`Missed sheet GET HTTP ${res.status}`);
@@ -554,11 +669,7 @@ async function fetchExistingMissedKeys() {
   const data = await res.json();
   if (!Array.isArray(data)) return new Set();
 
-  return new Set(
-    data
-      .map(item => lower(item?.key))
-      .filter(Boolean)
-  );
+  return new Set(data.map((item) => lower(item?.key)).filter(Boolean));
 }
 
 async function addMissedAnimeToSheet(ev) {
@@ -567,17 +678,21 @@ async function addMissedAnimeToSheet(ev) {
     key: makeKey(ev),
     anime: normSpaces(ev.title),
     start: formatStartForMissedSheet(ev.start),
-    url: ev.url || ""
+    url: ev.url || "",
   };
 
-  const res = await fetchWithTimeout(MISSED_API_URL, {
-    method: "POST",
-    headers: {
-      "user-agent": UA,
-      "content-type": "text/plain;charset=utf-8"
+  const res = await fetchWithTimeout(
+    MISSED_API_URL,
+    {
+      method: "POST",
+      headers: {
+        "user-agent": UA,
+        "content-type": "text/plain;charset=utf-8",
+      },
+      body: JSON.stringify(payload),
     },
-    body: JSON.stringify(payload)
-  }, 20000);
+    20000
+  );
 
   if (!res.ok) {
     throw new Error(`Missed sheet POST HTTP ${res.status}`);
@@ -590,9 +705,9 @@ async function syncMissedAnime(events) {
   const existingKeys = await fetchExistingMissedKeys();
 
   const candidates = dedupe(events)
-    .filter(ev => ev?.title && ev?.start)
-    .filter(ev => isAnimeEvent(ev))
-    .filter(ev => {
+    .filter((ev) => ev?.title && ev?.start)
+    .filter((ev) => isAnimeEvent(ev))
+    .filter((ev) => {
       const t = new Date(ev.start).getTime();
       return Number.isFinite(t) && t <= Date.now();
     });
@@ -636,18 +751,20 @@ async function main() {
 
   await run("lolix.gg", fetchLolixMatches);
   await run("football-data.org (foot)", fetchFootMatchesFootballData);
+  await run("F1 (official)", fetchF1Sessions);
 
   const cleaned = dedupe(all)
-    .filter(ev => ev?.title && ev?.start)
-    .filter(ev => !isTooOld(ev.start))
-    .map(ev => ({
+    .filter((ev) => ev?.title && ev?.start)
+    .filter((ev) => !isTooOld(ev.start))
+    .map((ev) => ({
       title: normSpaces(ev.title),
       start: ev.start,
       end: ev.end,
       source: normSpaces(ev.source || "unknown"),
       url: ev.url || "",
       googleSheetUrl: ev.googleSheetUrl || "",
-      tags: safeTags(ev.tags).map(t => String(t).toLowerCase()),
+      location: normSpaces(ev.location || ""),
+      tags: safeTags(ev.tags).map((t) => String(t).toLowerCase()),
     }))
     .sort((a, b) => new Date(a.start) - new Date(b.start));
 
