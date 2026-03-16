@@ -210,26 +210,26 @@ body::before {
 }
 
 /* =========================================================
-   TimeGrid overlay large style B
+   TimeGrid overlay compact
    ========================================================= */
 
-/* Les harness prennent presque toute la largeur de la colonne */
+/* zone de positionnement des events */
 .fc .fc-timegrid-col-events .fc-timegrid-event-harness {
-  left: 2% !important;
-  right: 2% !important;
+  left: 0 !important;
+  right: 0 !important;
   margin: 0 !important;
 }
 
-/* Event timegrid : large, centré, overlay */
+/* largeur globale des blocs overlay */
 .fc .fc-timegrid-event {
   width: auto !important;
-  min-width: 92% !important;
-  max-width: 96% !important;
+  min-width: fit-content !important;
+  max-width: 85% !important;
   margin: 0 auto !important;
 }
 
 /* =========================
-   Couleurs / style par event
+   Style général des events
    ========================= */
 .fc .fc-event {
   --_c: var(--event-color, var(--c-default));
@@ -256,44 +256,59 @@ body::before {
   font-weight: 700;
 }
 
-/* Event important */
+/* important */
 .fc .fc-event.is-important {
   border-left: 6px solid var(--_c);
   box-shadow:
     0 0 14px color-mix(in srgb, var(--_c) 40%, transparent),
     0 8px 24px rgba(0,0,0,.35);
   transform: scale(1.015);
+}
+
+/* =========================
+   Priorités visuelles
+   ========================= */
+
+.fc .fc-event.prio-1 {
+  z-index: 60 !important;
+  opacity: 1;
+}
+
+.fc .fc-event.prio-100 {
+  z-index: 40 !important;
+  opacity: 0.96;
+}
+
+.fc .fc-event.prio-500 {
+  z-index: 25 !important;
+  opacity: 0.88;
+}
+
+.fc .fc-event.prio-1000 {
+  z-index: 10 !important;
+  opacity: 0.64;
+  filter: saturate(0.88);
+  border-left-width: 2px;
+  box-shadow: 0 5px 14px rgba(0,0,0,.18);
+}
+
+/* important + prioritaire */
+.fc .fc-event.is-important.prio-1 {
+  z-index: 70 !important;
+}
+
+.fc .fc-event.is-important.prio-100 {
   z-index: 50 !important;
 }
 
-/* Event foreground : devant */
-.fc .fc-event.is-foreground-event {
-  opacity: 1;
-  z-index: 30 !important;
-}
-
-/* Event background : derrière, discret */
-.fc .fc-event.is-background-event {
-  opacity: 0.34;
-  z-index: 4 !important;
-  filter: saturate(0.82);
-  border-left-width: 2px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.16);
-}
-
-/* Important + foreground = tout devant */
-.fc .fc-event.is-important.is-foreground-event {
-  z-index: 60 !important;
-}
-
-/* Réduire les paddings FullCalendar, on gère dans notre rendu */
+/* Réduire les paddings FC */
 .fc .fc-timegrid-event .fc-event-main,
 .fc .fc-daygrid-event .fc-event-main,
 .fc .fc-list-event .fc-event-main {
   padding: 0 !important;
 }
 
-/* Pour éviter que le timegrid écrase trop les événements */
+/* neutraliser certains effets FC */
 .fc .fc-timegrid-event-harness-inset .fc-timegrid-event,
 .fc .fc-timegrid-event.fc-event-mirror,
 .fc .fc-timegrid-more-link {
@@ -365,26 +380,33 @@ body::before {
   word-break: break-word;
 }
 
-/* Les events du fond doivent être plus discrets, texte un peu plus petit */
-.fc .fc-event.is-background-event .event-block .txt {
-  font-size: .76rem;
-  line-height: 1.12;
-  opacity: 0.86;
+/* tailles de texte selon priorité */
+.fc .fc-event.prio-1 .event-block .txt {
+  font-size: .88rem;
+  line-height: 1.2;
+  -webkit-line-clamp: 6;
+}
+
+.fc .fc-event.prio-100 .event-block .txt {
+  font-size: .85rem;
+  line-height: 1.18;
+  -webkit-line-clamp: 6;
+}
+
+.fc .fc-event.prio-500 .event-block .txt {
+  font-size: .82rem;
+  line-height: 1.16;
   -webkit-line-clamp: 5;
 }
 
-/* Les events utiles un peu plus lisibles */
-.fc .fc-event.is-foreground-event .event-block .txt {
-  font-size: .86rem;
-  line-height: 1.2;
-}
-
-/* Liste (listYear) dense */
-.fc .fc-list-event-title .event-item .txt {
+.fc .fc-event.prio-1000 .event-block .txt {
   font-size: .78rem;
+  line-height: 1.12;
+  opacity: 0.92;
+  -webkit-line-clamp: 5;
 }
 
-/* Vue mois : un peu plus propre */
+/* Vue mois */
 .fc .fc-daygrid-event {
   min-height: 24px;
 }
@@ -393,26 +415,29 @@ body::before {
   padding: .18rem .34rem;
 }
 
-/* Mobile : sidebar en haut */
+/* Liste */
+.fc .fc-list-event-title .event-item .txt {
+  font-size: .78rem;
+}
+
+/* Mobile */
 @media (max-width: 900px) {
   body { overflow: auto; height: auto; }
   #app { flex-direction: column; height: auto; overflow: auto; }
   .sidebar, .main { width: 100%; height: auto; }
   #calendar { height: 75vh; }
 
-  .fc .fc-timegrid-col-events .fc-timegrid-event-harness {
-    left: 1.5% !important;
-    right: 1.5% !important;
-  }
-
   .fc .fc-timegrid-event {
-    min-width: 95% !important;
-    max-width: 98% !important;
+    max-width: 85% !important;
   }
 
   .event-block .txt {
     font-size: .80rem;
     -webkit-line-clamp: 5;
+  }
+
+  .fc .fc-event.prio-1000 .event-block .txt {
+    font-size: .76rem;
   }
 }
 
