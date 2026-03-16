@@ -269,6 +269,20 @@
     ]
   },
   {
+    "title": "🏎️ F1 — Chinese - Essais Libres 1",
+    "start": "2026-03-13T03:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Shanghai",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-13T07:00:00",
     "end": "2026-03-13T09:00:00",
@@ -278,6 +292,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Chinese - Qualifs Sprint",
+    "start": "2026-03-13T07:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Shanghai",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint_qualifying"
     ]
   },
   {
@@ -368,6 +396,20 @@
     ]
   },
   {
+    "title": "🏎️ F1 — Chinese - Sprint",
+    "start": "2026-03-14T03:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Shanghai",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-14T07:00:00",
     "end": "2026-03-14T09:00:00",
@@ -377,6 +419,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Chinese - Qualifications",
+    "start": "2026-03-14T07:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Shanghai",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
@@ -446,6 +502,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Chinese - Course",
+    "start": "2026-03-15T07:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Shanghai",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
@@ -556,6 +626,20 @@
     ]
   },
   {
+    "title": "[First Stand] Bilibili Gaming vs BNK FEARX",
+    "start": "2026-03-16T13:11:34Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "first stand"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-03-16T14:00:00",
     "end": "2026-03-16T15:30:00",
@@ -580,7 +664,7 @@
   },
   {
     "title": "[First Stand] G2 Esports vs Team Secret Whales",
-    "start": "2026-03-16T17:20:00Z",
+    "start": "2026-03-16T17:20:18Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1645,6 +1729,34 @@
     ]
   },
   {
+    "title": "🏎️ F1 — Japanese - Essais Libres 1",
+    "start": "2026-03-27T02:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Suzuka",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Japanese - Essais Libres 2",
+    "start": "2026-03-27T06:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Suzuka",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp2"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-27T07:00:00",
     "end": "2026-03-27T09:00:00",
@@ -1715,6 +1827,34 @@
     ]
   },
   {
+    "title": "🏎️ F1 — Japanese - Essais Libres 3",
+    "start": "2026-03-28T02:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Suzuka",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Japanese - Qualifications",
+    "start": "2026-03-28T06:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Suzuka",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-28T07:00:00",
     "end": "2026-03-28T09:00:00",
@@ -1781,6 +1921,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "🏎️ F1 — Japanese - Course",
+    "start": "2026-03-29T05:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Suzuka",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
