@@ -28,7 +28,7 @@
   const FOOT_URL = "https://www.fctv33.quest/fr";
 
   // ---------- Priorités ----------
-  // Plus le nombre est PETIT, plus l'event doit être visible / devant
+  // Plus le nombre est PETIT, plus l'event est prioritaire
   const CAT_PRIORITY = {
     geng: 1,
     fnatic: 1,
@@ -160,7 +160,10 @@
     const t = lower(rawTitle);
     const s = lower(source);
     return (
-      tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone") ||
+      tags.includes("foot") ||
+      tags.includes("ldc") ||
+      tags.includes("barcelona") ||
+      tags.includes("barcelone") ||
       /ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|champions\s*league|\bldc\b/i.test(t) ||
       /^⚽/u.test(rawTitle) ||
       s.includes("foot")
@@ -196,7 +199,7 @@
     return title || String(rawTitle || "");
   };
 
-  // --- Catégorisation : badge + couleur + important ---
+  // ---------- Catégories ----------
   const CATS = {
     geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
     fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
@@ -353,6 +356,67 @@
     };
   };
 
+  // ---------- Placement adaptatif du titre des blocs 1000 ----------
+  function placeBackgroundLabels() {
+    const bgEvents = Array.from(calendarEl.querySelectorAll(".fc-timegrid-event.prio-1000"));
+
+    bgEvents.forEach((bgEl) => {
+      const labelEl = bgEl.querySelector(".bg-floating-label");
+      if (!labelEl) return;
+
+      const harness = bgEl.closest(".fc-timegrid-event-harness");
+      const col = bgEl.closest(".fc-timegrid-col-events");
+      if (!harness || !col) return;
+
+      const bgRect = harness.getBoundingClientRect();
+      const bgHeight = bgRect.height;
+
+      // base : pas tout en haut, pour éviter l’effet collé
+      let topOffset = 12;
+
+      const blockers = Array.from(col.querySelectorAll(".fc-timegrid-event"))
+        .filter((el) => el !== bgEl && !el.classList.contains("prio-1000"));
+
+      let blockingBottom = bgRect.top + 8;
+
+      blockers.forEach((el) => {
+        const h = el.closest(".fc-timegrid-event-harness");
+        if (!h) return;
+        const r = h.getBoundingClientRect();
+
+        const sameVerticalZone =
+          r.bottom > bgRect.top &&
+          r.top < bgRect.top + Math.min(bgHeight * 0.35, 140);
+
+        if (sameVerticalZone) {
+          blockingBottom = Math.max(blockingBottom, r.bottom + 6);
+        }
+      });
+
+      topOffset = Math.max(topOffset, blockingBottom - bgRect.top);
+
+      const labelHeight = labelEl.offsetHeight || 22;
+      const maxTop = Math.max(12, bgHeight - labelHeight - 10);
+
+      // si le bloc est grand, on peut pousser le titre un peu plus bas naturellement
+      if (bgHeight >= 160 && topOffset < 22) {
+        topOffset = 22;
+      }
+
+      topOffset = Math.min(topOffset, maxTop);
+
+      bgEl.style.setProperty("--bg-label-top", `${Math.round(topOffset)}px`);
+    });
+  }
+
+  function scheduleBackgroundLabelPlacement() {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        placeBackgroundLabels();
+      });
+    });
+  }
+
   // ---------- State ----------
   let allEvents = [];
   let searchTerm = "";
@@ -369,14 +433,15 @@
     nowIndicator: true,
     headerToolbar: false,
 
-    // Overlay type Apple
+    // On laisse FullCalendar gérer les overlaps
+    // pour que les events non-1000 puissent se mettre à côté
     slotEventOverlap: true,
     eventOrderStrict: true,
     dayMaxEvents: false,
     dayMaxEventRows: false,
     eventMinHeight: 30,
 
-    // Le plus petit nombre = plus visible / plus haut
+    // Le plus petit nombre = plus prioritaire
     eventOrder: (a, b) => {
       const pa = getCategoryPriority(a);
       const pb = getCategoryPriority(b);
@@ -389,6 +454,12 @@
       if (da !== db) return da - db;
 
       return (a.title || "").localeCompare(b.title || "", "fr");
+    },
+
+    datesSet: () => {
+      updateTitle();
+      setActiveViewButton(calendar.view.type);
+      scheduleBackgroundLabelPlacement();
     },
 
     eventClick: (info) => {
@@ -412,16 +483,62 @@
       info.el.dataset.category = cat.key;
 
       info.el.title = buildEventTooltip(info.event);
+
+      scheduleBackgroundLabelPlacement();
     },
 
     eventContent: (arg) => {
       const viewType = arg.view.type;
       const cat = getCategory(arg.event);
+      const priority = getCategoryPriority(arg.event);
 
+      // Vue list / month
+      if (viewType.includes("list") || viewType.includes("dayGrid")) {
+        const container = document.createElement("div");
+        container.className = "event-item";
+
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = cat.icon;
+        badge.title = cat.label;
+
+        const text = document.createElement("span");
+        text.className = "txt";
+        text.textContent = arg.event.title;
+
+        container.appendChild(badge);
+        container.appendChild(text);
+
+        return { domNodes: [container] };
+      }
+
+      // TimeGrid priorité 1000 : fond + label mobile
+      if (priority >= 1000) {
+        const container = document.createElement("div");
+        container.className = "event-block event-block-bg";
+
+        const label = document.createElement("div");
+        label.className = "bg-floating-label";
+
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = cat.icon;
+        badge.title = cat.label;
+
+        const text = document.createElement("span");
+        text.className = "txt";
+        text.textContent = arg.event.title;
+
+        label.appendChild(badge);
+        label.appendChild(text);
+        container.appendChild(label);
+
+        return { domNodes: [container] };
+      }
+
+      // TimeGrid autres priorités : carte compacte
       const container = document.createElement("div");
-      container.className = (viewType.includes("list") || viewType.includes("dayGrid"))
-        ? "event-item"
-        : "event-block";
+      container.className = "event-block event-block-card";
 
       const badge = document.createElement("span");
       badge.className = "badge";
@@ -472,6 +589,7 @@
       }
 
       applyFilters();
+      scheduleBackgroundLabelPlacement();
     } catch (e) {
       console.error(e);
       allEvents = [];
@@ -513,22 +631,26 @@
     });
 
     updateTitle();
+    scheduleBackgroundLabelPlacement();
   }
 
   // ---------- Controls ----------
   prevBtn?.addEventListener("click", () => {
     calendar.prev();
     updateTitle();
+    scheduleBackgroundLabelPlacement();
   });
 
   nextBtn?.addEventListener("click", () => {
     calendar.next();
     updateTitle();
+    scheduleBackgroundLabelPlacement();
   });
 
   todayBtn?.addEventListener("click", () => {
     calendar.today();
     updateTitle();
+    scheduleBackgroundLabelPlacement();
   });
 
   $$(".btn.pill[data-view]").forEach(btn => {
@@ -538,6 +660,7 @@
       calendar.changeView(view);
       setActiveViewButton(view);
       updateTitle();
+      scheduleBackgroundLabelPlacement();
     });
   });
 
@@ -549,6 +672,10 @@
     searchTerm = e.target.value || "";
     applyFilters();
   }, 200));
+
+  window.addEventListener("resize", debounce(() => {
+    scheduleBackgroundLabelPlacement();
+  }, 100));
 
   // ---------- Notifications ----------
   async function toggleNotifications() {
