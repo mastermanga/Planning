@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import ical from "node-ical";
+import * as cheerio from "cheerio";
 
 // ------------------ Paths (toujours depuis la racine du projet) ------------------
 const __filename = fileURLToPath(import.meta.url);
@@ -94,12 +95,9 @@ const FOOT_TEAMS = [
 // Horizon des matchs (en jours) qu’on récupère depuis football-data.org
 const FOOT_LOOKAHEAD_DAYS = 30;
 
-// ------------------ F1 (official iCal) ------------------
-// Mets ici l'URL ICS officielle F1 via variable d'environnement.
-const F1_ICAL_URL = process.env.F1_ICAL_URL;
-
-// Horizon de récupération F1
-const F1_LOOKAHEAD_DAYS = 120;
+// ------------------ F1 (Motorsport HTML) ------------------
+const F1_SCHEDULE_URL = "https://fr.motorsport.com/f1/schedule/2026/";
+const F1_LOOKAHEAD_DAYS = 14;
 
 // ------------------ Guards / Fetch utils ------------------
 if (typeof fetch !== "function") {
@@ -583,18 +581,18 @@ async function fetchFootMatchesFootballData() {
   return dedupe(out);
 }
 
-// ------------------ F1 (official iCal) ------------------
+// ------------------ F1 (Motorsport HTML) ------------------
 function detectF1SessionType(summary = "", description = "") {
   const s = `${summary} ${description}`.toLowerCase();
 
+  if (/\b(essais hivernaux|winter testing|testing)\b/.test(s)) return "testing";
+  if (/\b(qualifs sprint|sprint qualifying|sprint shootout)\b/.test(s)) return "sprint_qualifying";
   if (/\b(fp1|free practice 1|practice 1|essais libres 1)\b/.test(s)) return "fp1";
   if (/\b(fp2|free practice 2|practice 2|essais libres 2)\b/.test(s)) return "fp2";
   if (/\b(fp3|free practice 3|practice 3|essais libres 3)\b/.test(s)) return "fp3";
-
-  if (/\b(sprint qualifying|sprint shootout)\b/.test(s)) return "sprint_qualifying";
-  if (/\bqualifying\b/.test(s)) return "qualification";
-  if (/\bsprint\b/.test(s)) return "sprint";
-  if (/\b(grand prix|race)\b/.test(s)) return "course";
+  if (/\b(qualifications|qualifying)\b/.test(s)) return "qualification";
+  if (/\b(sprint)\b/.test(s)) return "sprint";
+  if (/\b(course|grand prix|race)\b/.test(s)) return "course";
 
   return "session";
 }
@@ -609,45 +607,77 @@ function normalizeF1Title(summary = "") {
   return raw.startsWith("F1") || raw.startsWith("FORMULA 1") ? `🏎️ ${raw}` : `🏎️ F1 — ${raw}`;
 }
 
+function normalizeF1Start(startRaw) {
+  const s = normSpaces(startRaw);
+  if (!s) return "";
+
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/i.test(s)) return s;
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$/i.test(s)) return `${s}Z`;
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/i.test(s)) return `${s}:00Z`;
+
+  return s;
+}
+
+function extractF1LocationFromTitle(title = "") {
+  const m = normSpaces(title).match(/^(.*?)\s*-\s*/);
+  return m ? normSpaces(m[1]) : "";
+}
+
 async function fetchF1Sessions() {
-  if (!F1_ICAL_URL) {
-    throw new Error("F1_ICAL_URL manquant. Ajoute l'URL iCal officielle F1 dans les variables d'environnement.");
-  }
+  const r = await fetchWithTimeout(F1_SCHEDULE_URL, { headers: { "user-agent": UA } }, 20000);
+  if (!r.ok) throw new Error(`Motorsport F1 HTTP ${r.status}`);
 
-  const r = await fetchWithTimeout(F1_ICAL_URL, { headers: { "user-agent": UA } }, 20000);
-  if (!r.ok) throw new Error(`F1 iCal HTTP ${r.status}`);
-
-  const icsText = await r.text();
-  const parsed = ical.sync.parseICS(icsText);
+  const html = await r.text();
+  const $ = cheerio.load(html);
 
   const out = [];
+  const seenRows = new Set();
 
-  for (const k of Object.keys(parsed)) {
-    const item = parsed[k];
-    if (item?.type !== "VEVENT") continue;
+  $("time[datetime]").each((_, timeNode) => {
+    const timeEl = $(timeNode);
+    const start = normalizeF1Start(timeEl.attr("datetime") || "");
+    if (!start) return;
+    if (isTooOld(start)) return;
+    if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) return;
 
-    const start = item.start instanceof Date ? item.start.toISOString() : String(item.start || "");
-    const end =
-      item.end instanceof Date ? item.end.toISOString() : item.end ? String(item.end) : undefined;
+    const row = timeEl.closest("tr");
+    if (!row.length) return;
 
-    if (!start) continue;
-    if (isTooOld(start)) continue;
-    if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) continue;
+    const rowKey = row.text();
+    if (seenRows.has(rowKey)) return;
+    seenRows.add(rowKey);
 
-    const summary = normSpaces(item.summary || "F1 Session");
-    const description = normSpaces(item.description || "");
-    const location = normSpaces(item.location || "");
+    const rowText = normSpaces(row.text());
+    if (!rowText) return;
+    if (/annul/i.test(rowText)) return;
+
+    let summary = normSpaces(
+      row.find(".ms-schedule-table__cell--main, .ms-table_cell--title, .ms-schedule-table__item-title")
+        .first()
+        .text()
+    );
+
+    if (!summary) {
+      summary = rowText;
+    }
+
+    // On ignore les lignes "événement parent" sans vraie session
+    if (!/\s-\s/.test(summary) && !/essais hivernaux/i.test(summary)) {
+      return;
+    }
+
+    const location = extractF1LocationFromTitle(summary);
 
     out.push({
       title: normalizeF1Title(summary),
       start,
-      end,
-      source: "F1 (official calendar)",
-      url: "https://calendar.formula1.com/",
+      end: undefined,
+      source: "motorsport.com",
+      url: F1_SCHEDULE_URL,
       location,
-      tags: buildF1Tags(summary, description),
+      tags: buildF1Tags(summary, location),
     });
-  }
+  });
 
   return dedupe(out);
 }
@@ -751,7 +781,7 @@ async function main() {
 
   await run("lolix.gg", fetchLolixMatches);
   await run("football-data.org (foot)", fetchFootMatchesFootballData);
-  await run("F1 (official)", fetchF1Sessions);
+  await run("F1 (motorsport.com)", fetchF1Sessions);
 
   const cleaned = dedupe(all)
     .filter((ev) => ev?.title && ev?.start)
