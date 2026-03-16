@@ -15,7 +15,15 @@ const OUT_LOLIX_RAW = path.join(PROJECT_ROOT, "data", "lolix-raw.json");
 
 // ------------------ Config ------------------
 const UA = "planning-bot/1.0 (+github-actions)";
-const MAX_PAST_HOURS = 5;
+
+// Garde les événements passés pendant 7 jours
+const MAX_PAST_DAYS = 7;
+
+// Limite les événements anime à 3 mois (~90 jours) dans le futur
+const ANIME_LOOKAHEAD_DAYS = 90;
+
+// Repeat weekly horizon (on garde 52, mais on coupe avant avec isTooFarInFuture)
+const REPEAT_WEEKS = 52;
 
 // Google sheet (pubhtml -> on force CSV)
 const SHEET_PUBHTML =
@@ -25,9 +33,6 @@ const SHEET_CSV = SHEET_PUBHTML.replace(/\/pubhtml.*$/i, "/pub?output=csv");
 // Apps Script API (Feuille 2 "À rattraper")
 const MISSED_API_URL =
   "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
-
-// Repeat weekly horizon
-const REPEAT_WEEKS = 52;
 
 // Lolix API
 const LOLIX_MATCHES_API = "https://lolix.gg/api/predictions/matches";
@@ -100,8 +105,15 @@ function safeTags(tags) {
 function isTooOld(startISO) {
   const t = new Date(startISO).getTime();
   if (!Number.isFinite(t)) return false;
-  const cutoff = Date.now() - MAX_PAST_HOURS * 3600 * 1000;
+  const cutoff = Date.now() - MAX_PAST_DAYS * 86400000;
   return t < cutoff;
+}
+
+function isTooFarInFuture(startISO, maxDays = ANIME_LOOKAHEAD_DAYS) {
+  const t = new Date(startISO).getTime();
+  if (!Number.isFinite(t)) return false;
+  const limit = Date.now() + maxDays * 86400000;
+  return t > limit;
 }
 
 function makeKey(ev) {
@@ -299,14 +311,18 @@ async function fetchAnimeFromSheet() {
     };
 
     if (!shouldRepeat) {
-      if (!isTooOld(base.start)) out.push(base);
+      if (!isTooOld(base.start) && !isTooFarInFuture(base.start)) {
+        out.push(base);
+      }
       continue;
     }
 
     for (let k = 0; k < REPEAT_WEEKS; k++) {
       const startK = addDaysIsoLocal(start0, k * 7);
       const endK = end0 ? addDaysIsoLocal(end0, k * 7) : undefined;
+
       if (isTooOld(startK)) continue;
+      if (isTooFarInFuture(startK)) break;
 
       out.push({
         ...base,
