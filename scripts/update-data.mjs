@@ -696,7 +696,7 @@ async function fetchF1Sessions() {
       if (!isWithinFutureWindow(startISO, F1_LOOKAHEAD_DAYS)) continue;
 
       const ev = {
-        title: `🏎️ F1 — ${raceName} - ${f1SessionLabel(sessionKey)}`,
+        title: `F1 — ${raceName} - ${f1SessionLabel(sessionKey)}`,
         start: startISO,
         end: undefined,
         source: "f1calendar",
