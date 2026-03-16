@@ -51,32 +51,56 @@
     return Array.from(s);
   };
 
-  const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
-    const out = new Set(existingTags.map(lower));
-    const t = String(rawTitle || "");
+const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
+  const out = new Set(existingTags.map(lower));
+  const t = String(rawTitle || "");
 
-    // LoL
-    if (/\[\s*lec\s*\]/i.test(t) || /\blec\b/i.test(t)) out.add("lec");
-    if (/\[\s*lck\s*\]/i.test(t) || /\blck\b/i.test(t)) out.add("lck");
-    if (/\bfnatic\b/i.test(t)) out.add("fnatic");
-    if (/\bgen\.?\s*g\b/i.test(t) || /\bgeng\b/i.test(t)) out.add("geng");
+  // LoL
+  if (/\[\s*lec\s*\]/i.test(t) || /\blec\b/i.test(t)) out.add("lec");
+  if (/\[\s*lck\s*\]/i.test(t) || /\blck\b/i.test(t)) out.add("lck");
+  if (/\bfnatic\b/i.test(t)) out.add("fnatic");
+  if (/\bgen\.?\s*g\b/i.test(t) || /\bgeng\b/i.test(t)) out.add("geng");
 
-    // Barca
-    if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
+  // Barca
+  if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
 
-    // Twitch
-    if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
-    if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
-    if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) { out.add("twitch"); out.add("joueur_du_grenier"); }
+  // Twitch
+  if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
+  if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
+  if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) {
+    out.add("twitch");
+    out.add("joueur_du_grenier");
+    out.add("jdg");
+  }
 
-    // Foot/LDC
-    if (/ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|ldc|champions\s*league/i.test(t) || /^⚽/u.test(t)) {
-      out.add("foot");
-    }
-    if (/\bldc\b/i.test(t) || /champions\s*league/i.test(t)) out.add("ldc");
+  // Foot / LDC
+  if (/ligue\s*1|primera\s*division|la\s*liga|serie\s*a|premier\s*league|bundesliga|ldc|champions\s*league/i.test(t) || /^⚽/u.test(t)) {
+    out.add("foot");
+  }
+  if (/\bldc\b/i.test(t) || /champions\s*league|ligue\s*des\s*champions/i.test(t)) out.add("ldc");
 
-    return Array.from(out);
-  };
+  // JDR
+  if (/\bjdr\b/i.test(t) || /jeu de rôle|jeu de role|dungeons|donjons/i.test(t)) {
+    out.add("jdr");
+  }
+
+  // Work
+  if (/\bwork\b/i.test(t) || /travail|boulot|réunion|reunion|meeting|taf/i.test(t)) {
+    out.add("work");
+  }
+
+  // F1
+  if (/\bf1\b/i.test(t) || /formula\s*1|formule\s*1|grand prix|gp\b/i.test(t)) {
+    out.add("f1");
+  }
+
+  // Sport générique
+  if (/sport|muscu|fitness|run|running|course|vélo|velo|natation|tennis|rugby|basket|nba|footing/i.test(t)) {
+    out.add("sport");
+  }
+
+  return Array.from(out);
+};
 
   const isLoLEvent = (tags, rawTitle, source) => {
     const t = lower(rawTitle);
@@ -124,7 +148,7 @@
     return title || String(rawTitle || "");
   };
 
-  // --- Catégorisation : badge + couleur + important ---
+// --- Catégorisation : badge + couleur + important ---
 const CATS = {
   geng:   { key: "geng",   cssVar: "--c-geng",   icon: "🔥", label: "GENG", important: true },
   fnatic: { key: "fnatic", cssVar: "--c-fnatic", icon: "⚡", label: "Fnatic", important: true },
@@ -142,6 +166,8 @@ const CATS = {
   anime:  { key: "anime",  cssVar: "--c-anime",  icon: "🎬", label: "Anime", important: false },
 
   foot:   { key: "foot",   cssVar: "--c-foot",   icon: "⚽", label: "Foot / LDC", important: false },
+  sport:  { key: "sport",  cssVar: "--c-sport",  icon: "🏅", label: "Sport", important: false },
+  f1:     { key: "f1",     cssVar: "--c-f1",     icon: "🏎️", label: "F1", important: false },
 
   def:    { key: "default",cssVar: "--c-default",icon: "•",  label: "Autre", important: false },
 };
@@ -158,17 +184,30 @@ const getCategory = (ev) => {
   if (tags.includes("barcelona") || tags.includes("barcelone") || /barcelona|barcelone/.test(text)) return CATS.barca;
 
   if (tags.includes("jdr") || /\bjdr\b/.test(text) || /jeu de rôle|jeu de role|dungeons|donjons/.test(text)) return CATS.jdr;
-  if (tags.includes("work") || /\bwork\b/.test(text)) return CATS.work;
+  if (tags.includes("work") || /\bwork\b/.test(text) || /travail|boulot|réunion|reunion|meeting|taf/.test(text)) return CATS.work;
 
-  if (tags.includes("lec") || tags.includes("lck") || /\b(lec|lck)\b/.test(text) || source.includes("lec") || source.includes("lck")) return CATS.lol;
+  if (tags.includes("f1") || /\bf1\b/.test(text) || /formula\s*1|formule\s*1|grand prix|gp\b/.test(text)) return CATS.f1;
+
+  if (
+    tags.includes("lec") ||
+    tags.includes("lck") ||
+    /\b(lec|lck)\b/.test(text) ||
+    source.includes("lec") ||
+    source.includes("lck")
+  ) return CATS.lol;
 
   if (tags.includes("domingo") || /domingo/.test(text)) return CATS.domingo;
   if (tags.includes("rivenzi") || /rivenzi/.test(text)) return CATS.rivenzi;
-  if (tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
+  if (tags.includes("jdg") || tags.includes("joueur_du_grenier") || /joueur du grenier|\bjdg\b/.test(text)) return CATS.jdg;
 
   if (tags.includes("anime") || source.includes("anime-sama")) return CATS.anime;
 
   if (tags.includes("foot") || tags.includes("ldc") || /^⚽/u.test(ev.extendedProps?.rawTitle || "")) return CATS.foot;
+
+  if (
+    tags.includes("sport") ||
+    /sport|muscu|fitness|run|running|course|vélo|velo|natation|tennis|rugby|basket|nba|footing/.test(text)
+  ) return CATS.sport;
 
   return CATS.def;
 };
