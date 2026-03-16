@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T14:19:54.890Z",
+  "generatedAt": "2026-03-16T14:55:47.949Z",
   "total": 207,
   "counts": {
     "Anime (sheet)": 149,
@@ -8,8 +8,11 @@
     "Twitch:joueur_du_grenier": 0,
     "lolix.gg": 16,
     "football-data.org (foot)": 25,
+    "F1 (official)": 0,
     "missed_anime_added": 0,
     "missed_anime_candidates": 11
   },
-  "errors": []
+  "errors": [
+    "F1 (official): F1_ICAL_URL manquant. Ajoute l'URL iCal officielle F1 dans les variables d'environnement."
+  ]
 }
