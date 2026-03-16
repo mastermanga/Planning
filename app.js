@@ -54,7 +54,7 @@
     // Foot
     [/\bFC\s*Barcelona\b/gi, "FCB"],
     [/\bBarcelona\b/gi, "FCB"],
-    [/\bParis\s*Saint-?Germain\b/gi, "PSG"],
+    [/\bParis\s*Saint-?Germain\s*FC\b/gi, "PSG"],
     [/\bOGC\s*Nice\b/gi, "Nice"],
     [/\bReal\s*Madrid\s*CF\b/gi, "Madrid"],
     [/\bReal\s*Madrid\b/gi, "Madrid"],
@@ -66,6 +66,22 @@
     [/\bNewcastle\s*United\s*FC\b/gi, "Newcastle"],
     [/\bNewcastle\s*United\b/gi, "Newcastle"],
 
+    [/\bManchester\s*City FC\b/gi, "Man City"],
+    [/\bLe Havre AC\b/gi, "Havre"],
+    [/\bGirona FC\b/gi, "Girona"],
+    [/\bRCD Espanyol de Barcelona\b/gi, "Espanyol"],
+
+    [/\bFC St. Pauli 1910\b/gi, "Pauli"],
+    [/\bFulham FC\b/gi, "Fulham"],
+    [/\bRacing Club de Lens\b/gi, "Lens"],
+    [/\bClub Atlético de Madrid\b/gi, "Athlético"],
+    [/\bRC Strasbourg Alsace\b/gi, "Strasbourg"],
+    [/\bRCD Mallorca\b/gi, "Mallorca"],
+    [/\bSC Freiburg\b/gi, "Freiburg"],
+    [/\bToulouse FC\b/gi, "Toulouse"],
+    [/\bAtalanta BC\b/gi, "Atalanta"],
+    [/\bGalatasaray SK\b/gi, "Galatasaray"],
+
     // Esport
     [/\bG2\s*Esports\b/gi, "G2"],
     [/\bTeam\s*Secret\b/gi, "TS"],
@@ -73,6 +89,8 @@
     [/\bKarmine\s*Corp\b/gi, "KC"],
     [/\bGentle\s*Mates\b/gi, "M8"],
     [/\bFnatic\b/gi, "FNC"],
+    [/\bJD Gaming\b/gi, "JDG"],
+    [/\bTS Whales\b/gi, "TW"],
 
     // Streamers / créateurs
     [/\bJoueur\s*du\s*Grenier\b/gi, "JDG"],
