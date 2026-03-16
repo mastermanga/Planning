@@ -240,8 +240,9 @@ body::before {
     0 0 14px color-mix(in srgb, var(--_c) 40%, transparent),
     0 8px 24px rgba(0,0,0,.35);
   transform: scale(1.02);
-}
 
+  z-index: 50; /* AJOUT */
+}
 /* Réduire les paddings FC, on gère dans notre rendu */
 .fc .fc-timegrid-event .fc-event-main,
 .fc .fc-daygrid-event .fc-event-main,
