@@ -95,8 +95,8 @@ const FOOT_TEAMS = [
 // Horizon des matchs (en jours) qu’on récupère depuis football-data.org
 const FOOT_LOOKAHEAD_DAYS = 30;
 
-// ------------------ F1 (Motorsport HTML) ------------------
-const F1_SCHEDULE_URL = "https://fr.motorsport.com/f1/schedule/2026/";
+// ------------------ F1 (f1calendar HTML) ------------------
+const F1_SCHEDULE_URL = "https://f1calendar.com/fr";
 const F1_LOOKAHEAD_DAYS = 14;
 
 // ------------------ Guards / Fetch utils ------------------
@@ -551,7 +551,9 @@ async function fetchFootMatchesFootballData() {
   const out = [];
 
   for (const c of FOOT_COMPETITIONS) {
-    const data = await fdFetchJson(`/competitions/${c.code}/matches?dateFrom=${dateFrom}&dateTo=${dateTo}`);
+    const data = await fdFetchJson(
+      `/competitions/${c.code}/matches?dateFrom=${dateFrom}&dateTo=${dateTo}`
+    );
     const matches = Array.isArray(data?.matches) ? data.matches : [];
 
     for (const m of matches) {
@@ -581,16 +583,18 @@ async function fetchFootMatchesFootballData() {
   return dedupe(out);
 }
 
-// ------------------ F1 (Motorsport HTML) ------------------
+// ------------------ F1 (f1calendar HTML) ------------------
 function detectF1SessionType(summary = "", description = "") {
   const s = `${summary} ${description}`.toLowerCase();
 
-  if (/\b(essais hivernaux|winter testing|testing)\b/.test(s)) return "testing";
-  if (/\b(qualifs sprint|sprint qualifying|sprint shootout)\b/.test(s)) return "sprint_qualifying";
+  if (/\b(testing|winter testing|essais hivernaux)\b/.test(s)) return "testing";
+  if (/\b(sprint shootout|sprint qualifying|qualifs sprint)\b/.test(s)) {
+    return "sprint_qualifying";
+  }
   if (/\b(fp1|free practice 1|practice 1|essais libres 1)\b/.test(s)) return "fp1";
   if (/\b(fp2|free practice 2|practice 2|essais libres 2)\b/.test(s)) return "fp2";
   if (/\b(fp3|free practice 3|practice 3|essais libres 3)\b/.test(s)) return "fp3";
-  if (/\b(qualifications|qualifying)\b/.test(s)) return "qualification";
+  if (/\b(qualifications|qualification|qualifying)\b/.test(s)) return "qualification";
   if (/\b(sprint)\b/.test(s)) return "sprint";
   if (/\b(course|grand prix|race)\b/.test(s)) return "course";
 
@@ -604,7 +608,9 @@ function buildF1Tags(summary = "", description = "") {
 
 function normalizeF1Title(summary = "") {
   const raw = normSpaces(summary || "F1 Session");
-  return raw.startsWith("F1") || raw.startsWith("FORMULA 1") ? `🏎️ ${raw}` : `🏎️ F1 — ${raw}`;
+  return raw.startsWith("F1") || raw.startsWith("FORMULA 1")
+    ? `🏎️ ${raw}`
+    : `🏎️ F1 — ${raw}`;
 }
 
 function normalizeF1Start(startRaw) {
@@ -618,64 +624,90 @@ function normalizeF1Start(startRaw) {
   return s;
 }
 
-function extractF1LocationFromTitle(title = "") {
-  const m = normSpaces(title).match(/^(.*?)\s*-\s*/);
-  return m ? normSpaces(m[1]) : "";
+function extractGrandPrixNameFromTbodyId(id = "") {
+  return normSpaces(
+    String(id)
+      .replace(/-/g, " ")
+      .replace(/\bgrand prix\b/i, "Grand Prix")
+      .replace(/\b\w/g, (m) => m.toUpperCase())
+  );
+}
+
+function extractSessionTextFromRow($, row) {
+  const cellTexts = row
+    .find("td")
+    .map((_, td) => normSpaces($(td).text()))
+    .get()
+    .filter(Boolean);
+
+  // Le texte de session est souvent dans la colonne de gauche.
+  // On évite les colonnes purement date/heure.
+  for (const text of cellTexts) {
+    if (!text) continue;
+    if (/^\d{1,2}\s+\w+$/i.test(text)) continue;
+    if (/^\d{1,2}:\d{2}/.test(text)) continue;
+    return text;
+  }
+
+  return "";
 }
 
 async function fetchF1Sessions() {
-  const r = await fetchWithTimeout(F1_SCHEDULE_URL, { headers: { "user-agent": UA } }, 20000);
-  if (!r.ok) throw new Error(`Motorsport F1 HTTP ${r.status}`);
+  const r = await fetchWithTimeout(
+    F1_SCHEDULE_URL,
+    {
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
+        referer: "https://f1calendar.com/",
+      },
+    },
+    20000
+  );
+  if (!r.ok) throw new Error(`F1 Calendar HTTP ${r.status}`);
 
   const html = await r.text();
   const $ = cheerio.load(html);
 
   const out = [];
-  const seenRows = new Set();
+  const seen = new Set();
 
-  $("time[datetime]").each((_, timeNode) => {
-    const timeEl = $(timeNode);
-    const start = normalizeF1Start(timeEl.attr("datetime") || "");
-    if (!start) return;
-    if (isTooOld(start)) return;
-    if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) return;
+  $("table#events-table tbody").each((_, tbodyNode) => {
+    const tbody = $(tbodyNode);
+    const grandPrixId = normSpaces(tbody.attr("id") || "");
+    const grandPrixName = extractGrandPrixNameFromTbodyId(grandPrixId);
 
-    const row = timeEl.closest("tr");
-    if (!row.length) return;
+    tbody.find("tr").each((__, trNode) => {
+      const row = $(trNode);
 
-    const rowKey = row.text();
-    if (seenRows.has(rowKey)) return;
-    seenRows.add(rowKey);
+      const timeEl = row.find("time[datetime]").first();
+      if (!timeEl.length) return;
 
-    const rowText = normSpaces(row.text());
-    if (!rowText) return;
-    if (/annul/i.test(rowText)) return;
+      const start = normalizeF1Start(timeEl.attr("datetime") || "");
+      if (!start) return;
+      if (isTooOld(start)) return;
+      if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) return;
 
-    let summary = normSpaces(
-      row.find(".ms-schedule-table__cell--main, .ms-table_cell--title, .ms-schedule-table__item-title")
-        .first()
-        .text()
-    );
+      const sessionText = extractSessionTextFromRow($, row);
+      if (!sessionText) return;
 
-    if (!summary) {
-      summary = rowText;
-    }
+      const summary = grandPrixName ? `${grandPrixName} - ${sessionText}` : sessionText;
 
-    // On ignore les lignes "événement parent" sans vraie session
-    if (!/\s-\s/.test(summary) && !/essais hivernaux/i.test(summary)) {
-      return;
-    }
+      const key = `${start}|${summary}`.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
 
-    const location = extractF1LocationFromTitle(summary);
-
-    out.push({
-      title: normalizeF1Title(summary),
-      start,
-      end: undefined,
-      source: "motorsport.com",
-      url: F1_SCHEDULE_URL,
-      location,
-      tags: buildF1Tags(summary, location),
+      out.push({
+        title: normalizeF1Title(summary),
+        start,
+        end: undefined,
+        source: "f1calendar.com",
+        url: F1_SCHEDULE_URL,
+        location: grandPrixName,
+        tags: buildF1Tags(summary, grandPrixName),
+      });
     });
   });
 
@@ -781,7 +813,7 @@ async function main() {
 
   await run("lolix.gg", fetchLolixMatches);
   await run("football-data.org (foot)", fetchFootMatchesFootballData);
-  await run("F1 (motorsport.com)", fetchF1Sessions);
+  await run("F1 (f1calendar.com)", fetchF1Sessions);
 
   const cleaned = dedupe(all)
     .filter((ev) => ev?.title && ev?.start)
