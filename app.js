@@ -25,11 +25,10 @@
 
   // ---------- URLs fixes ----------
   const LOL_URL = "https://www.twitch.tv/traytonlol";
-  const FOOT_URL = "https://www.fctv33.one/fr";
+  const FOOT_URL = "https://www.fctv33.quest/fr";
 
-  // ---------- Priorité des catégories ----------
-  // Plus le nombre est PETIT, plus l'event passe devant / en haut
-  // 1000 = tout au fond
+  // ---------- Priorités ----------
+  // Plus le nombre est PETIT, plus l'event doit être visible / devant
   const CAT_PRIORITY = {
     geng: 1,
     fnatic: 1,
@@ -88,8 +87,14 @@
     if (/barcelone|barcelona/i.test(t)) out.add("barcelona");
 
     // Twitch
-    if (/\bdomingo\b/i.test(t)) { out.add("twitch"); out.add("domingo"); }
-    if (/\brivenzi\b/i.test(t)) { out.add("twitch"); out.add("rivenzi"); }
+    if (/\bdomingo\b/i.test(t)) {
+      out.add("twitch");
+      out.add("domingo");
+    }
+    if (/\brivenzi\b/i.test(t)) {
+      out.add("twitch");
+      out.add("rivenzi");
+    }
     if (/\bjdg\b/i.test(t) || /joueur du grenier/i.test(t)) {
       out.add("twitch");
       out.add("joueur_du_grenier");
@@ -164,6 +169,11 @@
 
   const cleanTitleForDisplay = (rawTitle, tags) => {
     let title = String(rawTitle || "");
+
+    // Streams Twitch => nom simple uniquement
+    if (tags.includes("domingo")) return "Domingo";
+    if (tags.includes("rivenzi")) return "Rivenzi";
+    if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
 
     title = title.replace(/^⚽\s*/u, "");
     title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
@@ -263,19 +273,8 @@
     return CAT_PRIORITY[cat.key] ?? 1000;
   };
 
-  const formatEventTime = (date) => {
-    if (!(date instanceof Date) || Number.isNaN(date.getTime())) return "";
-    return new Intl.DateTimeFormat("fr-FR", {
-      hour: "2-digit",
-      minute: "2-digit"
-    }).format(date);
-  };
-
   const buildEventTooltip = (ev) => {
     const cat = getCategory(ev);
-    const start = formatEventTime(ev.start);
-    const end = formatEventTime(ev.end);
-    const timeText = start ? (end ? `${start} → ${end}` : start) : "";
     const source = ev.extendedProps?.source ? `Source : ${ev.extendedProps.source}` : "";
     const tags = Array.isArray(ev.extendedProps?.tags) && ev.extendedProps.tags.length
       ? `Tags : ${ev.extendedProps.tags.join(", ")}`
@@ -284,7 +283,6 @@
     return [
       ev.title || "",
       cat.label ? `Catégorie : ${cat.label}` : "",
-      timeText,
       source,
       tags
     ].filter(Boolean).join("\n");
@@ -362,15 +360,14 @@
     nowIndicator: true,
     headerToolbar: false,
 
-    // Lisibilité
-    slotEventOverlap: false,
+    // Overlay type Apple
+    slotEventOverlap: true,
     eventOrderStrict: true,
     dayMaxEvents: false,
     dayMaxEventRows: false,
-    eventMinHeight: 28,
+    eventMinHeight: 30,
 
-    // Le plus petit nombre = le plus visible / le plus haut
-    // 1000 = au fond
+    // Le plus petit nombre = plus visible / plus haut
     eventOrder: (a, b) => {
       const pa = getCategoryPriority(a);
       const pb = getCategoryPriority(b);
@@ -378,12 +375,11 @@
       if (pa !== pb) return pa - pb;
 
       // Si même priorité :
-      // 1) les plus courts devant pour mieux lire
+      // on met les plus courts devant pour mieux lire
       const da = Math.max(0, (a.end?.getTime?.() || a.start?.getTime?.() || 0) - (a.start?.getTime?.() || 0));
       const db = Math.max(0, (b.end?.getTime?.() || b.start?.getTime?.() || 0) - (b.start?.getTime?.() || 0));
       if (da !== db) return da - db;
 
-      // 2) puis ordre alphabétique stable
       return (a.title || "").localeCompare(b.title || "", "fr");
     },
 
@@ -397,19 +393,24 @@
 
     eventDidMount: (info) => {
       const cat = getCategory(info.event);
+      const priority = getCategoryPriority(info.event);
+
       info.el.style.setProperty("--event-color", `var(${cat.cssVar})`);
       info.el.classList.toggle("is-important", !!cat.important);
 
-      // Tooltip avec titre complet
+      // classes pour gérer le rendu CSS ensuite
+      info.el.classList.toggle("is-background-event", priority >= 1000);
+      info.el.classList.toggle("is-foreground-event", priority < 1000);
+
+      info.el.dataset.priority = String(priority);
+      info.el.dataset.category = cat.key;
+
       info.el.title = buildEventTooltip(info.event);
     },
 
     eventContent: (arg) => {
       const viewType = arg.view.type;
       const cat = getCategory(arg.event);
-      const startText = formatEventTime(arg.event.start);
-      const endText = formatEventTime(arg.event.end);
-      const timeText = startText ? (endText ? `${startText}–${endText}` : startText) : "";
 
       const container = document.createElement("div");
       container.className = (viewType.includes("list") || viewType.includes("dayGrid"))
@@ -421,29 +422,12 @@
       badge.textContent = cat.icon;
       badge.title = cat.label;
 
-      const textWrap = document.createElement("span");
-      textWrap.style.display = "flex";
-      textWrap.style.flexDirection = "column";
-      textWrap.style.minWidth = "0";
-      textWrap.style.width = "100%";
-
-      if (timeText && !viewType.includes("list")) {
-        const time = document.createElement("span");
-        time.className = "txt";
-        time.style.fontSize = ".72rem";
-        time.style.opacity = "0.85";
-        time.style.whiteSpace = "nowrap";
-        time.textContent = timeText;
-        textWrap.appendChild(time);
-      }
-
       const text = document.createElement("span");
       text.className = "txt";
       text.textContent = arg.event.title;
-      textWrap.appendChild(text);
 
       container.appendChild(badge);
-      container.appendChild(textWrap);
+      container.appendChild(text);
 
       return { domNodes: [container] };
     }
