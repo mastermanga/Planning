@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-03-16T15:52:13.939Z",
-  "total": 207,
+  "generatedAt": "2026-03-16T15:57:27.082Z",
+  "total": 171,
   "counts": {
-    "Anime (sheet)": 149,
+    "Anime (sheet)": 113,
     "Twitch:domingo": 17,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
     "lolix.gg": 16,
     "football-data.org (foot)": 25,
-    "F1 (official)": 0,
-    "missed_anime_added": 1,
+    "F1 (motorsport.com)": 0,
+    "missed_anime_added": 0,
     "missed_anime_candidates": 11
   },
   "errors": [
-    "F1 (official): F1_ICAL_URL manquant. Ajoute l'URL iCal officielle F1 dans les variables d'environnement."
+    "F1 (motorsport.com): Motorsport F1 HTTP 403"
   ]
 }
