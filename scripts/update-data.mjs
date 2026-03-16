@@ -584,21 +584,32 @@ async function fetchFootMatchesFootballData() {
 }
 
 // ------------------ F1 (f1calendar HTML) ------------------
-function detectF1SessionType(summary = "", description = "") {
-  const s = `${summary} ${description}`.toLowerCase();
+function detectF1SessionType(key = "") {
+  const s = key.toLowerCase();
 
-  if (/\b(testing|winter testing|essais hivernaux)\b/.test(s)) return "testing";
-  if (/\b(sprint shootout|sprint qualifying|qualifs sprint)\b/.test(s)) {
-    return "sprint_qualifying";
-  }
-  if (/\b(fp1|free practice 1|practice 1|essais libres 1)\b/.test(s)) return "fp1";
-  if (/\b(fp2|free practice 2|practice 2|essais libres 2)\b/.test(s)) return "fp2";
-  if (/\b(fp3|free practice 3|practice 3|essais libres 3)\b/.test(s)) return "fp3";
-  if (/\b(qualifications|qualification|qualifying)\b/.test(s)) return "qualification";
-  if (/\b(sprint)\b/.test(s)) return "sprint";
-  if (/\b(course|grand prix|race)\b/.test(s)) return "course";
+  if (s === "fp1") return "fp1";
+  if (s === "fp2") return "fp2";
+  if (s === "fp3") return "fp3";
+  if (s === "qualifying") return "qualification";
+  if (s === "sprintqualifying") return "sprint_qualifying";
+  if (s === "sprint") return "sprint";
+  if (s === "gp") return "course";
 
   return "session";
+}
+
+function f1SessionLabel(key = "") {
+  const s = key.toLowerCase();
+
+  if (s === "fp1") return "Essais Libres 1";
+  if (s === "fp2") return "Essais Libres 2";
+  if (s === "fp3") return "Essais Libres 3";
+  if (s === "qualifying") return "Qualifications";
+  if (s === "sprintqualifying") return "Qualifs Sprint";
+  if (s === "sprint") return "Sprint";
+  if (s === "gp") return "Course";
+
+  return key;
 }
 
 function buildF1Tags(summary = "", description = "") {
@@ -653,98 +664,56 @@ function extractSessionTextFromRow($, row) {
 }
 
 async function fetchF1Sessions() {
-  console.log("[F1] Fetching:", F1_SCHEDULE_URL);
+  const file = path.join(PROJECT_ROOT, "data", "f1_2026.json");
 
-  const r = await fetchWithTimeout(
-    F1_SCHEDULE_URL,
-    {
-      headers: {
-        "user-agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36",
-        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
-      },
-    },
-    20000
-  );
+  console.log("[F1] loading local file:", file);
 
-  if (!r.ok) {
-    throw new Error(`F1 Calendar HTTP ${r.status}`);
-  }
+  const raw = await fs.readFile(file, "utf-8");
+  const data = JSON.parse(raw);
 
-  const html = await r.text();
-  console.log("[F1] html size:", html.length);
+  const races = Array.isArray(data?.races) ? data.races : [];
 
-  const $ = cheerio.load(html);
-
-  console.log("[F1] title:", $("title").text().trim());
-
-  const main = $("main").first();
-  console.log("[F1] main count:", $("main").length);
-
-  const mainChildren = main.children("div");
-  console.log("[F1] main direct div count:", mainChildren.length);
-
-  mainChildren.each((i, el) => {
-    const child = $(el);
-    const childHtml = child.html() || "";
-    const tables = child.find("table");
-    const tbodies = child.find("tbody");
-    const times = child.find("time[datetime]");
-
-    console.log(
-      `[F1] main > div #${i + 1}: htmlSize=${childHtml.length} tables=${tables.length} tbodies=${tbodies.length} times=${times.length}`
-    );
-
-    console.log(`[F1] main > div #${i + 1} sample:`);
-    console.log(childHtml.slice(0, 1200));
-  });
-
-  const secondDiv = mainChildren.eq(1);
-  console.log("[F1] second div exists:", secondDiv.length);
-
-  if (secondDiv.length) {
-    console.log("[F1] second div table count:", secondDiv.find("table").length);
-    console.log("[F1] second div tbody count:", secondDiv.find("tbody").length);
-    console.log("[F1] second div tr count:", secondDiv.find("tr").length);
-    console.log("[F1] second div time count:", secondDiv.find("time[datetime]").length);
-
-    secondDiv.find("tbody").each((i, tbodyNode) => {
-      const tbody = $(tbodyNode);
-      console.log(`[F1] second div tbody #${i + 1} id=`, tbody.attr("id"));
-
-      const rows = tbody.find("tr");
-      console.log(`[F1] second div tbody #${i + 1} rows=`, rows.length);
-
-      rows.each((j, trNode) => {
-        if (j >= 3) return false;
-
-        const row = $(trNode);
-        const cells = row
-          .find("td")
-          .map((_, td) => normSpaces($(td).text()))
-          .get();
-
-        const timeAttrs = row
-          .find("time[datetime]")
-          .map((_, t) => $(t).attr("datetime"))
-          .get();
-
-        console.log(
-          `[F1] row sample tbody=${i + 1} row=${j + 1} cells=`,
-          cells
-        );
-        console.log(
-          `[F1] row sample tbody=${i + 1} row=${j + 1} datetimes=`,
-          timeAttrs
-        );
-      });
-    });
-  }
+  console.log("[F1] races found:", races.length);
 
   const out = [];
-  console.log("[F1] parsed events:", out.length);
-  return out;
+
+  for (const race of races) {
+    if (race?.canceled) continue;
+
+    const raceName = normSpaces(race?.name || "");
+    const location = normSpaces(race?.location || "");
+
+    const sessions =
+      race?.sessions && typeof race.sessions === "object"
+        ? race.sessions
+        : {};
+
+    for (const [sessionKey, start] of Object.entries(sessions)) {
+      const startISO = String(start || "");
+      if (!startISO) continue;
+
+      if (isTooOld(startISO)) continue;
+      if (!isWithinFutureWindow(startISO, F1_LOOKAHEAD_DAYS)) continue;
+
+      const ev = {
+        title: `🏎️ F1 — ${raceName} - ${f1SessionLabel(sessionKey)}`,
+        start: startISO,
+        end: undefined,
+        source: "f1calendar",
+        url: "https://f1calendar.com/fr",
+        location,
+        tags: ["f1", "formula1", "sport_auto", detectF1SessionType(sessionKey)],
+      };
+
+      console.log("[F1] event:", ev.title, startISO);
+
+      out.push(ev);
+    }
+  }
+
+  console.log("[F1] events kept:", out.length);
+
+  return dedupe(out);
 }
 
 // ------------------ Missed anime sheet sync ------------------
