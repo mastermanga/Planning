@@ -49,6 +49,39 @@
     default: 1000
   };
 
+  // ---------- Dictionnaire global de renommage ----------
+  const TITLE_RENAMES = [
+    // Foot
+    [/\bFC\s*Barcelona\b/gi, "FCB"],
+    [/\bBarcelona\b/gi, "FCB"],
+    [/\bParis\s*Saint-?Germain\b/gi, "PSG"],
+    [/\bOGC\s*Nice\b/gi, "Nice"],
+    [/\bReal\s*Madrid\s*CF\b/gi, "Madrid"],
+    [/\bReal\s*Madrid\b/gi, "Madrid"],
+    [/\bFC\s*Bayern\s*München\b/gi, "Bayern"],
+    [/\bFC\s*Bayern\s*Munchen\b/gi, "Bayern"],
+    [/\bBayern\s*München\b/gi, "Bayern"],
+    [/\bBayern\s*Munchen\b/gi, "Bayern"],
+    [/\bLiverpool\s*FC\b/gi, "Liverpool"],
+    [/\bNewcastle\s*United\s*FC\b/gi, "Newcastle"],
+    [/\bNewcastle\s*United\b/gi, "Newcastle"],
+
+    // Esport
+    [/\bG2\s*Esports\b/gi, "G2"],
+    [/\bTeam\s*Secret\b/gi, "TS"],
+    [/\bTeam\s*Vitality\b/gi, "VIT"],
+    [/\bKarmine\s*Corp\b/gi, "KC"],
+    [/\bGentle\s*Mates\b/gi, "M8"],
+    [/\bFnatic\b/gi, "FNC"],
+
+    // Streamers / créateurs
+    [/\bJoueur\s*du\s*Grenier\b/gi, "JDG"],
+
+    // Divers
+    [/\bFormula\s*1\b/gi, "F1"],
+    [/\bFormule\s*1\b/gi, "F1"],
+  ];
+
   // ---------- Helpers ----------
   const lower = (v) => String(v ?? "").toLowerCase();
 
@@ -66,6 +99,14 @@
     if (!Array.isArray(tags)) return [];
     const s = new Set(tags.map(t => lower(t)).filter(Boolean));
     return Array.from(s);
+  };
+
+  const applyTitleRenames = (title) => {
+    let out = String(title || "");
+    for (const [pattern, replacement] of TITLE_RENAMES) {
+      out = out.replace(pattern, replacement);
+    }
+    return out;
   };
 
   const deriveTagsFromTitle = (rawTitle, existingTags = []) => {
@@ -170,43 +211,36 @@
     );
   };
 
-const cleanTitleForDisplay = (rawTitle, tags) => {
-  let title = String(rawTitle || "");
+  const cleanTitleForDisplay = (rawTitle, tags) => {
+    let title = String(rawTitle || "");
 
-  // Twitch simplifié
-  if (tags.includes("domingo")) return "Domingo";
-  if (tags.includes("rivenzi")) return "Rivenzi";
-  if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
+    // Twitch simplifié
+    if (tags.includes("domingo")) return "Domingo";
+    if (tags.includes("rivenzi")) return "Rivenzi";
+    if (tags.includes("jdg") || tags.includes("joueur_du_grenier")) return "JDG";
 
-  title = title.replace(/^⚽\s*/u, "");
-  title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
+    title = title.replace(/^⚽\s*/u, "");
+    title = title.replace(/^\s*\[[^\]]+\]\s*/u, "");
 
-  const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
-  if (isFoot) {
-    title = title
-      .replace(/\bLigue\s*1\b/gi, "")
-      .replace(/\bPrimera\s*Division\b/gi, "")
-      .replace(/\bLa\s*Liga\b/gi, "")
-      .replace(/\bSerie\s*A\b/gi, "")
-      .replace(/\bPremier\s*League\b/gi, "")
-      .replace(/\bBundesliga\b/gi, "")
-      .replace(/\bLigue\s*des\s*Champions\b/gi, "")
-      .replace(/\bChampions\s*League\b/gi, "")
+    const isFoot = tags.includes("foot") || tags.includes("ldc") || tags.includes("barcelona") || tags.includes("barcelone");
+    if (isFoot) {
+      title = title
+        .replace(/\bLigue\s*1\b/gi, "")
+        .replace(/\bPrimera\s*Division\b/gi, "")
+        .replace(/\bLa\s*Liga\b/gi, "")
+        .replace(/\bSerie\s*A\b/gi, "")
+        .replace(/\bPremier\s*League\b/gi, "")
+        .replace(/\bBundesliga\b/gi, "")
+        .replace(/\bLigue\s*des\s*Champions\b/gi, "")
+        .replace(/\bChampions\s*League\b/gi, "");
+    }
 
-      // Noms clubs simplifiés
-      .replace(/\bFC\s*Barcelona\b/gi, "FCB")
-      .replace(/\bParis\s*Saint-?Germain\b/gi, "PSG")
-      .replace(/\bOGC\s*Nice\b/gi, "Nice")
-      .replace(/\bReal\s*Madrid\s*CF\b/gi, "Madrid")
-      .replace(/\bFC\s*Bayern\s*München\b/gi, "Bayern")
-      .replace(/\bFC\s*Bayern\s*Munchen\b/gi, "Bayern")
-      .replace(/\bLiverpool\s*FC\b/gi, "Liverpool");
-  }
+    title = applyTitleRenames(title);
 
-  title = title.replace(/\s{2,}/g, " ").trim();
-  title = title.replace(/^[-–—]\s*/u, "");
-  return title || String(rawTitle || "");
-};
+    title = title.replace(/\s{2,}/g, " ").trim();
+    title = title.replace(/^[-–—]\s*/u, "");
+    return title || String(rawTitle || "");
+  };
 
   // ---------- Catégories ----------
   const CATS = {
@@ -380,7 +414,6 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
       const bgRect = harness.getBoundingClientRect();
       const bgHeight = bgRect.height;
 
-      // base : pas tout en haut, pour éviter l’effet collé
       let topOffset = 12;
 
       const blockers = Array.from(col.querySelectorAll(".fc-timegrid-event"))
@@ -407,7 +440,6 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
       const labelHeight = labelEl.offsetHeight || 22;
       const maxTop = Math.max(12, bgHeight - labelHeight - 10);
 
-      // si le bloc est grand, on peut pousser le titre un peu plus bas naturellement
       if (bgHeight >= 160 && topOffset < 22) {
         topOffset = 22;
       }
@@ -442,22 +474,18 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
     nowIndicator: true,
     headerToolbar: false,
 
-    // On laisse FullCalendar gérer les overlaps
-    // pour que les events non-1000 puissent se mettre à côté
     slotEventOverlap: true,
     eventOrderStrict: true,
     dayMaxEvents: false,
     dayMaxEventRows: false,
     eventMinHeight: 30,
 
-    // Le plus petit nombre = plus prioritaire
     eventOrder: (a, b) => {
       const pa = getCategoryPriority(a);
       const pb = getCategoryPriority(b);
 
       if (pa !== pb) return pa - pb;
 
-      // Si même priorité : les plus courts devant
       const da = Math.max(0, (a.end?.getTime?.() || a.start?.getTime?.() || 0) - (a.start?.getTime?.() || 0));
       const db = Math.max(0, (b.end?.getTime?.() || b.start?.getTime?.() || 0) - (b.start?.getTime?.() || 0));
       if (da !== db) return da - db;
@@ -501,7 +529,6 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
       const cat = getCategory(arg.event);
       const priority = getCategoryPriority(arg.event);
 
-      // Vue list / month
       if (viewType.includes("list") || viewType.includes("dayGrid")) {
         const container = document.createElement("div");
         container.className = "event-item";
@@ -521,7 +548,6 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
         return { domNodes: [container] };
       }
 
-      // TimeGrid priorité 1000 : fond + label mobile
       if (priority >= 1000) {
         const container = document.createElement("div");
         container.className = "event-block event-block-bg";
@@ -545,7 +571,6 @@ const cleanTitleForDisplay = (rawTitle, tags) => {
         return { domNodes: [container] };
       }
 
-      // TimeGrid autres priorités : carte compacte
       const container = document.createElement("div");
       container.className = "event-block event-block-card";
 
