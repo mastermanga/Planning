@@ -356,8 +356,8 @@ body::before {
   --c-fnatic: #D4AF37; /* or */
   --c-barca:  #D4AF37; /* or */
 
-  --c-foot:   #EA580C; /* orange vif */
-  --c-work: #2563EB; /* bleu travail */
+  --c-foot: #FF8C00; /* orange intense */
+  --c-work: #FF3B30; /* rouge vif travail */
   --c-default:#607D8B; /* gris bleu */
 }
 
