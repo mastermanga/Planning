@@ -653,14 +653,14 @@ function extractSessionTextFromRow($, row) {
 }
 
 async function fetchF1Sessions() {
-  console.log("[F1] Fetching page:", F1_SCHEDULE_URL);
+  console.log("[F1] Fetching:", F1_SCHEDULE_URL);
 
   const r = await fetchWithTimeout(
     F1_SCHEDULE_URL,
     {
       headers: {
         "user-agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127.0.0.0 Safari/537.36",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/127 Safari/537.36",
         accept: "text/html",
         "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
       },
@@ -673,97 +673,36 @@ async function fetchF1Sessions() {
   }
 
   const html = await r.text();
-  console.log("[F1] HTML size:", html.length);
+
+  console.log("[F1] html size:", html.length);
 
   const $ = cheerio.load(html);
 
-  const table = $("table#events-table");
-  console.log("[F1] events-table found:", table.length);
+  console.log("[F1] title:", $("title").text());
 
-  const tbodies = table.find("tbody");
-  console.log("[F1] tbody count:", tbodies.length);
+  console.log("[F1] main count:", $("main").length);
 
-  const out = [];
-  const seen = new Set();
+  console.log("[F1] table count:", $("table").length);
 
-  tbodies.each((i, tbodyNode) => {
-    const tbody = $(tbodyNode);
+  console.log("[F1] events-table count:", $("#events-table").length);
 
-    const grandPrixId = normSpaces(tbody.attr("id") || "");
-    console.log(`[F1] GP block ${i + 1} id:`, grandPrixId);
+  console.log("[F1] tbody count:", $("tbody").length);
 
-    const rows = tbody.find("tr");
-    console.log(`[F1] rows in ${grandPrixId}:`, rows.length);
+  if ($("main").length) {
+    const sample = $("main").html().slice(0, 2000);
+    console.log("[F1] main HTML sample:");
+    console.log(sample);
+  }
 
-    rows.each((j, trNode) => {
-      const row = $(trNode);
-
-      const timeEl = row.find("time[datetime]").first();
-      if (!timeEl.length) {
-        console.log("[F1] row without time");
-        return;
-      }
-
-      const startRaw = timeEl.attr("datetime");
-      console.log("[F1] datetime raw:", startRaw);
-
-      const start = normalizeF1Start(startRaw || "");
-
-      if (!start) {
-        console.log("[F1] invalid date");
-        return;
-      }
-
-      if (isTooOld(start)) {
-        console.log("[F1] skipped (too old):", start);
-        return;
-      }
-
-      if (!isWithinFutureWindow(start, F1_LOOKAHEAD_DAYS)) {
-        console.log("[F1] skipped (too far):", start);
-        return;
-      }
-
-      const cells = row
-        .find("td")
-        .map((_, td) => normSpaces($(td).text()))
-        .get()
-        .filter(Boolean);
-
-      console.log("[F1] cells:", cells);
-
-      const session = cells[0] || "";
-
-      if (!session) {
-        console.log("[F1] no session text");
-        return;
-      }
-
-      const summary = `${grandPrixId} - ${session}`;
-
-      const key = `${start}|${summary}`.toLowerCase();
-      if (seen.has(key)) return;
-      seen.add(key);
-
-      const ev = {
-        title: normalizeF1Title(summary),
-        start,
-        end: undefined,
-        source: "f1calendar.com",
-        url: F1_SCHEDULE_URL,
-        location: grandPrixId,
-        tags: buildF1Tags(summary, grandPrixId),
-      };
-
-      console.log("[F1] EVENT:", ev);
-
-      out.push(ev);
-    });
+  $("tbody").each((i, el) => {
+    console.log("[F1] tbody id:", $(el).attr("id"));
   });
 
-  console.log("[F1] total events parsed:", out.length);
+  const out = [];
 
-  return dedupe(out);
+  console.log("[F1] parsed events:", out.length);
+
+  return out;
 }
 
 // ------------------ Missed anime sheet sync ------------------
