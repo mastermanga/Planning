@@ -13,7 +13,6 @@
   const todayBtn = $("#todayBtn");
   const refreshBtn = $("#refresh");
   const notifBtn = $("#notif");
-  const missedListEl = $("#missedList");
 
   if (!calendarEl) {
     console.error("❌ #calendar introuvable dans le DOM.");
@@ -27,10 +26,6 @@
   // ---------- URLs fixes ----------
   const LOL_URL = "https://www.twitch.tv/traytonlol";
   const FOOT_URL = "https://www.fctv33.quest/fr";
-
-  // ---------- API ----------
-  const MISSED_API_URL =
-    "https://script.google.com/macros/s/AKfycbyc3qhOWQ7u6wSer9pXlUxldIykkmls32tsgFV7gd45yIapraoVEPUHLPRhXozM7OGeMw/exec";
 
   // ---------- Helpers ----------
   const lower = (v) => String(v ?? "").toLowerCase();
@@ -274,13 +269,6 @@
 
   const makeId = (e) => `${e.source}|${e.start}|${e.rawTitle}`.toLowerCase();
 
-  const makeMissedKeyFromCalendarEvent = (ev) => {
-    const source = ev.extendedProps?.source || "";
-    const rawTitle = ev.extendedProps?.rawTitle || ev.title || "";
-    const start = ev.start instanceof Date ? ev.start.toISOString() : "";
-    return `${source}|${rawTitle}|${start}`.toLowerCase();
-  };
-
   const setStatus = (msg) => {
     if (statusEl) statusEl.textContent = msg;
   };
@@ -302,152 +290,6 @@
       t = setTimeout(() => fn(...args), ms);
     };
   };
-
-  function formatMissedDate(value) {
-    const d = new Date(value);
-    if (!Number.isFinite(d.getTime())) return String(value || "");
-    return d.toLocaleString("fr-FR", {
-      weekday: "short",
-      day: "2-digit",
-      month: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit"
-    });
-  }
-
-  async function fetchMissedAnime() {
-    const r = await fetch(`${MISSED_API_URL}?ts=${Date.now()}`, { cache: "no-store" });
-    if (!r.ok) throw new Error(`Missed API GET ${r.status}`);
-
-    const data = await r.json();
-    if (!Array.isArray(data)) return [];
-
-    return data
-      .map(item => ({
-        key: String(item?.key || "").trim(),
-        anime: String(item?.anime || "").trim(),
-        start: item?.start || "",
-        url: String(item?.url || "").trim(),
-      }))
-      .filter(item => item.key && item.anime)
-      .sort((a, b) => new Date(a.start) - new Date(b.start));
-  }
-
-  async function fetchMissedKeysSet() {
-    const list = await fetchMissedAnime();
-    return new Set(list.map(item => lower(item.key)).filter(Boolean));
-  }
-
-  async function deleteMissedAnime(key) {
-    const r = await fetch(MISSED_API_URL, {
-      method: "POST",
-      headers: {
-        "content-type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify({
-        action: "delete",
-        key
-      })
-    });
-
-    if (!r.ok) {
-      throw new Error(`Missed API POST ${r.status}`);
-    }
-
-    return r.text();
-  }
-
-  async function addMissedAnimeFromCalendarEvent(ev) {
-    const tags = uniqLowerTags(ev.extendedProps?.tags || []);
-    if (!tags.includes("anime")) return;
-
-    const key = makeMissedKeyFromCalendarEvent(ev);
-    const existingKeys = await fetchMissedKeysSet();
-    if (existingKeys.has(key)) return;
-
-    const payload = {
-      action: "add",
-      key,
-      anime: ev.title || "",
-      start: ev.start instanceof Date ? ev.start.toISOString() : "",
-      url: ev.extendedProps?.url || ""
-    };
-
-    const r = await fetch(MISSED_API_URL, {
-      method: "POST",
-      headers: {
-        "content-type": "text/plain;charset=utf-8"
-      },
-      body: JSON.stringify(payload)
-    });
-
-    if (!r.ok) {
-      throw new Error(`Missed API POST ${r.status}`);
-    }
-
-    return r.text();
-  }
-
-  async function renderMissedAnime() {
-    if (!missedListEl) return;
-
-    missedListEl.innerHTML = "";
-
-    try {
-      const missed = await fetchMissedAnime();
-
-      if (missed.length === 0) {
-        const empty = document.createElement("div");
-        empty.className = "missedEmpty";
-        empty.textContent = "Rien à rattraper";
-        missedListEl.appendChild(empty);
-        return;
-      }
-
-      missed.forEach(itemData => {
-        const item = document.createElement("button");
-        item.className = "missedItem";
-        item.type = "button";
-        item.title = "Cliquer pour ouvrir et retirer de la liste";
-
-        const name = document.createElement("span");
-        name.className = "missedItemTitle";
-        name.textContent = itemData.anime;
-
-        const meta = document.createElement("span");
-        meta.className = "missedItemMeta";
-        meta.textContent = formatMissedDate(itemData.start);
-
-        item.appendChild(name);
-        item.appendChild(meta);
-
-        item.addEventListener("click", async () => {
-          item.disabled = true;
-
-          try {
-            if (itemData.url) {
-              window.open(itemData.url, "_blank", "noopener,noreferrer");
-            }
-
-            await deleteMissedAnime(itemData.key);
-            await renderMissedAnime();
-          } catch (e) {
-            console.error(e);
-            item.disabled = false;
-            alert("Impossible de supprimer cet anime de la liste.");
-          }
-        });
-
-        missedListEl.appendChild(item);
-      });
-    } catch (e) {
-      console.error(e);
-      const err = document.createElement("div");
-      err.className = "missedEmpty";
-      err.textContent = "Erreur de chargement";
-      missedListEl.appendChild(err);
-    }
-  }
 
   // ---------- State ----------
   let allEvents = [];
@@ -537,12 +379,10 @@
       }
 
       applyFilters();
-      await renderMissedAnime();
     } catch (e) {
       console.error(e);
       allEvents = [];
       applyFilters();
-      await renderMissedAnime();
 
       setStatus(
         "Erreur de chargement de data/generated.json. " +
@@ -610,7 +450,6 @@
 
   refreshBtn?.addEventListener("click", async () => {
     await loadEvents();
-    await renderMissedAnime();
   });
 
   searchEl?.addEventListener("input", debounce((e) => {
@@ -654,13 +493,6 @@
 
         const src = ev.extendedProps?.source ? ` (${ev.extendedProps.source})` : "";
         new Notification(`📅 ${ev.title}${src}`);
-
-        try {
-          await addMissedAnimeFromCalendarEvent(ev);
-          await renderMissedAnime();
-        } catch (e) {
-          console.error("Erreur ajout Feuille 2 :", e);
-        }
       }
     }
   }, 30_000);
