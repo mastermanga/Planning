@@ -220,6 +220,16 @@
     ]
   },
   {
+    "title": "JDR LcsFR",
+    "start": "2026-03-17T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "tags": [
+      "jdr"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-18T07:00:00",
     "end": "2026-03-18T09:00:00",
@@ -1214,16 +1224,6 @@
   {
     "title": "JDR 6 pied sous terre",
     "start": "2026-03-27T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "tags": [
-      "jdr"
-    ]
-  },
-  {
-    "title": "JDR LcsFR",
-    "start": "2026-03-27T20:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
