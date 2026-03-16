@@ -82,6 +82,13 @@
     [/\bAtalanta BC\b/gi, "Atalanta"],
     [/\bGalatasaray SK\b/gi, "Galatasaray"],
 
+    [/\bChelsea FC\b/gi, "Chelsea"],
+    
+    [/\bBilibili Gaming\b/gi, "BLG"],
+    [/\bBNK FEARX\b/gi, "FearX"],
+    [/\bBarcelona\b/gi, "FCB"],
+    [/\bBarcelona\b/gi, "FCB"],
+
     // Esport
     [/\bG2\s*Esports\b/gi, "G2"],
     [/\bTeam\s*Secret\b/gi, "TS"],
