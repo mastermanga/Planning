@@ -344,21 +344,25 @@ body::before {
 :root{
   --c-anime:  #22D3EE; /* bleu clair néon */
 
-  --c-domingo:#6B21A8; /* violet twitch */
-  --c-rivenzi:#6B21A8; /* violet twitch */
-  --c-jdg:    #6B21A8; /* violet twitch */
+  --c-domingo:#6B21A8;
+  --c-rivenzi:#6B21A8;
+  --c-jdg:    #6B21A8;
 
-  --c-jdr:    #D4AF37; /* or */
+  --c-jdr:    #D4AF37;
 
-  --c-lol:    #22C55E; /* vert esport */
+  --c-lol:    #22C55E;
 
-  --c-geng:   #D4AF37; /* or */
-  --c-fnatic: #D4AF37; /* or */
-  --c-barca:  #D4AF37; /* or */
+  --c-geng:   #D4AF37;
+  --c-fnatic: #D4AF37;
+  --c-barca:  #D4AF37;
 
-  --c-foot: #FF8C00; /* orange intense */
-  --c-work: #FF3B30; /* rouge vif travail */
-  --c-default:#607D8B; /* gris bleu */
+  --c-foot: #FF8C00;
+  --c-work: #FF3B30;
+
+  --c-sport: #FF2D55;   /* rose / magenta */
+  --c-f1:    #F8FAFC;   /* blanc lumineux */
+
+  --c-default:#607D8B;
 }
 
 /* === À rattraper === */
