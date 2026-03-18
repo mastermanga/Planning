@@ -1,30 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-03-11T14:00:00",
-    "end": "2026-03-11T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Domingo — OLÉ AUX JO D'HIVER",
-    "start": "2026-03-11T14:00:00.000Z",
-    "end": "2026-03-11T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — STREAM LIBRE",
     "start": "2026-03-11T16:00:00.000Z",
     "end": "2026-03-11T18:00:00.000Z",
@@ -731,7 +706,7 @@
   },
   {
     "title": "[First Stand] Bilibili Gaming vs G2 Esports",
-    "start": "2026-03-18T13:00:00Z",
+    "start": "2026-03-18T13:05:50Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -869,7 +844,7 @@
     ]
   },
   {
-    "title": "[First Stand] JD Gaming vs LOUD",
+    "title": "[First Stand] Gen.G vs LYON",
     "start": "2026-03-19T13:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -879,7 +854,8 @@
       "lolix",
       "esport",
       "lol",
-      "first stand"
+      "first stand",
+      "geng"
     ]
   },
   {
@@ -917,7 +893,7 @@
     ]
   },
   {
-    "title": "[First Stand] Gen.G vs LYON",
+    "title": "[First Stand] JD Gaming vs LOUD",
     "start": "2026-03-19T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -927,8 +903,7 @@
       "lolix",
       "esport",
       "lol",
-      "first stand",
-      "geng"
+      "first stand"
     ]
   },
   {
@@ -1998,6 +1973,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-01T14:00:00",
+    "end": "2026-04-01T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
