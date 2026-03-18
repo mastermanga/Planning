@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-03-11T16:00:00.000Z",
-    "end": "2026-03-11T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Oshi No Ko",
     "start": "2026-03-11T16:20:00",
     "source": "Anime (sheet)",
@@ -731,6 +718,20 @@
     ]
   },
   {
+    "title": "[First Stand] BNK FEARX vs Team Secret Whales",
+    "start": "2026-03-18T15:44:48Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "first stand"
+    ]
+  },
+  {
     "title": "Oshi No Ko",
     "start": "2026-03-18T16:20:00",
     "source": "Anime (sheet)",
@@ -752,20 +753,6 @@
       "foot",
       "ldc",
       "barcelone"
-    ]
-  },
-  {
-    "title": "[First Stand] BNK FEARX vs Team Secret Whales",
-    "start": "2026-03-18T18:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "first stand"
     ]
   },
   {
@@ -993,7 +980,7 @@
     ]
   },
   {
-    "title": "[First Stand] Match",
+    "title": "[First Stand] G2 Esports (TBD)",
     "start": "2026-03-20T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
