@@ -732,33 +732,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Chelsea FC vs Paris Saint-Germain FC",
-    "start": "2026-03-17T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Manchester City FC vs Real Madrid CF",
-    "start": "2026-03-17T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "manchester_city",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "JDR LcsFR",
     "start": "2026-03-17T20:30:00",
     "source": "Anime (sheet)",
