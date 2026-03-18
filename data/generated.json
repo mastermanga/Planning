@@ -2079,6 +2079,34 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs",
+    "start": "2026-04-07T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs",
+    "start": "2026-04-07T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid",
+      "barcelone"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-07T00:00:00Z",
     "source": "football-data.org",
@@ -2180,6 +2208,34 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Paris Saint-Germain FC",
+    "start": "2026-04-14T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs Real Madrid CF",
+    "start": "2026-04-14T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone",
+      "real_madrid"
     ]
   },
   {
