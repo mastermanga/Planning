@@ -1,16 +1,5 @@
 [
   {
-    "title": "JJK",
-    "start": "2026-03-12T17:50:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — POPCORN AVEC BIGFLO, OLI & ETOILES",
     "start": "2026-03-12T19:00:00.000Z",
     "end": "2026-03-12T21:30:00.000Z",
@@ -820,7 +809,7 @@
     ]
   },
   {
-    "title": "[First Stand] LYON (TBD)",
+    "title": "[First Stand] LYON vs JD Gaming",
     "start": "2026-03-20T13:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1913,6 +1902,17 @@
   {
     "title": "Sentenced To Be A Hero",
     "start": "2026-04-02T15:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "JJK",
+    "start": "2026-04-02T17:50:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
