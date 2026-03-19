@@ -1987,7 +1987,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Liverpool FC",
     "start": "2026-04-07T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1997,11 +1997,11 @@
       "foot",
       "ldc",
       "psg",
-      "barcelone"
+      "liverpool"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Real Madrid CF vs",
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs FC Bayern München",
     "start": "2026-04-07T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2011,11 +2011,11 @@
       "foot",
       "ldc",
       "real_madrid",
-      "barcelone"
+      "bayern"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Barcelona vs Club Atlético de Madrid",
     "start": "2026-04-07T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2119,7 +2119,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs Paris Saint-Germain FC",
     "start": "2026-04-14T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2128,12 +2128,12 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone",
+      "liverpool",
       "psg"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Real Madrid CF",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Real Madrid CF",
     "start": "2026-04-14T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2142,12 +2142,12 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone",
+      "bayern",
       "real_madrid"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs FC Barcelona",
     "start": "2026-04-14T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
