@@ -1,16 +1,5 @@
 [
   {
-    "title": "Sentenced To Be A Hero",
-    "start": "2026-03-12T15:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "JJK",
     "start": "2026-03-12T17:50:00",
     "source": "Anime (sheet)",
@@ -757,19 +746,8 @@
     ]
   },
   {
-    "title": "JJK",
-    "start": "2026-03-19T17:50:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "[First Stand] JD Gaming vs LOUD",
-    "start": "2026-03-19T18:00:00Z",
+    "start": "2026-03-19T15:29:47Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -779,6 +757,17 @@
       "esport",
       "lol",
       "first stand"
+    ]
+  },
+  {
+    "title": "JJK",
+    "start": "2026-03-19T17:50:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -831,7 +820,7 @@
     ]
   },
   {
-    "title": "[First Stand] Match",
+    "title": "[First Stand] LYON (TBD)",
     "start": "2026-03-20T13:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1919,6 +1908,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sentenced To Be A Hero",
+    "start": "2026-04-02T15:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
