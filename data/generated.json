@@ -718,45 +718,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Barcelona vs Newcastle United FC",
-    "start": "2026-03-18T17:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Liverpool FC vs Galatasaray SK",
-    "start": "2026-03-18T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Atalanta BC",
-    "start": "2026-03-18T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-19T07:00:00",
     "end": "2026-03-19T09:00:00",
@@ -2196,6 +2157,32 @@
       "foot",
       "ldc",
       "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Lille OSC vs OGC Nice",
+    "start": "2026-04-19T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Olympique Lyonnais",
+    "start": "2026-04-19T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   }
 ]
