@@ -2001,20 +2001,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Real Madrid CF vs FC Bayern München",
-    "start": "2026-04-07T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid",
-      "bayern"
-    ]
-  },
-  {
     "title": "⚽ [UEFA Champions League] FC Barcelona vs Club Atlético de Madrid",
     "start": "2026-04-07T00:00:00Z",
     "source": "football-data.org",
@@ -2025,6 +2011,20 @@
       "foot",
       "ldc",
       "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs FC Bayern München",
+    "start": "2026-04-07T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid",
+      "bayern"
     ]
   },
   {
