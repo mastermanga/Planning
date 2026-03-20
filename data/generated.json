@@ -819,7 +819,7 @@
     ]
   },
   {
-    "title": "[First Stand] Gen.G (TBD)",
+    "title": "[First Stand] Gen.G vs G2 Esports",
     "start": "2026-03-21T13:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1196,6 +1196,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso CRIMSON DESERT",
+    "start": "2026-03-25T18:45:00.000Z",
+    "end": "2026-03-25T23:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
