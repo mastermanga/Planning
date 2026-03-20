@@ -2171,5 +2171,44 @@
       "ligue1",
       "psg"
     ]
+  },
+  {
+    "title": "⚽ [Premier League] Everton FC vs Liverpool FC",
+    "start": "2026-04-19T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Arsenal FC",
+    "start": "2026-04-19T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
+    "start": "2026-04-19T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
   }
 ]
