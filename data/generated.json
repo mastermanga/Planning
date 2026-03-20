@@ -1,31 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-03-13T07:00:00",
-    "end": "2026-03-13T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Chinese - Qualifs Sprint",
-    "start": "2026-03-13T07:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Shanghai",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint_qualifying"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-13T09:00:00",
     "end": "2026-03-13T10:30:00",
@@ -1892,6 +1866,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-04-03T07:00:00",
+    "end": "2026-04-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
