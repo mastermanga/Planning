@@ -1,19 +1,5 @@
 [
   {
-    "title": "Chinese - Sprint",
-    "start": "2026-03-14T03:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Shanghai",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-14T07:00:00",
     "end": "2026-03-14T09:00:00",
