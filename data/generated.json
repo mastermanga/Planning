@@ -884,7 +884,7 @@
   },
   {
     "title": "⚽ [Ligue 1] OGC Nice vs Paris Saint-Germain FC",
-    "start": "2026-03-21T20:00:00Z",
+    "start": "2026-03-21T20:05:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -1452,6 +1452,49 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] GIANTX vs Fnatic",
+    "start": "2026-03-28T13:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs Team Vitality",
+    "start": "2026-03-28T15:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Natus Vincere vs Movistar KOI",
+    "start": "2026-03-28T17:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
