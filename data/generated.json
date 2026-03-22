@@ -649,19 +649,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
-    "start": "2026-03-21T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-21T07:00:00",
     "end": "2026-03-21T09:00:00",
@@ -709,19 +696,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Brighton & Hove Albion FC vs Liverpool FC",
-    "start": "2026-03-21T12:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "[First Stand] Gen.G vs G2 Esports",
     "start": "2026-03-21T13:05:25Z",
     "source": "lolix.gg",
@@ -734,19 +708,6 @@
       "lol",
       "first stand",
       "geng"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Union Berlin",
-    "start": "2026-03-21T14:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -783,20 +744,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs Paris Saint-Germain FC",
-    "start": "2026-03-21T20:05:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice",
-      "psg"
     ]
   },
   {
@@ -1484,6 +1431,20 @@
     ]
   },
   {
+    "title": "[LEC] SK Gaming vs Team Heretics",
+    "start": "2026-03-29T16:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Hell's Paradise",
     "start": "2026-03-29T16:35:00",
     "source": "Anime (sheet)",
@@ -1492,6 +1453,21 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs Fnatic",
+    "start": "2026-03-29T18:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
@@ -2170,6 +2146,32 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
+    "start": "2026-04-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
+    "start": "2026-04-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
