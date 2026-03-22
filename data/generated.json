@@ -1,31 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-03-15T07:00:00",
-    "end": "2026-03-15T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Chinese - Course",
-    "start": "2026-03-15T07:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Shanghai",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-15T09:00:00",
     "end": "2026-03-15T10:30:00",
@@ -1908,6 +1882,18 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-04-05T07:00:00",
+    "end": "2026-04-05T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
