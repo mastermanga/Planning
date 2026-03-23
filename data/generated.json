@@ -686,19 +686,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs Rayo Vallecano de Madrid",
-    "start": "2026-03-22T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "[First Stand] G2 Esports vs Bilibili Gaming",
     "start": "2026-03-22T13:07:56Z",
     "source": "lolix.gg",
@@ -745,19 +732,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Club Atlético de Madrid",
-    "start": "2026-03-22T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -1433,6 +1407,20 @@
     ]
   },
   {
+    "title": "[LEC] Natus Vincere vs SK Gaming",
+    "start": "2026-03-30T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Vigilantes",
     "start": "2026-03-30T15:20:00",
     "source": "Anime (sheet)",
@@ -1441,6 +1429,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs Team Vitality",
+    "start": "2026-03-30T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
