@@ -1,31 +1,5 @@
 [
   {
-    "title": "[First Stand] Bilibili Gaming vs BNK FEARX",
-    "start": "2026-03-16T13:11:34Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "first stand"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-03-16T14:00:00",
-    "end": "2026-03-16T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Vigilantes",
     "start": "2026-03-16T15:20:00",
     "source": "Anime (sheet)",
@@ -772,6 +746,32 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-03-23T19:00:00.000Z",
+    "end": "2026-03-23T20:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — GTA RP | JUSTIN BIZOT EST DE RETOUR !",
+    "start": "2026-03-23T20:00:00.000Z",
+    "end": "2026-03-24T00:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-03-24T07:00:00",
     "end": "2026-03-24T09:00:00",
@@ -817,6 +817,32 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-03-24T19:00:00.000Z",
+    "end": "2026-03-24T20:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — GTA RP | SUITE DE L'AVENTURE",
+    "start": "2026-03-24T20:00:00.000Z",
+    "end": "2026-03-25T00:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -973,6 +999,32 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-03-26T19:00:00.000Z",
+    "end": "2026-03-26T20:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — GTA RP | SUITE DE L'AVENTURE",
+    "start": "2026-03-26T20:00:00.000Z",
+    "end": "2026-03-27T00:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Japanese - Essais Libres 1",
     "start": "2026-03-27T02:30:00Z",
     "source": "f1calendar",
@@ -1068,6 +1120,19 @@
     "location": "",
     "tags": [
       "jdr"
+    ]
+  },
+  {
+    "title": "Domingo — GTA RP | SUITE DE L'AVENTURE",
+    "start": "2026-03-27T20:30:00.000Z",
+    "end": "2026-03-28T00:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1269,6 +1334,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — KINGS LEAGUE - JOURNÉE 2 POUR LE FC SILMI",
+    "start": "2026-03-29T12:30:00.000Z",
+    "end": "2026-03-29T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1882,6 +1960,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-06T14:00:00",
+    "end": "2026-04-06T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
