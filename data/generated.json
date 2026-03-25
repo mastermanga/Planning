@@ -1422,6 +1422,20 @@
     ]
   },
   {
+    "title": "[LCK] Hanwha Life Esports vs HANJIN BRION",
+    "start": "2026-04-01T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-01T09:00:00",
     "end": "2026-04-01T10:30:00",
@@ -1431,6 +1445,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] T1 vs KT Rolster",
+    "start": "2026-04-01T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2182,6 +2210,19 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] 1. FSV Mainz 05 vs FC Bayern München",
+    "start": "2026-04-25T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
     ]
   }
 ]
