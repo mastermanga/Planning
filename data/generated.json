@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-03-18T07:00:00",
-    "end": "2026-03-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-18T09:00:00",
     "end": "2026-03-18T10:30:00",
@@ -1947,6 +1935,18 @@
       "ldc",
       "real_madrid",
       "bayern"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-04-08T07:00:00",
+    "end": "2026-04-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
