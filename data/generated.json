@@ -1,31 +1,5 @@
 [
   {
-    "title": "[First Stand] Bilibili Gaming vs G2 Esports",
-    "start": "2026-03-18T13:05:50Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "first stand"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-03-18T14:00:00",
-    "end": "2026-03-18T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "[First Stand] BNK FEARX vs Team Secret Whales",
     "start": "2026-03-18T15:44:48Z",
     "source": "lolix.gg",
@@ -1947,6 +1921,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-08T14:00:00",
+    "end": "2026-04-08T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
