@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-03-26T13:04:54.642Z",
-  "total": 182,
+  "generatedAt": "2026-03-26T15:00:26.112Z",
+  "total": 38,
   "counts": {
-    "Anime (sheet)": 113,
+    "Anime (sheet)": 0,
     "Twitch:domingo": 12,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 1,
     "lolix.gg": 20,
-    "football-data.org (foot)": 31,
+    "football-data.org (foot)": 0,
     "F1 (f1calendar.com)": 5,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 11
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "Anime (sheet): This operation was aborted",
+    "football-data.org (foot): football-data.org HTTP 500 — {\"message\":\"This is my fault. Feel free to file a complain to daniel@football-data.org\",\"error\":500}"
+  ]
 }
