@@ -1,33 +1,5 @@
 [
   {
-    "title": "Domingo — SESSION LOL AVEC TWEEKZ",
-    "start": "2026-03-19T13:00:00.000Z",
-    "end": "2026-03-19T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "[First Stand] Gen.G vs LYON",
-    "start": "2026-03-19T13:04:34Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "first stand",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-19T14:00:00",
     "end": "2026-03-19T15:30:00",
