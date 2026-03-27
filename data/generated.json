@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-03-20T19:00:00.000Z",
-    "end": "2026-03-20T20:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — SUITE DE L'AVENTURE GTA RP",
     "start": "2026-03-20T20:00:00.000Z",
     "end": "2026-03-20T23:00:00.000Z",
@@ -1933,6 +1920,17 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "JDR Vallarnia",
+    "start": "2026-04-10T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "jdr"
     ]
   },
   {
