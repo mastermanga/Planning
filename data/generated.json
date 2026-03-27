@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-03-20T10:30:00",
-    "end": "2026-03-20T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "[First Stand] G2 Esports vs BNK FEARX",
     "start": "2026-03-20T13:04:58Z",
     "source": "lolix.gg",
@@ -1948,6 +1936,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-10T10:30:00",
+    "end": "2026-04-10T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
