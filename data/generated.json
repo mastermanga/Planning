@@ -1,31 +1,5 @@
 [
   {
-    "title": "[First Stand] G2 Esports vs BNK FEARX",
-    "start": "2026-03-20T13:04:58Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "first stand"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-03-20T14:00:00",
-    "end": "2026-03-20T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "[First Stand] LYON vs JD Gaming",
     "start": "2026-03-20T15:49:06Z",
     "source": "lolix.gg",
@@ -1948,6 +1922,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-10T14:00:00",
+    "end": "2026-04-10T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
