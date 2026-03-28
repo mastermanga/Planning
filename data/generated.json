@@ -1383,6 +1383,20 @@
     ]
   },
   {
+    "title": "[LCK] T1 vs Hanwha Life Esports",
+    "start": "2026-04-04T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-04T09:00:00",
     "end": "2026-04-04T10:30:00",
@@ -1392,6 +1406,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs Dplus KIA",
+    "start": "2026-04-04T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1418,6 +1446,20 @@
     ]
   },
   {
+    "title": "[LEC] SK Gaming vs Shifters",
+    "start": "2026-04-04T12:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
     "start": "2026-04-04T13:30:00Z",
     "source": "football-data.org",
@@ -1428,6 +1470,20 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "[LEC] G2 Esports vs Team Heretics",
+    "start": "2026-04-04T14:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -1454,6 +1510,20 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "[LEC] Natus Vincere vs Team Vitality",
+    "start": "2026-04-04T16:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2219,6 +2289,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-28T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   }
 ]
