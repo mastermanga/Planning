@@ -1,16 +1,5 @@
 [
   {
-    "title": "You and I are Polar Opposites",
-    "start": "2026-03-22T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — 1ER MATCH DU FC SILMI",
     "start": "2026-03-22T13:30:00.000Z",
     "end": "2026-03-22T16:00:00.000Z",
@@ -1880,6 +1869,17 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "You and I are Polar Opposites",
+    "start": "2026-04-12T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
