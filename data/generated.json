@@ -1,16 +1,5 @@
 [
   {
-    "title": "Vigilantes",
-    "start": "2026-03-23T15:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-03-23T19:00:00.000Z",
     "end": "2026-03-23T20:00:00.000Z",
@@ -583,7 +572,7 @@
   },
   {
     "title": "[LEC] Natus Vincere vs SK Gaming",
-    "start": "2026-03-30T15:00:00Z",
+    "start": "2026-03-30T15:02:06Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2006,6 +1995,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Vigilantes",
+    "start": "2026-04-13T15:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
