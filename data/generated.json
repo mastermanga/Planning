@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-03-23T14:00:00",
-    "end": "2026-03-23T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Vigilantes",
     "start": "2026-03-23T15:20:00",
     "source": "Anime (sheet)",
@@ -411,6 +399,49 @@
     ]
   },
   {
+    "title": "[LEC] GIANTX vs Fnatic",
+    "start": "2026-03-28T13:09:50Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs Team Vitality",
+    "start": "2026-03-28T15:54:27Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Natus Vincere vs Movistar KOI",
+    "start": "2026-03-28T18:56:03Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Japanese - Course",
     "start": "2026-03-29T05:00:00Z",
     "source": "f1calendar",
@@ -471,6 +502,35 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "[LEC] SK Gaming vs Team Heretics",
+    "start": "2026-03-29T15:02:28Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs Fnatic",
+    "start": "2026-03-29T17:53:56Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
@@ -1934,6 +1994,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-13T14:00:00",
+    "end": "2026-04-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
