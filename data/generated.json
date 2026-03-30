@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-03-23T19:00:00.000Z",
-    "end": "2026-03-23T20:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — GTA RP | JUSTIN BIZOT EST DE RETOUR !",
     "start": "2026-03-23T20:00:00.000Z",
     "end": "2026-03-24T00:00:00.000Z",
@@ -823,7 +810,7 @@
     ]
   },
   {
-    "title": "Classroom Of The Elite Season 4",
+    "title": "Classroom Of The Elite",
     "start": "2026-04-01T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -834,7 +821,7 @@
     ]
   },
   {
-    "title": "TBATE Season 2",
+    "title": "TBATE",
     "start": "2026-04-01T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -921,7 +908,7 @@
     ]
   },
   {
-    "title": "Dr Stone : Science Future P3",
+    "title": "Dr Stone",
     "start": "2026-04-02T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1048,7 +1035,7 @@
     ]
   },
   {
-    "title": "Slime Season 4",
+    "title": "Slime",
     "start": "2026-04-03T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1348,7 +1335,7 @@
     ]
   },
   {
-    "title": "Ace Of Diamond : Act 2 Season 2",
+    "title": "Ace Of Diamond",
     "start": "2026-04-05T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1589,7 +1576,7 @@
     ]
   },
   {
-    "title": "Re:Zero Season 4",
+    "title": "Re:Zero",
     "start": "2026-04-08T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1600,7 +1587,7 @@
     ]
   },
   {
-    "title": "Classroom Of The Elite Season 4",
+    "title": "Classroom Of The Elite",
     "start": "2026-04-08T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1611,7 +1598,7 @@
     ]
   },
   {
-    "title": "TBATE Season 2",
+    "title": "TBATE",
     "start": "2026-04-08T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1697,7 +1684,7 @@
     ]
   },
   {
-    "title": "Dr Stone : Science Future P3",
+    "title": "Dr Stone",
     "start": "2026-04-09T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1756,7 +1743,7 @@
     ]
   },
   {
-    "title": "Slime Season 4",
+    "title": "Slime",
     "start": "2026-04-10T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
@@ -1939,7 +1926,7 @@
     ]
   },
   {
-    "title": "Ace Of Diamond : Act 2 Season 2",
+    "title": "Ace Of Diamond",
     "start": "2026-04-12T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
