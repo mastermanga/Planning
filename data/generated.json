@@ -596,20 +596,6 @@
     ]
   },
   {
-    "title": "[LEC] Team Heretics vs Team Vitality",
-    "start": "2026-03-30T17:15:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-03-30T18:00:00.000Z",
     "end": "2026-03-30T19:00:00.000Z",
@@ -620,6 +606,20 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs Team Vitality",
+    "start": "2026-03-30T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
