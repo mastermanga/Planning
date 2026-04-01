@@ -288,49 +288,6 @@
     ]
   },
   {
-    "title": "[LEC] GIANTX vs Fnatic",
-    "start": "2026-03-28T13:09:50Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs Team Vitality",
-    "start": "2026-03-28T15:54:27Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Natus Vincere vs Movistar KOI",
-    "start": "2026-03-28T18:56:03Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Japanese - Course",
     "start": "2026-03-29T05:00:00Z",
     "source": "f1calendar",
@@ -1467,6 +1424,20 @@
     ]
   },
   {
+    "title": "[LCK] Dplus KIA vs Hanwha Life Esports",
+    "start": "2026-04-08T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-08T09:00:00",
     "end": "2026-04-08T10:30:00",
@@ -1476,6 +1447,21 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] T1 vs Gen.G",
+    "start": "2026-04-08T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
     ]
   },
   {
