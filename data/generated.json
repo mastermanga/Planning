@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-03-26T19:00:00.000Z",
-    "end": "2026-03-26T20:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — GTA RP | SUITE DE L'AVENTURE",
     "start": "2026-03-26T20:00:00.000Z",
     "end": "2026-03-27T00:00:00.000Z",
