@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-03-27T10:30:00",
-    "end": "2026-03-27T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-03-27T14:00:00",
     "end": "2026-03-27T15:30:00",
@@ -610,20 +598,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs HANJIN BRION",
-    "start": "2026-04-03T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-04-03T10:30:00",
     "end": "2026-04-03T11:30:00",
@@ -646,6 +620,20 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs HANJIN BRION",
+    "start": "2026-04-03T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2004,6 +1992,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-17T10:30:00",
+    "end": "2026-04-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
