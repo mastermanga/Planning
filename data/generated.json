@@ -2007,6 +2007,17 @@
     ]
   },
   {
+    "title": "Slime",
+    "start": "2026-04-17T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Lille OSC vs OGC Nice",
     "start": "2026-04-18T19:05:00Z",
     "source": "football-data.org",

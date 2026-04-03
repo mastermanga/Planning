@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-03T17:30:24.188Z",
-  "total": 185,
+  "generatedAt": "2026-04-03T18:40:37.333Z",
+  "total": 186,
   "counts": {
-    "Anime (sheet)": 106,
+    "Anime (sheet)": 107,
     "Twitch:domingo": 12,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
     "lolix.gg": 24,
     "football-data.org (foot)": 40,
     "F1 (f1calendar.com)": 3,
-    "missed_anime_added": 0,
-    "missed_anime_candidates": 4
+    "missed_anime_added": 1,
+    "missed_anime_candidates": 5
   },
   "errors": []
 }
