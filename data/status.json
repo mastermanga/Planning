@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-04-03T14:00:18.500Z",
-  "total": 145,
+  "generatedAt": "2026-04-03T14:54:26.460Z",
+  "total": 185,
   "counts": {
     "Anime (sheet)": 106,
     "Twitch:domingo": 12,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
     "lolix.gg": 24,
-    "football-data.org (foot)": 0,
+    "football-data.org (foot)": 40,
     "F1 (f1calendar.com)": 3,
     "missed_anime_added": 0,
     "missed_anime_candidates": 4
   },
-  "errors": [
-    "football-data.org (foot): football-data.org HTTP 500 — {\"message\":\"This is my fault. Feel free to file a complain to daniel@football-data.org\",\"error\":500}"
-  ]
+  "errors": []
 }

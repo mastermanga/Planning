@@ -648,6 +648,19 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Toulouse FC",
+    "start": "2026-04-03T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-04-04T07:00:00",
     "end": "2026-04-04T09:00:00",
@@ -726,6 +739,19 @@
     ]
   },
   {
+    "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
+    "start": "2026-04-04T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
     "title": "[LEC] G2 Esports vs Team Heretics",
     "start": "2026-04-04T14:15:00Z",
     "source": "lolix.gg",
@@ -737,6 +763,32 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] RCD Mallorca vs Real Madrid CF",
+    "start": "2026-04-04T14:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs OGC Nice",
+    "start": "2026-04-04T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
@@ -762,6 +814,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-04-04T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
@@ -1065,6 +1130,20 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs FC Bayern München",
+    "start": "2026-04-07T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid",
+      "bayern"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-04-08T07:00:00",
     "end": "2026-04-08T09:00:00",
@@ -1172,6 +1251,33 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Liverpool FC",
+    "start": "2026-04-08T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Barcelona vs Club Atlético de Madrid",
+    "start": "2026-04-08T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
@@ -1349,6 +1455,19 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Girona FC",
+    "start": "2026-04-10T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
     "title": "JDR Vallarnia",
     "start": "2026-04-10T19:30:00",
     "source": "Anime (sheet)",
@@ -1396,6 +1515,45 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Liverpool FC vs Fulham FC",
+    "start": "2026-04-11T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs RCD Espanyol de Barcelona",
+    "start": "2026-04-11T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC St. Pauli 1910 vs FC Bayern München",
+    "start": "2026-04-11T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
     "title": "Daemons of the Sadow Realm",
     "start": "2026-04-11T18:00:00",
     "source": "Anime (sheet)",
@@ -1440,6 +1598,32 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Le Havre AC",
+    "start": "2026-04-12T15:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Chelsea FC vs Manchester City FC",
+    "start": "2026-04-12T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   },
   {
@@ -1594,6 +1778,33 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs Paris Saint-Germain FC",
+    "start": "2026-04-14T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-04-14T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-04-15T07:00:00",
     "end": "2026-04-15T09:00:00",
@@ -1672,6 +1883,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Real Madrid CF",
+    "start": "2026-04-15T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern",
+      "real_madrid"
     ]
   },
   {
@@ -1779,6 +2004,305 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Lille OSC vs OGC Nice",
+    "start": "2026-04-18T19:05:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Everton FC vs Liverpool FC",
+    "start": "2026-04-19T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Arsenal FC",
+    "start": "2026-04-19T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
+    "start": "2026-04-19T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Olympique Lyonnais",
+    "start": "2026-04-19T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
+    "start": "2026-04-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
+    "start": "2026-04-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Nantes",
+    "start": "2026-04-22T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] 1. FSV Mainz 05 vs FC Bayern München",
+    "start": "2026-04-25T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Crystal Palace FC",
+    "start": "2026-04-25T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Angers SCO vs Paris Saint-Germain FC",
+    "start": "2026-04-25T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Betis Balompié vs Real Madrid CF",
+    "start": "2026-04-26T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Getafe CF vs FC Barcelona",
+    "start": "2026-04-26T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Burnley FC vs Manchester City FC",
+    "start": "2026-04-26T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Olympique de Marseille vs OGC Nice",
+    "start": "2026-04-26T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-28T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-29T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Heidenheim 1846",
+    "start": "2026-05-02T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] RCD Espanyol de Barcelona vs Real Madrid CF",
+    "start": "2026-05-03T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] CA Osasuna vs FC Barcelona",
+    "start": "2026-05-03T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Racing Club de Lens",
+    "start": "2026-05-03T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Lorient",
+    "start": "2026-05-03T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester United FC vs Liverpool FC",
+    "start": "2026-05-03T14:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
     ]
   }
 ]
