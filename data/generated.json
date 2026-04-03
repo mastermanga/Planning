@@ -1,19 +1,5 @@
 [
   {
-    "title": "Japanese - Essais Libres 1",
-    "start": "2026-03-27T02:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Suzuka",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
     "title": "Japanese - Essais Libres 2",
     "start": "2026-03-27T06:00:00Z",
     "source": "f1calendar",
