@@ -635,19 +635,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Toulouse FC",
-    "start": "2026-04-03T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-04T07:00:00",
     "end": "2026-04-04T09:00:00",
@@ -1478,6 +1465,20 @@
     ]
   },
   {
+    "title": "[LCK] Nongshim Red Force vs Kiwoom DRX",
+    "start": "2026-04-11T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-11T09:00:00",
     "end": "2026-04-11T10:30:00",
@@ -1490,6 +1491,21 @@
     ]
   },
   {
+    "title": "[LCK] Dplus KIA vs Gen.G",
+    "start": "2026-04-11T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-04-11T10:30:00",
     "end": "2026-04-11T11:30:00",
@@ -1499,6 +1515,48 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs Natus Vincere",
+    "start": "2026-04-11T12:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] G2 Esports vs Team Vitality",
+    "start": "2026-04-11T14:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs SK Gaming",
+    "start": "2026-04-11T16:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2301,6 +2359,32 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Everton FC vs Manchester City FC",
+    "start": "2026-05-04T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   }
 ]
