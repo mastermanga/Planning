@@ -2111,21 +2111,8 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
-    "start": "2026-04-22T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
-    "start": "2026-04-22T00:00:00Z",
+    "start": "2026-04-21T19:30:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2147,6 +2134,32 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
+    "start": "2026-04-22T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Betis Balompié vs Real Madrid CF",
+    "start": "2026-04-24T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   },
   {
@@ -2176,6 +2189,19 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Getafe CF vs FC Barcelona",
+    "start": "2026-04-25T14:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Angers SCO vs Paris Saint-Germain FC",
     "start": "2026-04-25T17:00:00Z",
     "source": "football-data.org",
@@ -2186,32 +2212,6 @@
       "foot",
       "ligue1",
       "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Betis Balompié vs Real Madrid CF",
-    "start": "2026-04-26T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Getafe CF vs FC Barcelona",
-    "start": "2026-04-26T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
