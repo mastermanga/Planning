@@ -1,19 +1,5 @@
 [
   {
-    "title": "Japanese - Course",
-    "start": "2026-03-29T05:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Suzuka",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-03-29T07:00:00",
     "end": "2026-03-29T09:00:00",
