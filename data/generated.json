@@ -2170,6 +2170,17 @@
     ]
   },
   {
+    "title": "One Piece",
+    "start": "2026-04-19T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
     "start": "2026-04-21T19:30:00Z",
     "source": "football-data.org",
