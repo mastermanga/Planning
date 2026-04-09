@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-04-02T10:30:00",
-    "end": "2026-04-02T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-02T14:00:00",
     "end": "2026-04-02T15:30:00",
@@ -625,20 +613,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs Nongshim Red Force",
-    "start": "2026-04-09T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-04-09T10:30:00",
     "end": "2026-04-09T11:30:00",
@@ -648,6 +622,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs Nongshim Red Force",
+    "start": "2026-04-09T11:19:23Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2056,6 +2044,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-23T10:30:00",
+    "end": "2026-04-23T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
