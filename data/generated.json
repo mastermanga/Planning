@@ -654,20 +654,6 @@
     ]
   },
   {
-    "title": "[LEC] Movistar KOI vs SK Gaming",
-    "start": "2026-04-11T16:30:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "⚽ [Premier League] Liverpool FC vs Fulham FC",
     "start": "2026-04-11T16:30:00Z",
     "source": "football-data.org",
@@ -704,6 +690,20 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs SK Gaming",
+    "start": "2026-04-11T17:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
