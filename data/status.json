@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-12T22:28:48.742Z",
-  "total": 192,
+  "generatedAt": "2026-04-12T23:30:37.412Z",
+  "total": 69,
   "counts": {
-    "Anime (sheet)": 123,
+    "Anime (sheet)": 0,
     "Twitch:domingo": 0,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
@@ -10,7 +10,9 @@
     "football-data.org (foot)": 40,
     "F1 (f1calendar.com)": 0,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 14
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "Anime (sheet): This operation was aborted"
+  ]
 }
