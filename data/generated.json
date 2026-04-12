@@ -234,20 +234,6 @@
     ]
   },
   {
-    "title": "[LCK] Dplus KIA vs Hanwha Life Esports",
-    "start": "2026-04-08T07:58:48Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-08T09:00:00",
     "end": "2026-04-08T10:30:00",
@@ -257,21 +243,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs Gen.G",
-    "start": "2026-04-08T10:11:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
     ]
   },
   {
@@ -618,45 +589,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Liverpool FC vs Fulham FC",
-    "start": "2026-04-11T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs RCD Espanyol de Barcelona",
-    "start": "2026-04-11T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC St. Pauli 1910 vs FC Bayern München",
-    "start": "2026-04-11T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1492,6 +1424,20 @@
     ]
   },
   {
+    "title": "[LCK] HANJIN BRION vs Nongshim Red Force",
+    "start": "2026-04-19T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-19T09:00:00",
     "end": "2026-04-19T10:30:00",
@@ -1501,6 +1447,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs T1",
+    "start": "2026-04-19T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1540,6 +1500,20 @@
     ]
   },
   {
+    "title": "[LEC] Team Vitality vs GIANTX",
+    "start": "2026-04-19T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Arsenal FC",
     "start": "2026-04-19T15:30:00Z",
     "source": "football-data.org",
@@ -1563,6 +1537,20 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs Movistar KOI",
+    "start": "2026-04-19T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2347,6 +2335,45 @@
       "liga",
       "barcelone",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
+    "start": "2026-05-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
+    "start": "2026-05-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
+    "start": "2026-05-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   }
 ]
