@@ -684,6 +684,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-13T17:30:00.000Z",
+    "end": "2026-04-13T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-04-13T18:00:00",
     "source": "Anime (sheet)",
@@ -692,6 +705,32 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — REACT DALS AVEC MARCUS",
+    "start": "2026-04-13T18:00:00.000Z",
+    "end": "2026-04-13T19:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — REACT NETFLIX - LES DINOSAURES",
+    "start": "2026-04-13T19:30:00.000Z",
+    "end": "2026-04-13T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -856,6 +895,32 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-15T12:00:00.000Z",
+    "end": "2026-04-15T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — ON DÉCOUVRE ALASKA GOLD FEVER",
+    "start": "2026-04-15T13:00:00.000Z",
+    "end": "2026-04-15T15:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-04-15T14:00:00",
     "source": "Anime (sheet)",
@@ -876,6 +941,19 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-04-15T15:00:00.000Z",
+    "end": "2026-04-15T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1323,6 +1401,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — KINGS LEAGUE - JOURNÉE 5",
+    "start": "2026-04-19T12:30:00.000Z",
+    "end": "2026-04-19T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
