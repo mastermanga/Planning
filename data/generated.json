@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-04-06T14:00:00",
-    "end": "2026-04-06T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-04-06T18:00:00",
     "source": "Anime (sheet)",
@@ -656,7 +644,7 @@
   },
   {
     "title": "[LEC] Fnatic vs SK Gaming",
-    "start": "2026-04-13T15:00:00Z",
+    "start": "2026-04-13T15:02:01Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2165,6 +2153,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-27T14:00:00",
+    "end": "2026-04-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
