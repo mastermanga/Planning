@@ -1,16 +1,5 @@
 [
   {
-    "title": "Witch Hat Atelier",
-    "start": "2026-04-06T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-07T07:00:00",
     "end": "2026-04-07T09:00:00",
@@ -659,7 +648,7 @@
   },
   {
     "title": "[LEC] GIANTX vs Shifters",
-    "start": "2026-04-13T17:15:00Z",
+    "start": "2026-04-13T17:21:19Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -942,6 +931,19 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso SINTOPIA",
+    "start": "2026-04-15T17:45:00.000Z",
+    "end": "2026-04-15T22:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -1268,6 +1270,19 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso ARKNIGHTS: ENDFIELD",
+    "start": "2026-04-18T17:45:00.000Z",
+    "end": "2026-04-18T22:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -1798,6 +1813,19 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-23T08:30:00.000Z",
+    "end": "2026-04-23T17:30:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-23T09:00:00",
     "end": "2026-04-23T10:30:00",
@@ -1865,6 +1893,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-24T08:30:00.000Z",
+    "end": "2026-04-24T17:30:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -1937,6 +1978,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-25T08:30:00.000Z",
+    "end": "2026-04-25T17:30:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -2061,6 +2115,19 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-26T08:30:00.000Z",
+    "end": "2026-04-26T17:30:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-26T09:00:00",
     "end": "2026-04-26T10:30:00",
@@ -2165,6 +2232,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Witch Hat Atelier",
+    "start": "2026-04-27T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
