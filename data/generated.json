@@ -1,28 +1,5 @@
 [
   {
-    "title": "Classroom Of The Elite",
-    "start": "2026-04-08T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-08T14:00:00",
-    "end": "2026-04-08T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-04-08T18:00:00",
     "source": "Anime (sheet)",
@@ -2161,6 +2138,29 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Classroom Of The Elite",
+    "start": "2026-04-29T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-29T14:00:00",
+    "end": "2026-04-29T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
