@@ -2008,7 +2008,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-28T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2017,7 +2017,6 @@
     "tags": [
       "foot",
       "ldc",
-      "psg",
       "barcelone"
     ]
   },
@@ -2092,7 +2091,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-29T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2255,7 +2254,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-05T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2264,12 +2263,11 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone",
-      "psg"
+      "barcelone"
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs Club Atlético de Madrid",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
