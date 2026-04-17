@@ -2138,6 +2138,20 @@
     ]
   },
   {
+    "title": "Miami - Essais Libres 1",
+    "start": "2026-05-01T16:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Miami",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Heidenheim 1846",
     "start": "2026-05-02T13:30:00Z",
     "source": "football-data.org",
