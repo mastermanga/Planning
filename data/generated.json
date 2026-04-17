@@ -1,16 +1,5 @@
 [
   {
-    "title": "Slime",
-    "start": "2026-04-10T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "JDR Vallarnia",
     "start": "2026-04-10T19:30:00",
     "source": "Anime (sheet)",
@@ -2149,6 +2138,17 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "Slime",
+    "start": "2026-05-01T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
