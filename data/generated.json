@@ -245,35 +245,6 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs SK Gaming",
-    "start": "2026-04-13T15:02:01Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
-    "title": "[LEC] GIANTX vs Shifters",
-    "start": "2026-04-13T17:21:19Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-04-13T17:30:00.000Z",
     "end": "2026-04-13T18:00:00.000Z",
@@ -1525,6 +1496,20 @@
     ]
   },
   {
+    "title": "[LCK] BNK FEARX vs KT Rolster",
+    "start": "2026-04-24T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Joueur du Grenier — Sponso FF14",
     "start": "2026-04-24T08:30:00.000Z",
     "end": "2026-04-24T17:30:00.000Z",
@@ -1550,6 +1535,20 @@
     ]
   },
   {
+    "title": "[LCK] Hanwha Life Esports vs Kiwoom DRX",
+    "start": "2026-04-24T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-04-24T10:30:00",
     "end": "2026-04-24T11:30:00",
@@ -1571,6 +1570,35 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LEC] Shifters vs Fnatic",
+    "start": "2026-04-24T14:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[LEC] Natus Vincere vs Karmine Corp",
+    "start": "2026-04-24T16:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2395,6 +2423,32 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
+    "start": "2026-05-17T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
+    "start": "2026-05-17T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
     ]
   }
 ]
