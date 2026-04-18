@@ -1960,7 +1960,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1969,7 +1969,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg",
+      "bayern"
     ]
   },
   {
@@ -2051,19 +2052,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-04-29T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
     ]
   },
   {
@@ -2315,20 +2303,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2337,7 +2312,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
