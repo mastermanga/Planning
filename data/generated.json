@@ -1568,6 +1568,20 @@
     ]
   },
   {
+    "title": "[LCK] T1 vs HANJIN BRION",
+    "start": "2026-04-25T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Joueur du Grenier — Sponso FF14",
     "start": "2026-04-25T08:30:00.000Z",
     "end": "2026-04-25T17:30:00.000Z",
@@ -1590,6 +1604,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Dplus KIA vs DN SOOPers",
+    "start": "2026-04-25T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1641,6 +1669,35 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs Natus Vincere",
+    "start": "2026-04-25T14:45:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs Shifters",
+    "start": "2026-04-25T16:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -1903,7 +1960,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1912,8 +1969,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg",
-      "bayern"
+      "barcelone"
     ]
   },
   {
@@ -1995,6 +2051,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-29T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
@@ -2246,7 +2315,20 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2255,8 +2337,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
