@@ -2238,6 +2238,20 @@
     ]
   },
   {
+    "title": "Miami - Sprint",
+    "start": "2026-05-02T16:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Miami",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] CA Osasuna vs FC Barcelona",
     "start": "2026-05-02T19:00:00Z",
     "source": "football-data.org",
