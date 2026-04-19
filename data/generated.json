@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-04-12T07:00:00",
-    "end": "2026-04-12T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-12T09:00:00",
     "end": "2026-04-12T10:30:00",
@@ -2306,6 +2294,18 @@
       "formula1",
       "sport_auto",
       "qualification"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-03T07:00:00",
+    "end": "2026-05-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
