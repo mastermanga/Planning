@@ -313,21 +313,6 @@
     ]
   },
   {
-    "title": "[LCK] HANJIN BRION vs Gen.G",
-    "start": "2026-04-16T07:59:54Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-16T09:00:00",
     "end": "2026-04-16T10:30:00",
@@ -337,20 +322,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] DN SOOPers vs Hanwha Life Esports",
-    "start": "2026-04-16T10:13:37Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -725,19 +696,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Everton FC vs Liverpool FC",
-    "start": "2026-04-19T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "[LEC] Team Vitality vs GIANTX",
     "start": "2026-04-19T15:02:25Z",
     "source": "lolix.gg",
@@ -752,32 +710,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs Arsenal FC",
-    "start": "2026-04-19T15:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
-    "start": "2026-04-19T15:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
     "title": "[LEC] Team Heretics vs Movistar KOI",
     "start": "2026-04-19T16:55:24Z",
     "source": "lolix.gg",
@@ -789,19 +721,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Olympique Lyonnais",
-    "start": "2026-04-19T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
     ]
   },
   {
@@ -1850,7 +1769,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1859,7 +1778,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg",
+      "bayern"
     ]
   },
   {
@@ -1941,19 +1861,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-04-29T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
     ]
   },
   {
@@ -2374,20 +2281,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2396,7 +2290,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
