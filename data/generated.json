@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-13T17:30:00.000Z",
-    "end": "2026-04-13T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-04-13T18:00:00",
     "source": "Anime (sheet)",
@@ -750,7 +737,7 @@
   },
   {
     "title": "[LEC] SK Gaming vs Karmine Corp",
-    "start": "2026-04-20T17:15:00Z",
+    "start": "2026-04-20T17:13:02Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1095,6 +1082,19 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-23T07:30:00.000Z",
+    "end": "2026-04-23T15:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "[LCK] HANJIN BRION vs Dplus KIA",
     "start": "2026-04-23T08:00:00Z",
     "source": "lolix.gg",
@@ -1106,19 +1106,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-23T08:30:00.000Z",
-    "end": "2026-04-23T17:30:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
     ]
   },
   {
@@ -1221,19 +1208,6 @@
     ]
   },
   {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-24T08:30:00.000Z",
-    "end": "2026-04-24T17:30:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-24T09:00:00",
     "end": "2026-04-24T10:30:00",
@@ -1282,6 +1256,19 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-24T12:00:00.000Z",
+    "end": "2026-04-24T20:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   },
   {
@@ -1362,6 +1349,19 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Sponso FF14",
+    "start": "2026-04-25T08:00:00.000Z",
+    "end": "2026-04-25T14:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "[LCK] T1 vs HANJIN BRION",
     "start": "2026-04-25T08:00:00Z",
     "source": "lolix.gg",
@@ -1373,19 +1373,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-25T08:30:00.000Z",
-    "end": "2026-04-25T17:30:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
     ]
   },
   {
