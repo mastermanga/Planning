@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — REACT NETFLIX - LES DINOSAURES",
-    "start": "2026-04-13T19:30:00.000Z",
-    "end": "2026-04-13T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-14T07:00:00",
     "end": "2026-04-14T09:00:00",
@@ -1788,7 +1775,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1797,7 +1784,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg",
+      "bayern"
     ]
   },
   {
@@ -1879,19 +1867,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-04-29T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
     ]
   },
   {
@@ -2371,20 +2346,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2393,7 +2355,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
