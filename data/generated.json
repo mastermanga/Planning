@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-04-13T14:00:00",
-    "end": "2026-04-13T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-04-13T17:30:00.000Z",
     "end": "2026-04-13T18:00:00.000Z",
@@ -775,6 +763,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-20T17:30:00.000Z",
+    "end": "2026-04-20T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-04-20T18:00:00",
     "source": "Anime (sheet)",
@@ -783,6 +784,32 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — REACT DALS AVEC LOÏC NOTTET",
+    "start": "2026-04-20T18:00:00.000Z",
+    "end": "2026-04-20T19:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — REACT : LES DINOSAURES",
+    "start": "2026-04-20T19:30:00.000Z",
+    "end": "2026-04-20T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -853,6 +880,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — POPCORN AVEC DIEGO, ZERATOR & NICO",
+    "start": "2026-04-21T18:00:00.000Z",
+    "end": "2026-04-21T20:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -930,6 +970,32 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-22T12:00:00.000Z",
+    "end": "2026-04-22T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-04-22T13:00:00.000Z",
+    "end": "2026-04-22T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1203,6 +1269,19 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Domingo — VISITE DU QG DE TISSOT",
+    "start": "2026-04-24T12:00:00.000Z",
+    "end": "2026-04-24T13:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1548,6 +1627,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — KINGS LEAGUE - JOURNÉE 6",
+    "start": "2026-04-26T12:30:00.000Z",
+    "end": "2026-04-26T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -2268,6 +2360,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-04T14:00:00",
+    "end": "2026-05-04T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Everton FC vs Manchester City FC",
     "start": "2026-05-04T19:00:00Z",
     "source": "football-data.org",
@@ -2374,8 +2478,21 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
-    "start": "2026-05-13T00:00:00Z",
+    "start": "2026-05-13T19:30:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2388,7 +2505,7 @@
   },
   {
     "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
-    "start": "2026-05-13T00:00:00Z",
+    "start": "2026-05-14T19:30:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2397,19 +2514,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
-    "start": "2026-05-13T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
     ]
   },
   {
