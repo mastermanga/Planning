@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-04-14T14:00:00",
-    "end": "2026-04-14T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Liar Game",
     "start": "2026-04-14T18:00:00",
     "source": "Anime (sheet)",
@@ -2318,6 +2306,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-05T14:00:00",
+    "end": "2026-05-05T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
@@ -2371,8 +2371,22 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Madrid CF",
+    "start": "2026-05-10T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone",
+      "real_madrid"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] AJ Auxerre vs OGC Nice",
-    "start": "2026-05-09T19:00:00Z",
+    "start": "2026-05-10T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2385,7 +2399,7 @@
   },
   {
     "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Stade Brestois 29",
-    "start": "2026-05-09T19:00:00Z",
+    "start": "2026-05-10T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2394,20 +2408,6 @@
       "foot",
       "ligue1",
       "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Madrid CF",
-    "start": "2026-05-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone",
-      "real_madrid"
     ]
   },
   {
@@ -2463,32 +2463,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
-    "start": "2026-05-16T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
-    "start": "2026-05-16T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
     "start": "2026-05-17T00:00:00Z",
     "source": "football-data.org",
@@ -2538,6 +2512,32 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
