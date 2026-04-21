@@ -285,20 +285,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs BNK FEARX",
-    "start": "2026-04-17T08:00:41Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-17T09:00:00",
     "end": "2026-04-17T10:30:00",
@@ -308,20 +294,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] Dplus KIA vs T1",
-    "start": "2026-04-17T10:10:18Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1775,7 +1747,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1784,8 +1756,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg",
-      "bayern"
+      "barcelone"
     ]
   },
   {
@@ -1867,6 +1838,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-29T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
@@ -2346,7 +2330,20 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2355,8 +2352,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
@@ -2566,6 +2562,19 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
+    "start": "2026-05-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   }
 ]
