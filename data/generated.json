@@ -98,19 +98,6 @@
     ]
   },
   {
-    "title": "Joueur du Grenier — Sponso SINTOPIA",
-    "start": "2026-04-15T17:45:00.000Z",
-    "end": "2026-04-15T22:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-04-15T18:00:00",
     "source": "Anime (sheet)",
@@ -274,21 +261,6 @@
     ]
   },
   {
-    "title": "[LCK] Hanwha Life Esports vs Gen.G",
-    "start": "2026-04-18T07:59:21Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-18T09:00:00",
     "end": "2026-04-18T10:30:00",
@@ -298,20 +270,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] DN SOOPers vs KT Rolster",
-    "start": "2026-04-18T10:14:24Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -335,47 +293,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "[LEC] GIANTX vs Natus Vincere",
-    "start": "2026-04-18T15:02:08Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso ARKNIGHTS: ENDFIELD",
-    "start": "2026-04-18T17:45:00.000Z",
-    "end": "2026-04-18T22:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs SK Gaming",
-    "start": "2026-04-18T17:45:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -748,19 +665,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
-    "start": "2026-04-21T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-22T07:00:00",
     "end": "2026-04-22T09:00:00",
@@ -947,19 +851,6 @@
     ]
   },
   {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-23T07:30:00.000Z",
-    "end": "2026-04-23T15:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "[LCK] HANJIN BRION vs Dplus KIA",
     "start": "2026-04-23T08:00:00Z",
     "source": "lolix.gg",
@@ -1124,19 +1015,6 @@
     ]
   },
   {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-24T12:00:00.000Z",
-    "end": "2026-04-24T20:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-24T14:00:00",
     "end": "2026-04-24T15:30:00",
@@ -1211,19 +1089,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-25T08:00:00.000Z",
-    "end": "2026-04-25T14:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
     ]
   },
   {
@@ -1402,19 +1267,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-26T08:00:00.000Z",
-    "end": "2026-04-26T13:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
     ]
   },
   {
@@ -1703,6 +1555,20 @@
     ]
   },
   {
+    "title": "[LCK] Nongshim Red Force vs T1",
+    "start": "2026-04-29T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-29T09:00:00",
     "end": "2026-04-29T10:30:00",
@@ -1712,6 +1578,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs Hanwha Life Esports",
+    "start": "2026-04-29T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
