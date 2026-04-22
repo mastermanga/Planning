@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-04-22T02:07:02.431Z",
-  "total": 197,
+  "generatedAt": "2026-04-22T05:21:42.323Z",
+  "total": 203,
   "counts": {
     "Anime (sheet)": 121,
     "Twitch:domingo": 12,
     "Twitch:rivenzi": 0,
-    "Twitch:joueur_du_grenier": 0,
+    "Twitch:joueur_du_grenier": 6,
     "lolix.gg": 24,
     "football-data.org (foot)": 35,
     "F1 (f1calendar.com)": 5,
     "missed_anime_added": 0,
     "missed_anime_candidates": 14
   },
-  "errors": [
-    "Twitch:joueur_du_grenier: Twitch iCal HTTP 500"
-  ]
+  "errors": []
 }
