@@ -1,18 +1,5 @@
 [
   {
-    "title": "Joueur du Grenier — Sponso SINTOPIA",
-    "start": "2026-04-15T17:45:00.000Z",
-    "end": "2026-04-15T22:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-04-15T18:00:00",
     "source": "Anime (sheet)",
