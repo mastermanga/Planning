@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-04-15T10:30:00",
-    "end": "2026-04-15T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-04-15T12:00:00.000Z",
     "end": "2026-04-15T13:00:00.000Z",
@@ -706,7 +694,7 @@
   },
   {
     "title": "[LCK] Hanwha Life Esports vs Nongshim Red Force",
-    "start": "2026-04-22T10:00:00Z",
+    "start": "2026-04-22T10:09:35Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1583,7 +1571,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1592,8 +1580,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg",
-      "bayern"
+      "barcelone"
     ]
   },
   {
@@ -1703,6 +1690,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-29T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
@@ -2252,6 +2252,19 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -2276,7 +2289,19 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "Sport",
+    "start": "2026-05-06T10:30:00",
+    "end": "2026-05-06T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2285,8 +2310,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
