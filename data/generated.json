@@ -234,20 +234,6 @@
     ]
   },
   {
-    "title": "[LCK] HANJIN BRION vs Nongshim Red Force",
-    "start": "2026-04-19T07:59:34Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-19T09:00:00",
     "end": "2026-04-19T10:30:00",
@@ -272,20 +258,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs T1",
-    "start": "2026-04-19T11:17:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-04-19T12:00:00",
     "source": "Anime (sheet)",
@@ -307,34 +279,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "[LEC] Team Vitality vs GIANTX",
-    "start": "2026-04-19T15:02:25Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Team Heretics vs Movistar KOI",
-    "start": "2026-04-19T16:55:24Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -671,19 +615,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Nantes",
-    "start": "2026-04-22T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-04-22T18:00:00",
     "source": "Anime (sheet)",
@@ -703,32 +634,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Burnley FC vs Manchester City FC",
-    "start": "2026-04-22T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
-    "start": "2026-04-22T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -1609,6 +1514,21 @@
     ]
   },
   {
+    "title": "[LCK] Gen.G vs Kiwoom DRX",
+    "start": "2026-04-30T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-30T09:00:00",
     "end": "2026-04-30T10:30:00",
@@ -1618,6 +1538,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs Dplus KIA",
+    "start": "2026-04-30T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2457,6 +2391,32 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
+    "start": "2026-05-24T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
+    "start": "2026-05-24T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
