@@ -271,34 +271,6 @@
     ]
   },
   {
-    "title": "[LEC] Shifters vs G2 Esports",
-    "start": "2026-04-20T15:01:58Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] SK Gaming vs Karmine Corp",
-    "start": "2026-04-20T17:13:02Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-04-20T17:30:00.000Z",
     "end": "2026-04-20T18:00:00.000Z",
@@ -1543,6 +1515,20 @@
     ]
   },
   {
+    "title": "[LCK] DN SOOPers vs HANJIN BRION",
+    "start": "2026-05-01T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-01T09:00:00",
     "end": "2026-05-01T10:30:00",
@@ -1552,6 +1538,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs T1",
+    "start": "2026-05-01T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2417,6 +2417,32 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   }
 ]
