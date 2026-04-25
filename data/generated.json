@@ -1,16 +1,5 @@
 [
   {
-    "title": "JDR Ombre",
-    "start": "2026-04-18T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "jdr"
-    ]
-  },
-  {
     "title": "Joueur du Grenier — Sponso ARKNIGHTS: ENDFIELD",
     "start": "2026-04-18T17:45:00.000Z",
     "end": "2026-04-18T22:00:00.000Z",
@@ -815,7 +804,7 @@
   },
   {
     "title": "[LEC] Fnatic vs Natus Vincere",
-    "start": "2026-04-25T15:00:00Z",
+    "start": "2026-04-25T15:12:07Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
