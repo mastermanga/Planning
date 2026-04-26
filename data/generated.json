@@ -1,29 +1,5 @@
 [
   {
-    "title": "Ace Of Diamond",
-    "start": "2026-04-19T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — KINGS LEAGUE - JOURNÉE 5",
-    "start": "2026-04-19T12:30:00.000Z",
-    "end": "2026-04-19T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "One Piece",
     "start": "2026-04-19T20:30:00",
     "source": "Anime (sheet)",
@@ -1000,7 +976,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1009,7 +985,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg",
+      "bayern"
     ]
   },
   {
@@ -1119,19 +1096,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-04-29T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
     ]
   },
   {
@@ -1852,19 +1816,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1946,7 +1897,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1955,7 +1906,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
@@ -2229,6 +2181,17 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Ace Of Diamond",
+    "start": "2026-05-10T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
