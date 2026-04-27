@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-04-20T14:00:00",
-    "end": "2026-04-20T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-04-20T17:30:00.000Z",
     "end": "2026-04-20T18:00:00.000Z",
@@ -830,6 +818,19 @@
     ]
   },
   {
+    "title": "Domingo — BRAQUAGE SUR GTA ONLINE AVEC JIJI, XARI & PONEY",
+    "start": "2026-04-27T18:30:00.000Z",
+    "end": "2026-04-27T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-04-28T07:00:00",
     "end": "2026-04-28T09:00:00",
@@ -879,6 +880,19 @@
     ]
   },
   {
+    "title": "Domingo — SUITE DE TIDES OF TOMORROW",
+    "start": "2026-04-28T13:00:00.000Z",
+    "end": "2026-04-28T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-04-28T14:00:00",
     "end": "2026-04-28T15:30:00",
@@ -913,7 +927,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Bayern München",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-04-28T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -922,8 +936,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg",
-      "bayern"
+      "barcelone"
     ]
   },
   {
@@ -1014,6 +1027,19 @@
     ]
   },
   {
+    "title": "Domingo — OPENING NBA AVEC ALEX",
+    "start": "2026-04-29T15:00:00.000Z",
+    "end": "2026-04-29T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Re:Zero",
     "start": "2026-04-29T18:00:00",
     "source": "Anime (sheet)",
@@ -1033,6 +1059,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-04-29T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
     ]
   },
   {
@@ -1148,6 +1187,19 @@
     ]
   },
   {
+    "title": "Domingo — ON DÉCOUVRE TEN DATES",
+    "start": "2026-04-30T18:30:00.000Z",
+    "end": "2026-04-30T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-01T07:00:00",
     "end": "2026-05-01T09:00:00",
@@ -1183,6 +1235,19 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — PAUSE DEJ",
+    "start": "2026-05-01T10:00:00.000Z",
+    "end": "2026-05-01T12:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1545,6 +1610,19 @@
     ]
   },
   {
+    "title": "Domingo — KINGS LEAGUE - JOURNÉE 7 VS UNITED",
+    "start": "2026-05-03T12:30:00.000Z",
+    "end": "2026-05-03T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester United FC vs Liverpool FC",
     "start": "2026-05-03T14:30:00Z",
     "source": "football-data.org",
@@ -1795,6 +1873,19 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1876,7 +1967,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1885,8 +1976,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
@@ -2261,6 +2351,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-11T14:00:00",
+    "end": "2026-05-11T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
     "start": "2026-05-13T19:00:00Z",
     "source": "football-data.org",
@@ -2313,6 +2415,19 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
+    "start": "2026-05-17T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
     "start": "2026-05-17T00:00:00Z",
     "source": "football-data.org",
@@ -2336,19 +2451,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
-    "start": "2026-05-17T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
     ]
   },
   {
