@@ -2230,6 +2230,19 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
     "start": "2026-05-13T19:00:00Z",
     "source": "football-data.org",
@@ -2357,19 +2370,6 @@
       "foot",
       "ligue1",
       "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
-    "start": "2026-05-22T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
     ]
   },
   {
