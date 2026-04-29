@@ -1,41 +1,5 @@
 [
   {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-04-22T13:00:00.000Z",
-    "end": "2026-04-22T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Classroom Of The Elite",
-    "start": "2026-04-22T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-22T14:00:00",
-    "end": "2026-04-22T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-04-22T18:00:00",
     "source": "Anime (sheet)",
@@ -2175,6 +2139,29 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-05-13T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-13T14:00:00",
+    "end": "2026-05-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
     "start": "2026-05-13T19:00:00Z",
     "source": "football-data.org",
@@ -2240,19 +2227,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
-    "start": "2026-05-17T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
     "start": "2026-05-17T00:00:00Z",
     "source": "football-data.org",
@@ -2280,7 +2254,7 @@
   },
   {
     "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
-    "start": "2026-05-17T14:00:00Z",
+    "start": "2026-05-17T11:30:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2315,6 +2289,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
+    "start": "2026-05-19T18:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   },
   {
