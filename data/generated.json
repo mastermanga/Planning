@@ -1,30 +1,6 @@
 [
   {
     "title": "Work",
-    "start": "2026-04-23T09:00:00",
-    "end": "2026-04-23T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-04-23T10:30:00",
-    "end": "2026-04-23T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
     "start": "2026-04-23T14:00:00",
     "end": "2026-04-23T15:30:00",
     "source": "Anime (sheet)",
@@ -765,20 +741,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs Dplus KIA",
-    "start": "2026-04-30T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-04-30T10:30:00",
     "end": "2026-04-30T11:30:00",
@@ -788,6 +750,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs Dplus KIA",
+    "start": "2026-04-30T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1581,6 +1557,19 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1691,7 +1680,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1700,8 +1689,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
@@ -2337,6 +2325,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-14T09:00:00",
+    "end": "2026-05-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-14T10:30:00",
+    "end": "2026-05-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
