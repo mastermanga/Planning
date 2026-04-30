@@ -1,30 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-04-23T07:00:00",
-    "end": "2026-04-23T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-23T07:30:00.000Z",
-    "end": "2026-04-23T15:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-23T09:00:00",
     "end": "2026-04-23T10:30:00",
@@ -493,6 +468,49 @@
     ]
   },
   {
+    "title": "[Esports World Cup] Natus Vincere vs Galions",
+    "start": "2026-04-28T15:01:52Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Fnatic vs Shifters",
+    "start": "2026-04-28T15:02:05Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Team Vitality vs Solary",
+    "start": "2026-04-28T16:51:23Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
     "title": "Liar Game",
     "start": "2026-04-28T18:00:00",
     "source": "Anime (sheet)",
@@ -512,6 +530,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Team Heretics vs SK Gaming",
+    "start": "2026-04-28T18:26:15Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
@@ -615,6 +647,63 @@
     ]
   },
   {
+    "title": "[Esports World Cup] G2 Esports vs Fnatic",
+    "start": "2026-04-29T15:02:35Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] GIANTX vs Natus Vincere",
+    "start": "2026-04-29T15:04:35Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Movistar KOI vs Team Vitality",
+    "start": "2026-04-29T16:55:09Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Karmine Corp vs SK Gaming",
+    "start": "2026-04-29T16:55:53Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
     "title": "Re:Zero",
     "start": "2026-04-29T18:00:00",
     "source": "Anime (sheet)",
@@ -650,7 +739,7 @@
   },
   {
     "title": "[LCK] Gen.G vs Kiwoom DRX",
-    "start": "2026-04-30T08:00:00Z",
+    "start": "2026-04-30T07:59:35Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -714,6 +803,34 @@
     ]
   },
   {
+    "title": "[Esports World Cup] SK Gaming vs Galions",
+    "start": "2026-04-30T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Shifters vs Team Vitality",
+    "start": "2026-04-30T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
     "title": "Dr Stone",
     "start": "2026-04-30T16:30:00",
     "source": "Anime (sheet)",
@@ -735,6 +852,35 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Fnatic vs Solary",
+    "start": "2026-04-30T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] GIANTX vs Team Heretics",
+    "start": "2026-04-30T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
@@ -2179,6 +2325,18 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-14T07:00:00",
+    "end": "2026-05-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
