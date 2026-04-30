@@ -1,16 +1,5 @@
 [
   {
-    "title": "Dr Stone",
-    "start": "2026-04-23T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "The Ramparts Of Ice",
     "start": "2026-04-23T18:15:00",
     "source": "Anime (sheet)",
@@ -767,8 +756,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] SK Gaming vs Galions",
-    "start": "2026-04-30T15:00:00Z",
+    "title": "[Esports World Cup] Shifters vs Team Vitality",
+    "start": "2026-04-30T15:02:43Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -781,8 +770,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Shifters vs Team Vitality",
-    "start": "2026-04-30T15:02:43Z",
+    "title": "[Esports World Cup] SK Gaming vs Galions",
+    "start": "2026-04-30T15:06:04Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -806,21 +795,8 @@
     ]
   },
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-30T17:30:00.000Z",
-    "end": "2026-04-30T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "[Esports World Cup] Fnatic vs Solary",
-    "start": "2026-04-30T18:00:00Z",
+    "start": "2026-04-30T16:48:51Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -835,7 +811,7 @@
   },
   {
     "title": "[Esports World Cup] GIANTX vs Team Heretics",
-    "start": "2026-04-30T18:00:00Z",
+    "start": "2026-04-30T17:03:16Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -845,6 +821,19 @@
       "esport",
       "lol",
       "esports world cup"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-30T17:30:00.000Z",
+    "end": "2026-04-30T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -2337,6 +2326,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Dr Stone",
+    "start": "2026-05-14T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
