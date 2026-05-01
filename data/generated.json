@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-04-24T07:00:00",
-    "end": "2026-04-24T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-24T09:00:00",
     "end": "2026-04-24T10:30:00",
@@ -863,7 +851,7 @@
   },
   {
     "title": "[LCK] DN SOOPers vs HANJIN BRION",
-    "start": "2026-05-01T08:00:00Z",
+    "start": "2026-05-01T08:00:47Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1523,6 +1511,19 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1633,7 +1634,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1642,8 +1643,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
@@ -2407,6 +2407,18 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-15T07:00:00",
+    "end": "2026-05-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
