@@ -1,31 +1,5 @@
 [
   {
-    "title": "Domingo — VISITE DU QG DE TISSOT",
-    "start": "2026-04-24T12:00:00.000Z",
-    "end": "2026-04-24T13:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-24T12:00:00.000Z",
-    "end": "2026-04-24T20:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-04-24T14:00:00",
     "end": "2026-04-24T15:30:00",
