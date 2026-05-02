@@ -1555,6 +1555,19 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] vs",
+    "start": "2026-05-05T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1632,7 +1645,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1641,8 +1654,7 @@
     "tags": [
       "foot",
       "ldc",
-      "bayern",
-      "psg"
+      "barcelone"
     ]
   },
   {
