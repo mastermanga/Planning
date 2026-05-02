@@ -1224,21 +1224,6 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs Team Heretics",
-    "start": "2026-05-02T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Lorient",
     "start": "2026-05-02T15:00:00Z",
     "source": "football-data.org",
@@ -1249,6 +1234,21 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs Team Heretics",
+    "start": "2026-05-02T15:02:40Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
