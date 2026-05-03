@@ -1,29 +1,5 @@
 [
   {
-    "title": "Ace Of Diamond",
-    "start": "2026-04-26T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — KINGS LEAGUE - JOURNÉE 6",
-    "start": "2026-04-26T12:30:00.000Z",
-    "end": "2026-04-26T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-04-27T07:00:00",
     "end": "2026-04-27T09:00:00",
@@ -60,15 +36,16 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-04-27T14:00:00",
-    "end": "2026-04-27T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-27T17:30:00.000Z",
+    "end": "2026-04-27T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -540,6 +517,17 @@
     ]
   },
   {
+    "title": "Ace Of Diamond",
+    "start": "2026-05-17T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "02/05/2026T20:30:00",
     "source": "Anime (sheet)",
@@ -562,16 +550,15 @@
     ]
   },
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-27T17:30:00.000Z",
-    "end": "2026-04-27T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
+    "title": "Work",
+    "start": "2026-04-27T14:00:00",
+    "end": "2026-04-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "twitch",
-      "domingo"
+      "work"
     ]
   },
   {
@@ -1369,19 +1356,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1459,7 +1433,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1468,7 +1442,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
