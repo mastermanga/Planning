@@ -1,15 +1,14 @@
 [
   {
-    "title": "Joueur du Grenier — Sponso FF14",
-    "start": "2026-04-26T08:00:00.000Z",
-    "end": "2026-04-26T13:00:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "title": "Sport",
+    "start": "2026-04-26T10:30:00",
+    "end": "2026-04-26T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "twitch",
-      "joueur_du_grenier"
+      "sport"
     ]
   },
   {
@@ -57,18 +56,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-27T14:00:00",
-    "end": "2026-04-27T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -562,30 +549,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-04-26T09:00:00",
-    "end": "2026-04-26T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-04-26T10:30:00",
-    "end": "2026-04-26T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Domingo — KINGS LEAGUE - JOURNÉE 6",
     "start": "2026-04-26T12:30:00.000Z",
     "end": "2026-04-26T17:00:00.000Z",
@@ -596,6 +559,18 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-27T14:00:00",
+    "end": "2026-04-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1172,7 +1147,7 @@
   },
   {
     "title": "[LCK] KT Rolster vs HANJIN BRION",
-    "start": "2026-05-03T08:00:00Z",
+    "start": "2026-05-03T08:00:15Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2281,6 +2256,18 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-17T09:00:00",
+    "end": "2026-05-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
