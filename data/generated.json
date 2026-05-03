@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-04-26T10:30:00",
-    "end": "2026-04-26T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-04-26T12:00:00",
     "source": "Anime (sheet)",
@@ -20,6 +8,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — KINGS LEAGUE - JOURNÉE 6",
+    "start": "2026-04-26T12:30:00.000Z",
+    "end": "2026-04-26T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -546,19 +547,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — KINGS LEAGUE - JOURNÉE 6",
-    "start": "2026-04-26T12:30:00.000Z",
-    "end": "2026-04-26T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1173,7 +1161,7 @@
   },
   {
     "title": "[LCK] DN SOOPers vs BNK FEARX",
-    "start": "2026-05-03T10:00:00Z",
+    "start": "2026-05-03T10:20:54Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2268,6 +2256,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-17T10:30:00",
+    "end": "2026-05-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
