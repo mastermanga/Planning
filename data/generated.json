@@ -514,18 +514,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-04-27T14:00:00",
-    "end": "2026-04-27T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — BRAQUAGE SUR GTA ONLINE AVEC JIJI, XARI & PONEY",
     "start": "2026-04-27T18:30:00.000Z",
     "end": "2026-04-27T22:00:00.000Z",
@@ -1119,7 +1107,7 @@
   },
   {
     "title": "[LEC] Fnatic vs Team Vitality",
-    "start": "2026-05-04T15:00:00Z",
+    "start": "2026-05-04T15:01:50Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2247,6 +2235,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T14:00:00",
+    "end": "2026-05-18T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
