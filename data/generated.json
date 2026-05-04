@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-27T17:30:00.000Z",
-    "end": "2026-04-27T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-04-27T18:00:00",
     "source": "Anime (sheet)",
@@ -21,6 +8,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — BRAQUAGE SUR GTA ONLINE AVEC JIJI, XARI & PONEY",
+    "start": "2026-04-27T18:30:00.000Z",
+    "end": "2026-04-27T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -511,19 +511,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — BRAQUAGE SUR GTA ONLINE AVEC JIJI, XARI & PONEY",
-    "start": "2026-04-27T18:30:00.000Z",
-    "end": "2026-04-27T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1121,20 +1108,6 @@
     ]
   },
   {
-    "title": "[LEC] Shifters vs Movistar KOI",
-    "start": "2026-05-04T17:15:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Domingo — 🎙️ PRÉ-LIVE",
     "start": "2026-05-04T17:30:00.000Z",
     "end": "2026-05-04T18:30:00.000Z",
@@ -1145,6 +1118,20 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "[LEC] Shifters vs Movistar KOI",
+    "start": "2026-05-04T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
