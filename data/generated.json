@@ -1,29 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-04-27T07:00:00",
-    "end": "2026-04-27T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-27T09:00:00",
-    "end": "2026-04-27T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-04-27T10:30:00",
     "end": "2026-04-27T11:30:00",
@@ -36,16 +12,15 @@
     ]
   },
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-27T17:30:00.000Z",
-    "end": "2026-04-27T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
+    "title": "Work",
+    "start": "2026-04-27T14:00:00",
+    "end": "2026-04-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "twitch",
-      "domingo"
+      "work"
     ]
   },
   {
@@ -57,6 +32,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-04-28T07:00:00",
+    "end": "2026-04-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-28T09:00:00",
+    "end": "2026-04-28T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-28T10:30:00",
+    "end": "2026-04-28T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-28T14:00:00",
+    "end": "2026-04-28T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -82,6 +105,42 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-04-29T07:00:00",
+    "end": "2026-04-29T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-29T09:00:00",
+    "end": "2026-04-29T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-29T10:30:00",
+    "end": "2026-04-29T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-04-29T14:00:00",
     "source": "Anime (sheet)",
@@ -93,6 +152,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-04-29T14:00:00",
+    "end": "2026-04-29T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Re:Zero",
     "start": "2026-04-29T18:00:00",
     "source": "Anime (sheet)",
@@ -101,6 +172,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-04-30T07:00:00",
+    "end": "2026-04-30T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-30T09:00:00",
+    "end": "2026-04-30T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-04-30T10:30:00",
+    "end": "2026-04-30T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-04-30T14:00:00",
+    "end": "2026-04-30T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -123,6 +242,30 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-01T07:00:00",
+    "end": "2026-05-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-01T09:00:00",
+    "end": "2026-05-01T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -205,6 +348,30 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-04T10:30:00",
+    "end": "2026-05-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-04T14:00:00",
+    "end": "2026-05-04T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-04T18:00:00",
     "source": "Anime (sheet)",
@@ -213,6 +380,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-05T07:00:00",
+    "end": "2026-05-05T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-05T09:00:00",
+    "end": "2026-05-05T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-05T10:30:00",
+    "end": "2026-05-05T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-05T14:00:00",
+    "end": "2026-05-05T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -238,6 +453,42 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-06T07:00:00",
+    "end": "2026-05-06T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-06T09:00:00",
+    "end": "2026-05-06T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-06T10:30:00",
+    "end": "2026-05-06T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-06T14:00:00",
     "source": "Anime (sheet)",
@@ -249,6 +500,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-06T14:00:00",
+    "end": "2026-05-06T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Re:Zero",
     "start": "2026-05-06T18:00:00",
     "source": "Anime (sheet)",
@@ -257,6 +520,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-07T07:00:00",
+    "end": "2026-05-07T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-07T09:00:00",
+    "end": "2026-05-07T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-07T10:30:00",
+    "end": "2026-05-07T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-07T14:00:00",
+    "end": "2026-05-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -279,6 +590,30 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-08T07:00:00",
+    "end": "2026-05-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-08T09:00:00",
+    "end": "2026-05-08T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -361,6 +696,30 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-11T10:30:00",
+    "end": "2026-05-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-11T14:00:00",
+    "end": "2026-05-11T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-11T18:00:00",
     "source": "Anime (sheet)",
@@ -369,6 +728,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-12T07:00:00",
+    "end": "2026-05-12T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-12T09:00:00",
+    "end": "2026-05-12T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-12T10:30:00",
+    "end": "2026-05-12T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-12T14:00:00",
+    "end": "2026-05-12T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -394,6 +801,42 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-13T07:00:00",
+    "end": "2026-05-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-13T09:00:00",
+    "end": "2026-05-13T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-13T10:30:00",
+    "end": "2026-05-13T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-13T14:00:00",
     "source": "Anime (sheet)",
@@ -402,6 +845,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-13T14:00:00",
+    "end": "2026-05-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -427,6 +882,54 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-14T07:00:00",
+    "end": "2026-05-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-14T09:00:00",
+    "end": "2026-05-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-14T10:30:00",
+    "end": "2026-05-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-14T14:00:00",
+    "end": "2026-05-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Dr Stone",
     "start": "2026-05-14T16:30:00",
     "source": "Anime (sheet)",
@@ -446,6 +949,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-15T07:00:00",
+    "end": "2026-05-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -505,7 +1020,7 @@
   },
   {
     "title": "JDR Ombre",
-    "start": "02/05/2026T20:30:00",
+    "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -526,15 +1041,16 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-04-27T14:00:00",
-    "end": "2026-04-27T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-04-27T17:30:00.000Z",
+    "end": "2026-04-27T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -548,42 +1064,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-04-28T07:00:00",
-    "end": "2026-04-28T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-28T09:00:00",
-    "end": "2026-04-28T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-04-28T10:30:00",
-    "end": "2026-04-28T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -613,66 +1093,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-04-28T14:00:00",
-    "end": "2026-04-28T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-04-29T07:00:00",
-    "end": "2026-04-29T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-29T09:00:00",
-    "end": "2026-04-29T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-04-29T10:30:00",
-    "end": "2026-04-29T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-29T14:00:00",
-    "end": "2026-04-29T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — OPENING NBA AVEC ALEX",
     "start": "2026-04-29T15:00:00.000Z",
     "end": "2026-04-29T17:00:00.000Z",
@@ -683,54 +1103,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-04-30T07:00:00",
-    "end": "2026-04-30T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-30T09:00:00",
-    "end": "2026-04-30T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-04-30T10:30:00",
-    "end": "2026-04-30T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-04-30T14:00:00",
-    "end": "2026-04-30T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -760,18 +1132,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-01T07:00:00",
-    "end": "2026-05-01T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] DN SOOPers vs HANJIN BRION",
     "start": "2026-05-01T08:00:47Z",
     "source": "lolix.gg",
@@ -783,18 +1143,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-01T09:00:00",
-    "end": "2026-05-01T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1118,30 +1466,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-04T10:30:00",
-    "end": "2026-05-04T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-04T14:00:00",
-    "end": "2026-05-04T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "[LEC] Fnatic vs Team Vitality",
     "start": "2026-05-04T15:00:00Z",
     "source": "lolix.gg",
@@ -1184,66 +1508,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-05T07:00:00",
-    "end": "2026-05-05T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-05T09:00:00",
-    "end": "2026-05-05T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-05T10:30:00",
-    "end": "2026-05-05T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-05T14:00:00",
-    "end": "2026-05-05T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-06T07:00:00",
-    "end": "2026-05-06T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] Gen.G vs Nongshim Red Force",
     "start": "2026-05-06T08:00:00Z",
     "source": "lolix.gg",
@@ -1256,18 +1520,6 @@
       "lol",
       "lck",
       "geng"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-06T09:00:00",
-    "end": "2026-05-06T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1285,30 +1537,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-06T10:30:00",
-    "end": "2026-05-06T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-06T14:00:00",
-    "end": "2026-05-06T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
@@ -1320,18 +1548,6 @@
       "ldc",
       "bayern",
       "psg"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-07T07:00:00",
-    "end": "2026-05-07T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1349,18 +1565,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-07T09:00:00",
-    "end": "2026-05-07T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "[LCK] HANJIN BRION vs BNK FEARX",
     "start": "2026-05-07T10:00:00Z",
     "source": "lolix.gg",
@@ -1375,42 +1579,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-07T10:30:00",
-    "end": "2026-05-07T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-07T14:00:00",
-    "end": "2026-05-07T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-08T07:00:00",
-    "end": "2026-05-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] T1 vs DN SOOPers",
     "start": "2026-05-08T08:00:00Z",
     "source": "lolix.gg",
@@ -1422,18 +1590,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-08T09:00:00",
-    "end": "2026-05-08T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1767,126 +1923,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-11T10:30:00",
-    "end": "2026-05-11T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-11T14:00:00",
-    "end": "2026-05-11T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-12T07:00:00",
-    "end": "2026-05-12T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-12T09:00:00",
-    "end": "2026-05-12T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-12T10:30:00",
-    "end": "2026-05-12T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-12T14:00:00",
-    "end": "2026-05-12T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-13T07:00:00",
-    "end": "2026-05-13T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-13T09:00:00",
-    "end": "2026-05-13T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-13T10:30:00",
-    "end": "2026-05-13T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-13T14:00:00",
-    "end": "2026-05-13T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
     "start": "2026-05-13T19:00:00Z",
     "source": "football-data.org",
@@ -1926,54 +1962,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-14T07:00:00",
-    "end": "2026-05-14T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-14T09:00:00",
-    "end": "2026-05-14T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-14T10:30:00",
-    "end": "2026-05-14T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-14T14:00:00",
-    "end": "2026-05-14T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
     "start": "2026-05-14T19:30:00Z",
     "source": "football-data.org",
@@ -1984,18 +1972,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-15T07:00:00",
-    "end": "2026-05-15T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -2182,6 +2158,30 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-18T07:00:00",
+    "end": "2026-05-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T09:00:00",
+    "end": "2026-05-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
