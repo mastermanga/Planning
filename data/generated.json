@@ -136,18 +136,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-04T10:30:00",
-    "end": "2026-05-04T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-04T18:00:00",
     "source": "Anime (sheet)",
@@ -749,21 +737,6 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G vs Dplus KIA",
-    "start": "2026-05-02T07:59:14Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-02T09:00:00",
     "end": "2026-05-02T10:30:00",
@@ -788,35 +761,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs Nongshim Red Force",
-    "start": "2026-05-02T10:58:52Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "[LEC] Fnatic vs Team Heretics",
-    "start": "2026-05-02T15:02:40Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "Miami - Sprint",
     "start": "2026-05-02T16:00:00Z",
     "source": "f1calendar",
@@ -828,20 +772,6 @@
       "formula1",
       "sport_auto",
       "sprint"
-    ]
-  },
-  {
-    "title": "[LEC] Team Vitality vs SK Gaming",
-    "start": "2026-05-02T16:57:23Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -975,6 +905,18 @@
       "formula1",
       "sport_auto",
       "course"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-04T10:30:00",
+    "end": "2026-05-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
@@ -1119,19 +1061,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
-    "start": "2026-05-05T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-06T07:00:00",
     "end": "2026-05-06T09:00:00",
@@ -1209,7 +1138,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
     "start": "2026-05-06T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -1218,7 +1147,8 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "bayern",
+      "psg"
     ]
   },
   {
@@ -1763,6 +1693,20 @@
     ]
   },
   {
+    "title": "[LCK] T1 vs Nongshim Red Force",
+    "start": "2026-05-13T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-13T09:00:00",
     "end": "2026-05-13T10:30:00",
@@ -1772,6 +1716,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] DN SOOPers vs Dplus KIA",
+    "start": "2026-05-13T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2234,7 +2192,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] vs Arsenal FC",
     "start": "2026-05-30T16:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
