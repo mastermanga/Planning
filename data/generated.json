@@ -740,20 +740,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs HANJIN BRION",
-    "start": "2026-05-03T08:00:15Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-03T09:00:00",
     "end": "2026-05-03T10:30:00",
@@ -763,20 +749,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] DN SOOPers vs BNK FEARX",
-    "start": "2026-05-03T10:20:54Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -802,34 +774,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "[LEC] Team Heretics vs Shifters",
-    "start": "2026-05-03T15:03:01Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs Natus Vincere",
-    "start": "2026-05-03T17:03:01Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1074,20 +1018,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Paris Saint-Germain FC",
-    "start": "2026-05-06T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern",
-      "psg"
     ]
   },
   {
@@ -1747,6 +1677,21 @@
     ]
   },
   {
+    "title": "[LCK] BNK FEARX vs Gen.G",
+    "start": "2026-05-14T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-14T09:00:00",
     "end": "2026-05-14T10:30:00",
@@ -1756,6 +1701,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs KT Rolster",
+    "start": "2026-05-14T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1780,6 +1739,62 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
+    "start": "2026-05-14T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
+    "start": "2026-05-14T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] GIANTX vs Solary",
+    "start": "2026-05-14T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Shifters vs Galions",
+    "start": "2026-05-14T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
@@ -2179,7 +2194,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
     "start": "2026-05-30T16:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2188,7 +2203,7 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg"
     ]
   }
 ]
