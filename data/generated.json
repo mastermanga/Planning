@@ -1,19 +1,8 @@
 [
   {
-    "title": "Dr Stone",
-    "start": "2026-04-30T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-04-30T17:30:00.000Z",
-    "end": "2026-04-30T18:30:00.000Z",
+    "title": "Domingo — ON DÉCOUVRE TEN DATES",
+    "start": "2026-04-30T18:30:00.000Z",
+    "end": "2026-04-30T22:00:00.000Z",
     "source": "Twitch:domingo",
     "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
@@ -21,17 +10,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-04-30T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
     ]
   },
   {
@@ -492,6 +470,28 @@
     ]
   },
   {
+    "title": "Dr Stone",
+    "start": "2026-05-21T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-05-21T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -511,19 +511,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — ON DÉCOUVRE TEN DATES",
-    "start": "2026-04-30T18:30:00.000Z",
-    "end": "2026-04-30T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -2194,7 +2181,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] vs",
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
     "start": "2026-05-30T16:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2203,7 +2190,7 @@
     "tags": [
       "foot",
       "ldc",
-      "barcelone"
+      "psg"
     ]
   }
 ]
