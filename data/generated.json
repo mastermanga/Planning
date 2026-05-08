@@ -741,21 +741,6 @@
     ]
   },
   {
-    "title": "[LEC] Fnatic vs Team Vitality",
-    "start": "2026-05-04T15:01:50Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "Domingo — 🎙️ PRÉ-LIVE",
     "start": "2026-05-04T17:30:00.000Z",
     "end": "2026-05-04T18:30:00.000Z",
@@ -766,20 +751,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "[LEC] Shifters vs Movistar KOI",
-    "start": "2026-05-04T17:52:35Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1749,6 +1720,20 @@
     ]
   },
   {
+    "title": "[LCK] Hanwha Life Esports vs Dplus KIA",
+    "start": "2026-05-15T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-15T09:00:00",
     "end": "2026-05-15T10:30:00",
@@ -1758,6 +1743,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] HANJIN BRION vs DN SOOPers",
+    "start": "2026-05-15T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1782,6 +1781,34 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-15T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-15T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
