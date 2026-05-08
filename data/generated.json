@@ -501,31 +501,6 @@
     ]
   },
   {
-    "title": "Domingo — PAUSE DEJ",
-    "start": "2026-05-01T10:00:00.000Z",
-    "end": "2026-05-01T12:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-01T10:30:00",
-    "end": "2026-05-01T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-01T14:00:00",
     "end": "2026-05-01T15:30:00",
@@ -1008,8 +983,20 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-08T10:30:00",
+    "end": "2026-05-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "[LCK] Kiwoom DRX vs Gen.G",
-    "start": "2026-05-08T10:00:00Z",
+    "start": "2026-05-08T10:34:26Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1020,18 +1007,6 @@
       "lol",
       "lck",
       "geng"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-08T10:30:00",
-    "end": "2026-05-08T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -2143,6 +2118,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-22T10:30:00",
+    "end": "2026-05-22T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
     "start": "2026-05-24T00:00:00Z",
     "source": "football-data.org",
@@ -2195,7 +2182,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-30T16:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2204,7 +2191,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg"
+      "barcelone"
     ]
   }
 ]
