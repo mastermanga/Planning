@@ -501,20 +501,6 @@
     ]
   },
   {
-    "title": "Miami - Essais Libres 1",
-    "start": "2026-05-01T16:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Miami",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
     "title": "Miami - Qualifs Sprint",
     "start": "2026-05-01T20:30:00Z",
     "source": "f1calendar",
@@ -1025,7 +1011,7 @@
   },
   {
     "title": "[LEC] GIANTX vs Movistar KOI",
-    "start": "2026-05-08T17:00:00Z",
+    "start": "2026-05-08T16:11:04Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2127,6 +2113,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Canadian - Essais Libres 1",
+    "start": "2026-05-22T16:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
     ]
   },
   {
