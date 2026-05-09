@@ -1,19 +1,5 @@
 [
   {
-    "title": "Miami - Sprint",
-    "start": "2026-05-02T16:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Miami",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-05-02T18:00:00",
     "source": "Anime (sheet)",
@@ -44,6 +30,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Miami - Qualifications",
+    "start": "2026-05-02T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Miami",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
@@ -524,20 +524,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Miami - Qualifications",
-    "start": "2026-05-02T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Miami",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
     ]
   },
   {
@@ -1065,6 +1051,20 @@
     ]
   },
   {
+    "title": "[LEC] Movistar KOI vs Karmine Corp",
+    "start": "2026-05-09T16:27:15Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Brentford FC",
     "start": "2026-05-09T16:30:00Z",
     "source": "football-data.org",
@@ -1088,20 +1088,6 @@
       "foot",
       "bundesliga",
       "bayern"
-    ]
-  },
-  {
-    "title": "[LEC] Movistar KOI vs Karmine Corp",
-    "start": "2026-05-09T17:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -2173,6 +2159,20 @@
     ]
   },
   {
+    "title": "Canadian - Sprint",
+    "start": "2026-05-23T16:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
     "start": "2026-05-24T00:00:00Z",
     "source": "football-data.org",
@@ -2225,7 +2225,7 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
+    "title": "⚽ [UEFA Champions League] vs",
     "start": "2026-05-30T16:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
@@ -2234,7 +2234,7 @@
     "tags": [
       "foot",
       "ldc",
-      "psg"
+      "barcelone"
     ]
   }
 ]
