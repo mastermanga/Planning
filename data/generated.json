@@ -1,16 +1,14 @@
 [
   {
-    "title": "Miami - Qualifications",
-    "start": "2026-05-02T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
+    "title": "Réveil",
+    "start": "2026-05-03T07:00:00",
+    "end": "2026-05-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
-    "location": "Miami",
+    "location": "",
     "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
+      "matin"
     ]
   },
   {
@@ -524,18 +522,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-03T07:00:00",
-    "end": "2026-05-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -2170,6 +2156,20 @@
       "formula1",
       "sport_auto",
       "sprint"
+    ]
+  },
+  {
+    "title": "Canadian - Qualifications",
+    "start": "2026-05-23T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
