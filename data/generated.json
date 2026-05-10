@@ -1,19 +1,5 @@
 [
   {
-    "title": "Miami - Course",
-    "start": "2026-05-03T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Miami",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-04T07:00:00",
     "end": "2026-05-04T09:00:00",
@@ -35,6 +21,19 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-04T17:30:00.000Z",
+    "end": "2026-05-04T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -536,19 +535,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-04T17:30:00.000Z",
-    "end": "2026-05-04T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -2183,6 +2169,20 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Canadian - Course",
+    "start": "2026-05-24T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
