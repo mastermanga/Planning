@@ -47,18 +47,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-04T10:30:00",
-    "end": "2026-05-04T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-04T18:00:00",
     "source": "Anime (sheet)",
@@ -576,6 +564,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-04T10:30:00",
+    "end": "2026-05-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-04T14:00:00",
     "end": "2026-05-04T15:30:00",
@@ -700,21 +700,6 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G vs Nongshim Red Force",
-    "start": "2026-05-06T07:59:41Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-06T09:00:00",
     "end": "2026-05-06T10:30:00",
@@ -724,20 +709,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] Hanwha Life Esports vs DN SOOPers",
-    "start": "2026-05-06T10:29:38Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1010,19 +981,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Liverpool FC vs Chelsea FC",
-    "start": "2026-05-09T11:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "[LEC] G2 Esports vs GIANTX",
     "start": "2026-05-09T14:08:32Z",
     "source": "lolix.gg",
@@ -1048,32 +1006,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Brentford FC",
-    "start": "2026-05-09T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] VfL Wolfsburg vs FC Bayern München",
-    "start": "2026-05-09T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1776,6 +1708,20 @@
     ]
   },
   {
+    "title": "[LCK] Hanwha Life Esports vs KT Rolster",
+    "start": "2026-05-17T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-17T09:00:00",
     "end": "2026-05-17T10:30:00",
@@ -1788,6 +1734,20 @@
     ]
   },
   {
+    "title": "[LCK] Kiwoom DRX vs HANJIN BRION",
+    "start": "2026-05-17T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-05-17T10:30:00",
     "end": "2026-05-17T11:30:00",
@@ -1797,6 +1757,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-17T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
