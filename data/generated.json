@@ -1,8 +1,8 @@
 [
   {
     "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-04T17:30:00.000Z",
-    "end": "2026-05-04T18:30:00.000Z",
+    "start": "2026-05-05T17:30:00.000Z",
+    "end": "2026-05-05T18:30:00.000Z",
     "source": "Twitch:domingo",
     "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
@@ -10,17 +10,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "Witch Hat Atelier",
-    "start": "2026-05-04T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
     ]
   },
   {
@@ -43,6 +32,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — 🎬 SOIRÉE RÉACT",
+    "start": "2026-05-05T18:30:00.000Z",
+    "end": "2026-05-05T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -166,18 +168,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-11T10:30:00",
-    "end": "2026-05-11T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -480,6 +470,17 @@
     ]
   },
   {
+    "title": "Witch Hat Atelier",
+    "start": "2026-05-25T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -499,19 +500,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — 🥳 MONDAYZ TEAM (FT JIJI, LOWAN, PONEEEY, RIV & XARI)",
-    "start": "2026-05-04T18:30:00.000Z",
-    "end": "2026-05-04T22:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -560,32 +548,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-05T17:30:00.000Z",
-    "end": "2026-05-05T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — 🎬 SOIRÉE RÉACT",
-    "start": "2026-05-05T18:30:00.000Z",
-    "end": "2026-05-05T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -971,6 +933,18 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-11T10:30:00",
+    "end": "2026-05-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
