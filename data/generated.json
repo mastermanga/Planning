@@ -2045,22 +2045,8 @@
     ]
   },
   {
-    "title": "Canadian - Qualifications",
-    "start": "2026-05-23T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
-    "start": "2026-05-24T00:00:00Z",
+    "start": "2026-05-23T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2073,7 +2059,7 @@
   },
   {
     "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
-    "start": "2026-05-24T00:00:00Z",
+    "start": "2026-05-23T19:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -2082,6 +2068,20 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Canadian - Qualifications",
+    "start": "2026-05-23T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
