@@ -157,6 +157,30 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-11T09:00:00",
+    "end": "2026-05-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-11T10:30:00",
+    "end": "2026-05-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-11T18:00:00",
     "source": "Anime (sheet)",
@@ -297,6 +321,30 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-18T07:00:00",
+    "end": "2026-05-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T09:00:00",
+    "end": "2026-05-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -939,30 +987,6 @@
   },
   {
     "title": "Work",
-    "start": "2026-05-11T09:00:00",
-    "end": "2026-05-11T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-11T10:30:00",
-    "end": "2026-05-11T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
     "start": "2026-05-11T14:00:00",
     "end": "2026-05-11T15:30:00",
     "source": "Anime (sheet)",
@@ -1035,6 +1059,32 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-12T17:30:00.000Z",
+    "end": "2026-05-12T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🤪 MONDAYZZZ TEAM (même si c'est mardi)",
+    "start": "2026-05-12T18:30:00.000Z",
+    "end": "2026-05-12T23:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-13T07:00:00",
     "end": "2026-05-13T09:00:00",
@@ -1099,6 +1149,32 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-13T12:00:00.000Z",
+    "end": "2026-05-13T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🎬 REACT DOCU NETFLIX \"LE BUS\"",
+    "start": "2026-05-13T13:00:00.000Z",
+    "end": "2026-05-13T14:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-13T14:00:00",
     "end": "2026-05-13T15:30:00",
@@ -1108,6 +1184,58 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-05-13T14:30:00.000Z",
+    "end": "2026-05-13T16:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
+    "start": "2026-05-13T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
@@ -1176,6 +1304,32 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-14T12:00:00.000Z",
+    "end": "2026-05-14T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🌖 TOGETHER MOON ESCAPE FT. OWL",
+    "start": "2026-05-14T13:00:00.000Z",
+    "end": "2026-05-14T16:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-14T14:00:00",
     "end": "2026-05-14T15:30:00",
@@ -1241,6 +1395,19 @@
       "esport",
       "lol",
       "esports world cup"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
+    "start": "2026-05-14T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   },
   {
@@ -1348,6 +1515,19 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
+    "start": "2026-05-15T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-16T07:00:00",
     "end": "2026-05-16T09:00:00",
@@ -1413,6 +1593,19 @@
     ]
   },
   {
+    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
+    "start": "2026-05-16T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
     "title": "[Esports World Cup] Match",
     "start": "2026-05-16T15:00:00Z",
     "source": "lolix.gg",
@@ -1424,6 +1617,19 @@
       "esport",
       "lol",
       "esports world cup"
+    ]
+  },
+  {
+    "title": "Domingo — 🎯 FLÉCHETTES CUP (SUR LA CHAINE DE BOUZI)",
+    "start": "2026-05-16T19:00:00.000Z",
+    "end": "2026-05-16T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1491,6 +1697,19 @@
     ]
   },
   {
+    "title": "Domingo — ⚽️ KINGS LEAGUE (DEMI ET FINALE)",
+    "start": "2026-05-17T14:30:00.000Z",
+    "end": "2026-05-17T19:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "[Esports World Cup] Match",
     "start": "2026-05-17T15:00:00Z",
     "source": "lolix.gg",
@@ -1505,27 +1724,55 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-18T07:00:00",
-    "end": "2026-05-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
+    "start": "2026-05-17T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "matin"
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-18T09:00:00",
-    "end": "2026-05-18T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
+    "start": "2026-05-17T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
@@ -1598,6 +1845,19 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
+    "start": "2026-05-19T18:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   },
   {
@@ -1837,6 +2097,32 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
+    "start": "2026-05-24T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
+    "start": "2026-05-24T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-05-24T07:00:00",
     "end": "2026-05-24T09:00:00",
@@ -1870,6 +2156,32 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   },
   {
@@ -1920,6 +2232,19 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
+    "start": "2026-05-30T16:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg"
     ]
   }
 ]
