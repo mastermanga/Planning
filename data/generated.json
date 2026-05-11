@@ -348,18 +348,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-18T09:00:00",
-    "end": "2026-05-18T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-18T18:00:00",
     "source": "Anime (sheet)",
@@ -685,20 +673,6 @@
     ]
   },
   {
-    "title": "[LCK] Dplus KIA vs KT Rolster",
-    "start": "2026-05-07T08:00:41Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-07T09:00:00",
     "end": "2026-05-07T10:30:00",
@@ -708,20 +682,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] HANJIN BRION vs BNK FEARX",
-    "start": "2026-05-07T10:23:25Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1035,46 +995,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Madrid CF",
-    "start": "2026-05-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] AJ Auxerre vs OGC Nice",
-    "start": "2026-05-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Stade Brestois 29",
-    "start": "2026-05-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
     ]
   },
   {
@@ -1760,6 +1680,18 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-18T09:00:00",
+    "end": "2026-05-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
