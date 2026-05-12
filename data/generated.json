@@ -1,53 +1,5 @@
 [
   {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-05T17:30:00.000Z",
-    "end": "2026-05-05T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Liar Game",
-    "start": "2026-05-05T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Marriagetoxin",
-    "start": "2026-05-05T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — 🎬 SOIRÉE RÉACT",
-    "start": "2026-05-05T18:30:00.000Z",
-    "end": "2026-05-05T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-06T14:00:00",
     "source": "Anime (sheet)",
@@ -92,6 +44,42 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-08T09:00:00",
+    "end": "2026-05-08T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-08T10:30:00",
+    "end": "2026-05-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-08T14:00:00",
+    "end": "2026-05-08T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-05-08T17:20:00",
     "source": "Anime (sheet)",
@@ -100,6 +88,98 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-09T07:00:00",
+    "end": "2026-05-09T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs BNK FEARX",
+    "start": "2026-05-09T08:00:16Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-09T09:00:00",
+    "end": "2026-05-09T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[LCK] Nongshim Red Force vs HANJIN BRION",
+    "start": "2026-05-09T10:10:23Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-09T10:30:00",
+    "end": "2026-05-09T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "[LEC] G2 Esports vs GIANTX",
+    "start": "2026-05-09T14:08:32Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs Karmine Corp",
+    "start": "2026-05-09T16:27:15Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -136,6 +216,70 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-10T07:00:00",
+    "end": "2026-05-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "[LCK] T1 vs Dplus KIA",
+    "start": "2026-05-10T08:02:33Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-10T09:00:00",
+    "end": "2026-05-10T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs Hanwha Life Esports",
+    "start": "2026-05-10T10:26:16Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-10T10:30:00",
+    "end": "2026-05-10T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Ace Of Diamond",
     "start": "2026-05-10T12:00:00",
     "source": "Anime (sheet)",
@@ -144,6 +288,34 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs GIANTX",
+    "start": "2026-05-10T13:08:28Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs G2 Esports",
+    "start": "2026-05-10T16:24:34Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -171,6 +343,19 @@
     ]
   },
   {
+    "title": "Domingo — ⚽️ KINGS LEAGUE - QUARTS DE FINALE VS UNIT3D",
+    "start": "2026-05-11T16:30:00.000Z",
+    "end": "2026-05-11T20:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-11T18:00:00",
     "source": "Anime (sheet)",
@@ -179,6 +364,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-12T17:30:00.000Z",
+    "end": "2026-05-12T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -204,6 +402,73 @@
     ]
   },
   {
+    "title": "Domingo — 🤪 MONDAYZZZ TEAM (même si c'est mardi)",
+    "start": "2026-05-12T18:30:00.000Z",
+    "end": "2026-05-12T23:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "[LCK] T1 vs Nongshim Red Force",
+    "start": "2026-05-13T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "[LCK] DN SOOPers vs Dplus KIA",
+    "start": "2026-05-13T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-13T12:00:00.000Z",
+    "end": "2026-05-13T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🎬 REACT DOCU NETFLIX \"LE BUS\"",
+    "start": "2026-05-13T13:00:00.000Z",
+    "end": "2026-05-13T14:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-13T14:00:00",
     "source": "Anime (sheet)",
@@ -212,6 +477,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-05-13T14:30:00.000Z",
+    "end": "2026-05-13T16:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -226,6 +504,32 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
+    "start": "2026-05-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "JDR 6 pied sous terre",
     "start": "2026-05-13T19:30:00",
     "source": "Anime (sheet)",
@@ -234,6 +538,102 @@
     "location": "",
     "tags": [
       "jdr"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
+    "start": "2026-05-13T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs Gen.G",
+    "start": "2026-05-14T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs KT Rolster",
+    "start": "2026-05-14T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-14T12:00:00.000Z",
+    "end": "2026-05-14T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🌖 TOGETHER MOON ESCAPE FT. OWL",
+    "start": "2026-05-14T13:00:00.000Z",
+    "end": "2026-05-14T16:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
+    "start": "2026-05-14T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
+    "start": "2026-05-14T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
@@ -248,6 +648,34 @@
     ]
   },
   {
+    "title": "[Esports World Cup] GIANTX vs Solary",
+    "start": "2026-05-14T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Shifters vs Galions",
+    "start": "2026-05-14T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
     "title": "The Ramparts Of Ice",
     "start": "2026-05-14T18:15:00",
     "source": "Anime (sheet)",
@@ -259,6 +687,109 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
+    "start": "2026-05-14T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-15T07:00:00",
+    "end": "2026-05-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs Dplus KIA",
+    "start": "2026-05-15T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-15T09:00:00",
+    "end": "2026-05-15T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[LCK] HANJIN BRION vs DN SOOPers",
+    "start": "2026-05-15T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-15T10:30:00",
+    "end": "2026-05-15T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-15T14:00:00",
+    "end": "2026-05-15T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-15T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-05-15T17:20:00",
     "source": "Anime (sheet)",
@@ -267,6 +798,125 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-15T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
+    "start": "2026-05-15T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-16T07:00:00",
+    "end": "2026-05-16T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "[LCK] Gen.G vs T1",
+    "start": "2026-05-16T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-16T09:00:00",
+    "end": "2026-05-16T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs Nongshim Red Force",
+    "start": "2026-05-16T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-16T10:30:00",
+    "end": "2026-05-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
+    "start": "2026-05-16T13:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-16T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
@@ -303,6 +953,83 @@
     ]
   },
   {
+    "title": "Domingo — 🎯 FLÉCHETTES CUP (SUR LA CHAINE DE BOUZI)",
+    "start": "2026-05-16T19:00:00.000Z",
+    "end": "2026-05-16T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-17T07:00:00",
+    "end": "2026-05-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs KT Rolster",
+    "start": "2026-05-17T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-17T09:00:00",
+    "end": "2026-05-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[LCK] Kiwoom DRX vs HANJIN BRION",
+    "start": "2026-05-17T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-17T10:30:00",
+    "end": "2026-05-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Ace Of Diamond",
     "start": "2026-05-17T12:00:00",
     "source": "Anime (sheet)",
@@ -311,6 +1038,85 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — ⚽️ KINGS LEAGUE (DEMI ET FINALE)",
+    "start": "2026-05-17T14:30:00.000Z",
+    "end": "2026-05-17T19:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] Match",
+    "start": "2026-05-17T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
+    "start": "2026-05-17T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
+    "start": "2026-05-17T17:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
+    "start": "2026-05-17T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
@@ -371,6 +1177,19 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
+    "start": "2026-05-19T18:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-20T14:00:00",
     "source": "Anime (sheet)",
@@ -415,6 +1234,68 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-22T07:00:00",
+    "end": "2026-05-22T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-22T09:00:00",
+    "end": "2026-05-22T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-22T10:30:00",
+    "end": "2026-05-22T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-22T14:00:00",
+    "end": "2026-05-22T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Canadian - Essais Libres 1",
+    "start": "2026-05-22T16:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-05-22T17:20:00",
     "source": "Anime (sheet)",
@@ -423,6 +1304,70 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Canadian - Qualifs Sprint",
+    "start": "2026-05-22T20:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint_qualifying"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-23T07:00:00",
+    "end": "2026-05-23T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-23T09:00:00",
+    "end": "2026-05-23T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-23T10:30:00",
+    "end": "2026-05-23T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Canadian - Sprint",
+    "start": "2026-05-23T16:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint"
     ]
   },
   {
@@ -459,6 +1404,82 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
+    "start": "2026-05-23T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
+    "start": "2026-05-23T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "Canadian - Qualifications",
+    "start": "2026-05-23T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-24T07:00:00",
+    "end": "2026-05-24T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-24T09:00:00",
+    "end": "2026-05-24T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-24T10:30:00",
+    "end": "2026-05-24T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Ace Of Diamond",
     "start": "2026-05-24T12:00:00",
     "source": "Anime (sheet)",
@@ -470,8 +1491,82 @@
     ]
   },
   {
+    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "Canadian - Course",
+    "start": "2026-05-24T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Liar Game",
+    "start": "2026-05-26T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Marriagetoxin",
+    "start": "2026-05-26T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -611,226 +1706,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-08T09:00:00",
-    "end": "2026-05-08T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-08T10:30:00",
-    "end": "2026-05-08T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-08T14:00:00",
-    "end": "2026-05-08T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-09T07:00:00",
-    "end": "2026-05-09T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "[LCK] KT Rolster vs BNK FEARX",
-    "start": "2026-05-09T08:00:16Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-09T09:00:00",
-    "end": "2026-05-09T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[LCK] Nongshim Red Force vs HANJIN BRION",
-    "start": "2026-05-09T10:10:23Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-09T10:30:00",
-    "end": "2026-05-09T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs GIANTX",
-    "start": "2026-05-09T14:08:32Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Movistar KOI vs Karmine Corp",
-    "start": "2026-05-09T16:27:15Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-10T07:00:00",
-    "end": "2026-05-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs Dplus KIA",
-    "start": "2026-05-10T08:02:33Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-10T09:00:00",
-    "end": "2026-05-10T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[LCK] Kiwoom DRX vs Hanwha Life Esports",
-    "start": "2026-05-10T10:26:16Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-10T10:30:00",
-    "end": "2026-05-10T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs GIANTX",
-    "start": "2026-05-10T13:08:28Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Movistar KOI vs G2 Esports",
-    "start": "2026-05-10T16:24:34Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-11T10:30:00",
     "end": "2026-05-11T11:30:00",
@@ -852,19 +1727,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — ⚽️ KINGS LEAGUE - QUARTS DE FINALE VS UNIT3D",
-    "start": "2026-05-11T16:30:00.000Z",
-    "end": "2026-05-11T20:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -916,32 +1778,6 @@
     ]
   },
   {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-12T17:30:00.000Z",
-    "end": "2026-05-12T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — 🤪 MONDAYZZZ TEAM (même si c'est mardi)",
-    "start": "2026-05-12T18:30:00.000Z",
-    "end": "2026-05-12T23:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-13T07:00:00",
     "end": "2026-05-13T09:00:00",
@@ -951,20 +1787,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs Nongshim Red Force",
-    "start": "2026-05-13T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -980,20 +1802,6 @@
     ]
   },
   {
-    "title": "[LCK] DN SOOPers vs Dplus KIA",
-    "start": "2026-05-13T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-13T10:30:00",
     "end": "2026-05-13T11:30:00",
@@ -1003,32 +1811,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-13T12:00:00.000Z",
-    "end": "2026-05-13T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — 🎬 REACT DOCU NETFLIX \"LE BUS\"",
-    "start": "2026-05-13T13:00:00.000Z",
-    "end": "2026-05-13T14:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1044,58 +1826,6 @@
     ]
   },
   {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-05-13T14:30:00.000Z",
-    "end": "2026-05-13T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
-    "start": "2026-05-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
-    "start": "2026-05-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
-    "start": "2026-05-13T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-14T07:00:00",
     "end": "2026-05-14T09:00:00",
@@ -1105,21 +1835,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] BNK FEARX vs Gen.G",
-    "start": "2026-05-14T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
     ]
   },
   {
@@ -1135,20 +1850,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs KT Rolster",
-    "start": "2026-05-14T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-14T10:30:00",
     "end": "2026-05-14T11:30:00",
@@ -1161,32 +1862,6 @@
     ]
   },
   {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-14T12:00:00.000Z",
-    "end": "2026-05-14T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — 🌖 TOGETHER MOON ESCAPE FT. OWL",
-    "start": "2026-05-14T13:00:00.000Z",
-    "end": "2026-05-14T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-14T14:00:00",
     "end": "2026-05-14T15:30:00",
@@ -1196,440 +1871,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
-    "start": "2026-05-14T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
-    "start": "2026-05-14T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] GIANTX vs Solary",
-    "start": "2026-05-14T18:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Shifters vs Galions",
-    "start": "2026-05-14T18:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
-    "start": "2026-05-14T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-15T07:00:00",
-    "end": "2026-05-15T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "[LCK] Hanwha Life Esports vs Dplus KIA",
-    "start": "2026-05-15T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-15T09:00:00",
-    "end": "2026-05-15T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[LCK] HANJIN BRION vs DN SOOPers",
-    "start": "2026-05-15T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-15T10:30:00",
-    "end": "2026-05-15T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-15T14:00:00",
-    "end": "2026-05-15T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Match",
-    "start": "2026-05-15T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Match",
-    "start": "2026-05-15T18:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
-    "start": "2026-05-15T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-16T07:00:00",
-    "end": "2026-05-16T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "[LCK] Gen.G vs T1",
-    "start": "2026-05-16T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-16T09:00:00",
-    "end": "2026-05-16T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[LCK] BNK FEARX vs Nongshim Red Force",
-    "start": "2026-05-16T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-16T10:30:00",
-    "end": "2026-05-16T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
-    "start": "2026-05-16T13:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Match",
-    "start": "2026-05-16T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "Domingo — 🎯 FLÉCHETTES CUP (SUR LA CHAINE DE BOUZI)",
-    "start": "2026-05-16T19:00:00.000Z",
-    "end": "2026-05-16T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-17T07:00:00",
-    "end": "2026-05-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "[LCK] Hanwha Life Esports vs KT Rolster",
-    "start": "2026-05-17T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-17T09:00:00",
-    "end": "2026-05-17T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "[LCK] Kiwoom DRX vs HANJIN BRION",
-    "start": "2026-05-17T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-17T10:30:00",
-    "end": "2026-05-17T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Domingo — ⚽️ KINGS LEAGUE (DEMI ET FINALE)",
-    "start": "2026-05-17T14:30:00.000Z",
-    "end": "2026-05-17T19:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Match",
-    "start": "2026-05-17T15:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
     ]
   },
   {
@@ -1702,19 +1943,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
-    "start": "2026-05-19T18:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
     ]
   },
   {
@@ -1811,260 +2039,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-22T07:00:00",
-    "end": "2026-05-22T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-22T09:00:00",
-    "end": "2026-05-22T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-22T10:30:00",
-    "end": "2026-05-22T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-22T14:00:00",
-    "end": "2026-05-22T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Canadian - Essais Libres 1",
-    "start": "2026-05-22T16:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "Canadian - Qualifs Sprint",
-    "start": "2026-05-22T20:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint_qualifying"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-23T07:00:00",
-    "end": "2026-05-23T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-23T09:00:00",
-    "end": "2026-05-23T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-23T10:30:00",
-    "end": "2026-05-23T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Canadian - Sprint",
-    "start": "2026-05-23T16:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "Canadian - Qualifications",
-    "start": "2026-05-23T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-24T07:00:00",
-    "end": "2026-05-24T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-24T09:00:00",
-    "end": "2026-05-24T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-24T10:30:00",
-    "end": "2026-05-24T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "Canadian - Course",
-    "start": "2026-05-24T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
