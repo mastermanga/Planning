@@ -659,20 +659,6 @@
     ]
   },
   {
-    "title": "[LCK] T1 vs DN SOOPers",
-    "start": "2026-05-08T08:00:27Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-08T09:00:00",
     "end": "2026-05-08T10:30:00",
@@ -697,21 +683,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs Gen.G",
-    "start": "2026-05-08T10:34:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-08T14:00:00",
     "end": "2026-05-08T15:30:00",
@@ -721,34 +692,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs G2 Esports",
-    "start": "2026-05-08T14:06:52Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] GIANTX vs Movistar KOI",
-    "start": "2026-05-08T16:11:04Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
