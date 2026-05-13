@@ -372,7 +372,7 @@
   },
   {
     "title": "[LCK] T1 vs Nongshim Red Force",
-    "start": "2026-05-13T08:00:00Z",
+    "start": "2026-05-13T08:00:48Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1582,30 +1582,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-06T07:00:00",
-    "end": "2026-05-06T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-06T09:00:00",
-    "end": "2026-05-06T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-06T10:30:00",
     "end": "2026-05-06T11:30:00",
@@ -2089,6 +2065,30 @@
     "title": "Work",
     "start": "2026-05-26T14:00:00",
     "end": "2026-05-26T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-27T07:00:00",
+    "end": "2026-05-27T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-27T09:00:00",
+    "end": "2026-05-27T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
