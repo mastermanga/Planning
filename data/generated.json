@@ -44,6 +44,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-08T07:00:00",
+    "end": "2026-05-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-08T09:00:00",
     "end": "2026-05-08T10:30:00",
@@ -103,20 +115,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs BNK FEARX",
-    "start": "2026-05-09T08:00:16Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-09T09:00:00",
     "end": "2026-05-09T10:30:00",
@@ -129,20 +127,6 @@
     ]
   },
   {
-    "title": "[LCK] Nongshim Red Force vs HANJIN BRION",
-    "start": "2026-05-09T10:10:23Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-09T10:30:00",
     "end": "2026-05-09T11:30:00",
@@ -152,34 +136,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs GIANTX",
-    "start": "2026-05-09T14:08:32Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Movistar KOI vs Karmine Corp",
-    "start": "2026-05-09T16:27:15Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1132,18 +1088,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-18T09:00:00",
-    "end": "2026-05-18T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-18T18:00:00",
     "source": "Anime (sheet)",
@@ -1190,6 +1134,34 @@
     ]
   },
   {
+    "title": "[LCK] T1 vs Kiwoom DRX",
+    "start": "2026-05-20T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
+    "title": "[LCK] Nongshim Red Force vs KT Rolster",
+    "start": "2026-05-20T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-05-20T14:00:00",
     "source": "Anime (sheet)",
@@ -1209,6 +1181,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-21T14:00:00",
+    "end": "2026-05-21T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1694,18 +1678,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-08T07:00:00",
-    "end": "2026-05-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-11T10:30:00",
     "end": "2026-05-11T11:30:00",
@@ -1874,6 +1846,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-18T09:00:00",
+    "end": "2026-05-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-05-18T10:30:00",
     "end": "2026-05-18T11:30:00",
@@ -2027,18 +2011,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-21T14:00:00",
-    "end": "2026-05-21T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
