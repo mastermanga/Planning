@@ -22,6 +22,42 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-07T09:00:00",
+    "end": "2026-05-07T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-07T10:30:00",
+    "end": "2026-05-07T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-07T14:00:00",
+    "end": "2026-05-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Dr Stone",
     "start": "2026-05-07T16:30:00",
     "source": "Anime (sheet)",
@@ -275,30 +311,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-11T07:00:00",
-    "end": "2026-05-11T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-11T09:00:00",
-    "end": "2026-05-11T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — ⚽️ KINGS LEAGUE - QUARTS DE FINALE VS UNIT3D",
     "start": "2026-05-11T16:30:00.000Z",
     "end": "2026-05-11T20:00:00.000Z",
@@ -386,7 +398,7 @@
   },
   {
     "title": "[LCK] DN SOOPers vs Dplus KIA",
-    "start": "2026-05-13T10:00:00Z",
+    "start": "2026-05-13T10:06:26Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -460,32 +472,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs Crystal Palace FC",
-    "start": "2026-05-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Racing Club de Lens vs Paris Saint-Germain FC",
-    "start": "2026-05-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "JDR 6 pied sous terre",
     "start": "2026-05-13T19:30:00",
     "source": "Anime (sheet)",
@@ -494,19 +480,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Deportivo Alavés vs FC Barcelona",
-    "start": "2026-05-13T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -525,6 +498,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-14T09:00:00",
+    "end": "2026-05-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "[LCK] Kiwoom DRX vs KT Rolster",
     "start": "2026-05-14T10:00:00Z",
     "source": "lolix.gg",
@@ -536,6 +521,18 @@
       "esport",
       "lol",
       "lck"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-14T10:30:00",
+    "end": "2026-05-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
@@ -562,6 +559,18 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-14T14:00:00",
+    "end": "2026-05-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -640,19 +649,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
-    "start": "2026-05-14T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -771,19 +767,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Aston Villa FC vs Liverpool FC",
-    "start": "2026-05-15T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-16T07:00:00",
     "end": "2026-05-16T09:00:00",
@@ -846,19 +829,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
-    "start": "2026-05-16T13:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1024,70 +994,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-18T07:00:00",
-    "end": "2026-05-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-18T18:00:00",
     "source": "Anime (sheet)",
@@ -1118,19 +1024,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] AFC Bournemouth vs Manchester City FC",
-    "start": "2026-05-19T18:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
     ]
   },
   {
@@ -1181,6 +1074,30 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-21T09:00:00",
+    "end": "2026-05-21T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-05-21T10:30:00",
+    "end": "2026-05-21T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
@@ -1388,32 +1305,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Canadian - Qualifications",
     "start": "2026-05-23T20:00:00Z",
     "source": "f1calendar",
@@ -1475,32 +1366,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Canadian - Course",
     "start": "2026-05-24T20:00:00Z",
     "source": "f1calendar",
@@ -1512,18 +1377,6 @@
       "formula1",
       "sport_auto",
       "course"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1582,18 +1435,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-06T10:30:00",
-    "end": "2026-05-06T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-06T14:00:00",
     "end": "2026-05-06T15:30:00",
@@ -1618,33 +1459,21 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-07T09:00:00",
-    "end": "2026-05-07T10:30:00",
+    "title": "Réveil",
+    "start": "2026-05-11T07:00:00",
+    "end": "2026-05-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-07T10:30:00",
-    "end": "2026-05-07T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
     "title": "Work",
-    "start": "2026-05-07T14:00:00",
-    "end": "2026-05-07T15:30:00",
+    "start": "2026-05-11T09:00:00",
+    "end": "2026-05-11T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1786,39 +1615,15 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-14T09:00:00",
-    "end": "2026-05-14T10:30:00",
+    "title": "Réveil",
+    "start": "2026-05-18T07:00:00",
+    "end": "2026-05-18T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-14T10:30:00",
-    "end": "2026-05-14T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-14T14:00:00",
-    "end": "2026-05-14T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -1966,27 +1771,15 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-21T09:00:00",
-    "end": "2026-05-21T10:30:00",
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-21T10:30:00",
-    "end": "2026-05-21T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
@@ -2098,16 +1891,15 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
-    "start": "2026-05-30T16:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
+    "title": "Sport",
+    "start": "2026-05-27T10:30:00",
+    "end": "2026-05-27T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "foot",
-      "ldc",
-      "psg"
+      "sport"
     ]
   }
 ]
