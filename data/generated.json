@@ -1,27 +1,5 @@
 [
   {
-    "title": "Dr Stone",
-    "start": "2026-05-07T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-05-07T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-08T07:00:00",
     "end": "2026-05-08T09:00:00",
@@ -446,6 +424,28 @@
   {
     "title": "Re:Zero",
     "start": "2026-05-27T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Dr Stone",
+    "start": "2026-05-28T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-05-28T18:15:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -954,8 +954,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] GIANTX vs Solary",
-    "start": "2026-05-14T18:00:00Z",
+    "title": "[Esports World Cup] Shifters vs Galions",
+    "start": "2026-05-14T16:53:28Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -968,8 +968,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Shifters vs Galions",
-    "start": "2026-05-14T18:00:00Z",
+    "title": "[Esports World Cup] GIANTX vs Solary",
+    "start": "2026-05-14T16:54:07Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1071,7 +1071,7 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Match",
+    "title": "[Esports World Cup] Galions (TBD)",
     "start": "2026-05-15T15:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1085,7 +1085,7 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Match",
+    "title": "[Esports World Cup] GIANTX (TBD)",
     "start": "2026-05-15T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1187,6 +1187,20 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "[Esports World Cup] G2 Esports vs Karmine Corp",
+    "start": "2026-05-16T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "esports world cup"
     ]
   },
   {
