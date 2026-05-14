@@ -465,30 +465,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-07T07:00:00",
-    "end": "2026-05-07T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-07T09:00:00",
-    "end": "2026-05-07T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-07T10:30:00",
     "end": "2026-05-07T11:30:00",
@@ -884,7 +860,7 @@
   },
   {
     "title": "[LCK] BNK FEARX vs Gen.G",
-    "start": "2026-05-14T08:00:00Z",
+    "start": "2026-05-14T08:00:34Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2022,6 +1998,30 @@
     "title": "Work",
     "start": "2026-05-27T14:00:00",
     "end": "2026-05-27T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-28T07:00:00",
+    "end": "2026-05-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-28T09:00:00",
+    "end": "2026-05-28T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
