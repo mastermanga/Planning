@@ -22,6 +22,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-08T07:00:00",
+    "end": "2026-05-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-05-08T17:20:00",
     "source": "Anime (sheet)",
@@ -462,30 +474,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-07T14:00:00",
-    "end": "2026-05-07T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-08T07:00:00",
-    "end": "2026-05-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -938,8 +926,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
-    "start": "2026-05-14T15:00:00Z",
+    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
+    "start": "2026-05-14T15:02:09Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -952,8 +940,8 @@
     ]
   },
   {
-    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
-    "start": "2026-05-14T15:00:00Z",
+    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
+    "start": "2026-05-14T15:09:39Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2028,6 +2016,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-28T14:00:00",
+    "end": "2026-05-28T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
