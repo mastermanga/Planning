@@ -79,6 +79,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-05-11T09:00:00",
+    "end": "2026-05-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-11T18:00:00",
     "source": "Anime (sheet)",
@@ -585,18 +597,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-11T09:00:00",
-    "end": "2026-05-11T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-11T10:30:00",
     "end": "2026-05-11T11:30:00",
@@ -979,19 +979,6 @@
       "esport",
       "lol",
       "esports world cup"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Oviedo",
-    "start": "2026-05-14T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -1635,6 +1622,20 @@
     ]
   },
   {
+    "title": "[LCK] DN SOOPers vs Kiwoom DRX",
+    "start": "2026-05-22T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-22T09:00:00",
     "end": "2026-05-22T10:30:00",
@@ -1644,6 +1645,21 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs Gen.G",
+    "start": "2026-05-22T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
     ]
   },
   {
