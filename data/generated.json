@@ -1,16 +1,5 @@
 [
   {
-    "title": "Slime",
-    "start": "2026-05-08T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-09T07:00:00",
     "end": "2026-05-09T09:00:00",
@@ -458,6 +447,17 @@
   {
     "title": "The Ramparts Of Ice",
     "start": "2026-05-28T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Slime",
+    "start": "2026-05-29T17:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -1025,7 +1025,7 @@
   },
   {
     "title": "[Esports World Cup] Movistar KOI vs GIANTX",
-    "start": "2026-05-15T18:00:00Z",
+    "start": "2026-05-15T17:41:35Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1143,7 +1143,7 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Match",
+    "title": "[Esports World Cup] Natus Vincere (TBD)",
     "start": "2026-05-16T15:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
