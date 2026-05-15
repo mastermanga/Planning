@@ -1273,19 +1273,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
     "start": "2026-05-17T17:00:00Z",
     "source": "football-data.org",
@@ -1322,6 +1309,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
+    "start": "2026-05-17T19:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
