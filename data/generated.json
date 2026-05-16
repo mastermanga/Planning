@@ -1,16 +1,5 @@
 [
   {
-    "title": "Agents Of Four Seasons",
-    "start": "2026-05-09T19:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-10T07:00:00",
     "end": "2026-05-10T09:00:00",
@@ -458,6 +447,17 @@
   {
     "title": "Daemons of the Sadow Realm",
     "start": "2026-05-30T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Agents Of Four Seasons",
+    "start": "2026-05-30T19:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -1198,7 +1198,7 @@
     ]
   },
   {
-    "title": "[Esports World Cup] Movistar KOI vs Karmine Corp",
+    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
     "start": "2026-05-17T15:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
