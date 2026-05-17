@@ -636,20 +636,6 @@
     ]
   },
   {
-    "title": "[LCK] T1 vs Nongshim Red Force",
-    "start": "2026-05-13T08:00:48Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-13T09:00:00",
     "end": "2026-05-13T10:30:00",
@@ -659,20 +645,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] DN SOOPers vs Dplus KIA",
-    "start": "2026-05-13T10:06:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1064,19 +1036,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
-    "start": "2026-05-16T13:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1762,6 +1721,21 @@
     ]
   },
   {
+    "title": "[LCK] DN SOOPers vs Gen.G",
+    "start": "2026-05-24T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-24T09:00:00",
     "end": "2026-05-24T10:30:00",
@@ -1774,6 +1748,20 @@
     ]
   },
   {
+    "title": "[LCK] HANJIN BRION vs T1",
+    "start": "2026-05-24T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-05-24T10:30:00",
     "end": "2026-05-24T11:30:00",
@@ -1783,6 +1771,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] Team Vitality vs Movistar KOI",
+    "start": "2026-05-24T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
