@@ -12,18 +12,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-11T09:00:00",
-    "end": "2026-05-11T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — ⚽️ KINGS LEAGUE - QUARTS DE FINALE VS UNIT3D",
     "start": "2026-05-11T16:30:00.000Z",
     "end": "2026-05-11T20:00:00.000Z",
@@ -324,18 +312,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -487,6 +463,18 @@
     "location": "",
     "tags": [
       "jdr"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-05-11T09:00:00",
+    "end": "2026-05-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -687,21 +675,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs Gen.G",
-    "start": "2026-05-14T08:00:34Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-14T09:00:00",
     "end": "2026-05-14T10:30:00",
@@ -711,20 +684,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] Kiwoom DRX vs KT Rolster",
-    "start": "2026-05-14T10:10:45Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -775,62 +734,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] G2 Esports vs Natus Vincere",
-    "start": "2026-05-14T15:02:09Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
-    "start": "2026-05-14T15:09:39Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Shifters vs Galions",
-    "start": "2026-05-14T16:53:28Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] GIANTX vs Solary",
-    "start": "2026-05-14T16:54:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
     ]
   },
   {
@@ -1132,58 +1035,6 @@
       "esport",
       "lol",
       "esports world cup"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Sevilla FC vs Real Madrid CF",
-    "start": "2026-05-17T17:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris FC vs Paris Saint-Germain FC",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Metz",
-    "start": "2026-05-17T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Betis Balompié",
-    "start": "2026-05-17T19:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -1792,6 +1643,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-25T09:00:00",
     "end": "2026-05-25T10:30:00",
@@ -1825,6 +1688,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-05-25T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
