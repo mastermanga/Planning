@@ -700,20 +700,6 @@
     ]
   },
   {
-    "title": "[LCK] Hanwha Life Esports vs Dplus KIA",
-    "start": "2026-05-15T08:00:46Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-15T09:00:00",
     "end": "2026-05-15T10:30:00",
@@ -723,20 +709,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] HANJIN BRION vs DN SOOPers",
-    "start": "2026-05-15T10:16:33Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -761,34 +733,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Natus Vincere vs Galions",
-    "start": "2026-05-15T15:02:23Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Movistar KOI vs GIANTX",
-    "start": "2026-05-15T17:41:35Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
     ]
   },
   {
