@@ -1,8 +1,8 @@
 [
   {
-    "title": "Domingo — 🤪 MONDAYZZZ TEAM (même si c'est mardi)",
-    "start": "2026-05-12T18:30:00.000Z",
-    "end": "2026-05-12T23:00:00.000Z",
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-05-13T12:00:00.000Z",
+    "end": "2026-05-13T13:00:00.000Z",
     "source": "Twitch:domingo",
     "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
@@ -499,19 +499,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Domingo — 🎙️ PRÉ-LIVE",
-    "start": "2026-05-13T12:00:00.000Z",
-    "end": "2026-05-13T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
