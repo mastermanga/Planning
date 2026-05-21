@@ -22,6 +22,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-15T07:00:00",
+    "end": "2026-05-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-05-15T17:20:00",
     "source": "Anime (sheet)",
@@ -415,43 +427,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — 🌖 TOGETHER MOON ESCAPE FT. OWL",
-    "start": "2026-05-14T13:00:00.000Z",
-    "end": "2026-05-14T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-14T14:00:00",
-    "end": "2026-05-14T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-15T07:00:00",
-    "end": "2026-05-15T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1844,6 +1819,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-04T14:00:00",
+    "end": "2026-06-04T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   }
 ]
