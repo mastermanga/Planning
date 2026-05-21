@@ -613,20 +613,6 @@
     ]
   },
   {
-    "title": "[LCK] Hanwha Life Esports vs KT Rolster",
-    "start": "2026-05-17T08:00:09Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-17T09:00:00",
     "end": "2026-05-17T10:30:00",
@@ -651,20 +637,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs HANJIN BRION",
-    "start": "2026-05-17T11:00:49Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Domingo — ⚽️ KINGS LEAGUE (DEMI ET FINALE)",
     "start": "2026-05-17T14:30:00.000Z",
     "end": "2026-05-17T19:00:00.000Z",
@@ -675,20 +647,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "[Esports World Cup] Karmine Corp vs Movistar KOI",
-    "start": "2026-05-17T15:05:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "esports world cup"
     ]
   },
   {
@@ -1561,6 +1519,20 @@
     ]
   },
   {
+    "title": "[LCK] DN SOOPers vs Nongshim Red Force",
+    "start": "2026-05-28T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-28T09:00:00",
     "end": "2026-05-28T10:30:00",
@@ -1570,6 +1542,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs T1",
+    "start": "2026-05-28T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
