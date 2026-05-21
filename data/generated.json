@@ -1,39 +1,5 @@
 [
   {
-    "title": "Dr Stone",
-    "start": "2026-05-14T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-05-14T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-15T07:00:00",
-    "end": "2026-05-15T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Slime",
     "start": "2026-05-15T17:20:00",
     "source": "Anime (sheet)",
@@ -86,6 +52,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-18T07:00:00",
+    "end": "2026-05-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -408,6 +386,28 @@
     ]
   },
   {
+    "title": "Dr Stone",
+    "start": "2026-06-04T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-06-04T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -427,6 +427,18 @@
     "location": "",
     "tags": [
       "jdr"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-15T07:00:00",
+    "end": "2026-05-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -561,18 +573,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-18T07:00:00",
-    "end": "2026-05-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1831,6 +1831,58 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — SUMMER GAME FEST - JOUR 1 - en direct du pédiluve avec Seb, Benzaie et JBshow",
+    "start": "2026-06-05T18:00:00.000Z",
+    "end": "2026-06-05T23:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — SUMMER GAME FEST - JOUR 2 - avec Benzaie",
+    "start": "2026-06-06T15:00:00.000Z",
+    "end": "2026-06-06T20:30:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — Mini Stream du dimanche avant la fin du SGF",
+    "start": "2026-06-07T10:45:00.000Z",
+    "end": "2026-06-07T14:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Joueur du Grenier — SUMMER GAME FEST - JOUR 3 - avec Benzaie",
+    "start": "2026-06-07T16:30:00.000Z",
+    "end": "2026-06-07T21:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
     ]
   }
 ]
