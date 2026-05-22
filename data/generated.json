@@ -442,18 +442,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-15T14:00:00",
-    "end": "2026-05-15T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-16T07:00:00",
     "end": "2026-05-16T09:00:00",
@@ -1874,6 +1862,18 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-05T14:00:00",
+    "end": "2026-06-05T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
