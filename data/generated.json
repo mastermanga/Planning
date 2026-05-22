@@ -199,6 +199,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -1246,18 +1258,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-25T09:00:00",
     "end": "2026-05-25T10:30:00",
@@ -1521,6 +1521,20 @@
     ]
   },
   {
+    "title": "[LCK] Dplus KIA vs Kiwoom DRX",
+    "start": "2026-05-29T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-29T09:00:00",
     "end": "2026-05-29T10:30:00",
@@ -1530,6 +1544,21 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Gen.G vs HANJIN BRION",
+    "start": "2026-05-29T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
     ]
   },
   {
