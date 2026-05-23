@@ -454,18 +454,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-16T07:00:00",
-    "end": "2026-05-16T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-16T09:00:00",
     "end": "2026-05-16T10:30:00",
@@ -1943,6 +1931,18 @@
     "tags": [
       "twitch",
       "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-06T07:00:00",
+    "end": "2026-06-06T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
