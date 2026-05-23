@@ -1960,6 +1960,20 @@
     ]
   },
   {
+    "title": "Monaco - Qualifications",
+    "start": "2026-06-06T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Monte Carlo",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
     "title": "Joueur du Grenier — SUMMER GAME FEST - JOUR 2 - avec Benzaie",
     "start": "2026-06-06T15:00:00.000Z",
     "end": "2026-06-06T20:30:00.000Z",
