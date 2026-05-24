@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-05-17T07:00:00",
-    "end": "2026-05-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-05-17T12:00:00",
     "source": "Anime (sheet)",
@@ -466,6 +454,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-17T07:00:00",
+    "end": "2026-05-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-17T09:00:00",
     "end": "2026-05-17T10:30:00",
@@ -612,20 +612,6 @@
     ]
   },
   {
-    "title": "[LCK] T1 vs Kiwoom DRX",
-    "start": "2026-05-20T07:59:56Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-20T09:00:00",
     "end": "2026-05-20T10:30:00",
@@ -647,20 +633,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "[LCK] Nongshim Red Force vs KT Rolster",
-    "start": "2026-05-20T10:55:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -998,32 +970,6 @@
       "formula1",
       "sport_auto",
       "sprint"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Athletic Club",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
-    "start": "2026-05-23T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -1604,6 +1550,20 @@
     ]
   },
   {
+    "title": "[LCK] HANJIN BRION vs Hanwha Life Esports",
+    "start": "2026-05-31T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-31T09:00:00",
     "end": "2026-05-31T10:30:00",
@@ -1616,6 +1576,20 @@
     ]
   },
   {
+    "title": "[LCK] Nongshim Red Force vs Dplus KIA",
+    "start": "2026-05-31T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-05-31T10:30:00",
     "end": "2026-05-31T11:30:00",
@@ -1625,6 +1599,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] GIANTX vs Karmine Corp",
+    "start": "2026-05-31T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
