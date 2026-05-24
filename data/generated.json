@@ -1,16 +1,5 @@
 [
   {
-    "title": "Ace Of Diamond",
-    "start": "2026-05-17T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — ⚽️ KINGS LEAGUE (DEMI ET FINALE)",
     "start": "2026-05-17T14:30:00.000Z",
     "end": "2026-05-17T19:00:00.000Z",
@@ -436,6 +425,17 @@
   {
     "title": "Agents Of Four Seasons",
     "start": "2026-06-06T19:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Ace Of Diamond",
+    "start": "2026-06-07T12:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -1972,6 +1972,20 @@
     "tags": [
       "twitch",
       "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Monaco - Course",
+    "start": "2026-06-07T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Monte Carlo",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
