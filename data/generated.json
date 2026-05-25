@@ -301,18 +301,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-06-01T07:00:00",
-    "end": "2026-06-01T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-06-01T18:00:00",
     "source": "Anime (sheet)",
@@ -650,20 +638,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs Hanwha Life Esports",
-    "start": "2026-05-21T08:00:21Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-21T09:00:00",
     "end": "2026-05-21T10:30:00",
@@ -673,20 +647,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] Dplus KIA vs HANJIN BRION",
-    "start": "2026-05-21T10:15:37Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1000,32 +960,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Liverpool FC vs Brentford FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs Aston Villa FC",
-    "start": "2026-05-24T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
     ]
   },
   {
@@ -1567,6 +1501,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-06-01T07:00:00",
+    "end": "2026-06-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-06-01T09:00:00",
     "end": "2026-06-01T10:30:00",
@@ -1600,6 +1546,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-06-01T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
