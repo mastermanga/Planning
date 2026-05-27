@@ -400,18 +400,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-06-08T07:00:00",
-    "end": "2026-06-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-06-08T18:00:00",
     "source": "Anime (sheet)",
@@ -677,20 +665,6 @@
     ]
   },
   {
-    "title": "[LCK] Dplus KIA vs BNK FEARX",
-    "start": "2026-05-23T08:00:18Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-23T09:00:00",
     "end": "2026-05-23T10:30:00",
@@ -725,34 +699,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "[LCK] Nongshim Red Force vs Hanwha Life Esports",
-    "start": "2026-05-23T11:09:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs G2 Esports",
-    "start": "2026-05-23T15:05:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1898,6 +1844,18 @@
     "tags": [
       "twitch",
       "joueur_du_grenier"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-08T07:00:00",
+    "end": "2026-06-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
