@@ -431,30 +431,6 @@
   },
   {
     "title": "Work",
-    "start": "2026-05-21T09:00:00",
-    "end": "2026-05-21T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-21T10:30:00",
-    "end": "2026-05-21T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
     "start": "2026-05-21T14:00:00",
     "end": "2026-05-21T15:30:00",
     "source": "Anime (sheet)",
@@ -922,7 +898,7 @@
   },
   {
     "title": "[LCK] DN SOOPers vs Nongshim Red Force",
-    "start": "2026-05-28T08:00:00Z",
+    "start": "2026-05-28T07:59:52Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -947,20 +923,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs T1",
-    "start": "2026-05-28T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-05-28T10:30:00",
     "end": "2026-05-28T11:30:00",
@@ -970,6 +932,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs T1",
+    "start": "2026-05-28T10:58:07Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1858,6 +1834,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-11T09:00:00",
+    "end": "2026-06-11T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-11T10:30:00",
+    "end": "2026-06-11T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
