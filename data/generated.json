@@ -418,42 +418,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-22T07:00:00",
-    "end": "2026-05-22T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-22T09:00:00",
-    "end": "2026-05-22T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-22T10:30:00",
-    "end": "2026-05-22T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-22T14:00:00",
     "end": "2026-05-22T15:30:00",
@@ -961,7 +925,7 @@
   },
   {
     "title": "[LCK] Dplus KIA vs Kiwoom DRX",
-    "start": "2026-05-29T08:00:00Z",
+    "start": "2026-05-29T08:01:49Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -986,8 +950,20 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-05-29T10:30:00",
+    "end": "2026-05-29T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "[LCK] Gen.G vs HANJIN BRION",
-    "start": "2026-05-29T10:00:00Z",
+    "start": "2026-05-29T11:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -998,18 +974,6 @@
       "lol",
       "lck",
       "geng"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-29T10:30:00",
-    "end": "2026-05-29T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -1844,6 +1808,42 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-12T07:00:00",
+    "end": "2026-06-12T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-12T09:00:00",
+    "end": "2026-06-12T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-12T10:30:00",
+    "end": "2026-06-12T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
