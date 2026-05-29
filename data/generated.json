@@ -44,18 +44,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -430,20 +418,6 @@
     ]
   },
   {
-    "title": "Canadian - Qualifs Sprint",
-    "start": "2026-05-22T20:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint_qualifying"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-05-23T07:00:00",
     "end": "2026-05-23T09:00:00",
@@ -581,6 +555,18 @@
       "formula1",
       "sport_auto",
       "course"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
