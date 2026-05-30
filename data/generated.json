@@ -430,18 +430,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-05-23T09:00:00",
-    "end": "2026-05-23T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Domingo — 🃏 BOX BREAK SUR VOGGT EN LIVE DU PARIS CARD SHOW",
     "start": "2026-05-23T10:00:00.000Z",
     "end": "2026-05-23T11:30:00.000Z",
@@ -963,7 +951,7 @@
   },
   {
     "title": "[LCK] KT Rolster vs DN SOOPers",
-    "start": "2026-05-30T08:00:00Z",
+    "start": "2026-05-30T07:59:50Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -989,7 +977,7 @@
   },
   {
     "title": "[LCK] BNK FEARX vs T1",
-    "start": "2026-05-30T10:00:00Z",
+    "start": "2026-05-30T10:15:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1872,6 +1860,18 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-13T09:00:00",
+    "end": "2026-06-13T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   }
 ]
