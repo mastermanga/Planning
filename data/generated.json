@@ -1,19 +1,5 @@
 [
   {
-    "title": "Canadian - Sprint",
-    "start": "2026-05-23T16:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-05-23T18:00:00",
     "source": "Anime (sheet)",
@@ -44,6 +30,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Canadian - Qualifications",
+    "start": "2026-05-23T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Montreal",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
@@ -441,20 +441,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Canadian - Qualifications",
-    "start": "2026-05-23T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
     ]
   },
   {
@@ -978,7 +964,7 @@
   },
   {
     "title": "[LEC] Karmine Corp vs Natus Vincere",
-    "start": "2026-05-30T15:00:00Z",
+    "start": "2026-05-30T15:05:30Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
