@@ -1874,5 +1874,19 @@
       "sport_auto",
       "fp3"
     ]
+  },
+  {
+    "title": "Barcelona-Catalunya - Qualifications",
+    "start": "2026-06-13T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Barcelona",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
   }
 ]
