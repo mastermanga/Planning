@@ -1,19 +1,5 @@
 [
   {
-    "title": "Canadian - Course",
-    "start": "2026-05-24T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Montreal",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -22,6 +8,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — 🗝️ LIVE IRL DEPUIS LE FORT BOYARD FT. CLEM, BAGZ ET ZERA",
+    "start": "2026-05-25T18:30:00.000Z",
+    "end": "2026-05-25T20:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -477,19 +476,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — 🗝️ LIVE IRL DEPUIS LE FORT BOYARD FT. CLEM, BAGZ ET ZERA",
-    "start": "2026-05-25T18:30:00.000Z",
-    "end": "2026-05-25T20:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
