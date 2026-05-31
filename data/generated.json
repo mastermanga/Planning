@@ -1,27 +1,16 @@
 [
   {
-    "title": "Domingo — ⚽️ ELEVEN ALL STARS SUR LA CHAÎNE D'AMINE",
-    "start": "2026-05-24T18:00:00.000Z",
-    "end": "2026-05-24T21:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
+    "title": "Canadian - Course",
+    "start": "2026-05-24T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
     "googleSheetUrl": "",
-    "location": "",
+    "location": "Montreal",
     "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
@@ -443,17 +432,15 @@
     ]
   },
   {
-    "title": "Canadian - Course",
-    "start": "2026-05-24T20:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
-    "location": "Montreal",
+    "location": "",
     "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
+      "matin"
     ]
   },
   {
@@ -1024,7 +1011,7 @@
     ]
   },
   {
-    "title": "[LEC] Karmine Corp (TBD)",
+    "title": "[LEC] Karmine Corp vs GIANTX",
     "start": "2026-06-01T15:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
