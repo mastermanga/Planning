@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-05-24T09:00:00",
-    "end": "2026-05-24T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-05-24T12:00:00",
     "source": "Anime (sheet)",
@@ -20,6 +8,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — ⚽️ ELEVEN ALL STARS SUR LA CHAÎNE D'AMINE",
+    "start": "2026-05-24T18:00:00.000Z",
+    "end": "2026-05-24T21:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -427,31 +428,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-24T10:30:00",
-    "end": "2026-05-24T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Domingo — ⚽️ ELEVEN ALL STARS SUR LA CHAÎNE D'AMINE",
-    "start": "2026-05-24T18:00:00.000Z",
-    "end": "2026-05-24T21:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -961,7 +937,7 @@
   },
   {
     "title": "[LCK] Nongshim Red Force vs Dplus KIA",
-    "start": "2026-05-31T10:00:00Z",
+    "start": "2026-05-31T10:12:21Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1845,6 +1821,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-14T09:00:00",
+    "end": "2026-06-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-14T10:30:00",
+    "end": "2026-06-14T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
