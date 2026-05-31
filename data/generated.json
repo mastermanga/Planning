@@ -23,18 +23,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -493,6 +481,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-05-25T09:00:00",
     "end": "2026-05-25T10:30:00",
@@ -602,21 +602,6 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G vs Hanwha Life Esports",
-    "start": "2026-05-27T07:59:56Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-05-27T09:00:00",
     "end": "2026-05-27T10:30:00",
@@ -638,20 +623,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "[LCK] BNK FEARX vs Kiwoom DRX",
-    "start": "2026-05-27T11:13:02Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -960,19 +931,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs Arsenal FC",
-    "start": "2026-05-30T16:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "psg"
     ]
   },
   {
@@ -1466,6 +1424,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-06-07T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-06-07T09:00:00",
     "end": "2026-06-07T10:30:00",
@@ -1514,6 +1486,20 @@
       "formula1",
       "sport_auto",
       "course"
+    ]
+  },
+  {
+    "title": "[LEC] G2 Esports (TBD)",
+    "start": "2026-06-07T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
