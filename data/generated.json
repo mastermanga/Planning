@@ -13,6 +13,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-05-25T07:00:00",
+    "end": "2026-05-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-05-25T18:00:00",
     "source": "Anime (sheet)",
@@ -442,18 +454,6 @@
       "formula1",
       "sport_auto",
       "course"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-25T07:00:00",
-    "end": "2026-05-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1283,7 +1283,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] Dplus KIA vs HANJIN BRION",
     "start": "2026-06-06T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1388,7 +1388,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] KT Rolster (TBD)",
     "start": "2026-06-07T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1845,6 +1845,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Barcelona-Catalunya - Course",
+    "start": "2026-06-14T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Barcelona",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   }
 ]
