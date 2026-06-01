@@ -1,29 +1,5 @@
 [
   {
-    "title": "Witch Hat Atelier",
-    "start": "2026-05-25T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — 🗝️ LIVE IRL DEPUIS LE FORT BOYARD FT. CLEM, BAGZ ET ZERA",
-    "start": "2026-05-25T18:30:00.000Z",
-    "end": "2026-05-25T20:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Liar Game",
     "start": "2026-05-26T18:00:00",
     "source": "Anime (sheet)",
@@ -1421,6 +1397,31 @@
     ]
   },
   {
+    "title": "Barcelona-Catalunya - Course",
+    "start": "2026-06-14T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Barcelona",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
+    "title": "Witch Hat Atelier",
+    "start": "2026-06-15T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -1872,20 +1873,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Barcelona-Catalunya - Course",
-    "start": "2026-06-14T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Barcelona",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
     ]
   },
   {
