@@ -1428,30 +1428,6 @@
   },
   {
     "title": "Work",
-    "start": "2026-05-26T09:00:00",
-    "end": "2026-05-26T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-26T10:30:00",
-    "end": "2026-05-26T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
     "start": "2026-05-26T14:00:00",
     "end": "2026-05-26T15:30:00",
     "source": "Anime (sheet)",
@@ -1892,6 +1868,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-16T09:00:00",
+    "end": "2026-06-16T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-16T10:30:00",
+    "end": "2026-06-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
