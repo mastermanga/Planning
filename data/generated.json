@@ -443,42 +443,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-05-27T07:00:00",
-    "end": "2026-05-27T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-05-27T09:00:00",
-    "end": "2026-05-27T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-05-27T10:30:00",
-    "end": "2026-05-27T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Domingo — STREAM LIBRE",
     "start": "2026-05-27T13:00:00.000Z",
     "end": "2026-05-27T17:00:00.000Z",
@@ -1850,6 +1814,42 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-17T07:00:00",
+    "end": "2026-06-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-17T09:00:00",
+    "end": "2026-06-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-17T10:30:00",
+    "end": "2026-06-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
