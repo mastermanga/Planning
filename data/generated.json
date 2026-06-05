@@ -599,20 +599,6 @@
     ]
   },
   {
-    "title": "[LEC] Karmine Corp vs GIANTX",
-    "start": "2026-06-01T15:03:09Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-06-01T17:30:00.000Z",
     "end": "2026-06-01T18:30:00.000Z",
@@ -1386,6 +1372,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs T1",
+    "start": "2026-06-12T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
