@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-05-30T10:30:00",
-    "end": "2026-05-30T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-05-30T18:00:00",
     "source": "Anime (sheet)",
@@ -42,6 +30,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-05-31T07:00:00",
+    "end": "2026-05-31T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -427,18 +427,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-05-31T07:00:00",
-    "end": "2026-05-31T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -994,7 +982,7 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster (TBD)",
+    "title": "[LCK] KT Rolster vs Dplus KIA",
     "start": "2026-06-07T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1758,6 +1746,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-20T10:30:00",
+    "end": "2026-06-20T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
