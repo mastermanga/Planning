@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-05-31T09:00:00",
-    "end": "2026-05-31T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-05-31T12:00:00",
     "source": "Anime (sheet)",
@@ -20,6 +8,19 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-06-01T17:30:00.000Z",
+    "end": "2026-06-01T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -430,18 +431,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-05-31T10:30:00",
-    "end": "2026-05-31T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-06-01T07:00:00",
     "end": "2026-06-01T09:00:00",
@@ -487,19 +476,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-01T17:30:00.000Z",
-    "end": "2026-06-01T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1772,6 +1748,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-21T09:00:00",
+    "end": "2026-06-21T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-21T10:30:00",
+    "end": "2026-06-21T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
