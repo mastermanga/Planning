@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T20:08:27.823Z",
+  "generatedAt": "2026-06-08T22:22:52.178Z",
   "total": 145,
   "counts": {
     "Anime (sheet)": 116,
@@ -9,8 +9,10 @@
     "lolix.gg": 7,
     "football-data.org (foot)": 0,
     "F1 (f1calendar.com)": 10,
-    "missed_anime_added": 1,
+    "missed_anime_added": 0,
     "missed_anime_candidates": 12
   },
-  "errors": []
+  "errors": [
+    "football-data.org (foot): fetch failed"
+  ]
 }
