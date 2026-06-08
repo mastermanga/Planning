@@ -1,19 +1,8 @@
 [
   {
-    "title": "Witch Hat Atelier",
-    "start": "2026-06-01T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — MONDAYZ TEAM AVEC JIJI, LOWAN, PONEY & XARI",
-    "start": "2026-06-01T18:30:00.000Z",
-    "end": "2026-06-01T22:00:00.000Z",
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-06-02T12:00:00.000Z",
+    "end": "2026-06-02T13:00:00.000Z",
     "source": "Twitch:domingo",
     "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
@@ -409,6 +398,17 @@
     ]
   },
   {
+    "title": "Witch Hat Atelier",
+    "start": "2026-06-22T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -464,19 +464,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-02T12:00:00.000Z",
-    "end": "2026-06-02T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
