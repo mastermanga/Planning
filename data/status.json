@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T05:01:13.543Z",
+  "generatedAt": "2026-06-09T09:33:57.412Z",
   "total": 145,
   "counts": {
     "Anime (sheet)": 116,
@@ -12,7 +12,5 @@
     "missed_anime_added": 0,
     "missed_anime_candidates": 12
   },
-  "errors": [
-    "football-data.org (foot): fetch failed"
-  ]
+  "errors": []
 }
