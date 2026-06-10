@@ -1,42 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-03T17:30:00.000Z",
-    "end": "2026-06-03T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Re:Zero",
-    "start": "2026-06-03T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — ON DÉCOUVRE PROJECT SILVERFISH",
-    "start": "2026-06-03T18:30:00.000Z",
-    "end": "2026-06-03T23:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-06-04T07:00:00",
     "end": "2026-06-04T09:00:00",
@@ -768,6 +731,17 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-06-24T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -1347,6 +1321,19 @@
     ]
   },
   {
+    "title": "Joueur du Grenier — Conférence Unreal Fest",
+    "start": "2026-06-17T13:30:00.000Z",
+    "end": "2026-06-17T16:00:00.000Z",
+    "source": "Twitch:joueur_du_grenier",
+    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "joueur_du_grenier"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-06-17T14:00:00",
     "end": "2026-06-17T15:30:00",
@@ -1659,17 +1646,6 @@
     ]
   },
   {
-    "title": "Classroom Of The Elite",
-    "start": "2026-06-24T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-06-24T14:00:00",
     "end": "2026-06-24T15:30:00",
@@ -1679,6 +1655,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Re:Zero",
+    "start": "2026-06-24T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   }
 ]
