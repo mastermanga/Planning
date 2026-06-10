@@ -952,18 +952,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-06-17T10:30:00",
-    "end": "2026-06-17T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Classroom Of The Elite",
     "start": "2026-06-17T14:00:00",
     "source": "Anime (sheet)",
@@ -1287,18 +1275,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-06-03T10:30:00",
-    "end": "2026-06-03T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-06-08T07:00:00",
     "end": "2026-06-08T09:00:00",
@@ -1551,6 +1527,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-06-17T10:30:00",
+    "end": "2026-06-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-06-22T07:00:00",
     "end": "2026-06-22T09:00:00",
@@ -1679,6 +1667,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-06-24T10:30:00",
+    "end": "2026-06-24T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
