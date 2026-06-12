@@ -1,31 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-06-05T14:00:00",
-    "end": "2026-06-05T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Monaco - Essais Libres 2",
-    "start": "2026-06-05T15:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Monte Carlo",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
     "title": "Slime",
     "start": "2026-06-05T17:20:00",
     "source": "Anime (sheet)",
@@ -1599,6 +1573,32 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-06-26T14:00:00",
+    "end": "2026-06-26T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Austrian - Essais Libres 2",
+    "start": "2026-06-26T15:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spielberg",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp2"
     ]
   }
 ]
