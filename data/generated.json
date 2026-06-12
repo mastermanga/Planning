@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-06-05T07:00:00",
-    "end": "2026-06-05T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-06-05T09:00:00",
     "end": "2026-06-05T10:30:00",
@@ -854,7 +842,7 @@
   },
   {
     "title": "[LCK] Hanwha Life Esports vs T1",
-    "start": "2026-06-12T08:00:00Z",
+    "start": "2026-06-12T08:18:28Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1599,6 +1587,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-26T07:00:00",
+    "end": "2026-06-26T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   }
 ]
