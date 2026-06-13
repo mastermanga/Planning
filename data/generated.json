@@ -1,32 +1,5 @@
 [
   {
-    "title": "Monaco - Qualifications",
-    "start": "2026-06-06T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Monte Carlo",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "Joueur du Grenier — SUMMER GAME FEST - JOUR 2 - avec Benzaie",
-    "start": "2026-06-06T15:00:00.000Z",
-    "end": "2026-06-06T20:30:00.000Z",
-    "source": "Twitch:joueur_du_grenier",
-    "url": "https://www.twitch.tv/joueur_du_grenier/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "joueur_du_grenier"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-06-06T18:00:00",
     "source": "Anime (sheet)",
@@ -479,17 +452,6 @@
   {
     "title": "The Ramparts Of Ice",
     "start": "2026-06-25T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Slime",
-    "start": "2026-06-26T17:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -1540,6 +1502,17 @@
     ]
   },
   {
+    "title": "Slime",
+    "start": "2026-06-26T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-06-27T07:00:00",
     "end": "2026-06-27T09:00:00",
@@ -1587,6 +1560,20 @@
       "formula1",
       "sport_auto",
       "fp3"
+    ]
+  },
+  {
+    "title": "Austrian - Qualifications",
+    "start": "2026-06-27T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spielberg",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   }
 ]
