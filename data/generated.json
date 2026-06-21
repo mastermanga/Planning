@@ -1595,5 +1595,19 @@
     "tags": [
       "anime"
     ]
+  },
+  {
+    "title": "British - Course",
+    "start": "2026-07-05T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Silverstone",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
   }
 ]
