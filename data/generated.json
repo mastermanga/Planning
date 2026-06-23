@@ -1307,18 +1307,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-06-16T14:00:00",
-    "end": "2026-06-16T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-06-17T07:00:00",
     "end": "2026-06-17T09:00:00",
@@ -1712,6 +1700,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-07T14:00:00",
+    "end": "2026-07-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   }
 ]
