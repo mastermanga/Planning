@@ -407,30 +407,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-06-18T09:00:00",
-    "end": "2026-06-18T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-06-18T10:30:00",
-    "end": "2026-06-18T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-06-18T12:00:00.000Z",
     "end": "2026-06-18T13:00:00.000Z",
@@ -1673,6 +1649,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-09T09:00:00",
+    "end": "2026-07-09T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-09T10:30:00",
+    "end": "2026-07-09T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
