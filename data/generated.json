@@ -1,14 +1,14 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-06-19T10:30:00",
-    "end": "2026-06-19T11:30:00",
+    "title": "Work",
+    "start": "2026-06-19T14:00:00",
+    "end": "2026-06-19T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "work"
     ]
   },
   {
@@ -397,17 +397,6 @@
     ]
   },
   {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-07-09T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -427,44 +416,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-19T12:00:00.000Z",
-    "end": "2026-06-19T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — JE DEVIENS ASSISTANT RH JUNIOR (OUI OUI)",
-    "start": "2026-06-19T13:00:00.000Z",
-    "end": "2026-06-19T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-06-19T14:00:00",
-    "end": "2026-06-19T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1626,6 +1577,17 @@
     ]
   },
   {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-07-09T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-07-10T07:00:00",
     "end": "2026-07-10T09:00:00",
@@ -1647,6 +1609,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-10T10:30:00",
+    "end": "2026-07-10T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
