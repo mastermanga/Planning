@@ -418,31 +418,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-06-25T10:30:00",
-    "end": "2026-06-25T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-25T12:00:00.000Z",
-    "end": "2026-06-25T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — STREAM LIBRE",
     "start": "2026-06-25T13:00:00.000Z",
     "end": "2026-06-25T17:00:00.000Z",
@@ -1699,6 +1674,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-16T10:30:00",
+    "end": "2026-07-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
