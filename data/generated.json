@@ -430,30 +430,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-06-26T09:00:00",
-    "end": "2026-06-26T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-06-26T10:30:00",
-    "end": "2026-06-26T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Austrian - Essais Libres 1",
     "start": "2026-06-26T11:30:00Z",
     "source": "f1calendar",
@@ -1220,7 +1196,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Hanwha Life Esports (TBD)",
+    "title": "[Mid-Season Invitational] Hanwha Life Esports vs G2 Esports",
     "start": "2026-07-05T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1272,7 +1248,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Top Esports (TBD)",
     "start": "2026-07-06T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1869,6 +1845,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-17T09:00:00",
+    "end": "2026-07-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-17T10:30:00",
+    "end": "2026-07-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
