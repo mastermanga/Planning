@@ -646,34 +646,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] T1 vs Karmine Corp",
-    "start": "2026-06-29T03:03:37Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] Deep Cross Gaming vs Team Liquid",
-    "start": "2026-06-29T05:42:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-06-29T09:00:00",
     "end": "2026-06-29T10:30:00",
@@ -1583,6 +1555,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Mid-Season Invitational] Match",
+    "start": "2026-07-10T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
     ]
   },
   {
