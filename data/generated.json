@@ -430,33 +430,6 @@
     ]
   },
   {
-    "title": "Austrian - Essais Libres 1",
-    "start": "2026-06-26T11:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spielberg",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-26T12:00:00.000Z",
-    "end": "2026-06-26T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — SUITE DE L'AVENTURE SUR PCM",
     "start": "2026-06-26T13:00:00.000Z",
     "end": "2026-06-26T17:00:00.000Z",
@@ -1170,7 +1143,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Team Secret Whales (TBD)",
+    "title": "[Mid-Season Invitational] Team Secret Whales vs Top Esports",
     "start": "2026-07-05T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1248,7 +1221,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Top Esports (TBD)",
+    "title": "[Mid-Season Invitational] Match",
     "start": "2026-07-06T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1869,6 +1842,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Belgian - Essais Libres 1",
+    "start": "2026-07-17T11:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
     ]
   }
 ]
