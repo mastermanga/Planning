@@ -430,18 +430,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-06-26T07:00:00",
-    "end": "2026-06-26T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-06-26T09:00:00",
     "end": "2026-06-26T10:30:00",
@@ -998,20 +986,8 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-03T07:00:00",
-    "end": "2026-07-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[Mid-Season Invitational] G2 Esports vs Top Esports",
-    "start": "2026-07-03T08:00:00Z",
+    "start": "2026-07-03T05:44:20Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1021,6 +997,18 @@
       "esport",
       "lol",
       "mid-season invitational"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-03T07:00:00",
+    "end": "2026-07-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1206,7 +1194,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Team Secret Whales (TBD)",
     "start": "2026-07-05T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1232,7 +1220,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Hanwha Life Esports (TBD)",
     "start": "2026-07-05T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1869,6 +1857,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-17T07:00:00",
+    "end": "2026-07-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   }
 ]
