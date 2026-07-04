@@ -1,14 +1,16 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-06-27T10:30:00",
-    "end": "2026-06-27T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "Austrian - Qualifications",
+    "start": "2026-06-27T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
     "googleSheetUrl": "",
-    "location": "",
+    "location": "Spielberg",
     "tags": [
-      "sport"
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
@@ -427,34 +429,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Austrian - Essais Libres 3",
-    "start": "2026-06-27T10:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spielberg",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp3"
-    ]
-  },
-  {
-    "title": "Austrian - Qualifications",
-    "start": "2026-06-27T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spielberg",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
     ]
   },
   {
@@ -1144,7 +1118,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] LYON (TBD)",
+    "title": "[Mid-Season Invitational] Bilibili Gaming vs LYON",
     "start": "2026-07-06T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1170,7 +1144,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] FURIA Esports (TBD)",
+    "title": "[Mid-Season Invitational] T1 vs FURIA Esports",
     "start": "2026-07-06T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1843,6 +1817,32 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-18T10:30:00",
+    "end": "2026-07-18T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Belgian - Essais Libres 3",
+    "start": "2026-07-18T10:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
     ]
   }
 ]
