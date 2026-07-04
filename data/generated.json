@@ -1,19 +1,5 @@
 [
   {
-    "title": "Austrian - Qualifications",
-    "start": "2026-06-27T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spielberg",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-06-27T18:00:00",
     "source": "Anime (sheet)",
@@ -44,6 +30,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-06-28T07:00:00",
+    "end": "2026-06-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -429,18 +427,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-06-28T07:00:00",
-    "end": "2026-06-28T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1118,7 +1104,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Bilibili Gaming vs LYON",
+    "title": "[Mid-Season Invitational] T1 vs FURIA Esports",
     "start": "2026-07-06T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1144,7 +1130,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] T1 vs FURIA Esports",
+    "title": "[Mid-Season Invitational] Bilibili Gaming vs LYON",
     "start": "2026-07-06T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1843,6 +1829,20 @@
       "formula1",
       "sport_auto",
       "fp3"
+    ]
+  },
+  {
+    "title": "Belgian - Qualifications",
+    "start": "2026-07-18T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   }
 ]
