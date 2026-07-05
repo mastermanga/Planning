@@ -1,14 +1,14 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-06-28T07:00:00",
-    "end": "2026-06-28T09:00:00",
+    "title": "Work",
+    "start": "2026-06-28T09:00:00",
+    "end": "2026-06-28T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "matin"
+      "work"
     ]
   },
   {
@@ -427,18 +427,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-06-28T09:00:00",
-    "end": "2026-06-28T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1026,20 +1014,8 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-05T07:00:00",
-    "end": "2026-07-05T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[Mid-Season Invitational] Hanwha Life Esports vs G2 Esports",
-    "start": "2026-07-05T08:00:00Z",
+    "start": "2026-07-05T06:45:40Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1049,6 +1025,18 @@
       "esport",
       "lol",
       "mid-season invitational"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-05T07:00:00",
+    "end": "2026-07-05T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1214,7 +1202,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Team Secret Whales (TBD)",
     "start": "2026-07-08T03:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1843,6 +1831,18 @@
       "formula1",
       "sport_auto",
       "qualification"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-19T07:00:00",
+    "end": "2026-07-19T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   }
 ]
