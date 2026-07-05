@@ -1,25 +1,16 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-06-28T10:30:00",
-    "end": "2026-06-28T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "Austrian - Course",
+    "start": "2026-06-28T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
     "googleSheetUrl": "",
-    "location": "",
+    "location": "Spielberg",
     "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Ace Of Diamond",
-    "start": "2026-06-28T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
@@ -408,6 +399,17 @@
     ]
   },
   {
+    "title": "Ace Of Diamond",
+    "start": "2026-07-19T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -427,20 +429,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Austrian - Course",
-    "start": "2026-06-28T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spielberg",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
     ]
   },
   {
@@ -1843,6 +1831,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-19T10:30:00",
+    "end": "2026-07-19T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
