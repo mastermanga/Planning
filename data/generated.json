@@ -1,16 +1,15 @@
 [
   {
-    "title": "Austrian - Course",
-    "start": "2026-06-28T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-06-29T17:30:00.000Z",
+    "end": "2026-06-29T18:45:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
-    "location": "Spielberg",
+    "location": "",
     "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -477,19 +476,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-06-29T17:30:00.000Z",
-    "end": "2026-06-29T18:45:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1843,6 +1829,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Belgian - Course",
+    "start": "2026-07-19T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   }
 ]
