@@ -1360,18 +1360,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-06-30T07:00:00",
-    "end": "2026-06-30T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-06-30T09:00:00",
     "end": "2026-06-30T10:30:00",
@@ -1789,6 +1777,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-21T07:00:00",
+    "end": "2026-07-21T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   }
 ]
