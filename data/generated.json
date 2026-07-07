@@ -61,6 +61,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-07-01T10:30:00",
+    "end": "2026-07-01T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-07-01T12:00:00.000Z",
     "end": "2026-07-01T13:00:00.000Z",
@@ -95,6 +107,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-01T14:00:00",
+    "end": "2026-07-01T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -331,34 +355,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] LYON vs FURIA Esports",
-    "start": "2026-07-04T03:09:05Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] Bilibili Gaming vs T1",
-    "start": "2026-07-04T06:08:39Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-04T07:00:00",
     "end": "2026-07-04T09:00:00",
@@ -456,34 +452,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Team Secret Whales vs Top Esports",
-    "start": "2026-07-05T03:05:55Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] Hanwha Life Esports vs G2 Esports",
-    "start": "2026-07-05T06:45:40Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-05T07:00:00",
     "end": "2026-07-05T09:00:00",
@@ -545,34 +513,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Bilibili Gaming vs LYON",
-    "start": "2026-07-06T03:05:55Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] T1 vs FURIA Esports",
-    "start": "2026-07-06T05:53:49Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-07-06T18:00:00",
     "source": "Anime (sheet)",
@@ -606,31 +546,15 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] LYON vs Team Secret Whales",
-    "start": "2026-07-08T03:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
+    "title": "Sport",
+    "start": "2026-07-08T10:30:00",
+    "end": "2026-07-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] G2 Esports vs T1",
-    "start": "2026-07-08T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
+      "sport"
     ]
   },
   {
@@ -642,6 +566,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-08T14:00:00",
+    "end": "2026-07-08T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -665,20 +601,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] Bilibili Gaming vs Hanwha Life Esports",
-    "start": "2026-07-09T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
     ]
   },
   {
@@ -752,20 +674,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
-    "start": "2026-07-10T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-10T09:00:00",
     "end": "2026-07-10T10:30:00",
@@ -822,20 +730,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] Match",
-    "start": "2026-07-11T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
     ]
   },
   {
@@ -908,20 +802,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
-    "start": "2026-07-12T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-12T09:00:00",
     "end": "2026-07-12T10:30:00",
@@ -990,6 +870,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-07-15T10:30:00",
+    "end": "2026-07-15T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-07-15T14:00:00",
     "source": "Anime (sheet)",
@@ -998,6 +890,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-15T14:00:00",
+    "end": "2026-07-15T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1313,31 +1217,6 @@
     ]
   },
   {
-    "title": "Belgian - Course",
-    "start": "2026-07-19T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
-    "title": "Witch Hat Atelier",
-    "start": "2026-07-20T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -1357,30 +1236,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-06-30T09:00:00",
-    "end": "2026-06-30T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-06-30T10:30:00",
-    "end": "2026-06-30T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -1411,30 +1266,6 @@
     "title": "Work",
     "start": "2026-07-01T09:00:00",
     "end": "2026-07-01T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-01T10:30:00",
-    "end": "2026-07-01T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-01T14:00:00",
-    "end": "2026-07-01T15:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1564,30 +1395,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-07-08T10:30:00",
-    "end": "2026-07-08T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-08T14:00:00",
-    "end": "2026-07-08T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-13T07:00:00",
     "end": "2026-07-13T09:00:00",
@@ -1708,27 +1515,17 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-07-15T10:30:00",
-    "end": "2026-07-15T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "Belgian - Course",
+    "start": "2026-07-19T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
     "googleSheetUrl": "",
-    "location": "",
+    "location": "Spa-Francorchamps",
     "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-15T14:00:00",
-    "end": "2026-07-15T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
@@ -1780,6 +1577,17 @@
     ]
   },
   {
+    "title": "Witch Hat Atelier",
+    "start": "2026-07-20T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-07-21T07:00:00",
     "end": "2026-07-21T09:00:00",
@@ -1789,6 +1597,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-21T09:00:00",
+    "end": "2026-07-21T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-21T10:30:00",
+    "end": "2026-07-21T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
