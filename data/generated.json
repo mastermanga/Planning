@@ -1,27 +1,5 @@
 [
   {
-    "title": "Liar Game",
-    "start": "2026-06-30T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Marriagetoxin",
-    "start": "2026-06-30T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-07-01T12:00:00.000Z",
     "end": "2026-07-01T13:00:00.000Z",
@@ -400,6 +378,28 @@
   {
     "title": "Witch Hat Atelier",
     "start": "2026-07-20T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Liar Game",
+    "start": "2026-07-21T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Marriagetoxin",
+    "start": "2026-07-21T18:00:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
