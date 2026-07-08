@@ -1,8 +1,8 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-07-01T12:00:00.000Z",
-    "end": "2026-07-01T13:00:00.000Z",
+    "title": "Domingo — RETOUR SUR COD AVEC RAYOU",
+    "start": "2026-07-01T13:00:00.000Z",
+    "end": "2026-07-01T15:00:00.000Z",
     "source": "Twitch:domingo",
     "url": "https://www.twitch.tv/domingo/schedule",
     "googleSheetUrl": "",
@@ -428,19 +428,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Domingo — RETOUR SUR COD AVEC RAYOU",
-    "start": "2026-07-01T13:00:00.000Z",
-    "end": "2026-07-01T15:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
     ]
   },
   {
@@ -1061,7 +1048,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] LYON vs G2 Esports",
+    "title": "[Mid-Season Invitational] G2 Esports vs LYON",
     "start": "2026-07-10T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
