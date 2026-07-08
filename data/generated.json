@@ -948,7 +948,21 @@
   },
   {
     "title": "[Mid-Season Invitational] LYON vs Team Secret Whales",
-    "start": "2026-07-08T03:00:00Z",
+    "start": "2026-07-08T03:07:03Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
+    "title": "[Mid-Season Invitational] G2 Esports vs T1",
+    "start": "2026-07-08T05:45:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -970,20 +984,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Mid-Season Invitational] G2 Esports vs T1",
-    "start": "2026-07-08T08:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
     ]
   },
   {
@@ -1097,7 +1097,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] LYON (TBD)",
     "start": "2026-07-10T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
