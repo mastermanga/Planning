@@ -407,18 +407,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-07-02T10:30:00",
-    "end": "2026-07-02T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-02T14:00:00",
     "end": "2026-07-02T15:30:00",
@@ -1009,7 +997,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Hanwha Life Esports (TBD)",
     "start": "2026-07-11T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1059,7 +1047,7 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Match",
+    "title": "[Mid-Season Invitational] Bilibili Gaming (TBD)",
     "start": "2026-07-12T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1655,6 +1643,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-23T10:30:00",
+    "end": "2026-07-23T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   }
 ]
