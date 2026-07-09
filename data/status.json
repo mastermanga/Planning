@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-07-09T20:43:25.497Z",
-  "total": 136,
+  "generatedAt": "2026-07-09T22:17:52.624Z",
+  "total": 12,
   "counts": {
-    "Anime (sheet)": 116,
+    "Anime (sheet)": 0,
     "Twitch:domingo": 2,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
-    "lolix.gg": 8,
+    "lolix.gg": 0,
     "football-data.org (foot)": 0,
     "F1 (f1calendar.com)": 10,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 12
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "Anime (sheet): This operation was aborted",
+    "lolix.gg: fetch failed"
+  ]
 }
