@@ -1,5 +1,19 @@
 [
   {
+    "title": "British - Qualifs Sprint",
+    "start": "2026-07-03T15:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Silverstone",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint_qualifying"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-07-03T17:20:00",
     "source": "Anime (sheet)",
@@ -55,54 +69,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-06T07:00:00",
-    "end": "2026-07-06T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-06T09:00:00",
-    "end": "2026-07-06T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-06T10:30:00",
-    "end": "2026-07-06T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-06T14:00:00",
-    "end": "2026-07-06T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-07-06T18:00:00",
     "source": "Anime (sheet)",
@@ -111,54 +77,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-07T07:00:00",
-    "end": "2026-07-07T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-07T09:00:00",
-    "end": "2026-07-07T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-07T10:30:00",
-    "end": "2026-07-07T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-07T14:00:00",
-    "end": "2026-07-07T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -181,18 +99,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-08T07:00:00",
-    "end": "2026-07-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -295,42 +201,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-13T07:00:00",
-    "end": "2026-07-13T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-13T09:00:00",
-    "end": "2026-07-13T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-13T14:00:00",
-    "end": "2026-07-13T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Witch Hat Atelier",
     "start": "2026-07-13T18:00:00",
     "source": "Anime (sheet)",
@@ -339,30 +209,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-14T09:00:00",
-    "end": "2026-07-14T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-14T14:00:00",
-    "end": "2026-07-14T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -575,58 +421,6 @@
     ]
   },
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-07-03T12:00:00.000Z",
-    "end": "2026-07-03T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — DERNIER JOUR DE L'AVENTURE PCM",
-    "start": "2026-07-03T13:00:00.000Z",
-    "end": "2026-07-03T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-03T14:00:00",
-    "end": "2026-07-03T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "British - Qualifs Sprint",
-    "start": "2026-07-03T15:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Silverstone",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint_qualifying"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-04T07:00:00",
     "end": "2026-07-04T09:00:00",
@@ -741,6 +535,142 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-06T07:00:00",
+    "end": "2026-07-06T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-06T09:00:00",
+    "end": "2026-07-06T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-06T10:30:00",
+    "end": "2026-07-06T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-06T14:00:00",
+    "end": "2026-07-06T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-07T07:00:00",
+    "end": "2026-07-07T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-07T09:00:00",
+    "end": "2026-07-07T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-07T10:30:00",
+    "end": "2026-07-07T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-07T14:00:00",
+    "end": "2026-07-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "[Mid-Season Invitational] LYON vs Team Secret Whales",
+    "start": "2026-07-08T03:07:03Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
+    "title": "[Mid-Season Invitational] G2 Esports vs T1",
+    "start": "2026-07-08T05:46:25Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-08T07:00:00",
+    "end": "2026-07-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-07-08T09:00:00",
     "end": "2026-07-08T10:30:00",
@@ -786,6 +716,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Mid-Season Invitational] Bilibili Gaming vs Hanwha Life Esports",
+    "start": "2026-07-09T08:06:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
     ]
   },
   {
@@ -837,6 +781,20 @@
     ]
   },
   {
+    "title": "[Mid-Season Invitational] G2 Esports vs LYON",
+    "start": "2026-07-10T08:05:51Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-07-10T09:00:00",
     "end": "2026-07-10T10:30:00",
@@ -885,6 +843,20 @@
     ]
   },
   {
+    "title": "[Mid-Season Invitational] Hanwha Life Esports vs LYON",
+    "start": "2026-07-11T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-07-11T09:00:00",
     "end": "2026-07-11T10:30:00",
@@ -921,6 +893,20 @@
     ]
   },
   {
+    "title": "[Mid-Season Invitational] Bilibili Gaming (TBD)",
+    "start": "2026-07-12T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "mid-season invitational"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-07-12T09:00:00",
     "end": "2026-07-12T10:30:00",
@@ -945,6 +931,30 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-13T07:00:00",
+    "end": "2026-07-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-13T09:00:00",
+    "end": "2026-07-13T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-07-13T10:30:00",
     "end": "2026-07-13T11:30:00",
@@ -954,6 +964,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-13T14:00:00",
+    "end": "2026-07-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -969,6 +991,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-07-14T09:00:00",
+    "end": "2026-07-14T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-07-14T10:30:00",
     "end": "2026-07-14T11:30:00",
@@ -978,6 +1012,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-14T14:00:00",
+    "end": "2026-07-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1517,6 +1563,18 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-24T14:00:00",
+    "end": "2026-07-24T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   }
 ]
