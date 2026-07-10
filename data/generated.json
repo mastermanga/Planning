@@ -575,44 +575,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-07-03T09:00:00",
-    "end": "2026-07-03T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-03T10:30:00",
-    "end": "2026-07-03T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "British - Essais Libres 1",
-    "start": "2026-07-03T11:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Silverstone",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-07-03T12:00:00.000Z",
     "end": "2026-07-03T13:00:00.000Z",
@@ -1517,6 +1479,44 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-24T09:00:00",
+    "end": "2026-07-24T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-24T10:30:00",
+    "end": "2026-07-24T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Hungarian - Essais Libres 1",
+    "start": "2026-07-24T11:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Budapest",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
     ]
   }
 ]
