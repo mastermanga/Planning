@@ -399,6 +399,17 @@
     ]
   },
   {
+    "title": "Slime",
+    "start": "2026-07-24T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -1517,17 +1528,6 @@
     ]
   },
   {
-    "title": "Slime",
-    "start": "2026-07-24T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-25T07:00:00",
     "end": "2026-07-25T09:00:00",
@@ -1575,6 +1575,20 @@
       "formula1",
       "sport_auto",
       "fp3"
+    ]
+  },
+  {
+    "title": "Hungarian - Qualifications",
+    "start": "2026-07-25T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Budapest",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   }
 ]
