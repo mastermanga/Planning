@@ -1,14 +1,16 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-07-04T10:30:00",
-    "end": "2026-07-04T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
+    "title": "British - Sprint",
+    "start": "2026-07-04T11:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
     "googleSheetUrl": "",
-    "location": "",
+    "location": "Silverstone",
     "tags": [
-      "sport"
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint"
     ]
   },
   {
@@ -397,6 +399,17 @@
     ]
   },
   {
+    "title": "Slime",
+    "start": "2026-07-24T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -416,20 +429,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "British - Sprint",
-    "start": "2026-07-04T11:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Silverstone",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint"
     ]
   },
   {
@@ -1543,17 +1542,6 @@
     ]
   },
   {
-    "title": "Slime",
-    "start": "2026-07-24T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-25T07:00:00",
     "end": "2026-07-25T09:00:00",
@@ -1575,6 +1563,32 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-25T10:30:00",
+    "end": "2026-07-25T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Hungarian - Essais Libres 3",
+    "start": "2026-07-25T10:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Budapest",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
     ]
   }
 ]
