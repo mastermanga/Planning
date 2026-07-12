@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-07-05T07:00:00",
-    "end": "2026-07-05T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-05T09:00:00",
     "end": "2026-07-05T10:30:00",
@@ -788,7 +776,7 @@
   },
   {
     "title": "[Mid-Season Invitational] Bilibili Gaming vs Hanwha Life Esports",
-    "start": "2026-07-12T08:00:00Z",
+    "start": "2026-07-12T07:32:37Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1547,6 +1535,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-26T07:00:00",
+    "end": "2026-07-26T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T05:52:34.080Z",
+  "generatedAt": "2026-07-12T08:09:10.458Z",
   "total": 130,
   "counts": {
     "Anime (sheet)": 116,
@@ -10,7 +10,9 @@
     "football-data.org (foot)": 0,
     "F1 (f1calendar.com)": 10,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 12
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "missed-anime-sync: This operation was aborted"
+  ]
 }
