@@ -446,18 +446,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-22T07:00:00",
-    "end": "2026-07-22T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Classroom Of The Elite",
     "start": "2026-07-22T14:00:00",
     "source": "Anime (sheet)",
@@ -874,20 +862,6 @@
     ]
   },
   {
-    "title": "[Mid-Season Invitational] Bilibili Gaming vs Hanwha Life Esports",
-    "start": "2026-07-12T07:32:37Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "mid-season invitational"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-12T09:00:00",
     "end": "2026-07-12T10:30:00",
@@ -1183,6 +1157,18 @@
       "formula1",
       "sport_auto",
       "course"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-22T07:00:00",
+    "end": "2026-07-22T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
