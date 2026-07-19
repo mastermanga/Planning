@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-07-12T10:30:00",
-    "end": "2026-07-12T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-07-12T12:00:00",
     "source": "Anime (sheet)",
@@ -1575,6 +1563,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-02T10:30:00",
+    "end": "2026-08-02T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
