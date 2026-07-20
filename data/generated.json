@@ -407,18 +407,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-07-13T10:30:00",
-    "end": "2026-07-13T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-13T14:00:00",
     "end": "2026-07-13T15:30:00",
@@ -1575,6 +1563,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-03T10:30:00",
+    "end": "2026-08-03T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
