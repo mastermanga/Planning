@@ -407,30 +407,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-13T07:00:00",
-    "end": "2026-07-13T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-13T09:00:00",
-    "end": "2026-07-13T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-07-13T10:30:00",
     "end": "2026-07-13T11:30:00",
@@ -1575,6 +1551,30 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-03T07:00:00",
+    "end": "2026-08-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-03T09:00:00",
+    "end": "2026-08-03T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
