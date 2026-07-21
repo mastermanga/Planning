@@ -22,6 +22,18 @@
     ]
   },
   {
+    "title": "Sport",
+    "start": "2026-07-15T10:30:00",
+    "end": "2026-07-15T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Classroom Of The Elite",
     "start": "2026-07-15T14:00:00",
     "source": "Anime (sheet)",
@@ -33,6 +45,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-07-15T14:00:00",
+    "end": "2026-07-15T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Re:Zero",
     "start": "2026-07-15T18:00:00",
     "source": "Anime (sheet)",
@@ -41,6 +65,54 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-16T07:00:00",
+    "end": "2026-07-16T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-16T09:00:00",
+    "end": "2026-07-16T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-16T10:30:00",
+    "end": "2026-07-16T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-16T14:00:00",
+    "end": "2026-07-16T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -66,6 +138,82 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-17T07:00:00",
+    "end": "2026-07-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-17T09:00:00",
+    "end": "2026-07-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-17T10:30:00",
+    "end": "2026-07-17T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Belgian - Essais Libres 1",
+    "start": "2026-07-17T11:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-17T14:00:00",
+    "end": "2026-07-17T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Belgian - Essais Libres 2",
+    "start": "2026-07-17T15:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp2"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-07-17T17:20:00",
     "source": "Anime (sheet)",
@@ -74,6 +222,70 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-18T07:00:00",
+    "end": "2026-07-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-18T09:00:00",
+    "end": "2026-07-18T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-18T10:30:00",
+    "end": "2026-07-18T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
+    "title": "Belgian - Essais Libres 3",
+    "start": "2026-07-18T10:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
+    ]
+  },
+  {
+    "title": "Belgian - Qualifications",
+    "start": "2026-07-18T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
@@ -110,6 +322,42 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-19T07:00:00",
+    "end": "2026-07-19T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-07-19T09:00:00",
+    "end": "2026-07-19T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-07-19T10:30:00",
+    "end": "2026-07-19T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
+    ]
+  },
+  {
     "title": "Ace Of Diamond",
     "start": "2026-07-19T12:00:00",
     "source": "Anime (sheet)",
@@ -118,6 +366,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Belgian - Course",
+    "start": "2026-07-19T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Spa-Francorchamps",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
     ]
   },
   {
@@ -408,30 +670,6 @@
   },
   {
     "title": "Work",
-    "start": "2026-07-14T09:00:00",
-    "end": "2026-07-14T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-14T10:30:00",
-    "end": "2026-07-14T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
     "start": "2026-07-14T14:00:00",
     "end": "2026-07-14T15:30:00",
     "source": "Anime (sheet)",
@@ -464,268 +702,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-15T10:30:00",
-    "end": "2026-07-15T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-15T14:00:00",
-    "end": "2026-07-15T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-16T07:00:00",
-    "end": "2026-07-16T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-16T09:00:00",
-    "end": "2026-07-16T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-16T10:30:00",
-    "end": "2026-07-16T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-16T14:00:00",
-    "end": "2026-07-16T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-17T07:00:00",
-    "end": "2026-07-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-17T09:00:00",
-    "end": "2026-07-17T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-17T10:30:00",
-    "end": "2026-07-17T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Belgian - Essais Libres 1",
-    "start": "2026-07-17T11:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-17T14:00:00",
-    "end": "2026-07-17T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Belgian - Essais Libres 2",
-    "start": "2026-07-17T15:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-18T07:00:00",
-    "end": "2026-07-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-18T09:00:00",
-    "end": "2026-07-18T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-18T10:30:00",
-    "end": "2026-07-18T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Belgian - Essais Libres 3",
-    "start": "2026-07-18T10:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp3"
-    ]
-  },
-  {
-    "title": "Belgian - Qualifications",
-    "start": "2026-07-18T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-19T07:00:00",
-    "end": "2026-07-19T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-19T09:00:00",
-    "end": "2026-07-19T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-07-19T10:30:00",
-    "end": "2026-07-19T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Belgian - Course",
-    "start": "2026-07-19T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
     ]
   },
   {
@@ -1575,6 +1551,30 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-04T09:00:00",
+    "end": "2026-08-04T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-04T10:30:00",
+    "end": "2026-08-04T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
