@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-07-17T14:00:00",
-    "end": "2026-07-17T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Belgian - Essais Libres 2",
     "start": "2026-07-17T15:00:00Z",
     "source": "f1calendar",
@@ -813,7 +801,7 @@
   },
   {
     "title": "[LEC] G2 Esports vs Movistar KOI",
-    "start": "2026-07-24T14:00:00Z",
+    "start": "2026-07-24T14:41:01Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1674,6 +1662,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-07T14:00:00",
+    "end": "2026-08-07T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
