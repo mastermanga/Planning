@@ -1363,6 +1363,20 @@
     ]
   },
   {
+    "title": "[LCK] Nongshim Red Force vs BNK FEARX",
+    "start": "2026-08-01T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-01T09:00:00",
     "end": "2026-08-01T10:30:00",
@@ -1375,6 +1389,21 @@
     ]
   },
   {
+    "title": "[LCK] Gen.G vs Dplus KIA",
+    "start": "2026-08-01T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-08-01T10:30:00",
     "end": "2026-08-01T11:30:00",
@@ -1384,6 +1413,34 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] GIANTX vs SK Gaming",
+    "start": "2026-08-01T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs Natus Vincere",
+    "start": "2026-08-01T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
