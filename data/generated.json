@@ -1,31 +1,5 @@
 [
   {
-    "title": "Sport",
-    "start": "2026-07-18T10:30:00",
-    "end": "2026-07-18T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Belgian - Essais Libres 3",
-    "start": "2026-07-18T10:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp3"
-    ]
-  },
-  {
     "title": "Belgian - Qualifications",
     "start": "2026-07-18T14:00:00Z",
     "source": "f1calendar",
@@ -1717,6 +1691,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Sport",
+    "start": "2026-08-08T10:30:00",
+    "end": "2026-08-08T11:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "sport"
     ]
   },
   {
