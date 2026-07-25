@@ -1,19 +1,5 @@
 [
   {
-    "title": "Belgian - Qualifications",
-    "start": "2026-07-18T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Spa-Francorchamps",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
     "title": "Akane Banashi",
     "start": "2026-07-18T18:00:00",
     "source": "Anime (sheet)",
@@ -828,20 +814,6 @@
     ]
   },
   {
-    "title": "[LEC] Team Vitality vs G2 Esports",
-    "start": "2026-07-25T14:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Hungarian - Qualifications",
     "start": "2026-07-25T14:00:00Z",
     "source": "f1calendar",
@@ -853,6 +825,20 @@
       "formula1",
       "sport_auto",
       "qualification"
+    ]
+  },
+  {
+    "title": "[LEC] Team Vitality vs G2 Esports",
+    "start": "2026-07-25T14:44:50Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
