@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-07-19T07:00:00",
-    "end": "2026-07-19T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-19T09:00:00",
     "end": "2026-07-19T10:30:00",
@@ -907,7 +895,7 @@
   },
   {
     "title": "[LEC] Movistar KOI vs Team Vitality",
-    "start": "2026-07-26T14:00:00Z",
+    "start": "2026-07-26T14:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -921,7 +909,7 @@
   },
   {
     "title": "[LEC] G2 Esports vs Karmine Corp",
-    "start": "2026-07-26T17:00:00Z",
+    "start": "2026-07-26T17:30:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1746,6 +1734,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-09T07:00:00",
+    "end": "2026-08-09T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
