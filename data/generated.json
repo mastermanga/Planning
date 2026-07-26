@@ -1392,6 +1392,20 @@
     ]
   },
   {
+    "title": "[LCK] DN SOOPers vs HANJIN BRION",
+    "start": "2026-08-02T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-02T09:00:00",
     "end": "2026-08-02T10:30:00",
@@ -1404,6 +1418,20 @@
     ]
   },
   {
+    "title": "[LCK] KT Rolster vs Hanwha Life Esports",
+    "start": "2026-08-02T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-08-02T10:30:00",
     "end": "2026-08-02T11:30:00",
@@ -1413,6 +1441,35 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] SK Gaming vs G2 Esports",
+    "start": "2026-08-02T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs Movistar KOI",
+    "start": "2026-08-02T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
