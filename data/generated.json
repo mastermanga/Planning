@@ -624,20 +624,6 @@
     ]
   },
   {
-    "title": "[LEC] G2 Esports vs Movistar KOI",
-    "start": "2026-07-24T14:41:01Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Hungarian - Essais Libres 2",
     "start": "2026-07-24T15:00:00Z",
     "source": "f1calendar",
@@ -649,20 +635,6 @@
       "formula1",
       "sport_auto",
       "fp2"
-    ]
-  },
-  {
-    "title": "[LEC] Team Vitality vs Karmine Corp",
-    "start": "2026-07-24T17:58:51Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1851,6 +1823,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Athletic Club",
+    "start": "2026-08-27T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
