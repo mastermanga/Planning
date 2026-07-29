@@ -99,6 +99,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-27T07:00:00",
+    "end": "2026-07-27T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-07-27T18:00:00",
     "source": "Anime (sheet)",
@@ -654,34 +666,6 @@
     ]
   },
   {
-    "title": "[LEC] Team Vitality vs G2 Esports",
-    "start": "2026-07-25T14:44:50Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] Karmine Corp vs Movistar KOI",
-    "start": "2026-07-25T16:32:21Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-26T07:00:00",
     "end": "2026-07-26T09:00:00",
@@ -757,18 +741,6 @@
       "esport",
       "lol",
       "lec"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-27T07:00:00",
-    "end": "2026-07-27T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1435,6 +1407,20 @@
     ]
   },
   {
+    "title": "[LCK] HANJIN BRION vs Nongshim Red Force",
+    "start": "2026-08-05T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-05T09:00:00",
     "end": "2026-08-05T10:30:00",
@@ -1444,6 +1430,21 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs Gen.G",
+    "start": "2026-08-05T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
     ]
   },
   {
@@ -1836,6 +1837,45 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
+    "start": "2026-08-28T18:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Lille OSC vs Paris Saint-Germain FC",
+    "start": "2026-08-28T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Crystal Palace FC vs Manchester City FC",
+    "start": "2026-08-28T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   }
 ]
