@@ -668,34 +668,6 @@
     ]
   },
   {
-    "title": "[LEC] Movistar KOI vs Team Vitality",
-    "start": "2026-07-26T14:39:21Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs Karmine Corp",
-    "start": "2026-07-26T17:32:54Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-27T09:00:00",
     "end": "2026-07-27T10:30:00",
@@ -1436,6 +1408,20 @@
     ]
   },
   {
+    "title": "[LCK] Kiwoom DRX vs DN SOOPers",
+    "start": "2026-08-06T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-06T09:00:00",
     "end": "2026-08-06T10:30:00",
@@ -1445,6 +1431,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] Dplus KIA vs T1",
+    "start": "2026-08-06T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
