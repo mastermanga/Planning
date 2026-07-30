@@ -1877,5 +1877,18 @@
       "premier_league",
       "manchester_city"
     ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Nottingham Forest FC",
+    "start": "2026-08-29T11:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
   }
 ]
