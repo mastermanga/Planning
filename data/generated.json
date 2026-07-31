@@ -1,17 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-07-24T14:00:00",
-    "end": "2026-07-24T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Slime",
     "start": "2026-07-24T17:20:00",
     "source": "Anime (sheet)",
@@ -20,6 +8,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-07-25T07:00:00",
+    "end": "2026-07-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -454,32 +454,6 @@
     ]
   },
   {
-    "title": "Hungarian - Essais Libres 2",
-    "start": "2026-07-24T15:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Budapest",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-25T07:00:00",
-    "end": "2026-07-25T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-25T09:00:00",
     "end": "2026-07-25T10:30:00",
@@ -896,7 +870,7 @@
   },
   {
     "title": "[LEC] Team Vitality vs Team Heretics",
-    "start": "2026-07-31T15:00:00Z",
+    "start": "2026-07-31T15:02:09Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1777,6 +1751,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-14T14:00:00",
+    "end": "2026-08-14T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
