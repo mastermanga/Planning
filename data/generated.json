@@ -1,16 +1,5 @@
 [
   {
-    "title": "Slime",
-    "start": "2026-07-24T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-25T07:00:00",
     "end": "2026-07-25T09:00:00",
@@ -423,6 +412,17 @@
   {
     "title": "The Ramparts Of Ice",
     "start": "2026-08-13T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Slime",
+    "start": "2026-08-14T17:20:00",
     "source": "Anime (sheet)",
     "url": "https://mastermanga.github.io/AnimeTrackerV2/",
     "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
@@ -884,7 +884,7 @@
   },
   {
     "title": "[LEC] Movistar KOI vs Shifters",
-    "start": "2026-07-31T17:15:00Z",
+    "start": "2026-07-31T16:53:26Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
