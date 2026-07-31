@@ -454,30 +454,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-07-24T07:00:00",
-    "end": "2026-07-24T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-24T09:00:00",
-    "end": "2026-07-24T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-07-24T10:30:00",
     "end": "2026-07-24T11:30:00",
@@ -893,7 +869,7 @@
   },
   {
     "title": "[LCK] Gen.G vs T1",
-    "start": "2026-07-31T08:00:00Z",
+    "start": "2026-07-31T07:59:45Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1785,6 +1761,30 @@
     "title": "Work",
     "start": "2026-08-13T14:00:00",
     "end": "2026-08-13T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-14T07:00:00",
+    "end": "2026-08-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-14T09:00:00",
+    "end": "2026-08-14T10:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
