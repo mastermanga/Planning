@@ -199,6 +199,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-03T07:00:00",
+    "end": "2026-08-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-08-03T18:00:00",
     "source": "Anime (sheet)",
@@ -328,6 +340,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1147,18 +1171,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-03T07:00:00",
-    "end": "2026-08-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-08-03T09:00:00",
     "end": "2026-08-03T10:30:00",
@@ -1436,6 +1448,21 @@
     ]
   },
   {
+    "title": "[LCK] KT Rolster vs Gen.G",
+    "start": "2026-08-07T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck",
+      "geng"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-07T09:00:00",
     "end": "2026-08-07T10:30:00",
@@ -1445,6 +1472,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs HANJIN BRION",
+    "start": "2026-08-07T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -1469,6 +1510,35 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "[LEC] Shifters vs GIANTX",
+    "start": "2026-08-07T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs Fnatic",
+    "start": "2026-08-07T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
@@ -1541,18 +1611,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1889,6 +1947,32 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris FC vs OGC Nice",
+    "start": "2026-08-30T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Málaga CF",
+    "start": "2026-08-30T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
