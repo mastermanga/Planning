@@ -344,6 +344,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-08-10T18:00:00",
     "source": "Anime (sheet)",
@@ -1466,6 +1478,20 @@
     ]
   },
   {
+    "title": "[LCK] T1 vs Hanwha Life Esports",
+    "start": "2026-08-08T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-08T09:00:00",
     "end": "2026-08-08T10:30:00",
@@ -1478,6 +1504,20 @@
     ]
   },
   {
+    "title": "[LCK] Nongshim Red Force vs DN SOOPers",
+    "start": "2026-08-08T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-08-08T10:30:00",
     "end": "2026-08-08T11:30:00",
@@ -1487,6 +1527,34 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] SK Gaming vs Natus Vincere",
+    "start": "2026-08-08T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Movistar KOI vs GIANTX",
+    "start": "2026-08-08T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -1523,18 +1591,6 @@
     "location": "",
     "tags": [
       "sport"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -1945,6 +2001,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Rayo Vallecano de Madrid",
+    "start": "2026-08-31T19:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
