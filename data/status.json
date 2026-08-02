@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T11:58:15.530Z",
-  "total": 164,
+  "generatedAt": "2026-08-02T13:25:23.383Z",
+  "total": 163,
   "counts": {
     "Anime (sheet)": 116,
     "Twitch:domingo": 0,
@@ -8,11 +8,9 @@
     "Twitch:joueur_du_grenier": 0,
     "lolix.gg": 32,
     "football-data.org (foot)": 15,
-    "F1 (f1calendar.com)": 1,
-    "missed_anime_added": 0,
-    "missed_anime_candidates": 0
+    "F1 (f1calendar.com)": 0,
+    "missed_anime_added": 1,
+    "missed_anime_candidates": 12
   },
-  "errors": [
-    "missed-anime-sync: This operation was aborted"
-  ]
+  "errors": []
 }
