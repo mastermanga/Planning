@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-07-26T07:00:00",
-    "end": "2026-07-26T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Ace Of Diamond",
     "start": "2026-07-26T12:00:00",
     "source": "Anime (sheet)",
@@ -466,6 +454,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-07-26T07:00:00",
+    "end": "2026-07-26T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-07-26T09:00:00",
     "end": "2026-07-26T10:30:00",
@@ -600,20 +600,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs Nongshim Red Force",
-    "start": "2026-07-29T08:00:38Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-07-29T09:00:00",
     "end": "2026-07-29T10:30:00",
@@ -623,20 +609,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs KT Rolster",
-    "start": "2026-07-29T10:07:14Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -1506,6 +1478,20 @@
     ]
   },
   {
+    "title": "[LCK] Dplus KIA vs KT Rolster",
+    "start": "2026-08-09T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-09T09:00:00",
     "end": "2026-08-09T10:30:00",
@@ -1518,6 +1504,20 @@
     ]
   },
   {
+    "title": "[LCK] BNK FEARX vs Kiwoom DRX",
+    "start": "2026-08-09T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-08-09T10:30:00",
     "end": "2026-08-09T11:30:00",
@@ -1527,6 +1527,35 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] Team Heretics vs G2 Esports",
+    "start": "2026-08-09T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs Karmine Corp",
+    "start": "2026-08-09T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
