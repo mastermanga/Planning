@@ -442,18 +442,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-07-27T14:00:00",
-    "end": "2026-07-27T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-07-28T07:00:00",
     "end": "2026-07-28T09:00:00",
@@ -926,7 +914,7 @@
   },
   {
     "title": "[LEC] Natus Vincere vs Shifters",
-    "start": "2026-08-03T15:00:00Z",
+    "start": "2026-08-03T15:03:15Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1806,6 +1794,18 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-17T14:00:00",
+    "end": "2026-08-17T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
