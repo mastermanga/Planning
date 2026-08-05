@@ -1,16 +1,5 @@
 [
   {
-    "title": "Classroom Of The Elite",
-    "start": "2026-07-29T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Re:Zero",
     "start": "2026-07-29T18:00:00",
     "source": "Anime (sheet)",
@@ -96,18 +85,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-03T07:00:00",
-    "end": "2026-08-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -240,18 +217,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
     ]
   },
   {
@@ -420,6 +385,17 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-08-19T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "JDR Ombre",
     "start": "16/05/2026T14:30:00",
     "source": "Anime (sheet)",
@@ -439,18 +415,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-29T14:00:00",
-    "end": "2026-07-29T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -676,6 +640,18 @@
       "lol",
       "lec",
       "fnatic"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-03T07:00:00",
+    "end": "2026-08-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1235,6 +1211,18 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-10T09:00:00",
     "end": "2026-08-10T10:30:00",
@@ -1723,211 +1711,15 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Lorient",
-    "start": "2026-08-22T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
+    "title": "Work",
+    "start": "2026-08-19T14:00:00",
+    "end": "2026-08-19T15:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] RCD Espanyol de Barcelona vs Real Madrid CF",
-    "start": "2026-08-22T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Manchester City FC vs AFC Bournemouth",
-    "start": "2026-08-23T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Newcastle United FC vs Liverpool FC",
-    "start": "2026-08-23T15:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Stade Rennais FC 1901",
-    "start": "2026-08-23T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Elche CF vs FC Barcelona",
-    "start": "2026-08-23T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
-    "start": "2026-08-26T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Athletic Club",
-    "start": "2026-08-27T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
-    "start": "2026-08-28T18:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Lille OSC vs Paris Saint-Germain FC",
-    "start": "2026-08-28T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Crystal Palace FC vs Manchester City FC",
-    "start": "2026-08-28T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Liverpool FC vs Nottingham Forest FC",
-    "start": "2026-08-29T11:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris FC vs OGC Nice",
-    "start": "2026-08-30T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Málaga CF",
-    "start": "2026-08-30T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Rayo Vallecano de Madrid",
-    "start": "2026-08-31T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Ipswich Town FC vs Liverpool FC",
-    "start": "2026-09-04T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
+      "work"
     ]
   }
 ]
