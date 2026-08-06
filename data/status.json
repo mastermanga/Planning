@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-08-05T23:55:51.783Z",
-  "total": 158,
+  "generatedAt": "2026-08-06T02:08:44.736Z",
+  "total": 160,
   "counts": {
     "Anime (sheet)": 116,
     "Twitch:domingo": 0,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
-    "lolix.gg": 26,
-    "football-data.org (foot)": 16,
+    "lolix.gg": 24,
+    "football-data.org (foot)": 20,
     "F1 (f1calendar.com)": 0,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 0
+    "missed_anime_candidates": 12
   },
-  "errors": [
-    "missed-anime-sync: Missed sheet GET HTTP 404"
-  ]
+  "errors": []
 }
