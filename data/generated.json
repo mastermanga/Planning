@@ -1,5 +1,17 @@
 [
   {
+    "title": "Work",
+    "start": "2026-07-31T09:00:00",
+    "end": "2026-07-31T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Slime",
     "start": "2026-07-31T17:20:00",
     "source": "Anime (sheet)",
@@ -451,30 +463,6 @@
     "location": "",
     "tags": [
       "jdr"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-07-31T07:00:00",
-    "end": "2026-07-31T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-07-31T09:00:00",
-    "end": "2026-07-31T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -1720,6 +1708,18 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-21T07:00:00",
+    "end": "2026-08-21T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
