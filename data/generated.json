@@ -841,7 +841,7 @@
   },
   {
     "title": "[LEC] Shifters vs GIANTX",
-    "start": "2026-08-07T15:00:00Z",
+    "start": "2026-08-07T15:03:44Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1734,6 +1734,20 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Dutch - Qualifs Sprint",
+    "start": "2026-08-21T14:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Zandvoort",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint_qualifying"
     ]
   },
   {
