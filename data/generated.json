@@ -224,6 +224,18 @@
     ]
   },
   {
+    "title": "Work",
+    "start": "2026-08-10T09:00:00",
+    "end": "2026-08-10T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "title": "Witch Hat Atelier",
     "start": "2026-08-10T18:00:00",
     "source": "Anime (sheet)",
@@ -1054,18 +1066,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-10T09:00:00",
-    "end": "2026-08-10T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-08-10T10:30:00",
     "end": "2026-08-10T11:30:00",
@@ -1435,6 +1435,20 @@
     ]
   },
   {
+    "title": "[LCK] Hanwha Life Esports vs KT Rolster",
+    "start": "2026-08-15T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-15T09:00:00",
     "end": "2026-08-15T10:30:00",
@@ -1447,6 +1461,20 @@
     ]
   },
   {
+    "title": "[LCK] BNK FEARX vs DN SOOPers",
+    "start": "2026-08-15T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Sport",
     "start": "2026-08-15T10:30:00",
     "end": "2026-08-15T11:30:00",
@@ -1456,6 +1484,35 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LEC] SK Gaming vs Fnatic",
+    "start": "2026-08-15T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
+    ]
+  },
+  {
+    "title": "[LEC] G2 Esports vs Shifters",
+    "start": "2026-08-15T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
