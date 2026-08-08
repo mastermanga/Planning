@@ -1822,6 +1822,20 @@
     ]
   },
   {
+    "title": "Dutch - Qualifications",
+    "start": "2026-08-22T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Zandvoort",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] OGC Nice vs FC Lorient",
     "start": "2026-08-22T18:45:00Z",
     "source": "football-data.org",
