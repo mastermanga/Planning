@@ -1904,6 +1904,20 @@
     ]
   },
   {
+    "title": "Dutch - Course",
+    "start": "2026-08-23T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Zandvoort",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Newcastle United FC vs Liverpool FC",
     "start": "2026-08-23T15:30:00Z",
     "source": "football-data.org",
