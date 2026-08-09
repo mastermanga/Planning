@@ -934,20 +934,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs Kiwoom DRX",
-    "start": "2026-08-09T10:20:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Sport",
     "start": "2026-08-09T10:30:00",
     "end": "2026-08-09T11:30:00",
@@ -957,6 +943,20 @@
     "location": "",
     "tags": [
       "sport"
+    ]
+  },
+  {
+    "title": "[LCK] BNK FEARX vs Kiwoom DRX",
+    "start": "2026-08-09T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
