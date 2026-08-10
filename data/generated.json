@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-08-03T07:00:00",
-    "end": "2026-08-03T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Work",
     "start": "2026-08-03T09:00:00",
     "end": "2026-08-03T10:30:00",
@@ -21,472 +9,6 @@
     "location": "",
     "tags": [
       "work"
-    ]
-  },
-  {
-    "title": "Witch Hat Atelier",
-    "start": "2026-08-03T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Liar Game",
-    "start": "2026-08-04T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Marriagetoxin",
-    "start": "2026-08-04T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Classroom Of The Elite",
-    "start": "2026-08-05T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Re:Zero",
-    "start": "2026-08-05T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Dr Stone",
-    "start": "2026-08-06T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-08-06T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Slime",
-    "start": "2026-08-07T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Akane Banashi",
-    "start": "2026-08-08T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Daemons of the Sadow Realm",
-    "start": "2026-08-08T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Agents Of Four Seasons",
-    "start": "2026-08-08T19:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Ace Of Diamond",
-    "start": "2026-08-09T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-10T09:00:00",
-    "end": "2026-08-10T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Witch Hat Atelier",
-    "start": "2026-08-10T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Liar Game",
-    "start": "2026-08-11T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Marriagetoxin",
-    "start": "2026-08-11T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Classroom Of The Elite",
-    "start": "2026-08-12T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Re:Zero",
-    "start": "2026-08-12T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Dr Stone",
-    "start": "2026-08-13T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-08-13T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Slime",
-    "start": "2026-08-14T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Akane Banashi",
-    "start": "2026-08-15T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Daemons of the Sadow Realm",
-    "start": "2026-08-15T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Agents Of Four Seasons",
-    "start": "2026-08-15T19:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Ace Of Diamond",
-    "start": "2026-08-16T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-17T07:00:00",
-    "end": "2026-08-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-17T09:00:00",
-    "end": "2026-08-17T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Witch Hat Atelier",
-    "start": "2026-08-17T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Liar Game",
-    "start": "2026-08-18T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Marriagetoxin",
-    "start": "2026-08-18T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Classroom Of The Elite",
-    "start": "2026-08-19T14:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Re:Zero",
-    "start": "2026-08-19T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Dr Stone",
-    "start": "2026-08-20T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Ramparts Of Ice",
-    "start": "2026-08-20T18:15:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Slime",
-    "start": "2026-08-21T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Akane Banashi",
-    "start": "2026-08-22T18:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Daemons of the Sadow Realm",
-    "start": "2026-08-22T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Agents Of Four Seasons",
-    "start": "2026-08-22T19:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Ace Of Diamond",
-    "start": "2026-08-23T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "JDR Ombre",
-    "start": "16/05/2026T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "jdr"
-    ]
-  },
-  {
-    "title": "JDR Isekhar",
-    "start": "12/05/2026T20:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "jdr"
     ]
   },
   {
@@ -511,6 +33,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Witch Hat Atelier",
+    "start": "2026-08-03T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -562,6 +95,28 @@
     ]
   },
   {
+    "title": "Liar Game",
+    "start": "2026-08-04T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Marriagetoxin",
+    "start": "2026-08-04T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-05T07:00:00",
     "end": "2026-08-05T09:00:00",
@@ -598,6 +153,17 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-08-05T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-05T14:00:00",
     "end": "2026-08-05T15:30:00",
@@ -607,6 +173,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Re:Zero",
+    "start": "2026-08-05T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -655,6 +232,28 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Dr Stone",
+    "start": "2026-08-06T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-08-06T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -746,6 +345,17 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Slime",
+    "start": "2026-08-07T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -856,6 +466,39 @@
     ]
   },
   {
+    "title": "Akane Banashi",
+    "start": "2026-08-08T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Daemons of the Sadow Realm",
+    "start": "2026-08-08T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Agents Of Four Seasons",
+    "start": "2026-08-08T19:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-09T07:00:00",
     "end": "2026-08-09T09:00:00",
@@ -920,6 +563,17 @@
     ]
   },
   {
+    "title": "Ace Of Diamond",
+    "start": "2026-08-09T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "[LEC] Team Heretics vs G2 Esports",
     "start": "2026-08-09T15:02:18Z",
     "source": "lolix.gg",
@@ -946,6 +600,30 @@
       "lol",
       "lec",
       "fnatic"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-10T09:00:00",
+    "end": "2026-08-10T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1001,6 +679,17 @@
     ]
   },
   {
+    "title": "Witch Hat Atelier",
+    "start": "2026-08-10T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-11T07:00:00",
     "end": "2026-08-11T09:00:00",
@@ -1046,6 +735,28 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Liar Game",
+    "start": "2026-08-11T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Marriagetoxin",
+    "start": "2026-08-11T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -1113,6 +824,17 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-08-12T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-12T14:00:00",
     "end": "2026-08-12T15:30:00",
@@ -1122,6 +844,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Re:Zero",
+    "start": "2026-08-12T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -1199,6 +932,28 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Dr Stone",
+    "start": "2026-08-13T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-08-13T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -1306,6 +1061,17 @@
     ]
   },
   {
+    "title": "Slime",
+    "start": "2026-08-14T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-15T07:00:00",
     "end": "2026-08-15T09:00:00",
@@ -1399,6 +1165,39 @@
     ]
   },
   {
+    "title": "Akane Banashi",
+    "start": "2026-08-15T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Daemons of the Sadow Realm",
+    "start": "2026-08-15T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Agents Of Four Seasons",
+    "start": "2026-08-15T19:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-16T07:00:00",
     "end": "2026-08-16T09:00:00",
@@ -1464,6 +1263,17 @@
     ]
   },
   {
+    "title": "Ace Of Diamond",
+    "start": "2026-08-16T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "[LEC] Movistar KOI vs Natus Vincere",
     "start": "2026-08-16T15:00:00Z",
     "source": "lolix.gg",
@@ -1490,6 +1300,30 @@
       "lol",
       "lec",
       "fnatic"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-17T07:00:00",
+    "end": "2026-08-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Work",
+    "start": "2026-08-17T09:00:00",
+    "end": "2026-08-17T10:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "work"
     ]
   },
   {
@@ -1545,6 +1379,17 @@
     ]
   },
   {
+    "title": "Witch Hat Atelier",
+    "start": "2026-08-17T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-18T07:00:00",
     "end": "2026-08-18T09:00:00",
@@ -1593,6 +1438,28 @@
     ]
   },
   {
+    "title": "Liar Game",
+    "start": "2026-08-18T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Marriagetoxin",
+    "start": "2026-08-18T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-19T07:00:00",
     "end": "2026-08-19T09:00:00",
@@ -1629,6 +1496,17 @@
     ]
   },
   {
+    "title": "Classroom Of The Elite",
+    "start": "2026-08-19T14:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Work",
     "start": "2026-08-19T14:00:00",
     "end": "2026-08-19T15:30:00",
@@ -1638,6 +1516,17 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Re:Zero",
+    "start": "2026-08-19T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -1686,6 +1575,105 @@
     "location": "",
     "tags": [
       "work"
+    ]
+  },
+  {
+    "title": "Dr Stone",
+    "start": "2026-08-20T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Ramparts Of Ice",
+    "start": "2026-08-20T18:15:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Slime",
+    "start": "2026-08-21T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Akane Banashi",
+    "start": "2026-08-22T18:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Daemons of the Sadow Realm",
+    "start": "2026-08-22T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Agents Of Four Seasons",
+    "start": "2026-08-22T19:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Ace Of Diamond",
+    "start": "2026-08-23T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "JDR Ombre",
+    "start": "16/05/2026T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "jdr"
+    ]
+  },
+  {
+    "title": "JDR Isekhar",
+    "start": "12/05/2026T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "jdr"
     ]
   },
   {
@@ -1954,6 +1942,18 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-24T07:00:00",
+    "end": "2026-08-24T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
