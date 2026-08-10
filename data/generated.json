@@ -1,173 +1,5 @@
 [
   {
-    "title": "Work",
-    "start": "2026-08-03T14:00:00",
-    "end": "2026-08-03T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-04T07:00:00",
-    "end": "2026-08-04T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-04T09:00:00",
-    "end": "2026-08-04T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-04T10:30:00",
-    "end": "2026-08-04T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-04T14:00:00",
-    "end": "2026-08-04T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-05T07:00:00",
-    "end": "2026-08-05T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-05T09:00:00",
-    "end": "2026-08-05T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-05T10:30:00",
-    "end": "2026-08-05T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-05T14:00:00",
-    "end": "2026-08-05T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-06T07:00:00",
-    "end": "2026-08-06T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-06T09:00:00",
-    "end": "2026-08-06T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-06T10:30:00",
-    "end": "2026-08-06T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-06T14:00:00",
-    "end": "2026-08-06T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Réveil",
-    "start": "2026-08-07T07:00:00",
-    "end": "2026-08-07T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] KT Rolster vs Gen.G",
     "start": "2026-08-07T08:01:25Z",
     "source": "lolix.gg",
@@ -183,18 +15,6 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-07T09:00:00",
-    "end": "2026-08-07T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
     "title": "[LCK] BNK FEARX vs HANJIN BRION",
     "start": "2026-08-07T10:05:02Z",
     "source": "lolix.gg",
@@ -206,30 +26,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-07T10:30:00",
-    "end": "2026-08-07T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-07T14:00:00",
-    "end": "2026-08-07T15:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
     ]
   },
   {
@@ -262,18 +58,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-08T07:00:00",
-    "end": "2026-08-08T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] T1 vs Hanwha Life Esports",
     "start": "2026-08-08T08:00:42Z",
     "source": "lolix.gg",
@@ -285,30 +69,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-08T09:00:00",
-    "end": "2026-08-08T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-08T10:30:00",
-    "end": "2026-08-08T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -354,18 +114,6 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-09T07:00:00",
-    "end": "2026-08-09T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[LCK] Dplus KIA vs KT Rolster",
     "start": "2026-08-09T08:00:27Z",
     "source": "lolix.gg",
@@ -377,30 +125,6 @@
       "esport",
       "lol",
       "lck"
-    ]
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-09T09:00:00",
-    "end": "2026-08-09T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-09T10:30:00",
-    "end": "2026-08-09T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
     ]
   },
   {
@@ -447,9 +171,9 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T07:30:00",
+    "title": "Lecture",
+    "start": "2026-08-10T00:01:00",
+    "end": "2026-08-10T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -459,7 +183,19 @@
     ]
   },
   {
-    "title": "Petit Dèj (Anime)",
+    "title": "Réveil",
+    "start": "2026-08-10T07:00:00",
+    "end": "2026-08-10T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
     "start": "2026-08-10T07:30:00",
     "end": "2026-08-10T08:00:00",
     "source": "Anime (sheet)",
@@ -471,59 +207,75 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-10T08:00:00",
-    "end": "2026-08-10T08:30:00",
+    "title": "Marche",
+    "start": "2026-08-10T08:01:00",
+    "end": "2026-08-10T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Sport (Pompe - Abdo)",
+    "title": "Pompe - Abdo",
     "start": "2026-08-10T08:30:00",
     "end": "2026-08-10T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-10T09:00:00",
-    "end": "2026-08-10T10:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-10T10:30:00",
-    "end": "2026-08-10T11:30:00",
+    "title": "Activité",
+    "start": "2026-08-10T09:01:00",
+    "end": "2026-08-10T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-10T14:00:00",
-    "end": "2026-08-10T15:30:00",
+    "title": "Repas",
+    "start": "2026-08-10T12:01:00",
+    "end": "2026-08-10T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-10T13:30:00",
+    "end": "2026-08-10T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-10T14:31:00",
+    "end": "2026-08-10T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -538,6 +290,18 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-10T16:31:00",
+    "end": "2026-08-10T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -577,8 +341,92 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-10T19:31:00",
+    "end": "2026-08-10T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-10T20:31:00",
+    "end": "2026-08-10T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-10T21:00:00",
+    "end": "2026-08-10T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-11T00:01:00",
+    "end": "2026-08-11T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-11T07:00:00",
+    "end": "2026-08-11T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-11T07:30:00",
+    "end": "2026-08-11T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-11T08:01:00",
+    "end": "2026-08-11T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Squat - Fente",
+    "start": "2026-08-11T08:30:00",
     "end": "2026-08-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -589,59 +437,51 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-11T08:00:00",
-    "end": "2026-08-11T08:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": []
-  },
-  {
-    "title": "Sport (Squat - Fente)",
-    "start": "2026-08-11T08:30:00",
-    "end": "2026-08-11T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": []
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-11T09:00:00",
-    "end": "2026-08-11T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-11T09:01:00",
+    "end": "2026-08-11T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-11T10:30:00",
-    "end": "2026-08-11T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-11T12:01:00",
+    "end": "2026-08-11T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-11T14:00:00",
-    "end": "2026-08-11T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-11T13:30:00",
+    "end": "2026-08-11T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-11T14:31:00",
+    "end": "2026-08-11T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -667,9 +507,9 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-12T07:00:00",
-    "end": "2026-08-12T09:00:00",
+    "title": "Free Time",
+    "start": "2026-08-11T16:31:00",
+    "end": "2026-08-11T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -679,14 +519,76 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-12T08:00:00",
-    "end": "2026-08-12T08:30:00",
+    "title": "Repas",
+    "start": "2026-08-11T19:31:00",
+    "end": "2026-08-11T20:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-11T20:31:00",
+    "end": "2026-08-11T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-11T21:00:00",
+    "end": "2026-08-11T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-12T00:01:00",
+    "end": "2026-08-12T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-12T07:00:00",
+    "end": "2026-08-12T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-12T07:30:00",
+    "end": "2026-08-12T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
   },
   {
     "title": "[LCK] DN SOOPers vs Nongshim Red Force",
@@ -703,25 +605,39 @@
     ]
   },
   {
-    "title": "Sport (Curl - Elévation)",
+    "title": "Marche",
+    "start": "2026-08-12T08:01:00",
+    "end": "2026-08-12T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Curl - Elévation",
     "start": "2026-08-12T08:30:00",
     "end": "2026-08-12T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-12T09:00:00",
-    "end": "2026-08-12T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-12T09:01:00",
+    "end": "2026-08-12T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -739,33 +655,117 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-12T10:30:00",
-    "end": "2026-08-12T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-12T12:01:00",
+    "end": "2026-08-12T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-12T14:00:00",
-    "end": "2026-08-12T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-12T13:30:00",
+    "end": "2026-08-12T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-12T14:31:00",
+    "end": "2026-08-12T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-12T16:31:00",
+    "end": "2026-08-12T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-12T19:31:00",
+    "end": "2026-08-12T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-12T20:31:00",
+    "end": "2026-08-12T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-12T21:00:00",
+    "end": "2026-08-12T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-13T00:01:00",
+    "end": "2026-08-13T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
     "title": "Réveil",
     "start": "2026-08-13T07:00:00",
-    "end": "2026-08-13T09:00:00",
+    "end": "2026-08-13T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-13T07:30:00",
+    "end": "2026-08-13T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -789,25 +789,39 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-13T08:30:00",
-    "end": "2026-08-13T08:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": []
-  },
-  {
-    "title": "Work",
-    "start": "2026-08-13T09:00:00",
-    "end": "2026-08-13T10:30:00",
+    "title": "Marche",
+    "start": "2026-08-13T08:01:00",
+    "end": "2026-08-13T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-13T08:30:00",
+    "end": "2026-08-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-13T09:01:00",
+    "end": "2026-08-13T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -826,33 +840,117 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-13T10:30:00",
-    "end": "2026-08-13T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-13T12:01:00",
+    "end": "2026-08-13T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-13T14:00:00",
-    "end": "2026-08-13T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-13T13:30:00",
+    "end": "2026-08-13T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-13T14:31:00",
+    "end": "2026-08-13T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-13T16:31:00",
+    "end": "2026-08-13T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-13T19:31:00",
+    "end": "2026-08-13T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-13T20:31:00",
+    "end": "2026-08-13T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-13T21:00:00",
+    "end": "2026-08-13T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-14T00:01:00",
+    "end": "2026-08-14T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
     "title": "Réveil",
     "start": "2026-08-14T07:00:00",
-    "end": "2026-08-14T09:00:00",
+    "end": "2026-08-14T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-14T07:30:00",
+    "end": "2026-08-14T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -876,35 +974,39 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-14T08:30:00",
-    "end": "2026-08-14T08:30:00",
+    "title": "Marche",
+    "start": "2026-08-14T08:01:00",
+    "end": "2026-08-14T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Sport (Pompe - Abdo)",
+    "title": "Pompe - Abdo",
     "start": "2026-08-14T08:30:00",
     "end": "2026-08-14T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-14T09:00:00",
-    "end": "2026-08-14T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-14T09:01:00",
+    "end": "2026-08-14T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -922,27 +1024,39 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-14T10:30:00",
-    "end": "2026-08-14T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-14T12:01:00",
+    "end": "2026-08-14T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-14T14:00:00",
-    "end": "2026-08-14T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-14T13:30:00",
+    "end": "2026-08-14T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-14T14:31:00",
+    "end": "2026-08-14T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -957,6 +1071,18 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-14T16:31:00",
+    "end": "2026-08-14T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -996,9 +1122,69 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-14T19:31:00",
+    "end": "2026-08-14T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-14T20:31:00",
+    "end": "2026-08-14T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-14T21:00:00",
+    "end": "2026-08-14T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-15T00:01:00",
+    "end": "2026-08-15T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-15T07:00:00",
-    "end": "2026-08-15T09:00:00",
+    "end": "2026-08-15T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-15T07:30:00",
+    "end": "2026-08-15T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1022,35 +1208,39 @@
     ]
   },
   {
-    "title": "Sport (Marche)",
-    "start": "2026-08-15T08:30:00",
-    "end": "2026-08-15T08:30:00",
+    "title": "Marche",
+    "start": "2026-08-15T08:01:00",
+    "end": "2026-08-15T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Sport (Squat - Fente)",
+    "title": "Squat - Fente",
     "start": "2026-08-15T08:30:00",
     "end": "2026-08-15T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-15T09:00:00",
-    "end": "2026-08-15T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-15T09:01:00",
+    "end": "2026-08-15T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -1068,15 +1258,39 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-15T10:30:00",
-    "end": "2026-08-15T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-15T12:01:00",
+    "end": "2026-08-15T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-15T13:30:00",
+    "end": "2026-08-15T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-15T14:31:00",
+    "end": "2026-08-15T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1115,6 +1329,18 @@
     "tags": []
   },
   {
+    "title": "Free Time",
+    "start": "2026-08-15T16:31:00",
+    "end": "2026-08-15T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "[LEC] G2 Esports vs Shifters",
     "start": "2026-08-15T17:15:00Z",
     "source": "lolix.gg",
@@ -1151,9 +1377,69 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-15T19:31:00",
+    "end": "2026-08-15T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-15T20:31:00",
+    "end": "2026-08-15T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-15T21:00:00",
+    "end": "2026-08-15T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-16T00:01:00",
+    "end": "2026-08-16T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-16T07:00:00",
-    "end": "2026-08-16T09:00:00",
+    "end": "2026-08-16T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-16T07:30:00",
+    "end": "2026-08-16T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1178,25 +1464,39 @@
     ]
   },
   {
-    "title": "Sport (Curl - Elévation)",
+    "title": "Marche",
+    "start": "2026-08-16T08:01:00",
+    "end": "16/08/2026T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Curl - Elévation",
     "start": "2026-08-16T08:30:00",
     "end": "2026-08-16T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
-    "tags": []
+    "tags": [
+      "matin"
+    ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-16T09:00:00",
-    "end": "2026-08-16T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-16T09:01:00",
+    "end": "2026-08-16T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -1214,18 +1514,6 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-16T10:30:00",
-    "end": "2026-08-16T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
-    ]
-  },
-  {
     "title": "You and I Are Polar Opposites Season 2",
     "start": "2026-08-16T11:00:00",
     "source": "Anime (sheet)",
@@ -1234,6 +1522,42 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-16T12:01:00",
+    "end": "2026-08-16T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-16T13:30:00",
+    "end": "2026-08-16T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-16T14:31:00",
+    "end": "2026-08-16T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1248,6 +1572,18 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-16T16:31:00",
+    "end": "2026-08-16T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1277,9 +1613,9 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-17T07:00:00",
-    "end": "2026-08-17T07:30:00",
+    "title": "Repas",
+    "start": "2026-08-16T19:31:00",
+    "end": "2026-08-16T20:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1289,7 +1625,55 @@
     ]
   },
   {
-    "title": "Petit Dèj (Anime)",
+    "title": "Activité",
+    "start": "2026-08-16T20:31:00",
+    "end": "2026-08-16T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-16T21:00:00",
+    "end": "2026-08-16T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-17T00:01:00",
+    "end": "2026-08-17T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-17T07:00:00",
+    "end": "2026-08-17T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
     "start": "2026-08-17T07:30:00",
     "end": "2026-08-17T08:00:00",
     "source": "Anime (sheet)",
@@ -1301,39 +1685,75 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-17T09:00:00",
-    "end": "2026-08-17T10:30:00",
+    "title": "Marche",
+    "start": "2026-08-17T08:01:00",
+    "end": "2026-08-17T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-17T10:30:00",
-    "end": "2026-08-17T11:30:00",
+    "title": "Pompe - Abdo",
+    "start": "2026-08-17T08:30:00",
+    "end": "2026-08-17T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-17T14:00:00",
-    "end": "2026-08-17T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-17T09:01:00",
+    "end": "2026-08-17T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-17T12:01:00",
+    "end": "2026-08-17T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-17T13:30:00",
+    "end": "2026-08-17T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-17T14:31:00",
+    "end": "2026-08-17T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1348,6 +1768,18 @@
       "esport",
       "lol",
       "lec"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-17T16:31:00",
+    "end": "2026-08-17T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1387,8 +1819,92 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-17T19:31:00",
+    "end": "2026-08-17T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-17T20:31:00",
+    "end": "2026-08-17T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-17T21:00:00",
+    "end": "2026-08-17T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-18T00:01:00",
+    "end": "2026-08-18T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-18T07:00:00",
+    "end": "2026-08-18T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-18T07:30:00",
+    "end": "2026-08-18T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-18T08:01:00",
+    "end": "2026-08-18T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Squat - Fente",
+    "start": "2026-08-18T08:30:00",
     "end": "2026-08-18T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1399,39 +1915,51 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-18T09:00:00",
-    "end": "2026-08-18T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-18T09:01:00",
+    "end": "2026-08-18T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-18T10:30:00",
-    "end": "2026-08-18T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-18T12:01:00",
+    "end": "2026-08-18T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-18T14:00:00",
-    "end": "2026-08-18T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-18T13:30:00",
+    "end": "2026-08-18T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-18T14:31:00",
+    "end": "2026-08-18T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1457,8 +1985,104 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-08-18T16:31:00",
+    "end": "2026-08-18T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-18T19:31:00",
+    "end": "2026-08-18T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-18T20:31:00",
+    "end": "2026-08-18T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-18T21:00:00",
+    "end": "2026-08-18T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-19T00:01:00",
+    "end": "2026-08-19T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-19T07:00:00",
+    "end": "2026-08-19T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-19T07:30:00",
+    "end": "2026-08-19T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-19T08:01:00",
+    "end": "2026-08-19T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Curl - Elévation",
+    "start": "2026-08-19T08:30:00",
     "end": "2026-08-19T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1469,44 +2093,152 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-19T09:00:00",
-    "end": "2026-08-19T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-19T09:01:00",
+    "end": "2026-08-19T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-19T10:30:00",
-    "end": "2026-08-19T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-19T12:01:00",
+    "end": "2026-08-19T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-19T14:00:00",
-    "end": "2026-08-19T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-19T13:30:00",
+    "end": "2026-08-19T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-19T14:31:00",
+    "end": "2026-08-19T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-19T16:31:00",
+    "end": "2026-08-19T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-19T19:31:00",
+    "end": "2026-08-19T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-19T20:31:00",
+    "end": "2026-08-19T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-19T21:00:00",
+    "end": "2026-08-19T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-20T00:01:00",
+    "end": "2026-08-20T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
     "title": "Réveil",
     "start": "2026-08-20T07:00:00",
+    "end": "2026-08-20T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-20T07:30:00",
+    "end": "2026-08-20T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-20T08:01:00",
+    "end": "2026-08-20T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-20T08:30:00",
     "end": "2026-08-20T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1517,44 +2249,152 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-20T09:00:00",
-    "end": "2026-08-20T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-20T09:01:00",
+    "end": "2026-08-20T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-20T10:30:00",
-    "end": "2026-08-20T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-20T12:01:00",
+    "end": "2026-08-20T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-20T14:00:00",
-    "end": "2026-08-20T15:30:00",
+    "title": "Activité",
+    "start": "2026-08-20T13:30:00",
+    "end": "2026-08-20T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-20T14:31:00",
+    "end": "2026-08-20T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-20T16:31:00",
+    "end": "2026-08-20T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-20T19:31:00",
+    "end": "2026-08-20T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-20T20:31:00",
+    "end": "2026-08-20T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-20T21:00:00",
+    "end": "2026-08-20T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-21T00:01:00",
+    "end": "2026-08-21T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
     "title": "Réveil",
     "start": "2026-08-21T07:00:00",
+    "end": "2026-08-21T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-21T07:30:00",
+    "end": "2026-08-21T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-21T08:01:00",
+    "end": "2026-08-21T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Pompe - Abdo",
+    "start": "2026-08-21T08:30:00",
     "end": "2026-08-21T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1565,27 +2405,15 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-21T09:00:00",
-    "end": "2026-08-21T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-21T09:01:00",
+    "end": "2026-08-21T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-21T10:30:00",
-    "end": "2026-08-21T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
@@ -1603,15 +2431,27 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-21T14:00:00",
-    "end": "2026-08-21T15:30:00",
+    "title": "Repas",
+    "start": "2026-08-21T12:01:00",
+    "end": "2026-08-21T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-21T13:30:00",
+    "end": "2026-08-21T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1626,6 +2466,30 @@
       "formula1",
       "sport_auto",
       "sprint_qualifying"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-21T14:31:00",
+    "end": "2026-08-21T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-21T16:31:00",
+    "end": "2026-08-21T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1660,8 +2524,92 @@
     "tags": []
   },
   {
+    "title": "Repas",
+    "start": "2026-08-21T19:31:00",
+    "end": "2026-08-21T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-21T20:31:00",
+    "end": "2026-08-21T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-21T21:00:00",
+    "end": "2026-08-21T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-22T00:01:00",
+    "end": "2026-08-22T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-22T07:00:00",
+    "end": "2026-08-22T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-22T07:30:00",
+    "end": "2026-08-22T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-22T08:01:00",
+    "end": "2026-08-22T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Squat - Fente",
+    "start": "2026-08-22T08:30:00",
     "end": "2026-08-22T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1672,15 +2620,15 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-22T09:00:00",
-    "end": "2026-08-22T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-22T09:01:00",
+    "end": "2026-08-22T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
@@ -1698,15 +2646,27 @@
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-22T10:30:00",
-    "end": "2026-08-22T11:30:00",
+    "title": "Repas",
+    "start": "2026-08-22T12:01:00",
+    "end": "2026-08-22T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-22T13:30:00",
+    "end": "2026-08-22T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1724,6 +2684,18 @@
     ]
   },
   {
+    "title": "Activité",
+    "start": "2026-08-22T14:31:00",
+    "end": "2026-08-22T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Black Torch",
     "start": "2026-08-22T15:20:00",
     "source": "Anime (sheet)",
@@ -1732,6 +2704,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-22T16:31:00",
+    "end": "2026-08-22T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1783,8 +2767,92 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-22T19:31:00",
+    "end": "2026-08-22T20:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-22T20:31:00",
+    "end": "2026-08-22T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-22T21:00:00",
+    "end": "2026-08-22T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-23T00:01:00",
+    "end": "2026-08-23T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-23T07:00:00",
+    "end": "2026-08-23T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-23T07:30:00",
+    "end": "2026-08-23T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-23T08:01:00",
+    "end": "16/08/2026T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Curl - Elévation",
+    "start": "2026-08-23T08:30:00",
     "end": "2026-08-23T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1795,27 +2863,15 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-23T09:00:00",
-    "end": "2026-08-23T10:30:00",
+    "title": "Activité",
+    "start": "2026-08-23T09:01:00",
+    "end": "2026-08-23T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
-    ]
-  },
-  {
-    "title": "Sport",
-    "start": "2026-08-23T10:30:00",
-    "end": "2026-08-23T11:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "sport"
+      "matin"
     ]
   },
   {
@@ -1827,6 +2883,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-23T12:01:00",
+    "end": "2026-08-23T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1857,6 +2925,30 @@
     ]
   },
   {
+    "title": "Activité",
+    "start": "2026-08-23T13:30:00",
+    "end": "2026-08-23T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-23T14:31:00",
+    "end": "2026-08-23T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Newcastle United FC vs Liverpool FC",
     "start": "2026-08-23T15:30:00Z",
     "source": "football-data.org",
@@ -1867,6 +2959,18 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-23T16:31:00",
+    "end": "2026-08-23T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1907,9 +3011,9 @@
     ]
   },
   {
-    "title": "Réveil",
-    "start": "2026-08-24T07:00:00",
-    "end": "2026-08-24T07:30:00",
+    "title": "Repas",
+    "start": "2026-08-23T19:31:00",
+    "end": "2026-08-23T20:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1919,7 +3023,55 @@
     ]
   },
   {
-    "title": "Petit Dèj (Anime)",
+    "title": "Activité",
+    "start": "2026-08-23T20:31:00",
+    "end": "2026-08-23T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-23T21:00:00",
+    "end": "2026-08-23T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Lecture",
+    "start": "2026-08-24T00:01:00",
+    "end": "2026-08-24T00:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-24T07:00:00",
+    "end": "2026-08-24T07:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
     "start": "2026-08-24T07:30:00",
     "end": "2026-08-24T08:00:00",
     "source": "Anime (sheet)",
@@ -1931,27 +3083,39 @@
     ]
   },
   {
-    "title": "Work",
-    "start": "2026-08-24T09:00:00",
-    "end": "2026-08-24T10:30:00",
+    "title": "Marche",
+    "start": "2026-08-24T08:01:00",
+    "end": "2026-08-24T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "work"
+      "matin"
     ]
   },
   {
-    "title": "Sport",
-    "start": "2026-08-24T10:30:00",
-    "end": "2026-08-24T11:30:00",
+    "title": "Pompe - Abdo",
+    "start": "2026-08-24T08:30:00",
+    "end": "2026-08-24T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "sport"
+      "matin"
+    ]
+  },
+  {
+    "title": "Activité",
+    "start": "2026-08-24T09:01:00",
+    "end": "2026-08-24T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
