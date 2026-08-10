@@ -171,21 +171,9 @@
     ]
   },
   {
-    "title": "Lecture",
-    "start": "2026-08-10T00:01:00",
-    "end": "2026-08-10T00:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil",
     "start": "2026-08-10T07:00:00",
-    "end": "2026-08-10T07:29:00",
+    "end": "2026-08-10T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -208,7 +196,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-10T08:01:00",
+    "start": "2026-08-10T08:10:00",
     "end": "2026-08-10T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -220,7 +208,7 @@
   },
   {
     "title": "Pompe - Abdo",
-    "start": "2026-08-10T08:30:00",
+    "start": "2026-08-10T08:40:00",
     "end": "2026-08-10T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -232,7 +220,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-10T09:01:00",
+    "start": "2026-08-10T09:15:00",
     "end": "2026-08-10T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -244,7 +232,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-10T12:01:00",
+    "start": "2026-08-10T12:15:00",
     "end": "2026-08-10T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -256,7 +244,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-10T13:30:00",
+    "start": "2026-08-10T13:40:00",
     "end": "2026-08-10T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -268,7 +256,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-10T14:31:00",
+    "start": "2026-08-10T14:45:00",
     "end": "2026-08-10T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -294,7 +282,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-10T16:31:00",
+    "start": "2026-08-10T16:45:00",
     "end": "2026-08-10T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -330,6 +318,19 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-08-10T17:30:00.000Z",
+    "end": "2026-08-10T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Liar Game",
     "start": "2026-08-10T18:20:00",
     "source": "Anime (sheet)",
@@ -342,8 +343,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-10T19:31:00",
-    "end": "2026-08-10T20:30:00",
+    "start": "2026-08-10T19:45:00",
+    "end": "2026-08-10T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -366,20 +367,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-10T21:00:00",
+    "start": "2026-08-10T21:30:00",
     "end": "2026-08-10T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-11T00:01:00",
-    "end": "2026-08-11T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -391,7 +380,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-11T07:00:00",
-    "end": "2026-08-11T07:29:00",
+    "end": "2026-08-11T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -414,7 +403,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-11T08:01:00",
+    "start": "2026-08-11T08:10:00",
     "end": "2026-08-11T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -426,7 +415,7 @@
   },
   {
     "title": "Squat - Fente",
-    "start": "2026-08-11T08:30:00",
+    "start": "2026-08-11T08:40:00",
     "end": "2026-08-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -438,7 +427,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-11T09:01:00",
+    "start": "2026-08-11T09:15:00",
     "end": "2026-08-11T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -449,8 +438,21 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-08-11T12:00:00.000Z",
+    "end": "2026-08-11T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
-    "start": "2026-08-11T12:01:00",
+    "start": "2026-08-11T12:12:00",
     "end": "2026-08-11T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -462,7 +464,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-11T13:30:00",
+    "start": "2026-08-11T13:40:00",
     "end": "2026-08-11T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -474,7 +476,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-11T14:31:00",
+    "start": "2026-08-11T14:45:00",
     "end": "2026-08-11T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -508,7 +510,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-11T16:31:00",
+    "start": "2026-08-11T16:45:00",
     "end": "2026-08-11T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -520,8 +522,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-11T19:31:00",
-    "end": "2026-08-11T20:30:00",
+    "start": "2026-08-11T19:45:00",
+    "end": "2026-08-11T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -544,20 +546,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-11T21:00:00",
+    "start": "2026-08-11T21:30:00",
     "end": "2026-08-11T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-12T00:01:00",
-    "end": "2026-08-12T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -569,7 +559,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-12T07:00:00",
-    "end": "2026-08-12T07:29:00",
+    "end": "2026-08-12T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -606,7 +596,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-12T08:01:00",
+    "start": "2026-08-12T08:10:00",
     "end": "2026-08-12T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -618,7 +608,7 @@
   },
   {
     "title": "Curl - Elévation",
-    "start": "2026-08-12T08:30:00",
+    "start": "2026-08-12T08:40:00",
     "end": "2026-08-12T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -630,7 +620,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-12T09:01:00",
+    "start": "2026-08-12T09:15:00",
     "end": "2026-08-12T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -656,7 +646,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-12T12:01:00",
+    "start": "2026-08-12T12:15:00",
     "end": "2026-08-12T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -668,7 +658,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-12T13:30:00",
+    "start": "2026-08-12T13:40:00",
     "end": "2026-08-12T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -680,7 +670,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-12T14:31:00",
+    "start": "2026-08-12T14:45:00",
     "end": "2026-08-12T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -692,7 +682,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-12T16:31:00",
+    "start": "2026-08-12T16:45:00",
     "end": "2026-08-12T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -704,8 +694,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-12T19:31:00",
-    "end": "2026-08-12T20:30:00",
+    "start": "2026-08-12T19:45:00",
+    "end": "2026-08-12T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -728,20 +718,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-12T21:00:00",
+    "start": "2026-08-12T21:30:00",
     "end": "2026-08-12T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-13T00:01:00",
-    "end": "2026-08-13T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -753,7 +731,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-13T07:00:00",
-    "end": "2026-08-13T07:29:00",
+    "end": "2026-08-13T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -790,7 +768,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-13T08:01:00",
+    "start": "2026-08-13T08:10:00",
     "end": "2026-08-13T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -802,7 +780,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-13T08:30:00",
+    "start": "2026-08-13T08:40:00",
     "end": "2026-08-13T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -814,7 +792,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-13T09:01:00",
+    "start": "2026-08-13T09:15:00",
     "end": "2026-08-13T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -841,7 +819,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-13T12:01:00",
+    "start": "2026-08-13T12:15:00",
     "end": "2026-08-13T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -853,7 +831,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-13T13:30:00",
+    "start": "2026-08-13T13:40:00",
     "end": "2026-08-13T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -865,7 +843,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-13T14:31:00",
+    "start": "2026-08-13T14:45:00",
     "end": "2026-08-13T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -877,7 +855,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-13T16:31:00",
+    "start": "2026-08-13T16:45:00",
     "end": "2026-08-13T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -889,8 +867,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-13T19:31:00",
-    "end": "2026-08-13T20:30:00",
+    "start": "2026-08-13T19:45:00",
+    "end": "2026-08-13T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -913,20 +891,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-13T21:00:00",
+    "start": "2026-08-13T21:30:00",
     "end": "2026-08-13T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-14T00:01:00",
-    "end": "2026-08-14T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -938,7 +904,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-14T07:00:00",
-    "end": "2026-08-14T07:29:00",
+    "end": "2026-08-14T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -975,7 +941,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-14T08:01:00",
+    "start": "2026-08-14T08:10:00",
     "end": "2026-08-14T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -987,7 +953,7 @@
   },
   {
     "title": "Pompe - Abdo",
-    "start": "2026-08-14T08:30:00",
+    "start": "2026-08-14T08:40:00",
     "end": "2026-08-14T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -999,7 +965,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-14T09:01:00",
+    "start": "2026-08-14T09:15:00",
     "end": "2026-08-14T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1025,7 +991,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-14T12:01:00",
+    "start": "2026-08-14T12:15:00",
     "end": "2026-08-14T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1037,7 +1003,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-14T13:30:00",
+    "start": "2026-08-14T13:40:00",
     "end": "2026-08-14T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1049,7 +1015,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-14T14:31:00",
+    "start": "2026-08-14T14:45:00",
     "end": "2026-08-14T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1075,7 +1041,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-14T16:31:00",
+    "start": "2026-08-14T16:45:00",
     "end": "2026-08-14T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1123,8 +1089,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-14T19:31:00",
-    "end": "2026-08-14T20:30:00",
+    "start": "2026-08-14T19:45:00",
+    "end": "2026-08-14T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1147,20 +1113,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-14T21:00:00",
+    "start": "2026-08-14T21:30:00",
     "end": "2026-08-14T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-15T00:01:00",
-    "end": "2026-08-15T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1172,7 +1126,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-15T07:00:00",
-    "end": "2026-08-15T07:29:00",
+    "end": "2026-08-15T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1209,7 +1163,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-15T08:01:00",
+    "start": "2026-08-15T08:10:00",
     "end": "2026-08-15T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1221,7 +1175,7 @@
   },
   {
     "title": "Squat - Fente",
-    "start": "2026-08-15T08:30:00",
+    "start": "2026-08-15T08:40:00",
     "end": "2026-08-15T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1233,7 +1187,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-15T09:01:00",
+    "start": "2026-08-15T09:15:00",
     "end": "2026-08-15T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1259,7 +1213,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-15T12:01:00",
+    "start": "2026-08-15T12:15:00",
     "end": "2026-08-15T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1271,7 +1225,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-15T13:30:00",
+    "start": "2026-08-15T13:40:00",
     "end": "2026-08-15T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1283,7 +1237,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-15T14:31:00",
+    "start": "2026-08-15T14:45:00",
     "end": "2026-08-15T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1330,7 +1284,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-15T16:31:00",
+    "start": "2026-08-15T16:45:00",
     "end": "2026-08-15T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1378,8 +1332,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-15T19:31:00",
-    "end": "2026-08-15T20:30:00",
+    "start": "2026-08-15T19:45:00",
+    "end": "2026-08-15T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1402,20 +1356,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-15T21:00:00",
+    "start": "2026-08-15T21:30:00",
     "end": "2026-08-15T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-16T00:01:00",
-    "end": "2026-08-16T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1427,7 +1369,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-16T07:00:00",
-    "end": "2026-08-16T07:29:00",
+    "end": "2026-08-16T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1465,7 +1407,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-16T08:01:00",
+    "start": "2026-08-16T08:10:00",
     "end": "16/08/2026T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1477,7 +1419,7 @@
   },
   {
     "title": "Curl - Elévation",
-    "start": "2026-08-16T08:30:00",
+    "start": "2026-08-16T08:40:00",
     "end": "2026-08-16T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1489,7 +1431,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-16T09:01:00",
+    "start": "2026-08-16T09:15:00",
     "end": "2026-08-16T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1526,7 +1468,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-16T12:01:00",
+    "start": "2026-08-16T12:15:00",
     "end": "2026-08-16T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1538,7 +1480,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-16T13:30:00",
+    "start": "2026-08-16T13:40:00",
     "end": "2026-08-16T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1550,7 +1492,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-16T14:31:00",
+    "start": "2026-08-16T14:45:00",
     "end": "2026-08-16T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1576,7 +1518,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-16T16:31:00",
+    "start": "2026-08-16T16:45:00",
     "end": "2026-08-16T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1614,8 +1556,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-16T19:31:00",
-    "end": "2026-08-16T20:30:00",
+    "start": "2026-08-16T19:45:00",
+    "end": "2026-08-16T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1638,20 +1580,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-16T21:00:00",
+    "start": "2026-08-16T21:30:00",
     "end": "2026-08-16T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-17T00:01:00",
-    "end": "2026-08-17T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1663,7 +1593,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-17T07:00:00",
-    "end": "2026-08-17T07:29:00",
+    "end": "2026-08-17T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1686,7 +1616,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-17T08:01:00",
+    "start": "2026-08-17T08:10:00",
     "end": "2026-08-17T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1698,7 +1628,7 @@
   },
   {
     "title": "Pompe - Abdo",
-    "start": "2026-08-17T08:30:00",
+    "start": "2026-08-17T08:40:00",
     "end": "2026-08-17T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1710,7 +1640,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-17T09:01:00",
+    "start": "2026-08-17T09:15:00",
     "end": "2026-08-17T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1722,7 +1652,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-17T12:01:00",
+    "start": "2026-08-17T12:15:00",
     "end": "2026-08-17T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1734,7 +1664,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-17T13:30:00",
+    "start": "2026-08-17T13:40:00",
     "end": "2026-08-17T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1746,7 +1676,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-17T14:31:00",
+    "start": "2026-08-17T14:45:00",
     "end": "2026-08-17T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1772,7 +1702,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-17T16:31:00",
+    "start": "2026-08-17T16:45:00",
     "end": "2026-08-17T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1820,8 +1750,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-17T19:31:00",
-    "end": "2026-08-17T20:30:00",
+    "start": "2026-08-17T19:45:00",
+    "end": "2026-08-17T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1844,20 +1774,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-17T21:00:00",
+    "start": "2026-08-17T21:30:00",
     "end": "2026-08-17T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-18T00:01:00",
-    "end": "2026-08-18T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1869,7 +1787,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-18T07:00:00",
-    "end": "2026-08-18T07:29:00",
+    "end": "2026-08-18T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -1892,7 +1810,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-18T08:01:00",
+    "start": "2026-08-18T08:10:00",
     "end": "2026-08-18T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1904,7 +1822,7 @@
   },
   {
     "title": "Squat - Fente",
-    "start": "2026-08-18T08:30:00",
+    "start": "2026-08-18T08:40:00",
     "end": "2026-08-18T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1916,7 +1834,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-18T09:01:00",
+    "start": "2026-08-18T09:15:00",
     "end": "2026-08-18T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1928,7 +1846,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-18T12:01:00",
+    "start": "2026-08-18T12:12:00",
     "end": "2026-08-18T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1940,7 +1858,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-18T13:30:00",
+    "start": "2026-08-18T13:40:00",
     "end": "2026-08-18T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1952,7 +1870,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-18T14:31:00",
+    "start": "2026-08-18T14:45:00",
     "end": "2026-08-18T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1986,7 +1904,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-18T16:31:00",
+    "start": "2026-08-18T16:45:00",
     "end": "2026-08-18T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1998,8 +1916,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-18T19:31:00",
-    "end": "2026-08-18T20:30:00",
+    "start": "2026-08-18T19:45:00",
+    "end": "2026-08-18T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2022,20 +1940,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-18T21:00:00",
+    "start": "2026-08-18T21:30:00",
     "end": "2026-08-18T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-19T00:01:00",
-    "end": "2026-08-19T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2047,7 +1953,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-19T07:00:00",
-    "end": "2026-08-19T07:29:00",
+    "end": "2026-08-19T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2070,7 +1976,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-19T08:01:00",
+    "start": "2026-08-19T08:10:00",
     "end": "2026-08-19T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2082,7 +1988,7 @@
   },
   {
     "title": "Curl - Elévation",
-    "start": "2026-08-19T08:30:00",
+    "start": "2026-08-19T08:40:00",
     "end": "2026-08-19T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2094,7 +2000,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-19T09:01:00",
+    "start": "2026-08-19T09:15:00",
     "end": "2026-08-19T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2106,7 +2012,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-19T12:01:00",
+    "start": "2026-08-19T12:15:00",
     "end": "2026-08-19T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2118,7 +2024,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-19T13:30:00",
+    "start": "2026-08-19T13:40:00",
     "end": "2026-08-19T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2130,7 +2036,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-19T14:31:00",
+    "start": "2026-08-19T14:45:00",
     "end": "2026-08-19T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2142,7 +2048,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-19T16:31:00",
+    "start": "2026-08-19T16:45:00",
     "end": "2026-08-19T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2154,8 +2060,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-19T19:31:00",
-    "end": "2026-08-19T20:30:00",
+    "start": "2026-08-19T19:45:00",
+    "end": "2026-08-19T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2178,20 +2084,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-19T21:00:00",
+    "start": "2026-08-19T21:30:00",
     "end": "2026-08-19T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-20T00:01:00",
-    "end": "2026-08-20T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2203,7 +2097,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-20T07:00:00",
-    "end": "2026-08-20T07:29:00",
+    "end": "2026-08-20T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2226,7 +2120,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-20T08:01:00",
+    "start": "2026-08-20T08:10:00",
     "end": "2026-08-20T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2238,7 +2132,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-20T08:30:00",
+    "start": "2026-08-20T08:40:00",
     "end": "2026-08-20T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2250,7 +2144,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-20T09:01:00",
+    "start": "2026-08-20T09:15:00",
     "end": "2026-08-20T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2262,7 +2156,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-20T12:01:00",
+    "start": "2026-08-20T12:15:00",
     "end": "2026-08-20T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2274,7 +2168,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-20T13:30:00",
+    "start": "2026-08-20T13:40:00",
     "end": "2026-08-20T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2286,7 +2180,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-20T14:31:00",
+    "start": "2026-08-20T14:45:00",
     "end": "2026-08-20T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2298,7 +2192,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-20T16:31:00",
+    "start": "2026-08-20T16:45:00",
     "end": "2026-08-20T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2310,8 +2204,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-20T19:31:00",
-    "end": "2026-08-20T20:30:00",
+    "start": "2026-08-20T19:45:00",
+    "end": "2026-08-20T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2334,20 +2228,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-20T21:00:00",
+    "start": "2026-08-20T21:30:00",
     "end": "2026-08-20T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-21T00:01:00",
-    "end": "2026-08-21T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2359,7 +2241,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-21T07:00:00",
-    "end": "2026-08-21T07:29:00",
+    "end": "2026-08-21T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2382,7 +2264,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-21T08:01:00",
+    "start": "2026-08-21T08:10:00",
     "end": "2026-08-21T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2394,7 +2276,7 @@
   },
   {
     "title": "Pompe - Abdo",
-    "start": "2026-08-21T08:30:00",
+    "start": "2026-08-21T08:40:00",
     "end": "2026-08-21T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2406,7 +2288,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-21T09:01:00",
+    "start": "2026-08-21T09:15:00",
     "end": "2026-08-21T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2432,7 +2314,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-21T12:01:00",
+    "start": "2026-08-21T12:15:00",
     "end": "2026-08-21T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2444,7 +2326,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-21T13:30:00",
+    "start": "2026-08-21T13:40:00",
     "end": "2026-08-21T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2470,7 +2352,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-21T14:31:00",
+    "start": "2026-08-21T14:45:00",
     "end": "2026-08-21T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2482,7 +2364,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-21T16:31:00",
+    "start": "2026-08-21T16:45:00",
     "end": "2026-08-21T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2525,8 +2407,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-21T19:31:00",
-    "end": "2026-08-21T20:30:00",
+    "start": "2026-08-21T19:45:00",
+    "end": "2026-08-21T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2549,20 +2431,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-21T21:00:00",
+    "start": "2026-08-21T21:30:00",
     "end": "2026-08-21T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-22T00:01:00",
-    "end": "2026-08-22T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2574,7 +2444,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-22T07:00:00",
-    "end": "2026-08-22T07:29:00",
+    "end": "2026-08-22T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2597,7 +2467,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-22T08:01:00",
+    "start": "2026-08-22T08:10:00",
     "end": "2026-08-22T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2609,7 +2479,7 @@
   },
   {
     "title": "Squat - Fente",
-    "start": "2026-08-22T08:30:00",
+    "start": "2026-08-22T08:40:00",
     "end": "2026-08-22T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2621,7 +2491,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-22T09:01:00",
+    "start": "2026-08-22T09:15:00",
     "end": "2026-08-22T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2647,7 +2517,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-22T12:01:00",
+    "start": "2026-08-22T12:15:00",
     "end": "2026-08-22T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2659,7 +2529,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-22T13:30:00",
+    "start": "2026-08-22T13:40:00",
     "end": "2026-08-22T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2685,7 +2555,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-22T14:31:00",
+    "start": "2026-08-22T14:45:00",
     "end": "2026-08-22T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2708,7 +2578,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-22T16:31:00",
+    "start": "2026-08-22T16:45:00",
     "end": "2026-08-22T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2768,8 +2638,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-22T19:31:00",
-    "end": "2026-08-22T20:30:00",
+    "start": "2026-08-22T19:45:00",
+    "end": "2026-08-22T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2792,20 +2662,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-22T21:00:00",
+    "start": "2026-08-22T21:30:00",
     "end": "2026-08-22T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-23T00:01:00",
-    "end": "2026-08-23T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2817,7 +2675,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-23T07:00:00",
-    "end": "2026-08-23T07:29:00",
+    "end": "2026-08-23T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -2840,7 +2698,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-23T08:01:00",
+    "start": "2026-08-23T08:10:00",
     "end": "16/08/2026T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2852,7 +2710,7 @@
   },
   {
     "title": "Curl - Elévation",
-    "start": "2026-08-23T08:30:00",
+    "start": "2026-08-23T08:40:00",
     "end": "2026-08-23T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2864,7 +2722,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-23T09:01:00",
+    "start": "2026-08-23T09:15:00",
     "end": "2026-08-23T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2887,7 +2745,7 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-23T12:01:00",
+    "start": "2026-08-23T12:15:00",
     "end": "2026-08-23T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2926,7 +2784,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-23T13:30:00",
+    "start": "2026-08-23T13:40:00",
     "end": "2026-08-23T14:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2938,7 +2796,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-23T14:31:00",
+    "start": "2026-08-23T14:45:00",
     "end": "2026-08-23T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2963,7 +2821,7 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-23T16:31:00",
+    "start": "2026-08-23T16:45:00",
     "end": "2026-08-23T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3012,8 +2870,8 @@
   },
   {
     "title": "Repas",
-    "start": "2026-08-23T19:31:00",
-    "end": "2026-08-23T20:30:00",
+    "start": "2026-08-23T19:45:00",
+    "end": "2026-08-23T20:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -3036,20 +2894,8 @@
   },
   {
     "title": "Free Time",
-    "start": "2026-08-23T21:00:00",
+    "start": "2026-08-23T21:30:00",
     "end": "2026-08-23T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Lecture",
-    "start": "2026-08-24T00:01:00",
-    "end": "2026-08-24T00:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -3061,7 +2907,7 @@
   {
     "title": "Réveil",
     "start": "2026-08-24T07:00:00",
-    "end": "2026-08-24T07:29:00",
+    "end": "2026-08-24T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
@@ -3084,7 +2930,7 @@
   },
   {
     "title": "Marche",
-    "start": "2026-08-24T08:01:00",
+    "start": "2026-08-24T08:10:00",
     "end": "2026-08-24T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3096,7 +2942,7 @@
   },
   {
     "title": "Pompe - Abdo",
-    "start": "2026-08-24T08:30:00",
+    "start": "2026-08-24T08:40:00",
     "end": "2026-08-24T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3108,7 +2954,7 @@
   },
   {
     "title": "Activité",
-    "start": "2026-08-24T09:01:00",
+    "start": "2026-08-24T09:15:00",
     "end": "2026-08-24T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
