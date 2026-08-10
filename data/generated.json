@@ -184,7 +184,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-10T07:30:00",
+    "start": "2026-08-10T07:40:00",
     "end": "2026-08-10T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -219,7 +219,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-10T09:15:00",
     "end": "2026-08-10T12:00:00",
     "source": "Anime (sheet)",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Formation",
     "start": "2026-08-10T13:40:00",
     "end": "2026-08-10T14:30:00",
     "source": "Anime (sheet)",
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-10T14:45:00",
     "end": "2026-08-10T16:30:00",
     "source": "Anime (sheet)",
@@ -342,6 +342,19 @@
     ]
   },
   {
+    "title": "Domingo — 🎮 SOIRÉE GAMING AVEC PONEEEY, TWEEKZ & XARI",
+    "start": "2026-08-10T18:30:00.000Z",
+    "end": "2026-08-10T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-08-10T19:45:00",
     "end": "2026-08-10T20:20:00",
@@ -354,7 +367,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-10T20:31:00",
     "end": "2026-08-10T21:00:00",
     "source": "Anime (sheet)",
@@ -391,7 +404,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-11T07:30:00",
+    "start": "2026-08-11T07:40:00",
     "end": "2026-08-11T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -426,7 +439,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-11T09:15:00",
     "end": "2026-08-11T12:00:00",
     "source": "Anime (sheet)",
@@ -463,7 +476,20 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Domingo — 🏊 REACT DOCU LÉON MARCHAND",
+    "start": "2026-08-11T13:00:00.000Z",
+    "end": "2026-08-11T14:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Dev",
     "start": "2026-08-11T13:40:00",
     "end": "2026-08-11T14:30:00",
     "source": "Anime (sheet)",
@@ -475,7 +501,20 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Domingo — 💰 LA RUINE NOUS GUETTE",
+    "start": "2026-08-11T14:30:00.000Z",
+    "end": "2026-08-11T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "JDR",
     "start": "2026-08-11T14:45:00",
     "end": "2026-08-11T16:30:00",
     "source": "Anime (sheet)",
@@ -533,7 +572,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-11T20:31:00",
     "end": "2026-08-11T21:00:00",
     "source": "Anime (sheet)",
@@ -570,7 +609,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-12T07:30:00",
+    "start": "2026-08-12T07:40:00",
     "end": "2026-08-12T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -619,7 +658,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-12T09:15:00",
     "end": "2026-08-12T12:00:00",
     "source": "Anime (sheet)",
@@ -628,6 +667,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — 🃏 LIVE OPENING (SUR VOGGT)",
+    "start": "2026-08-12T10:00:00.000Z",
+    "end": "2026-08-12T12:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -657,7 +709,20 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-08-12T13:00:00.000Z",
+    "end": "2026-08-12T16:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Formation",
     "start": "2026-08-12T13:40:00",
     "end": "2026-08-12T14:30:00",
     "source": "Anime (sheet)",
@@ -669,7 +734,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-12T14:45:00",
     "end": "2026-08-12T16:30:00",
     "source": "Anime (sheet)",
@@ -705,7 +770,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-12T20:31:00",
     "end": "2026-08-12T21:00:00",
     "source": "Anime (sheet)",
@@ -742,7 +807,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-13T07:30:00",
+    "start": "2026-08-13T07:40:00",
     "end": "2026-08-13T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -791,7 +856,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-13T09:15:00",
     "end": "2026-08-13T12:00:00",
     "source": "Anime (sheet)",
@@ -830,7 +895,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Dev",
     "start": "2026-08-13T13:40:00",
     "end": "2026-08-13T14:30:00",
     "source": "Anime (sheet)",
@@ -842,7 +907,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-13T14:45:00",
     "end": "2026-08-13T16:30:00",
     "source": "Anime (sheet)",
@@ -866,6 +931,32 @@
     ]
   },
   {
+    "title": "Domingo — 🎙️ PRÉ-LIVE",
+    "start": "2026-08-13T17:30:00.000Z",
+    "end": "2026-08-13T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — 🧟‍♂️ SOUS MAGASIN DES HORREURS AVEC NOGODI ET LEILA",
+    "start": "2026-08-13T18:30:00.000Z",
+    "end": "2026-08-13T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-08-13T19:45:00",
     "end": "2026-08-13T20:20:00",
@@ -878,7 +969,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-13T20:31:00",
     "end": "2026-08-13T21:00:00",
     "source": "Anime (sheet)",
@@ -915,7 +1006,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-14T07:30:00",
+    "start": "2026-08-14T07:40:00",
     "end": "2026-08-14T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -964,7 +1055,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-14T09:15:00",
     "end": "2026-08-14T12:00:00",
     "source": "Anime (sheet)",
@@ -1002,7 +1093,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Formation",
     "start": "2026-08-14T13:40:00",
     "end": "2026-08-14T14:30:00",
     "source": "Anime (sheet)",
@@ -1014,7 +1105,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-14T14:45:00",
     "end": "2026-08-14T16:30:00",
     "source": "Anime (sheet)",
@@ -1100,7 +1191,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-14T20:31:00",
     "end": "2026-08-14T21:00:00",
     "source": "Anime (sheet)",
@@ -1137,7 +1228,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-15T07:30:00",
+    "start": "2026-08-15T07:40:00",
     "end": "2026-08-15T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1186,7 +1277,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-15T09:15:00",
     "end": "2026-08-15T12:00:00",
     "source": "Anime (sheet)",
@@ -1224,7 +1315,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-15T13:40:00",
     "end": "2026-08-15T14:30:00",
     "source": "Anime (sheet)",
@@ -1236,7 +1327,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-15T14:45:00",
     "end": "2026-08-15T16:30:00",
     "source": "Anime (sheet)",
@@ -1343,7 +1434,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-15T20:31:00",
     "end": "2026-08-15T21:00:00",
     "source": "Anime (sheet)",
@@ -1380,7 +1471,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-16T07:30:00",
+    "start": "2026-08-16T07:40:00",
     "end": "2026-08-16T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1430,7 +1521,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-16T09:15:00",
     "end": "2026-08-16T12:00:00",
     "source": "Anime (sheet)",
@@ -1479,7 +1570,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-16T13:40:00",
     "end": "2026-08-16T14:30:00",
     "source": "Anime (sheet)",
@@ -1491,7 +1582,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-16T14:45:00",
     "end": "2026-08-16T16:30:00",
     "source": "Anime (sheet)",
@@ -1567,7 +1658,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-16T20:31:00",
     "end": "2026-08-16T21:00:00",
     "source": "Anime (sheet)",
@@ -1604,7 +1695,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-17T07:30:00",
+    "start": "2026-08-17T07:40:00",
     "end": "2026-08-17T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1639,7 +1730,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-17T09:15:00",
     "end": "2026-08-17T12:00:00",
     "source": "Anime (sheet)",
@@ -1663,7 +1754,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Formation",
     "start": "2026-08-17T13:40:00",
     "end": "2026-08-17T14:30:00",
     "source": "Anime (sheet)",
@@ -1675,7 +1766,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-17T14:45:00",
     "end": "2026-08-17T16:30:00",
     "source": "Anime (sheet)",
@@ -1761,7 +1852,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-17T20:31:00",
     "end": "2026-08-17T21:00:00",
     "source": "Anime (sheet)",
@@ -1798,7 +1889,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-18T07:30:00",
+    "start": "2026-08-18T07:40:00",
     "end": "2026-08-18T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1833,7 +1924,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-18T09:15:00",
     "end": "2026-08-18T12:00:00",
     "source": "Anime (sheet)",
@@ -1857,7 +1948,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Dev",
     "start": "2026-08-18T13:40:00",
     "end": "2026-08-18T14:30:00",
     "source": "Anime (sheet)",
@@ -1869,7 +1960,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-18T14:45:00",
     "end": "2026-08-18T16:30:00",
     "source": "Anime (sheet)",
@@ -1927,7 +2018,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-18T20:31:00",
     "end": "2026-08-18T21:00:00",
     "source": "Anime (sheet)",
@@ -1964,7 +2055,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-19T07:30:00",
+    "start": "2026-08-19T07:40:00",
     "end": "2026-08-19T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1999,7 +2090,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-19T09:15:00",
     "end": "2026-08-19T12:00:00",
     "source": "Anime (sheet)",
@@ -2023,7 +2114,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Formation",
     "start": "2026-08-19T13:40:00",
     "end": "2026-08-19T14:30:00",
     "source": "Anime (sheet)",
@@ -2035,7 +2126,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-19T14:45:00",
     "end": "2026-08-19T16:30:00",
     "source": "Anime (sheet)",
@@ -2071,7 +2162,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-19T20:31:00",
     "end": "2026-08-19T21:00:00",
     "source": "Anime (sheet)",
@@ -2108,7 +2199,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-20T07:30:00",
+    "start": "2026-08-20T07:40:00",
     "end": "2026-08-20T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2143,7 +2234,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-20T09:15:00",
     "end": "2026-08-20T12:00:00",
     "source": "Anime (sheet)",
@@ -2167,7 +2258,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Dev",
     "start": "2026-08-20T13:40:00",
     "end": "2026-08-20T14:30:00",
     "source": "Anime (sheet)",
@@ -2179,7 +2270,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-20T14:45:00",
     "end": "2026-08-20T16:30:00",
     "source": "Anime (sheet)",
@@ -2215,7 +2306,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-20T20:31:00",
     "end": "2026-08-20T21:00:00",
     "source": "Anime (sheet)",
@@ -2252,7 +2343,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-21T07:30:00",
+    "start": "2026-08-21T07:40:00",
     "end": "2026-08-21T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2287,7 +2378,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-21T09:15:00",
     "end": "2026-08-21T12:00:00",
     "source": "Anime (sheet)",
@@ -2325,7 +2416,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Formation",
     "start": "2026-08-21T13:40:00",
     "end": "2026-08-21T14:30:00",
     "source": "Anime (sheet)",
@@ -2351,7 +2442,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-21T14:45:00",
     "end": "2026-08-21T16:30:00",
     "source": "Anime (sheet)",
@@ -2418,7 +2509,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Invest",
     "start": "2026-08-21T20:31:00",
     "end": "2026-08-21T21:00:00",
     "source": "Anime (sheet)",
@@ -2455,7 +2546,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-22T07:30:00",
+    "start": "2026-08-22T07:40:00",
     "end": "2026-08-22T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2490,7 +2581,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-22T09:15:00",
     "end": "2026-08-22T12:00:00",
     "source": "Anime (sheet)",
@@ -2528,7 +2619,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-22T13:40:00",
     "end": "2026-08-22T14:30:00",
     "source": "Anime (sheet)",
@@ -2554,7 +2645,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-22T14:45:00",
     "end": "2026-08-22T16:30:00",
     "source": "Anime (sheet)",
@@ -2649,7 +2740,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-22T20:31:00",
     "end": "2026-08-22T21:00:00",
     "source": "Anime (sheet)",
@@ -2686,7 +2777,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-23T07:30:00",
+    "start": "2026-08-23T07:40:00",
     "end": "2026-08-23T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2721,7 +2812,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-23T09:15:00",
     "end": "2026-08-23T12:00:00",
     "source": "Anime (sheet)",
@@ -2783,7 +2874,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-23T13:40:00",
     "end": "2026-08-23T14:30:00",
     "source": "Anime (sheet)",
@@ -2795,7 +2886,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "JDR",
     "start": "2026-08-23T14:45:00",
     "end": "2026-08-23T16:30:00",
     "source": "Anime (sheet)",
@@ -2881,7 +2972,7 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "Prépa",
     "start": "2026-08-23T20:31:00",
     "end": "2026-08-23T21:00:00",
     "source": "Anime (sheet)",
@@ -2918,7 +3009,7 @@
   },
   {
     "title": "Petit Dèj",
-    "start": "2026-08-24T07:30:00",
+    "start": "2026-08-24T07:40:00",
     "end": "2026-08-24T08:00:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2953,9 +3044,21 @@
     ]
   },
   {
-    "title": "Activité",
+    "title": "job",
     "start": "2026-08-24T09:15:00",
     "end": "2026-08-24T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-08-24T12:15:00",
+    "end": "2026-08-24T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
