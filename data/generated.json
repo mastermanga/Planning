@@ -3104,6 +3104,30 @@
     ]
   },
   {
+    "title": "Réveil",
+    "start": "2026-08-25T07:00:00",
+    "end": "2026-08-25T07:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-25T07:40:00",
+    "end": "2026-08-25T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
     "start": "2026-08-26T19:00:00Z",
     "source": "football-data.org",
