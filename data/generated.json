@@ -3188,6 +3188,18 @@
     ]
   },
   {
+    "title": "JDR",
+    "start": "2026-08-25T14:45:00",
+    "end": "2026-08-25T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
     "start": "2026-08-26T19:00:00Z",
     "source": "football-data.org",
