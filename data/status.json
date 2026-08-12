@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:01:54.963Z",
+  "generatedAt": "2026-08-12T06:09:05.582Z",
   "total": 282,
   "counts": {
     "Anime (sheet)": 220,
@@ -10,9 +10,7 @@
     "football-data.org (foot)": 22,
     "F1 (f1calendar.com)": 5,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 0
+    "missed_anime_candidates": 4
   },
-  "errors": [
-    "missed-anime-sync: Missed sheet GET HTTP 404"
-  ]
+  "errors": []
 }
