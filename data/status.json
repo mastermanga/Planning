@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T14:20:38.016Z",
-  "total": 304,
+  "generatedAt": "2026-08-12T15:54:54.559Z",
+  "total": 305,
   "counts": {
-    "Anime (sheet)": 227,
+    "Anime (sheet)": 228,
     "Twitch:domingo": 9,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
@@ -10,7 +10,9 @@
     "football-data.org (foot)": 22,
     "F1 (f1calendar.com)": 5,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 4
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "missed-anime-sync: This operation was aborted"
+  ]
 }
