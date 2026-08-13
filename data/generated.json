@@ -3714,6 +3714,18 @@
     ]
   },
   {
+    "title": "Invest",
+    "start": "2026-08-27T20:31:00",
+    "end": "2026-08-27T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
     "start": "2026-08-28T18:30:00Z",
     "source": "football-data.org",
