@@ -726,7 +726,7 @@
   },
   {
     "title": "[LPL] Top Esports vs LGD Gaming",
-    "start": "2026-08-13T10:00:00Z",
+    "start": "2026-08-13T10:24:17Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -740,7 +740,7 @@
   },
   {
     "title": "[LCK] Gen.G vs Hanwha Life Esports",
-    "start": "2026-08-13T11:00:00Z",
+    "start": "2026-08-13T10:58:15Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -754,20 +754,6 @@
     ]
   },
   {
-    "title": "[LPL] ThunderTalk Gaming vs Bilibili Gaming",
-    "start": "2026-08-13T12:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-13T12:15:00",
     "end": "2026-08-13T13:29:00",
@@ -777,6 +763,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] ThunderTalk Gaming vs Bilibili Gaming",
+    "start": "2026-08-13T12:20:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
