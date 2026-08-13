@@ -3702,6 +3702,18 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-08-27T19:45:00",
+    "end": "2026-08-27T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs VfB Stuttgart",
     "start": "2026-08-28T18:30:00Z",
     "source": "football-data.org",
