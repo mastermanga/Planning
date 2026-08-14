@@ -96,20 +96,6 @@
     ]
   },
   {
-    "title": "[LEC] SK Gaming vs Team Vitality",
-    "start": "2026-08-10T15:02:18Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-10T16:45:00",
     "end": "2026-08-10T19:30:00",
@@ -119,20 +105,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LEC] Natus Vincere vs G2 Esports",
-    "start": "2026-08-10T16:45:51Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -2438,6 +2410,20 @@
     ]
   },
   {
+    "title": "[LPL] EDward Gaming vs ThunderTalk Gaming",
+    "start": "2026-08-21T07:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "Petit Dèj",
     "start": "2026-08-21T07:40:00",
     "end": "2026-08-21T08:00:00",
@@ -2447,6 +2433,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LCK] HANJIN BRION vs BNK FEARX",
+    "start": "2026-08-21T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2474,6 +2474,20 @@
     ]
   },
   {
+    "title": "[LPL] Anyone's Legend vs Team WE",
+    "start": "2026-08-21T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-08-21T09:15:00",
     "end": "2026-08-21T12:00:00",
@@ -2483,6 +2497,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs T1",
+    "start": "2026-08-21T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -2497,6 +2525,20 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "[LPL] Top Esports vs Bilibili Gaming",
+    "start": "2026-08-21T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -2550,6 +2592,20 @@
     ]
   },
   {
+    "title": "[LEC] Team Heretics vs SK Gaming",
+    "start": "2026-08-21T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Free Time",
     "start": "2026-08-21T16:45:00",
     "end": "2026-08-21T19:30:00",
@@ -2559,6 +2615,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Team Vitality vs Natus Vincere",
+    "start": "2026-08-21T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -3969,6 +4039,45 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester United FC vs Manchester City FC",
+    "start": "2026-09-13T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] SV 07 Elversberg vs FC Bayern München",
+    "start": "2026-09-13T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Stade Brestois 29 vs Paris Saint-Germain FC",
+    "start": "2026-09-13T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   }
 ]
