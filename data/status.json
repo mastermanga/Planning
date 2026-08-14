@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T17:47:44.790Z",
-  "total": 341,
+  "generatedAt": "2026-08-14T18:45:43.958Z",
+  "total": 342,
   "counts": {
-    "Anime (sheet)": 254,
+    "Anime (sheet)": 255,
     "Twitch:domingo": 9,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
@@ -10,7 +10,7 @@
     "football-data.org (foot)": 29,
     "F1 (f1calendar.com)": 5,
     "missed_anime_added": 1,
-    "missed_anime_candidates": 5
+    "missed_anime_candidates": 6
   },
   "errors": []
 }
