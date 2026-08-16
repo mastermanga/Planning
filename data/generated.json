@@ -1342,7 +1342,7 @@
   },
   {
     "title": "[LPL] LGD Gaming vs JD Gaming",
-    "start": "2026-08-16T07:00:00Z",
+    "start": "2026-08-16T07:07:26Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4322,6 +4322,18 @@
     "title": "Free Time",
     "start": "2026-08-29T21:30:00",
     "end": "2026-08-29T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-08-30T07:00:00",
+    "end": "2026-08-30T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
