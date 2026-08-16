@@ -1520,7 +1520,7 @@
   },
   {
     "title": "[LEC] G2 Esports vs Fnatic",
-    "start": "2026-08-16T17:15:00Z",
+    "start": "2026-08-16T17:06:23Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4461,6 +4461,18 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-08-30T16:45:00",
+    "end": "2026-08-30T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
