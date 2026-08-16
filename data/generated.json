@@ -421,20 +421,6 @@
     ]
   },
   {
-    "title": "[LCK] DN SOOPers vs Nongshim Red Force",
-    "start": "2026-08-12T08:00:24Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Marche",
     "start": "2026-08-12T08:10:00",
     "end": "2026-08-12T08:29:00",
@@ -456,20 +442,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] EDward Gaming vs Anyone's Legend",
-    "start": "2026-08-12T09:09:55Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -498,20 +470,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs Dplus KIA",
-    "start": "2026-08-12T10:56:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-12T12:15:00",
     "end": "2026-08-12T13:29:00",
@@ -521,20 +479,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Bilibili Gaming vs JD Gaming",
-    "start": "2026-08-12T12:41:28Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -3028,6 +2972,20 @@
     ]
   },
   {
+    "title": "[LPL] ThunderTalk Gaming vs LGD Gaming",
+    "start": "2026-08-23T07:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "Petit Dèj",
     "start": "2026-08-23T07:40:00",
     "end": "2026-08-23T08:00:00",
@@ -3037,6 +2995,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LCK] Hanwha Life Esports vs T1",
+    "start": "2026-08-23T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
@@ -3064,6 +3036,20 @@
     ]
   },
   {
+    "title": "[LPL] EDward Gaming vs JD Gaming",
+    "start": "2026-08-23T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-08-23T09:15:00",
     "end": "2026-08-23T12:00:00",
@@ -3076,6 +3062,20 @@
     ]
   },
   {
+    "title": "[LCK] BNK FEARX vs Nongshim Red Force",
+    "start": "2026-08-23T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "You and I Are Polar Opposites Season 2",
     "start": "2026-08-23T11:00:00",
     "source": "Anime (sheet)",
@@ -3084,6 +3084,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LPL] Bilibili Gaming vs Anyone's Legend",
+    "start": "2026-08-23T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -3150,6 +3164,20 @@
     ]
   },
   {
+    "title": "[LEC] Team Heretics vs GIANTX",
+    "start": "2026-08-23T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Newcastle United FC vs Liverpool FC",
     "start": "2026-08-23T15:30:00Z",
     "source": "football-data.org",
@@ -3172,6 +3200,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Shifters vs Karmine Corp",
+    "start": "2026-08-23T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -4507,6 +4549,32 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Elche CF vs Real Madrid CF",
+    "start": "2026-09-16T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Racing Club de Santander",
+    "start": "2026-09-16T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
