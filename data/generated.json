@@ -1368,7 +1368,7 @@
   },
   {
     "title": "[LCK] T1 vs Gen.G",
-    "start": "2026-08-16T08:00:00Z",
+    "start": "2026-08-16T08:00:31Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4334,6 +4334,30 @@
     "title": "Réveil",
     "start": "2026-08-30T07:00:00",
     "end": "2026-08-30T07:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-08-30T07:40:00",
+    "end": "2026-08-30T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-08-30T08:10:00",
+    "end": "16/08/2026T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
