@@ -1,16 +1,5 @@
 [
   {
-    "title": "Youjo Senki Season 2",
-    "start": "2026-08-11T16:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Re:Zero Season 4",
     "start": "2026-08-11T16:30:00",
     "source": "Anime (sheet)",
@@ -4342,6 +4331,17 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Youjo Senki Season 2",
+    "start": "2026-09-01T16:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
