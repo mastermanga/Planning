@@ -4300,6 +4300,19 @@
     ]
   },
   {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs AS Monaco FC",
+    "start": "2026-09-04T19:05:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Coventry City FC",
     "start": "2026-09-05T14:00:00Z",
     "source": "football-data.org",
@@ -4313,32 +4326,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs AS Monaco FC",
-    "start": "2026-09-05T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs Le Mans FC",
-    "start": "2026-09-05T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "⚽ [Bundesliga] FC Schalke 04 vs FC Bayern München",
     "start": "2026-09-05T16:30:00Z",
     "source": "football-data.org",
@@ -4349,6 +4336,19 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Le Mans FC",
+    "start": "2026-09-05T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   },
   {
