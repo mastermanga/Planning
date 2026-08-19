@@ -1,18 +1,5 @@
 [
   {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-08-12T13:00:00.000Z",
-    "end": "2026-08-12T16:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Formation",
     "start": "2026-08-12T13:40:00",
     "end": "2026-08-12T14:30:00",
@@ -1335,7 +1322,7 @@
   },
   {
     "title": "[LPL] Team WE vs EDward Gaming",
-    "start": "2026-08-19T13:15:00Z",
+    "start": "2026-08-19T13:28:26Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
