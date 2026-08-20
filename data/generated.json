@@ -534,20 +534,6 @@
     ]
   },
   {
-    "title": "[LPL] LGD Gaming vs JD Gaming",
-    "start": "2026-08-16T07:07:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "Petit Dèj",
     "start": "2026-08-16T07:40:00",
     "end": "2026-08-16T08:00:00",
@@ -557,21 +543,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs Gen.G",
-    "start": "2026-08-16T08:00:31Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
     ]
   },
   {
@@ -611,20 +582,6 @@
     ]
   },
   {
-    "title": "[LCK] Kiwoom DRX vs HANJIN BRION",
-    "start": "2026-08-16T10:36:16Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "You and I Are Polar Opposites Season 2",
     "start": "2026-08-16T11:00:00",
     "source": "Anime (sheet)",
@@ -645,20 +602,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Top Esports vs EDward Gaming",
-    "start": "2026-08-16T13:27:12Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -686,20 +629,6 @@
     ]
   },
   {
-    "title": "[LEC] Movistar KOI vs Natus Vincere",
-    "start": "2026-08-16T15:02:48Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-16T16:45:00",
     "end": "2026-08-16T19:30:00",
@@ -709,21 +638,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs Fnatic",
-    "start": "2026-08-16T17:06:23Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
     ]
   },
   {
@@ -3039,6 +2953,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-08-27T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-08-27T08:10:00",
     "end": "2026-08-27T08:29:00",
@@ -4479,6 +4407,45 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Sunderland AFC",
+    "start": "2026-09-19T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs Real Madrid CF",
+    "start": "2026-09-20T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Sevilla FC vs FC Barcelona",
+    "start": "2026-09-20T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
