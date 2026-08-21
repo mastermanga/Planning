@@ -1,17 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-08-14T12:15:00",
-    "end": "2026-08-14T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Formation",
     "start": "2026-08-14T13:40:00",
     "end": "2026-08-14T14:30:00",
@@ -1334,7 +1322,7 @@
   },
   {
     "title": "[LPL] Top Esports vs Bilibili Gaming",
-    "start": "2026-08-21T12:20:00Z",
+    "start": "2026-08-21T12:28:39Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4204,6 +4192,18 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-04T12:15:00",
+    "end": "2026-09-04T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
