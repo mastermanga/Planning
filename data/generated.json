@@ -1293,20 +1293,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs T1",
-    "start": "2026-08-21T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Dutch - Essais Libres 1",
     "start": "2026-08-21T10:30:00Z",
     "source": "f1calendar",
@@ -1318,6 +1304,20 @@
       "formula1",
       "sport_auto",
       "fp1"
+    ]
+  },
+  {
+    "title": "[LCK] KT Rolster vs T1",
+    "start": "2026-08-21T11:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
