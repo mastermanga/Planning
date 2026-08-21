@@ -614,34 +614,6 @@
     ]
   },
   {
-    "title": "[LEC] Natus Vincere vs Team Heretics",
-    "start": "2026-08-17T15:03:56Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
-    "title": "[LEC] GIANTX vs Karmine Corp",
-    "start": "2026-08-17T16:41:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-17T16:45:00",
     "end": "2026-08-17T19:30:00",
@@ -2930,6 +2902,20 @@
     ]
   },
   {
+    "title": "[LPL] Match",
+    "start": "2026-08-28T06:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-08-28T07:00:00",
     "end": "2026-08-28T07:20:00",
@@ -2954,6 +2940,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-08-28T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-08-28T08:10:00",
     "end": "2026-08-28T08:29:00",
@@ -2975,6 +2975,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Match",
+    "start": "2026-08-28T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -3026,6 +3040,20 @@
     ]
   },
   {
+    "title": "[LEC] Shifters vs Team Heretics",
+    "start": "2026-08-28T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Free Time",
     "start": "2026-08-28T16:45:00",
     "end": "2026-08-28T19:30:00",
@@ -3035,6 +3063,21 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Team Vitality vs Fnatic",
+    "start": "2026-08-28T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
@@ -4420,6 +4463,32 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] AFC Bournemouth vs Liverpool FC",
+    "start": "2026-09-20T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Olympique de Marseille vs Paris Saint-Germain FC",
+    "start": "2026-09-20T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   }
 ]
