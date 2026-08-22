@@ -1430,7 +1430,7 @@
   },
   {
     "title": "[LCK] DN SOOPers vs Kiwoom DRX",
-    "start": "2026-08-22T11:00:00Z",
+    "start": "2026-08-22T11:20:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4313,6 +4313,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Italian - Essais Libres 3",
+    "start": "2026-09-05T10:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Monza",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
     ]
   },
   {
