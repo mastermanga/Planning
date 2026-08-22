@@ -1,29 +1,5 @@
 [
   {
-    "title": "Petit Dèj",
-    "start": "2026-08-15T07:40:00",
-    "end": "2026-08-15T08:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche",
-    "start": "2026-08-15T08:10:00",
-    "end": "2026-08-15T08:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Squat - Fente",
     "start": "2026-08-15T08:40:00",
     "end": "2026-08-15T09:00:00",
@@ -1413,7 +1389,7 @@
   },
   {
     "title": "[LCK] Dplus KIA vs Gen.G",
-    "start": "2026-08-22T08:00:00Z",
+    "start": "2026-08-22T08:04:23Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4307,6 +4283,30 @@
     "title": "Réveil",
     "start": "2026-09-05T07:00:00",
     "end": "2026-09-05T07:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-09-05T07:40:00",
+    "end": "2026-09-05T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-09-05T08:10:00",
+    "end": "2026-09-05T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
