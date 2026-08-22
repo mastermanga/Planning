@@ -3036,6 +3036,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-08-29T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-08-29T08:10:00",
     "end": "2026-08-29T08:29:00",
@@ -3057,6 +3071,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Match",
+    "start": "2026-08-29T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -3121,6 +3149,20 @@
     ]
   },
   {
+    "title": "[LEC] Karmine Corp vs SK Gaming",
+    "start": "2026-08-29T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Black Torch",
     "start": "2026-08-29T15:20:00",
     "source": "Anime (sheet)",
@@ -3141,6 +3183,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Natus Vincere vs GIANTX",
+    "start": "2026-08-29T17:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
