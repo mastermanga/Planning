@@ -1415,20 +1415,6 @@
     ]
   },
   {
-    "title": "[LCK] DN SOOPers vs Kiwoom DRX",
-    "start": "2026-08-22T10:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Dutch - Sprint",
     "start": "2026-08-22T10:00:00Z",
     "source": "f1calendar",
@@ -1440,6 +1426,20 @@
       "formula1",
       "sport_auto",
       "sprint"
+    ]
+  },
+  {
+    "title": "[LCK] DN SOOPers vs Kiwoom DRX",
+    "start": "2026-08-22T11:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
     ]
   },
   {
