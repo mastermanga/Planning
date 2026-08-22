@@ -1,17 +1,5 @@
 [
   {
-    "title": "Prépa",
-    "start": "2026-08-15T13:40:00",
-    "end": "2026-08-15T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "JDR",
     "start": "2026-08-15T14:45:00",
     "end": "2026-08-15T16:30:00",
@@ -4330,6 +4318,18 @@
     ]
   },
   {
+    "title": "Prépa",
+    "start": "2026-09-05T13:40:00",
+    "end": "2026-09-05T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Coventry City FC",
     "start": "2026-09-05T14:00:00Z",
     "source": "football-data.org",
@@ -4340,6 +4340,20 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Italian - Qualifications",
+    "start": "2026-09-05T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Monza",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
     ]
   },
   {
