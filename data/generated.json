@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-08-16T07:00:00",
-    "end": "2026-08-16T07:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Petit Dèj",
     "start": "2026-08-16T07:40:00",
     "end": "2026-08-16T08:00:00",
@@ -1447,7 +1435,7 @@
   },
   {
     "title": "[LPL] ThunderTalk Gaming vs LGD Gaming",
-    "start": "2026-08-23T07:00:00Z",
+    "start": "2026-08-23T07:09:14Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4353,6 +4341,18 @@
     "title": "Free Time",
     "start": "2026-09-05T21:30:00",
     "end": "2026-09-05T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-09-06T07:00:00",
+    "end": "2026-09-06T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
