@@ -4362,6 +4362,20 @@
     ]
   },
   {
+    "title": "Italian - Course",
+    "start": "2026-09-06T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Monza",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
     "start": "2026-09-06T14:15:00Z",
     "source": "football-data.org",
