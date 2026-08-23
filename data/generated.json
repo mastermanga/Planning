@@ -1,16 +1,5 @@
 [
   {
-    "title": "Mushoku Tensei Season 3",
-    "start": "2026-08-16T17:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-16T19:45:00",
     "end": "2026-08-16T20:20:00",
@@ -4386,6 +4375,17 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-09-06T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
