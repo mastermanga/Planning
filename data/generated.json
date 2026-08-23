@@ -1,17 +1,5 @@
 [
   {
-    "title": "Prépa",
-    "start": "2026-08-16T13:40:00",
-    "end": "2026-08-16T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "JDR",
     "start": "2026-08-16T14:45:00",
     "end": "2026-08-16T16:30:00",
@@ -2066,7 +2054,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] KT Rolster vs HANJIN BRION",
     "start": "2026-08-26T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2237,7 +2225,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] Nongshim Red Force vs BNK FEARX",
     "start": "2026-08-27T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -4373,6 +4361,18 @@
       "formula1",
       "sport_auto",
       "course"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-09-06T13:40:00",
+    "end": "2026-09-06T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
