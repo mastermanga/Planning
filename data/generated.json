@@ -522,21 +522,6 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G vs KT Rolster",
-    "start": "2026-08-19T07:59:47Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Marche",
     "start": "2026-08-19T08:10:00",
     "end": "2026-08-19T08:29:00",
@@ -573,34 +558,6 @@
     ]
   },
   {
-    "title": "[LPL] Anyone's Legend vs Top Esports",
-    "start": "2026-08-19T10:21:51Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
-    "title": "[LCK] HANJIN BRION vs DN SOOPers",
-    "start": "2026-08-19T11:14:38Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-19T12:15:00",
     "end": "2026-08-19T13:29:00",
@@ -610,20 +567,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Team WE vs EDward Gaming",
-    "start": "2026-08-19T13:28:26Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -1452,32 +1395,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs FC Lorient",
-    "start": "2026-08-22T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] RCD Espanyol de Barcelona vs Real Madrid CF",
-    "start": "2026-08-22T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -3096,6 +3013,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-08-30T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-08-30T08:10:00",
     "end": "16/08/2026T08:29:00",
@@ -3120,6 +3051,20 @@
     ]
   },
   {
+    "title": "[LPL] Match",
+    "start": "2026-08-30T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-08-30T09:15:00",
     "end": "2026-08-30T12:00:00",
@@ -3140,6 +3085,20 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[LEC] Shifters vs Team Vitality",
+    "start": "2026-08-30T12:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -3180,6 +3139,20 @@
     ]
   },
   {
+    "title": "[LEC] Movistar KOI vs Team Heretics",
+    "start": "2026-08-30T14:15:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "JDR",
     "start": "2026-08-30T14:45:00",
     "end": "2026-08-30T16:30:00",
@@ -3202,6 +3175,21 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "[LEC] Fnatic vs GIANTX",
+    "start": "2026-08-30T16:30:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec",
+      "fnatic"
     ]
   },
   {
