@@ -1,16 +1,5 @@
 [
   {
-    "title": "You and I Are Polar Opposites Season 2",
-    "start": "2026-08-16T11:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-16T12:15:00",
     "end": "2026-08-16T13:29:00",
@@ -1501,20 +1490,6 @@
     ]
   },
   {
-    "title": "[LPL] Bilibili Gaming vs Anyone's Legend",
-    "start": "2026-08-23T11:20:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-23T12:15:00",
     "end": "2026-08-23T13:29:00",
@@ -1524,6 +1499,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Bilibili Gaming vs Anyone's Legend",
+    "start": "2026-08-23T12:20:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -2407,7 +2396,7 @@
     ]
   },
   {
-    "title": "[LPL] Match",
+    "title": "[LPL] ThunderTalk Gaming vs Invictus Gaming",
     "start": "2026-08-28T06:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2483,7 +2472,7 @@
     ]
   },
   {
-    "title": "[LPL] Match",
+    "title": "[LPL] EDward Gaming vs Ninjas in Pyjamas",
     "start": "2026-08-28T09:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -4359,6 +4348,17 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-09-06T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
