@@ -500,20 +500,6 @@
     ]
   },
   {
-    "title": "[LCK] Dplus KIA vs Hanwha Life Esports",
-    "start": "2026-08-20T08:01:33Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Marche",
     "start": "2026-08-20T08:10:00",
     "end": "2026-08-20T08:29:00",
@@ -538,20 +524,6 @@
     ]
   },
   {
-    "title": "[LPL] JD Gaming vs ThunderTalk Gaming",
-    "start": "2026-08-20T09:07:49Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "job",
     "start": "2026-08-20T09:15:00",
     "end": "2026-08-20T12:00:00",
@@ -561,34 +533,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] Nongshim Red Force vs Kiwoom DRX",
-    "start": "2026-08-20T10:28:07Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
-    "title": "[LPL] LGD Gaming vs Bilibili Gaming",
-    "start": "2026-08-20T12:12:31Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -1421,19 +1365,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs AFC Bournemouth",
-    "start": "2026-08-23T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Dutch - Course",
     "start": "2026-08-23T13:00:00Z",
     "source": "f1calendar",
@@ -1486,19 +1417,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Newcastle United FC vs Liverpool FC",
-    "start": "2026-08-23T15:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-23T16:45:00",
     "end": "2026-08-23T19:30:00",
@@ -1533,32 +1451,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Stade Rennais FC 1901",
-    "start": "2026-08-23T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Elche CF vs FC Barcelona",
-    "start": "2026-08-23T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
