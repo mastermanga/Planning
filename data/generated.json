@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-08-17T16:45:00",
-    "end": "2026-08-17T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Grand Blue Season 3",
     "start": "2026-08-17T17:30:00",
     "source": "Anime (sheet)",
@@ -1518,7 +1506,7 @@
   },
   {
     "title": "[LEC] GIANTX vs G2 Esports",
-    "start": "2026-08-24T17:15:00Z",
+    "start": "2026-08-24T17:07:17Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4272,6 +4260,18 @@
     "title": "JDR",
     "start": "2026-09-07T14:45:00",
     "end": "2026-09-07T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-07T16:45:00",
+    "end": "2026-09-07T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
