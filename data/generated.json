@@ -1,17 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-08-18T07:00:00",
-    "end": "2026-08-18T07:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Petit Dèj",
     "start": "2026-08-18T07:40:00",
     "end": "2026-08-18T08:00:00",
@@ -4188,6 +4176,18 @@
     "title": "Free Time",
     "start": "2026-09-07T21:30:00",
     "end": "2026-09-07T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-09-08T07:00:00",
+    "end": "2026-09-08T07:20:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
