@@ -1,17 +1,5 @@
 [
   {
-    "title": "Marche",
-    "start": "2026-08-19T08:10:00",
-    "end": "2026-08-19T08:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Curl - Elévation",
     "start": "2026-08-19T08:40:00",
     "end": "2026-08-19T09:00:00",
@@ -1336,7 +1324,7 @@
   },
   {
     "title": "[LCK] KT Rolster vs HANJIN BRION",
-    "start": "2026-08-26T08:00:00Z",
+    "start": "2026-08-26T08:02:30Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -4117,6 +4105,18 @@
     "title": "Petit Dèj",
     "start": "2026-09-09T07:40:00",
     "end": "2026-09-09T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-09-09T08:10:00",
+    "end": "2026-09-09T08:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
