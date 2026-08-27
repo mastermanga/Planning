@@ -564,20 +564,6 @@
     ]
   },
   {
-    "title": "[LPL] ThunderTalk Gaming vs LGD Gaming",
-    "start": "2026-08-23T07:09:14Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "Petit Dèj",
     "start": "2026-08-23T07:40:00",
     "end": "2026-08-23T08:00:00",
@@ -587,20 +573,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] Hanwha Life Esports vs T1",
-    "start": "2026-08-23T08:01:12Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -640,34 +612,6 @@
     ]
   },
   {
-    "title": "[LPL] EDward Gaming vs JD Gaming",
-    "start": "2026-08-23T09:28:18Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
-    "title": "[LCK] BNK FEARX vs Nongshim Red Force",
-    "start": "2026-08-23T10:14:14Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "You and I Are Polar Opposites Season 2",
     "start": "2026-08-23T11:00:00",
     "source": "Anime (sheet)",
@@ -688,20 +632,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Bilibili Gaming vs Anyone's Legend",
-    "start": "2026-08-23T12:23:11Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -743,20 +673,6 @@
     ]
   },
   {
-    "title": "[LEC] Team Heretics vs GIANTX",
-    "start": "2026-08-23T15:03:48Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-23T16:45:00",
     "end": "2026-08-23T19:30:00",
@@ -766,20 +682,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LEC] Shifters vs Karmine Corp",
-    "start": "2026-08-23T17:14:03Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1310,19 +1212,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Real Sociedad de Fútbol",
-    "start": "2026-08-26T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -2860,6 +2749,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-09-03T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-09-03T08:10:00",
     "end": "2026-09-03T08:29:00",
@@ -2881,6 +2784,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Anyone's Legend (TBD)",
+    "start": "2026-09-03T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
