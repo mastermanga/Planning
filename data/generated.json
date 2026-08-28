@@ -1,53 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-08-21T07:00:00",
-    "end": "2026-08-21T07:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-21T07:40:00",
-    "end": "2026-08-21T08:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche",
-    "start": "2026-08-21T08:10:00",
-    "end": "2026-08-21T08:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Pompe - Abdo",
-    "start": "2026-08-21T08:40:00",
-    "end": "2026-08-21T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "job",
     "start": "2026-08-21T09:15:00",
     "end": "2026-08-21T12:00:00",
@@ -684,21 +636,6 @@
     ]
   },
   {
-    "title": "[LEC] Natus Vincere vs Fnatic",
-    "start": "2026-08-24T15:02:29Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec",
-      "fnatic"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-24T16:45:00",
     "end": "2026-08-24T19:30:00",
@@ -708,20 +645,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LEC] GIANTX vs G2 Esports",
-    "start": "2026-08-24T17:07:17Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1229,19 +1152,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs Athletic Club",
-    "start": "2026-08-27T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-08-27T19:45:00",
     "end": "2026-08-27T20:20:00",
@@ -1279,7 +1189,7 @@
   },
   {
     "title": "[LPL] EDward Gaming vs Ninjas in Pyjamas",
-    "start": "2026-08-28T06:00:00Z",
+    "start": "2026-08-28T06:07:59Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1317,7 +1227,7 @@
   },
   {
     "title": "[LCK] HANJIN BRION vs BNK FEARX",
-    "start": "2026-08-28T08:00:00Z",
+    "start": "2026-08-28T08:01:31Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2777,6 +2687,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-09-04T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-09-04T08:10:00",
     "end": "2026-09-04T08:29:00",
@@ -2798,6 +2722,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Bilibili Gaming (TBD)",
+    "start": "2026-09-04T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
@@ -4034,6 +3972,54 @@
     "title": "Free Time",
     "start": "2026-09-10T21:30:00",
     "end": "2026-09-10T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-09-11T07:00:00",
+    "end": "2026-09-11T07:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-09-11T07:40:00",
+    "end": "2026-09-11T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-09-11T08:10:00",
+    "end": "2026-09-11T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Pompe - Abdo",
+    "start": "2026-09-11T08:40:00",
+    "end": "2026-09-11T09:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
