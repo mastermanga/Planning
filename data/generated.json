@@ -1,66 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-08-22T12:15:00",
-    "end": "2026-08-22T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-08-22T13:40:00",
-    "end": "2026-08-22T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Dutch - Qualifications",
-    "start": "2026-08-22T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Zandvoort",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-08-22T14:45:00",
-    "end": "2026-08-22T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Black Torch",
-    "start": "2026-08-22T15:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-08-22T16:45:00",
     "end": "2026-08-22T19:30:00",
@@ -1334,7 +1273,7 @@
   },
   {
     "title": "[LEC] Karmine Corp vs SK Gaming",
-    "start": "2026-08-29T15:00:00Z",
+    "start": "2026-08-29T15:03:18Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2285,7 +2224,7 @@
     ]
   },
   {
-    "title": "[LPL] Anyone's Legend (TBD)",
+    "title": "[LPL] LGD Gaming vs Anyone's Legend",
     "start": "2026-09-03T09:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2656,7 +2595,7 @@
     ]
   },
   {
-    "title": "[LPL] Invictus Gaming (TBD)",
+    "title": "[LPL] Invictus Gaming vs Top Esports",
     "start": "2026-09-05T06:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -4023,6 +3962,30 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-09-12T12:15:00",
+    "end": "2026-09-12T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-09-12T13:40:00",
+    "end": "2026-09-12T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Liverpool FC vs Fulham FC",
     "start": "2026-09-12T14:00:00Z",
     "source": "football-data.org",
@@ -4033,6 +3996,43 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "Spanish - Qualifications",
+    "start": "2026-09-12T14:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Madrid",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-09-12T14:45:00",
+    "end": "2026-09-12T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Black Torch",
+    "start": "2026-09-12T15:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
