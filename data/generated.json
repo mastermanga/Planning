@@ -1,88 +1,5 @@
 [
   {
-    "title": "Réveil",
-    "start": "2026-08-23T07:00:00",
-    "end": "2026-08-23T07:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-23T07:40:00",
-    "end": "2026-08-23T08:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche",
-    "start": "2026-08-23T08:10:00",
-    "end": "16/08/2026T08:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Curl - Elévation",
-    "start": "2026-08-23T08:40:00",
-    "end": "2026-08-23T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-08-23T09:15:00",
-    "end": "2026-08-23T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "You and I Are Polar Opposites Season 2",
-    "start": "2026-08-23T11:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-08-23T12:15:00",
-    "end": "2026-08-23T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Dutch - Course",
     "start": "2026-08-23T13:00:00Z",
     "source": "f1calendar",
@@ -1309,7 +1226,7 @@
   },
   {
     "title": "[LCK] Dplus KIA vs KT Rolster",
-    "start": "2026-08-30T08:00:00Z",
+    "start": "2026-08-30T08:04:51Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1347,7 +1264,7 @@
   },
   {
     "title": "[LPL] JD Gaming vs Team WE",
-    "start": "2026-08-30T09:00:00Z",
+    "start": "2026-08-30T09:08:40Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1384,7 +1301,7 @@
   },
   {
     "title": "[LEC] Shifters vs Team Vitality",
-    "start": "2026-08-30T12:00:00Z",
+    "start": "2026-08-30T12:03:14Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1750,7 +1667,7 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G (TBD)",
+    "title": "[LCK] Gen.G vs KT Rolster",
     "start": "2026-09-01T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1931,7 +1848,7 @@
     ]
   },
   {
-    "title": "[LCK] Hanwha Life Esports (TBD)",
+    "title": "[LCK] Hanwha Life Esports vs T1",
     "start": "2026-09-02T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2089,7 +2006,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] BNK FEARX vs Dplus KIA",
     "start": "2026-09-03T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -4087,6 +4004,89 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "Réveil",
+    "start": "2026-09-13T07:00:00",
+    "end": "2026-09-13T07:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Petit Dèj",
+    "start": "2026-09-13T07:40:00",
+    "end": "2026-09-13T08:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche",
+    "start": "2026-09-13T08:10:00",
+    "end": "16/08/2026T08:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Curl - Elévation",
+    "start": "2026-09-13T08:40:00",
+    "end": "2026-09-13T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-09-13T09:15:00",
+    "end": "2026-09-13T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-09-13T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-13T12:15:00",
+    "end": "2026-09-13T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
