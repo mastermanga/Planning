@@ -536,20 +536,6 @@
     ]
   },
   {
-    "title": "[LCK] KT Rolster vs HANJIN BRION",
-    "start": "2026-08-26T08:02:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Marche",
     "start": "2026-08-26T08:10:00",
     "end": "2026-08-26T08:29:00",
@@ -1150,19 +1136,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Liverpool FC vs Nottingham Forest FC",
-    "start": "2026-08-29T11:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
     ]
   },
   {
@@ -2811,6 +2784,20 @@
     ]
   },
   {
+    "title": "[LPL] Match",
+    "start": "2026-09-06T06:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "Réveil",
     "start": "2026-09-06T07:00:00",
     "end": "2026-09-06T07:20:00",
@@ -2835,6 +2822,20 @@
     ]
   },
   {
+    "title": "[LCK] Match",
+    "start": "2026-09-06T08:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lck"
+    ]
+  },
+  {
     "title": "Marche",
     "start": "2026-09-06T08:10:00",
     "end": "16/08/2026T08:29:00",
@@ -2856,6 +2857,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LPL] Match",
+    "start": "2026-09-06T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
     ]
   },
   {
