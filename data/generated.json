@@ -1,28 +1,5 @@
 [
   {
-    "title": "Mushoku Tensei Season 3",
-    "start": "2026-08-23T17:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-08-23T19:45:00",
-    "end": "2026-08-23T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-08-23T20:31:00",
     "end": "2026-08-23T21:00:00",
@@ -2467,6 +2444,20 @@
     ]
   },
   {
+    "title": "[LEC] Team Vitality vs G2 Esports",
+    "start": "2026-09-05T10:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "Italian - Essais Libres 3",
     "start": "2026-09-05T10:30:00Z",
     "source": "f1calendar",
@@ -2541,6 +2532,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp vs GIANTX",
+    "start": "2026-09-05T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -2824,6 +2829,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-09-06T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -3182,6 +3201,32 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs FC Internazionale Milano",
+    "start": "2026-09-08T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Porto vs Manchester City FC",
+    "start": "2026-09-08T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "manchester_city"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-08T19:45:00",
     "end": "2026-09-08T20:20:00",
@@ -3326,6 +3371,45 @@
     ]
   },
   {
+    "title": "⚽ [UEFA Champions League] FC Barcelona vs Feyenoord Rotterdam",
+    "start": "2026-09-09T16:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs Club Atlético de Madrid",
+    "start": "2026-09-09T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs ŠK Slovan Bratislava",
+    "start": "2026-09-09T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-09T19:45:00",
     "end": "2026-09-09T20:20:00",
@@ -3467,6 +3551,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Bayern München vs FK Bodø/Glimt",
+    "start": "2026-09-10T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern"
     ]
   },
   {
@@ -4116,6 +4213,17 @@
     ]
   },
   {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-09-13T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Stade Brestois 29 vs Paris Saint-Germain FC",
     "start": "2026-09-13T18:45:00Z",
     "source": "football-data.org",
@@ -4126,6 +4234,18 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-13T19:45:00",
+    "end": "2026-09-13T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
