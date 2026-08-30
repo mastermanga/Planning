@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T22:07:13.699Z",
+  "generatedAt": "2026-08-30T23:04:49.336Z",
   "total": 307,
   "counts": {
     "Anime (sheet)": 235,
@@ -10,7 +10,9 @@
     "football-data.org (foot)": 32,
     "F1 (f1calendar.com)": 10,
     "missed_anime_added": 0,
-    "missed_anime_candidates": 8
+    "missed_anime_candidates": 0
   },
-  "errors": []
+  "errors": [
+    "missed-anime-sync: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+  ]
 }
