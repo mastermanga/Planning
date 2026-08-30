@@ -1,55 +1,5 @@
 [
   {
-    "title": "Dutch - Course",
-    "start": "2026-08-23T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Zandvoort",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-08-23T13:40:00",
-    "end": "2026-08-23T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-08-23T14:45:00",
-    "end": "2026-08-23T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-08-23T16:45:00",
-    "end": "2026-08-23T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Mushoku Tensei Season 3",
     "start": "2026-08-23T17:30:00",
     "source": "Anime (sheet)",
@@ -1352,7 +1302,7 @@
   },
   {
     "title": "[LEC] Movistar KOI vs Team Heretics",
-    "start": "2026-08-30T14:15:00Z",
+    "start": "2026-08-30T13:53:10Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1391,7 +1341,7 @@
   },
   {
     "title": "[LEC] Fnatic vs GIANTX",
-    "start": "2026-08-30T16:30:00Z",
+    "start": "2026-08-30T15:45:47Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2044,7 +1994,7 @@
     ]
   },
   {
-    "title": "[LPL] Bilibili Gaming (TBD)",
+    "title": "[LPL] Bilibili Gaming vs Team WE",
     "start": "2026-09-03T09:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2491,7 +2441,7 @@
     ]
   },
   {
-    "title": "[LPL] Ninjas in Pyjamas (TBD)",
+    "title": "[LPL] Ninjas in Pyjamas vs JD Gaming",
     "start": "2026-09-05T09:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -4090,6 +4040,44 @@
     ]
   },
   {
+    "title": "Spanish - Course",
+    "start": "2026-09-13T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Madrid",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-09-13T13:40:00",
+    "end": "2026-09-13T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-09-13T14:45:00",
+    "end": "2026-09-13T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester United FC vs Manchester City FC",
     "start": "2026-09-13T15:30:00Z",
     "source": "football-data.org",
@@ -4113,6 +4101,18 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-13T16:45:00",
+    "end": "2026-09-13T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
