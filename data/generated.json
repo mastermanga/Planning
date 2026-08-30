@@ -1,19 +1,7 @@
 [
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-24T07:00:00",
-    "end": "2026-08-24T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-24T07:40:00",
     "end": "2026-08-24T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -143,20 +131,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-25T07:00:00",
-    "end": "2026-08-25T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-25T07:40:00",
     "end": "2026-08-25T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -297,20 +273,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-26T07:00:00",
-    "end": "2026-08-26T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-26T07:40:00",
     "end": "2026-08-26T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -429,20 +393,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-27T07:00:00",
-    "end": "2026-08-27T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-27T07:40:00",
     "end": "2026-08-27T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -589,20 +541,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-28T07:00:00",
-    "end": "2026-08-28T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-28T07:40:00",
     "end": "2026-08-28T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -800,20 +740,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-29T07:00:00",
-    "end": "2026-08-29T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-29T07:40:00",
     "end": "2026-08-29T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -999,20 +927,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-30T07:00:00",
-    "end": "2026-08-30T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-30T07:40:00",
     "end": "2026-08-30T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1250,20 +1166,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-08-31T07:00:00",
-    "end": "2026-08-31T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-08-31T07:40:00",
     "end": "2026-08-31T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1406,20 +1310,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-01T07:00:00",
-    "end": "2026-09-01T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-01T07:40:00",
     "end": "2026-09-01T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1584,20 +1476,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-02T07:00:00",
-    "end": "2026-09-02T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-02T07:40:00",
     "end": "2026-09-02T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1730,20 +1610,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-03T07:00:00",
-    "end": "2026-09-03T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-03T07:40:00",
     "end": "2026-09-03T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -1890,20 +1758,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-04T07:00:00",
-    "end": "2026-09-04T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-04T07:40:00",
     "end": "2026-09-04T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2153,20 +2009,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-05T07:00:00",
-    "end": "2026-09-05T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-05T07:40:00",
     "end": "2026-09-05T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2433,20 +2277,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-06T07:00:00",
-    "end": "2026-09-06T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-06T07:40:00",
     "end": "2026-09-06T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2656,20 +2488,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-07T07:00:00",
-    "end": "2026-09-07T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-07T07:40:00",
     "end": "2026-09-07T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2799,20 +2619,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-08T07:00:00",
-    "end": "2026-09-08T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-08T07:40:00",
     "end": "2026-09-08T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -2979,20 +2787,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-09T07:00:00",
-    "end": "2026-09-09T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-09T07:40:00",
     "end": "2026-09-09T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3150,20 +2946,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-10T07:00:00",
-    "end": "2026-09-10T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-10T07:40:00",
     "end": "2026-09-10T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3295,20 +3079,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-11T07:00:00",
-    "end": "2026-09-11T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-11T07:40:00",
     "end": "2026-09-11T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3477,20 +3249,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-12T07:00:00",
-    "end": "2026-09-12T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-12T07:40:00",
     "end": "2026-09-12T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
@@ -3700,20 +3460,8 @@
     ]
   },
   {
-    "title": "Réveil",
+    "title": "Réveil - Petit Dèj",
     "start": "2026-09-13T07:00:00",
-    "end": "2026-09-13T07:15:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Petit Dèj",
-    "start": "2026-09-13T07:40:00",
     "end": "2026-09-13T07:50:00",
     "source": "Anime (sheet)",
     "url": "",
