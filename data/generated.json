@@ -405,20 +405,6 @@
     ]
   },
   {
-    "title": "[LCK] Nongshim Red Force vs BNK FEARX",
-    "start": "2026-08-27T08:02:36Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Marche - Marche",
     "start": "2026-08-27T08:10:00",
     "end": "2026-08-27T09:00:00",
@@ -1028,19 +1014,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris FC vs OGC Nice",
-    "start": "2026-08-30T13:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-08-30T13:40:00",
     "end": "2026-08-30T14:30:00",
@@ -1076,19 +1049,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Málaga CF",
-    "start": "2026-08-30T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -2512,6 +2472,20 @@
     ]
   },
   {
+    "title": "[LPL] Match",
+    "start": "2026-09-07T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-09-07T09:15:00",
     "end": "2026-09-07T12:00:00",
@@ -3398,19 +3372,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Rayo Vallecano de Madrid",
-    "start": "2026-09-12T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-09-12T19:45:00",
     "end": "2026-09-12T20:20:00",
@@ -3444,6 +3405,32 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Levante UD vs FC Barcelona",
+    "start": "2026-09-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Rayo Vallecano de Madrid",
+    "start": "2026-09-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   },
   {
@@ -3529,19 +3516,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Levante UD vs FC Barcelona",
-    "start": "2026-09-13T14:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -3656,7 +3630,7 @@
   },
   {
     "title": "⚽ [Primera Division] Elche CF vs Real Madrid CF",
-    "start": "2026-09-15T19:30:00Z",
+    "start": "2026-09-16T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3669,7 +3643,7 @@
   },
   {
     "title": "⚽ [Primera Division] FC Barcelona vs Real Racing Club de Santander",
-    "start": "2026-09-16T19:30:00Z",
+    "start": "2026-09-16T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3707,8 +3681,21 @@
     ]
   },
   {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs Real Madrid CF",
+    "start": "2026-09-20T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Sevilla FC vs FC Barcelona",
-    "start": "2026-09-19T19:00:00Z",
+    "start": "2026-09-20T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3743,19 +3730,6 @@
       "foot",
       "premier_league",
       "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs Real Madrid CF",
-    "start": "2026-09-20T14:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
