@@ -1,17 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-08-25T19:45:00",
-    "end": "2026-08-25T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Invest",
     "start": "2026-08-25T20:31:00",
     "end": "2026-08-25T21:00:00",
@@ -1500,7 +1488,7 @@
     ]
   },
   {
-    "title": "[LCK] Match",
+    "title": "[LCK] KT Rolster (TBD)",
     "start": "2026-09-04T08:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3700,6 +3688,18 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-15T19:45:00",
+    "end": "2026-09-15T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
