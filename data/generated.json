@@ -1,28 +1,5 @@
 [
   {
-    "title": "Bleach: Thousand-Year Blood War - The Calamity",
-    "start": "2026-08-29T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-08-29T19:45:00",
-    "end": "2026-08-29T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-08-29T20:31:00",
     "end": "2026-08-29T21:00:00",
@@ -3613,6 +3590,17 @@
     ]
   },
   {
+    "title": "Bleach: Thousand-Year Blood War - The Calamity",
+    "start": "2026-09-19T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Sevilla FC vs FC Barcelona",
     "start": "2026-09-19T19:00:00Z",
     "source": "football-data.org",
@@ -3623,6 +3611,18 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-19T19:45:00",
+    "end": "2026-09-19T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
