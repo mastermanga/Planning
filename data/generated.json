@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-08-30T16:45:00",
-    "end": "2026-08-30T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Mushoku Tensei Season 3",
     "start": "2026-08-30T17:30:00",
     "source": "Anime (sheet)",
@@ -1320,7 +1308,7 @@
   },
   {
     "title": "[LEC] G2 Esports vs Karmine Corp",
-    "start": "2026-09-06T15:00:00Z",
+    "start": "2026-09-06T15:08:21Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2195,7 +2183,7 @@
     ]
   },
   {
-    "title": "[LCK] T1 vs Hanwha Life Esports",
+    "title": "[LCK] Hanwha Life Esports vs T1",
     "start": "2026-09-12T05:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3651,6 +3639,18 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-20T16:45:00",
+    "end": "2026-09-20T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
