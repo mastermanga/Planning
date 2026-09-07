@@ -505,20 +505,6 @@
     ]
   },
   {
-    "title": "[LCK] BNK FEARX vs Dplus KIA",
-    "start": "2026-09-03T08:02:42Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
-    ]
-  },
-  {
     "title": "Marche - Marche",
     "start": "2026-09-03T08:10:00",
     "end": "2026-09-03T09:00:00",
@@ -528,20 +514,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Bilibili Gaming vs Team WE",
-    "start": "2026-09-03T09:12:49Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -1232,19 +1204,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Valencia CF vs FC Barcelona",
-    "start": "2026-09-06T14:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
