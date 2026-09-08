@@ -1,64 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-01T17:30:00.000Z",
-    "end": "2026-09-01T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — SOIREE ENQUÊTE SUR DESK HOMICIDE",
-    "start": "2026-09-01T18:30:00.000Z",
-    "end": "2026-09-01T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-01T19:45:00",
-    "end": "2026-09-01T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR Isekhar",
-    "start": "2026-09-01T20:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": []
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-01T20:31:00",
-    "end": "2026-09-01T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-09-01T21:30:00",
     "end": "2026-09-01T00:00:00",
@@ -3641,6 +3582,30 @@
     "title": "Free Time",
     "start": "2026-09-22T16:45:00",
     "end": "2026-09-22T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-22T19:45:00",
+    "end": "2026-09-22T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-09-22T20:31:00",
+    "end": "2026-09-22T21:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
