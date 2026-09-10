@@ -488,20 +488,6 @@
     ]
   },
   {
-    "title": "[LPL] Invictus Gaming vs Team WE",
-    "start": "2026-09-06T06:09:28Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-06T07:00:00",
     "end": "2026-09-06T07:50:00",
@@ -511,20 +497,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LCK] T1 vs Dplus KIA",
-    "start": "2026-09-06T08:02:36Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck"
     ]
   },
   {
@@ -549,20 +521,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Ninjas in Pyjamas vs LGD Gaming",
-    "start": "2026-09-06T09:58:16Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -624,20 +582,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LEC] G2 Esports vs Karmine Corp",
-    "start": "2026-09-06T15:08:21Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
     ]
   },
   {
@@ -1121,45 +1065,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FC Barcelona vs Feyenoord Rotterdam",
-    "start": "2026-09-09T16:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Liverpool FC vs Club Atlético de Madrid",
-    "start": "2026-09-09T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "liverpool"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs ŠK Slovan Bratislava",
-    "start": "2026-09-09T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "psg"
     ]
   },
   {
@@ -2488,6 +2393,20 @@
     ]
   },
   {
+    "title": "[LPL] Top Esports (TBD)",
+    "start": "2026-09-17T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-09-17T09:15:00",
     "end": "2026-09-17T12:00:00",
@@ -3502,6 +3421,45 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Le Mans FC",
+    "start": "2026-10-10T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Getafe CF",
+    "start": "2026-10-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Villarreal CF",
+    "start": "2026-10-11T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
