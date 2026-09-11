@@ -1,52 +1,5 @@
 [
   {
-    "title": "The Elusive Samurai Season 2",
-    "start": "2026-09-04T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-04T19:45:00",
-    "end": "2026-09-04T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-04T20:31:00",
-    "end": "2026-09-04T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-04T21:30:00",
-    "end": "2026-09-04T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Domingo — ZEVENT 2026",
     "start": "2026-09-04T22:00:00.000Z",
     "end": "2026-09-05T21:00:00.000Z",
@@ -2306,7 +2259,7 @@
     ]
   },
   {
-    "title": "[LEC] Match",
+    "title": "[LEC] Natus Vincere (TBD)",
     "start": "2026-09-18T15:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3424,6 +3377,53 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "The Elusive Samurai Season 2",
+    "start": "2026-09-25T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-25T19:45:00",
+    "end": "2026-09-25T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-09-25T20:31:00",
+    "end": "2026-09-25T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-09-25T21:30:00",
+    "end": "2026-09-25T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
