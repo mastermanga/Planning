@@ -548,20 +548,6 @@
     ]
   },
   {
-    "title": "[LPL] Anyone's Legend vs Bilibili Gaming",
-    "start": "2026-09-07T09:07:32Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "job",
     "start": "2026-09-07T09:15:00",
     "end": "2026-09-07T12:00:00",
@@ -1091,19 +1077,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs FK Bodø/Glimt",
-    "start": "2026-09-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern"
     ]
   },
   {
@@ -2407,6 +2380,20 @@
     ]
   },
   {
+    "title": "[LPL] Team WE vs JD Gaming",
+    "start": "2026-09-18T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-09-18T09:15:00",
     "end": "2026-09-18T12:00:00",
@@ -2452,6 +2439,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Match",
+    "start": "2026-09-18T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
@@ -3488,6 +3489,33 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs RC Strasbourg Alsace",
+    "start": "2026-10-11T13:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Manchester City FC",
+    "start": "2026-10-11T15:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool",
+      "manchester_city"
     ]
   }
 ]
