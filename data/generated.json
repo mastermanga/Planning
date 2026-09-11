@@ -1,69 +1,5 @@
 [
   {
-    "title": "Italian - Essais Libres 1",
-    "start": "2026-09-04T10:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Monza",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-04T12:15:00",
-    "end": "2026-09-04T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Formation",
-    "start": "2026-09-04T13:40:00",
-    "end": "2026-09-04T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Italian - Essais Libres 2",
-    "start": "2026-09-04T14:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Monza",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-04T14:45:00",
-    "end": "2026-09-04T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Domingo — ZEVENT 2026",
     "start": "2026-09-04T16:00:00.000Z",
     "end": "2026-09-04T22:00:00.000Z",
@@ -3445,6 +3381,56 @@
     "title": "job",
     "start": "2026-09-25T09:15:00",
     "end": "2026-09-25T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Azerbaijan - Qualifications",
+    "start": "2026-09-25T12:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Baku",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "qualification"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-09-25T12:15:00",
+    "end": "2026-09-25T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-09-25T13:40:00",
+    "end": "2026-09-25T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-09-25T14:45:00",
+    "end": "2026-09-25T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
