@@ -483,20 +483,6 @@
     ]
   },
   {
-    "title": "[LPL] Invictus Gaming vs LGD Gaming",
-    "start": "2026-09-08T09:11:46Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
-    ]
-  },
-  {
     "title": "job",
     "start": "2026-09-08T09:15:00",
     "end": "2026-09-08T12:00:00",
@@ -2376,6 +2362,20 @@
     ]
   },
   {
+    "title": "[LPL] Match",
+    "start": "2026-09-19T09:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lpl"
+    ]
+  },
+  {
     "title": "job",
     "start": "2026-09-19T09:15:00",
     "end": "2026-09-19T12:00:00",
@@ -2421,6 +2421,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[LEC] Karmine Corp (TBD)",
+    "start": "2026-09-19T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
     ]
   },
   {
