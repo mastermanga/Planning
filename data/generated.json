@@ -1046,19 +1046,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Liverpool FC vs Fulham FC",
-    "start": "2026-09-12T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "Spanish - Qualifications",
     "start": "2026-09-12T14:00:00Z",
     "source": "f1calendar",
@@ -1119,32 +1106,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] AJ Auxerre vs OGC Nice",
-    "start": "2026-09-12T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Rayo Vallecano de Madrid",
-    "start": "2026-09-12T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -2460,6 +2421,20 @@
     ]
   },
   {
+    "title": "[LEC] G2 Esports (TBD)",
+    "start": "2026-09-20T15:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "lec"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] OGC Nice vs Lille OSC",
     "start": "2026-09-20T15:15:00Z",
     "source": "football-data.org",
@@ -3477,6 +3452,32 @@
       "premier_league",
       "liverpool",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Galatasaray SK vs FC Barcelona",
+    "start": "2026-10-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Viking FK vs FC Bayern München",
+    "start": "2026-10-13T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern"
     ]
   }
 ]
