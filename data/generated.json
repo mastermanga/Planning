@@ -501,21 +501,6 @@
     ]
   },
   {
-    "title": "[LCK] Gen.G vs Hanwha Life Esports",
-    "start": "2026-09-13T05:22:41Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lck",
-      "geng"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-13T07:00:00",
     "end": "2026-09-13T07:50:00",
@@ -537,20 +522,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[LPL] Bilibili Gaming vs Anyone's Legend",
-    "start": "2026-09-13T09:01:46Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lpl"
     ]
   },
   {
@@ -1105,19 +1076,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Racing Club de Santander",
-    "start": "2026-09-16T19:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -3435,6 +3393,71 @@
       "ldc",
       "manchester_city",
       "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Ipswich Town FC",
+    "start": "2026-10-17T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Brentford FC vs Liverpool FC",
+    "start": "2026-10-17T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs Paris Saint-Germain FC",
+    "start": "2026-10-17T15:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Betis Balompié vs FC Barcelona",
+    "start": "2026-10-17T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs RB Leipzig",
+    "start": "2026-10-17T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
     ]
   }
 ]
