@@ -1,54 +1,5 @@
 [
   {
-    "title": "Marche - Marche",
-    "start": "2026-09-10T08:10:00",
-    "end": "2026-09-10T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-09-10T09:15:00",
-    "end": "2026-09-10T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-10T12:00:00.000Z",
-    "end": "2026-09-10T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-10T12:15:00",
-    "end": "2026-09-10T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Domingo — STREAM LIBRE",
     "start": "2026-09-10T13:00:00.000Z",
     "end": "2026-09-10T17:00:00.000Z",
@@ -1128,7 +1079,7 @@
   },
   {
     "title": "[LPL] Top Esports vs Invictus Gaming",
-    "start": "2026-09-17T09:00:00Z",
+    "start": "2026-09-17T09:06:02Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1479,7 +1430,7 @@
     ]
   },
   {
-    "title": "[LPL] Match",
+    "title": "[LPL] Invictus Gaming (TBD)",
     "start": "2026-09-19T09:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3242,6 +3193,42 @@
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-01T07:00:00",
     "end": "2026-10-01T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Marche",
+    "start": "2026-10-01T08:10:00",
+    "end": "2026-10-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-01T09:15:00",
+    "end": "2026-10-01T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-01T12:15:00",
+    "end": "2026-10-01T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
