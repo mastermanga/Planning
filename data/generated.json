@@ -3433,5 +3433,31 @@
       "bundesliga",
       "bayern"
     ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Olympique Lyonnais vs OGC Nice",
+    "start": "2026-10-18T18:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Sevilla FC",
+    "start": "2026-10-18T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
   }
 ]
