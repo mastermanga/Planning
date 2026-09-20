@@ -1076,19 +1076,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] Sevilla FC vs FC Barcelona",
-    "start": "2026-09-19T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-09-19T19:45:00",
     "end": "2026-09-19T20:20:00",
@@ -3363,6 +3350,46 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Manchester City FC vs PAE AEK",
+    "start": "2026-10-20T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs Villarreal CF",
+    "start": "2026-10-20T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs FC Barcelona",
+    "start": "2026-10-20T19:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg",
+      "barcelone"
     ]
   }
 ]
