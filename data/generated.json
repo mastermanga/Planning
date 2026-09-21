@@ -1,41 +1,5 @@
 [
   {
-    "title": "Réveil - Petit Dèj",
-    "start": "2026-09-14T07:00:00",
-    "end": "2026-09-14T07:50:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche - Pompe - Abdo",
-    "start": "2026-09-14T08:10:00",
-    "end": "2026-09-14T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-09-14T09:15:00",
-    "end": "2026-09-14T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-09-14T12:15:00",
     "end": "2026-09-14T13:29:00",
@@ -1211,6 +1175,19 @@
     ]
   },
   {
+    "title": "Domingo — REACT KOH LANTA",
+    "start": "2026-09-21T18:30:00.000Z",
+    "end": "2026-09-21T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-21T19:45:00",
     "end": "2026-09-21T20:20:00",
@@ -1425,6 +1402,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-09-23T12:00:00.000Z",
+    "end": "2026-09-23T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-23T12:15:00",
     "end": "2026-09-23T13:29:00",
@@ -1434,6 +1424,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — Aprèm sur GeoGuessr",
+    "start": "2026-09-23T13:00:00.000Z",
+    "end": "2026-09-23T15:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1458,6 +1461,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-09-23T15:00:00.000Z",
+    "end": "2026-09-23T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1559,6 +1575,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-09-24T12:00:00.000Z",
+    "end": "2026-09-24T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Azerbaijan - Essais Libres 2",
     "start": "2026-09-24T12:00:00Z",
     "source": "f1calendar",
@@ -1582,6 +1611,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-09-24T13:00:00.000Z",
+    "end": "2026-09-24T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1707,6 +1749,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-09-25T12:00:00.000Z",
+    "end": "2026-09-25T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Azerbaijan - Qualifications",
     "start": "2026-09-25T12:00:00Z",
     "source": "f1calendar",
@@ -1730,6 +1785,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — BOMBANANA! avec Lowan & Owl",
+    "start": "2026-09-25T13:00:00.000Z",
+    "end": "2026-09-25T15:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1757,6 +1825,19 @@
     ]
   },
   {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-09-25T15:00:00.000Z",
+    "end": "2026-09-25T17:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Free Time",
     "start": "2026-09-25T16:45:00",
     "end": "2026-09-25T19:30:00",
@@ -1766,6 +1847,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — OUVERTURE NBA AVEC HUGO DECRYPTE",
+    "start": "2026-09-25T17:00:00.000Z",
+    "end": "2026-09-25T19:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -3033,6 +3127,42 @@
     "title": "Free Time",
     "start": "2026-10-04T21:30:00",
     "end": "2026-10-04T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-10-05T07:00:00",
+    "end": "2026-10-05T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-10-05T08:10:00",
+    "end": "2026-10-05T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-05T09:15:00",
+    "end": "2026-10-05T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
