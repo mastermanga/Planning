@@ -1,67 +1,5 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-15T12:00:00.000Z",
-    "end": "2026-09-15T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-15T12:12:00",
-    "end": "2026-09-15T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-09-15T13:00:00.000Z",
-    "end": "2026-09-15T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Dev",
-    "start": "2026-09-15T13:40:00",
-    "end": "2026-09-15T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-15T14:45:00",
-    "end": "2026-09-15T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Youjo Senki Season 2",
     "start": "2026-09-15T16:00:00",
     "source": "Anime (sheet)",
@@ -3109,6 +3047,42 @@
     "title": "job",
     "start": "2026-10-06T09:15:00",
     "end": "2026-10-06T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-06T12:12:00",
+    "end": "2026-10-06T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-10-06T13:40:00",
+    "end": "2026-10-06T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-06T14:45:00",
+    "end": "2026-10-06T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
