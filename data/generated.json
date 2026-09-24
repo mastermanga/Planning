@@ -511,20 +511,6 @@
     ]
   },
   {
-    "title": "[LEC] G2 Esports vs Movistar KOI",
-    "start": "2026-09-20T15:08:10Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "lec"
-    ]
-  },
-  {
     "title": "JDR Isekhar",
     "start": "2026-09-20T16:00:00",
     "source": "Anime (sheet)",
@@ -3363,6 +3349,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Aston Villa FC vs Manchester City FC",
+    "start": "2026-10-24T11:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
     ]
   }
 ]
