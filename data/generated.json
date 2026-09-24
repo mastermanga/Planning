@@ -1,41 +1,5 @@
 [
   {
-    "title": "Réveil - Petit Dèj",
-    "start": "2026-09-17T07:00:00",
-    "end": "2026-09-17T07:50:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche - Marche",
-    "start": "2026-09-17T08:10:00",
-    "end": "2026-09-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-09-17T09:15:00",
-    "end": "2026-09-17T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-09-17T12:00:00.000Z",
     "end": "2026-09-17T13:00:00.000Z",
@@ -3028,6 +2992,42 @@
     "title": "Free Time",
     "start": "2026-10-07T21:30:00",
     "end": "2026-10-07T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-10-08T07:00:00",
+    "end": "2026-10-08T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Marche",
+    "start": "2026-10-08T08:10:00",
+    "end": "2026-10-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-08T09:15:00",
+    "end": "2026-10-08T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
