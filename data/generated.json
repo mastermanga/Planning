@@ -3337,5 +3337,58 @@
       "premier_league",
       "manchester_city"
     ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Brighton & Hove Albion FC",
+    "start": "2026-10-25T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
+    "start": "2026-10-25T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Olympique Lyonnais",
+    "start": "2026-10-25T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Real Madrid CF",
+    "start": "2026-10-25T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone",
+      "real_madrid"
+    ]
   }
 ]
