@@ -1,41 +1,5 @@
 [
   {
-    "title": "Marche - Pompe - Abdo",
-    "start": "2026-09-18T08:10:00",
-    "end": "2026-09-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-09-18T09:15:00",
-    "end": "2026-09-18T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-18T12:15:00",
-    "end": "2026-09-18T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Formation",
     "start": "2026-09-18T13:40:00",
     "end": "2026-09-18T14:30:00",
@@ -3008,6 +2972,70 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-10-09T08:10:00",
+    "end": "2026-10-09T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Singapore - Essais Libres 1",
+    "start": "2026-10-09T08:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Singapore",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-09T09:15:00",
+    "end": "2026-10-09T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-09T12:15:00",
+    "end": "2026-10-09T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Singapore - Qualifs Sprint",
+    "start": "2026-10-09T12:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Singapore",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "sprint_qualifying"
     ]
   },
   {
