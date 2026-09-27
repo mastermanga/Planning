@@ -1,50 +1,5 @@
 [
   {
-    "title": "Prépa",
-    "start": "2026-09-20T13:40:00",
-    "end": "2026-09-20T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-20T14:45:00",
-    "end": "2026-09-20T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR Isekhar",
-    "start": "2026-09-20T16:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": []
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-20T16:45:00",
-    "end": "2026-09-20T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Mushoku Tensei Season 3",
     "start": "2026-09-20T17:30:00",
     "source": "Anime (sheet)",
@@ -3146,6 +3101,30 @@
     ]
   },
   {
+    "title": "Prépa",
+    "start": "2026-10-11T13:40:00",
+    "end": "2026-10-11T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-11T14:45:00",
+    "end": "2026-10-11T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Liverpool FC vs Manchester City FC",
     "start": "2026-10-11T15:30:00Z",
     "source": "football-data.org",
@@ -3157,6 +3136,18 @@
       "premier_league",
       "liverpool",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-11T16:45:00",
+    "end": "2026-10-11T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
