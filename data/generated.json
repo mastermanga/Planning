@@ -1,64 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-09-21T12:15:00",
-    "end": "2026-09-21T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Formation",
-    "start": "2026-09-21T13:40:00",
-    "end": "2026-09-21T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-21T14:45:00",
-    "end": "2026-09-21T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-21T16:45:00",
-    "end": "2026-09-21T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Grand Blue Season 3",
-    "start": "2026-09-21T17:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
     "title": "Domingo — REACT KOH LANTA",
     "start": "2026-09-21T18:30:00.000Z",
     "end": "2026-09-21T22:00:00.000Z",
@@ -1187,6 +1128,19 @@
     ]
   },
   {
+    "title": "Domingo — REACT KOH LANTA",
+    "start": "2026-09-28T18:30:00.000Z",
+    "end": "2026-09-28T21:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-28T19:45:00",
     "end": "2026-09-28T20:20:00",
@@ -1329,6 +1283,32 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-09-29T17:30:00.000Z",
+    "end": "2026-09-29T18:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — Minecraft Dungeons II avec Horty, Splinter & Baghera",
+    "start": "2026-09-29T18:00:00.000Z",
+    "end": "2026-09-29T20:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-09-29T19:45:00",
     "end": "2026-09-29T20:20:00",
@@ -1338,6 +1318,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-09-29T20:00:00.000Z",
+    "end": "2026-09-29T22:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1446,6 +1439,32 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-09-30T17:30:00.000Z",
+    "end": "2026-09-30T18:30:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
+    "title": "Domingo — REACT KOH LANTA",
+    "start": "2026-09-30T18:30:00.000Z",
+    "end": "2026-09-30T21:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -1641,6 +1660,19 @@
     ]
   },
   {
+    "title": "Domingo — PRÉ LIVE",
+    "start": "2026-10-02T12:00:00.000Z",
+    "end": "2026-10-02T13:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-10-02T12:15:00",
     "end": "2026-10-02T13:29:00",
@@ -1650,6 +1682,19 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Domingo — STREAM LIBRE",
+    "start": "2026-10-02T13:00:00.000Z",
+    "end": "2026-10-02T15:00:00.000Z",
+    "source": "Twitch:domingo",
+    "url": "https://www.twitch.tv/domingo/schedule",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "twitch",
+      "domingo"
     ]
   },
   {
@@ -2006,6 +2051,15 @@
     "tags": [
       "matin"
     ]
+  },
+  {
+    "title": "JDR Isekhar",
+    "start": "2026-10-04T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": []
   },
   {
     "title": "Free Time",
@@ -3139,6 +3193,65 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-12T12:15:00",
+    "end": "2026-10-12T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-10-12T13:40:00",
+    "end": "2026-10-12T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-12T14:45:00",
+    "end": "2026-10-12T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-12T16:45:00",
+    "end": "2026-10-12T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Grand Blue Season 3",
+    "start": "2026-10-12T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
