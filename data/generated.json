@@ -1,42 +1,6 @@
 [
   {
     "title": "Free Time",
-    "start": "2026-09-22T16:45:00",
-    "end": "2026-09-22T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-22T19:45:00",
-    "end": "2026-09-22T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-22T20:31:00",
-    "end": "2026-09-22T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
     "start": "2026-09-22T21:30:00",
     "end": "2026-09-22T00:00:00",
     "source": "Anime (sheet)",
@@ -3242,6 +3206,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-10-13T16:45:00",
+    "end": "2026-10-13T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] Galatasaray SK vs FC Barcelona",
     "start": "2026-10-13T19:00:00Z",
     "source": "football-data.org",
@@ -3265,6 +3241,30 @@
       "foot",
       "ldc",
       "bayern"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-13T19:45:00",
+    "end": "2026-10-13T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-10-13T20:31:00",
+    "end": "2026-10-13T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
