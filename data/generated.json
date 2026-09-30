@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-09-22T21:30:00",
-    "end": "2026-09-22T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-23T07:00:00",
     "end": "2026-09-23T07:50:00",
@@ -3268,6 +3256,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-10-13T21:30:00",
+    "end": "2026-10-13T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] LASK Linz vs Liverpool FC",
     "start": "2026-10-14T16:45:00Z",
     "source": "football-data.org",
@@ -3541,6 +3541,19 @@
       "liga",
       "barcelone",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Le Havre AC vs Paris Saint-Germain FC",
+    "start": "2026-10-30T18:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   }
 ]
