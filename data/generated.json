@@ -1,41 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-09-23T19:45:00",
-    "end": "2026-09-23T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-23T20:31:00",
-    "end": "2026-09-23T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-23T21:30:00",
-    "end": "2026-09-23T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-24T07:00:00",
     "end": "2026-09-24T07:50:00",
@@ -3266,6 +3230,42 @@
       "ldc",
       "manchester_city",
       "psg"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-14T19:45:00",
+    "end": "2026-10-14T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-10-14T20:31:00",
+    "end": "2026-10-14T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-14T21:30:00",
+    "end": "2026-10-14T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
