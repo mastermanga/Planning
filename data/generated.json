@@ -1,107 +1,5 @@
 [
   {
-    "title": "Azerbaijan - Essais Libres 1",
-    "start": "2026-09-24T08:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Baku",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-09-24T09:15:00",
-    "end": "2026-09-24T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-24T12:00:00.000Z",
-    "end": "2026-09-24T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Azerbaijan - Essais Libres 2",
-    "start": "2026-09-24T12:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Baku",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-24T12:15:00",
-    "end": "2026-09-24T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-09-24T13:00:00.000Z",
-    "end": "2026-09-24T17:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Dev",
-    "start": "2026-09-24T13:40:00",
-    "end": "2026-09-24T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-24T14:45:00",
-    "end": "2026-09-24T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-09-24T16:45:00",
     "end": "2026-09-24T19:30:00",
@@ -3260,6 +3158,54 @@
     "title": "Marche - Marche",
     "start": "2026-10-15T08:10:00",
     "end": "2026-10-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-15T09:15:00",
+    "end": "2026-10-15T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-15T12:15:00",
+    "end": "2026-10-15T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-10-15T13:40:00",
+    "end": "2026-10-15T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-15T14:45:00",
+    "end": "2026-10-15T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
