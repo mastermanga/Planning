@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-09-24T21:30:00",
-    "end": "2026-09-24T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-25T07:00:00",
     "end": "2026-09-25T07:50:00",
@@ -3215,6 +3203,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-10-15T21:30:00",
+    "end": "2026-10-15T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Ipswich Town FC",
     "start": "2026-10-17T14:00:00Z",
     "source": "football-data.org",
@@ -3526,6 +3526,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Arsenal FC",
+    "start": "2026-11-01T16:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
     ]
   }
 ]
