@@ -3446,5 +3446,44 @@
       "premier_league",
       "liverpool"
     ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] FC Barcelona vs Aston Villa FC",
+    "start": "2026-11-03T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs FC Bayern München",
+    "start": "2026-11-03T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Villarreal CF vs Paris Saint-Germain FC",
+    "start": "2026-11-03T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg"
+    ]
   }
 ]
