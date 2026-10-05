@@ -3494,5 +3494,44 @@
       "ldc",
       "psg"
     ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] PAE AEK vs Real Madrid CF",
+    "start": "2026-11-04T17:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Fenerbahçe SK vs Liverpool FC",
+    "start": "2026-11-04T17:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] RB Leipzig vs Manchester City FC",
+    "start": "2026-11-04T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "manchester_city"
+    ]
   }
 ]
