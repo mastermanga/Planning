@@ -1,88 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-09-29T12:12:00",
-    "end": "2026-09-29T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Dev",
-    "start": "2026-09-29T13:40:00",
-    "end": "2026-09-29T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-09-29T14:45:00",
-    "end": "2026-09-29T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Youjo Senki Season 2",
-    "start": "2026-09-29T16:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Re:Zero Season 4",
-    "start": "2026-09-29T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-29T16:45:00",
-    "end": "2026-09-29T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-29T17:30:00.000Z",
-    "end": "2026-09-29T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — Minecraft Dungeons II avec Horty, Splinter & Baghera",
     "start": "2026-09-29T18:00:00.000Z",
     "end": "2026-09-29T20:00:00.000Z",
@@ -3316,6 +3233,76 @@
     "title": "job",
     "start": "2026-10-20T09:15:00",
     "end": "2026-10-20T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-20T12:12:00",
+    "end": "2026-10-20T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-10-20T13:40:00",
+    "end": "2026-10-20T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-20T14:45:00",
+    "end": "2026-10-20T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Youjo Senki Season 2",
+    "start": "2026-10-20T16:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Re:Zero Season 4",
+    "start": "2026-10-20T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-20T16:45:00",
+    "end": "2026-10-20T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
