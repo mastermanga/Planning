@@ -1,67 +1,5 @@
 [
   {
-    "title": "Domingo — Minecraft Dungeons II avec Horty, Splinter & Baghera",
-    "start": "2026-09-29T18:00:00.000Z",
-    "end": "2026-09-29T20:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-29T19:45:00",
-    "end": "2026-09-29T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-09-29T20:00:00.000Z",
-    "end": "2026-09-29T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-29T20:31:00",
-    "end": "2026-09-29T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-29T21:30:00",
-    "end": "2026-09-29T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-09-30T07:00:00",
     "end": "2026-09-30T07:50:00",
@@ -3349,6 +3287,42 @@
       "ldc",
       "psg",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-20T19:45:00",
+    "end": "2026-10-20T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-10-20T20:31:00",
+    "end": "2026-10-20T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-20T21:30:00",
+    "end": "2026-10-20T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
