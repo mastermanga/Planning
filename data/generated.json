@@ -1,79 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-09-30T16:45:00",
-    "end": "2026-09-30T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-09-30T17:30:00.000Z",
-    "end": "2026-09-30T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Domingo — REACT KOH LANTA",
-    "start": "2026-09-30T18:30:00.000Z",
-    "end": "2026-09-30T21:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-09-30T19:45:00",
-    "end": "2026-09-30T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-09-30T20:31:00",
-    "end": "2026-09-30T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-09-30T21:30:00",
-    "end": "2026-09-30T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-01T07:00:00",
     "end": "2026-10-01T07:50:00",
@@ -3326,6 +3252,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-10-21T16:45:00",
+    "end": "2026-10-21T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] Real Madrid CF vs RB Leipzig",
     "start": "2026-10-21T19:00:00Z",
     "source": "football-data.org",
@@ -3349,6 +3287,42 @@
       "foot",
       "ldc",
       "bayern"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-21T19:45:00",
+    "end": "2026-10-21T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-10-21T20:31:00",
+    "end": "2026-10-21T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-21T21:30:00",
+    "end": "2026-10-21T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
