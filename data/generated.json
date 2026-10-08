@@ -3572,5 +3572,70 @@
       "ldc",
       "manchester_city"
     ]
+  },
+  {
+    "title": "⚽ [Bundesliga] 1. FSV Mainz 05 vs FC Bayern München",
+    "start": "2026-11-07T14:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Nottingham Forest FC vs Manchester City FC",
+    "start": "2026-11-07T17:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs ES Troyes AC",
+    "start": "2026-11-07T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
+    "start": "2026-11-08T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-11-08T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
   }
 ]
