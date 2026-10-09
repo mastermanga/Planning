@@ -3637,5 +3637,31 @@
       "liga",
       "barcelone"
     ]
+  },
+  {
+    "title": "⚽ [Premier League] Crystal Palace FC vs Liverpool FC",
+    "start": "2026-11-08T14:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Angers SCO vs OGC Nice",
+    "start": "2026-11-08T16:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
   }
 ]
