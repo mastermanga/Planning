@@ -1036,19 +1036,6 @@
     ]
   },
   {
-    "title": "⚽ [Bundesliga] FC Augsburg vs FC Bayern München",
-    "start": "2026-10-10T13:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-10-10T13:40:00",
     "end": "2026-10-10T14:30:00",
@@ -1073,19 +1060,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] FC Barcelona vs Getafe CF",
-    "start": "2026-10-10T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-10T16:45:00",
     "end": "2026-10-10T19:30:00",
@@ -1106,32 +1080,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Le Mans FC",
-    "start": "2026-10-10T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Villarreal CF",
-    "start": "2026-10-10T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
