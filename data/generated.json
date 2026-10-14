@@ -1,54 +1,5 @@
 [
   {
-    "title": "Formation",
-    "start": "2026-10-07T13:40:00",
-    "end": "2026-10-07T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-10-07T14:45:00",
-    "end": "2026-10-07T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-10-07T16:45:00",
-    "end": "2026-10-07T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-10-07T17:30:00.000Z",
-    "end": "2026-10-07T18:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Domingo — REACT KOH LANTA EP.7",
     "start": "2026-10-07T18:30:00.000Z",
     "end": "2026-10-07T22:00:00.000Z",
@@ -3488,6 +3439,42 @@
     "title": "Repas",
     "start": "2026-10-28T12:15:00",
     "end": "2026-10-28T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-10-28T13:40:00",
+    "end": "2026-10-28T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-28T14:45:00",
+    "end": "2026-10-28T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-28T16:45:00",
+    "end": "2026-10-28T19:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
