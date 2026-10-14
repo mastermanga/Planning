@@ -1088,32 +1088,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] Galatasaray SK vs FC Barcelona",
-    "start": "2026-10-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Viking FK vs FC Bayern München",
-    "start": "2026-10-13T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-10-13T19:45:00",
     "end": "2026-10-13T20:20:00",
@@ -3732,7 +3706,7 @@
   },
   {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
-    "start": "2026-11-07T20:00:00Z",
+    "start": "2026-11-08T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3741,6 +3715,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-11-08T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
@@ -3767,19 +3754,6 @@
       "foot",
       "ligue1",
       "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
-    "start": "2026-11-08T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   }
 ]
