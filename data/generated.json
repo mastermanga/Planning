@@ -1062,19 +1062,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] LASK Linz vs Liverpool FC",
-    "start": "2026-10-14T16:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "liverpool"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-10-14T17:30:00.000Z",
     "end": "2026-10-14T18:30:00.000Z",
@@ -1098,33 +1085,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] AS Roma vs Real Madrid CF",
-    "start": "2026-10-14T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Manchester City FC vs Paris Saint-Germain FC",
-    "start": "2026-10-14T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "manchester_city",
-      "psg"
     ]
   },
   {
