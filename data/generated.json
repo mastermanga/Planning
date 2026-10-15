@@ -1,29 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-08T19:45:00",
-    "end": "2026-10-08T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-10-08T20:31:00",
-    "end": "2026-10-08T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-08T21:30:00",
     "end": "2026-10-08T00:00:00",
@@ -1151,7 +1127,7 @@
   },
   {
     "title": "[Worlds] Cloud9 vs Karmine Corp",
-    "start": "2026-10-15T18:00:00Z",
+    "start": "2026-10-15T18:20:58Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3405,6 +3381,30 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-10-29T19:45:00",
+    "end": "2026-10-29T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-10-29T20:31:00",
+    "end": "2026-10-29T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Le Havre AC vs Paris Saint-Germain FC",
     "start": "2026-10-30T18:00:00Z",
     "source": "football-data.org",
@@ -3614,7 +3614,7 @@
   },
   {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
-    "start": "2026-11-08T00:00:00Z",
+    "start": "2026-11-07T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3623,19 +3623,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
-    "start": "2026-11-08T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -3662,6 +3649,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-11-08T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
