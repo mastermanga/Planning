@@ -1,82 +1,5 @@
 [
   {
-    "title": "Marche - Pompe - Abdo",
-    "start": "2026-10-09T08:10:00",
-    "end": "2026-10-09T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Singapore - Essais Libres 1",
-    "start": "2026-10-09T08:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Singapore",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp1"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-10-09T09:15:00",
-    "end": "2026-10-09T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-10-09T12:00:00.000Z",
-    "end": "2026-10-09T13:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-10-09T12:15:00",
-    "end": "2026-10-09T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Singapore - Qualifs Sprint",
-    "start": "2026-10-09T12:30:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Singapore",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "sprint_qualifying"
-    ]
-  },
-  {
     "title": "Domingo — SUITE DE L'AVENTURE AU JAPON",
     "start": "2026-10-09T13:00:00.000Z",
     "end": "2026-10-09T17:00:00.000Z",
@@ -3494,6 +3417,42 @@
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-30T07:00:00",
     "end": "2026-10-30T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-10-30T08:10:00",
+    "end": "2026-10-30T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-10-30T09:15:00",
+    "end": "2026-10-30T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-30T12:15:00",
+    "end": "2026-10-30T13:29:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
