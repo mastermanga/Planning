@@ -1,29 +1,5 @@
 [
   {
-    "title": "Invest",
-    "start": "2026-10-09T20:31:00",
-    "end": "2026-10-09T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-10-09T21:30:00",
-    "end": "2026-10-09T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-10T07:00:00",
     "end": "2026-10-10T07:50:00",
@@ -1150,20 +1126,8 @@
     ]
   },
   {
-    "title": "Free Time",
-    "start": "2026-10-16T21:30:00",
-    "end": "2026-10-16T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[Worlds] FURIA Esports vs Cloud9",
-    "start": "2026-10-16T23:00:00Z",
+    "start": "2026-10-16T20:50:01Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1173,6 +1137,18 @@
       "esport",
       "lol",
       "worlds"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-16T21:30:00",
+    "end": "2026-10-16T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -1336,7 +1312,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] MVK Esports (TBD)",
     "start": "2026-10-17T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1501,7 +1477,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Karmine Corp (TBD)",
     "start": "2026-10-18T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3476,6 +3452,44 @@
     ]
   },
   {
+    "title": "Invest",
+    "start": "2026-10-30T20:31:00",
+    "end": "2026-10-30T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-30T21:30:00",
+    "end": "2026-10-30T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mexican - Essais Libres 2",
+    "start": "2026-10-30T22:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Mexico City",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp2"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Brighton & Hove Albion FC",
     "start": "2026-10-31T15:00:00Z",
     "source": "football-data.org",
@@ -3672,7 +3686,7 @@
   },
   {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
-    "start": "2026-11-08T00:00:00Z",
+    "start": "2026-11-07T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3681,19 +3695,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
-    "start": "2026-11-08T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -3720,6 +3721,19 @@
       "foot",
       "ligue1",
       "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-11-08T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
