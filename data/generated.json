@@ -1,39 +1,5 @@
 [
   {
-    "title": "Slime Season 4",
-    "start": "2026-10-09T17:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "The Elusive Samurai Season 2",
-    "start": "2026-10-09T18:20:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-10-09T19:45:00",
-    "end": "2026-10-09T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Invest",
     "start": "2026-10-09T20:31:00",
     "end": "2026-10-09T21:00:00",
@@ -1136,7 +1102,7 @@
   },
   {
     "title": "[Worlds] MVK Esports vs Karmine Corp",
-    "start": "2026-10-16T18:00:00Z",
+    "start": "2026-10-16T18:06:01Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3449,6 +3415,17 @@
     ]
   },
   {
+    "title": "Slime Season 4",
+    "start": "2026-10-30T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Ligue 1] Le Havre AC vs Paris Saint-Germain FC",
     "start": "2026-10-30T18:00:00Z",
     "source": "football-data.org",
@@ -3459,6 +3436,43 @@
       "foot",
       "ligue1",
       "psg"
+    ]
+  },
+  {
+    "title": "The Elusive Samurai Season 2",
+    "start": "2026-10-30T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Mexican - Essais Libres 1",
+    "start": "2026-10-30T18:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Mexico City",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-30T19:45:00",
+    "end": "2026-10-30T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -3658,7 +3672,7 @@
   },
   {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
-    "start": "2026-11-07T20:00:00Z",
+    "start": "2026-11-08T00:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3667,6 +3681,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
+    "start": "2026-11-08T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
@@ -3693,19 +3720,6 @@
       "foot",
       "ligue1",
       "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
-    "start": "2026-11-08T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   }
 ]
