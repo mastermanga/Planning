@@ -1,55 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-10T12:15:00",
-    "end": "2026-10-10T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Singapore - Qualifications",
-    "start": "2026-10-10T13:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Singapore",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-10-10T13:40:00",
-    "end": "2026-10-10T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-10-10T14:45:00",
-    "end": "2026-10-10T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-10T16:45:00",
     "end": "2026-10-10T19:30:00",
@@ -3570,6 +3520,42 @@
     "title": "job",
     "start": "2026-10-31T09:15:00",
     "end": "2026-10-31T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-10-31T12:15:00",
+    "end": "2026-10-31T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-10-31T13:40:00",
+    "end": "2026-10-31T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-10-31T14:45:00",
+    "end": "2026-10-31T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
