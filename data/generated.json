@@ -1,17 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-11T19:45:00",
-    "end": "2026-10-11T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-10-11T20:31:00",
     "end": "2026-10-11T21:00:00",
@@ -1125,7 +1113,7 @@
   },
   {
     "title": "[Worlds] Karmine Corp vs MVK Esports",
-    "start": "2026-10-18T18:00:00Z",
+    "start": "2026-10-18T18:07:30Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3659,6 +3647,18 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-01T19:45:00",
+    "end": "2026-11-01T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
