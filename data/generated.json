@@ -1044,32 +1044,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs Ipswich Town FC",
-    "start": "2026-10-17T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
-    "title": "⚽ [Premier League] Brentford FC vs Liverpool FC",
-    "start": "2026-10-17T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "JDR",
     "start": "2026-10-17T14:45:00",
     "end": "2026-10-17T16:30:00",
@@ -1079,45 +1053,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] RC Strasbourg Alsace vs Paris Saint-Germain FC",
-    "start": "2026-10-17T15:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Betis Balompié vs FC Barcelona",
-    "start": "2026-10-17T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs RB Leipzig",
-    "start": "2026-10-17T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -2529,6 +2464,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-10-25T00:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-25T07:00:00",
     "end": "2026-10-25T07:50:00",
@@ -2650,6 +2599,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-10-25T17:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Mushoku Tensei Season 3",
     "start": "2026-10-25T17:30:00",
     "source": "Anime (sheet)",
@@ -2658,6 +2621,34 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-25T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-25T19:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
@@ -2735,6 +2726,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-25T22:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
