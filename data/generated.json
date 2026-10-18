@@ -1,29 +1,5 @@
 [
   {
-    "title": "Prépa",
-    "start": "2026-10-11T20:31:00",
-    "end": "2026-10-11T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-10-11T21:30:00",
-    "end": "2026-10-11T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-12T07:00:00",
     "end": "2026-10-12T07:50:00",
@@ -1851,7 +1827,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Gen.G vs Invictus Gaming",
     "start": "2026-10-23T17:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1861,7 +1837,8 @@
       "lolix",
       "esport",
       "lol",
-      "worlds"
+      "worlds",
+      "geng"
     ]
   },
   {
@@ -1890,7 +1867,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Team Liquid vs CTBC Flying Oyster",
     "start": "2026-10-23T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1928,7 +1905,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Anyone's Legend vs Karmine Corp",
     "start": "2026-10-23T19:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1954,7 +1931,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] G2 Esports vs Dplus KIA",
     "start": "2026-10-23T20:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1980,7 +1957,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Hanwha Life Esports vs Top Esports",
     "start": "2026-10-23T21:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2020,7 +1997,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] LOS vs T1",
     "start": "2026-10-23T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2034,7 +2011,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Team Secret Whales vs LYON",
     "start": "2026-10-23T23:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2048,7 +2025,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Bilibili Gaming vs Movistar KOI",
     "start": "2026-10-24T00:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3653,6 +3630,44 @@
     "title": "Repas",
     "start": "2026-11-01T19:45:00",
     "end": "2026-11-01T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mexican - Course",
+    "start": "2026-11-01T20:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Mexico City",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-01T20:31:00",
+    "end": "2026-11-01T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-01T21:30:00",
+    "end": "2026-11-01T00:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
