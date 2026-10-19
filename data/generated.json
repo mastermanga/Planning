@@ -594,20 +594,6 @@
     ]
   },
   {
-    "title": "[Worlds] Cloud9 vs Karmine Corp",
-    "start": "2026-10-15T18:20:58Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-10-15T19:45:00",
     "end": "2026-10-15T20:20:00",
@@ -1099,32 +1085,6 @@
       "esport",
       "lol",
       "worlds"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Olympique Lyonnais vs OGC Nice",
-    "start": "2026-10-18T18:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] Real Madrid CF vs Sevilla FC",
-    "start": "2026-10-18T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "real_madrid"
     ]
   },
   {
@@ -2672,6 +2632,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-10-26T17:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Grand Blue Season 3",
     "start": "2026-10-26T17:30:00",
     "source": "Anime (sheet)",
@@ -2680,6 +2654,34 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-26T18:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-26T19:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
@@ -2716,6 +2718,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-26T22:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
