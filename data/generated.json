@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-10-14T21:30:00",
-    "end": "2026-10-14T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-15T07:00:00",
     "end": "2026-10-15T07:50:00",
@@ -572,20 +560,6 @@
     ]
   },
   {
-    "title": "[Worlds] Karmine Corp vs MVK Esports",
-    "start": "2026-10-18T18:07:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-10-18T19:45:00",
     "end": "2026-10-18T20:20:00",
@@ -1028,32 +1002,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Real Madrid CF vs RB Leipzig",
-    "start": "2026-10-21T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] FC Bayern München vs Arsenal FC",
-    "start": "2026-10-21T19:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern"
     ]
   },
   {
@@ -2683,6 +2631,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-10-29T20:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Invest",
     "start": "2026-10-29T20:31:00",
     "end": "2026-10-29T21:00:00",
@@ -2704,6 +2666,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-10-29T23:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
@@ -3742,6 +3718,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-11-04T21:30:00",
+    "end": "2026-11-04T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] 1. FSV Mainz 05 vs FC Bayern München",
     "start": "2026-11-07T14:30:00Z",
     "source": "football-data.org",
@@ -3843,6 +3831,59 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Fulham FC",
+    "start": "2026-11-21T12:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Paris Saint-Germain FC",
+    "start": "2026-11-21T16:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs Villarreal CF",
+    "start": "2026-11-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs RC Celta de Vigo",
+    "start": "2026-11-22T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
