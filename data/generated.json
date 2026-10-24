@@ -1,41 +1,5 @@
 [
   {
-    "title": "Réveil - Petit Dèj",
-    "start": "2026-10-17T07:00:00",
-    "end": "2026-10-17T07:50:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche - Squat - Fente",
-    "start": "2026-10-17T08:10:00",
-    "end": "2026-10-17T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-10-17T09:15:00",
-    "end": "2026-10-17T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-10-17T12:15:00",
     "end": "2026-10-17T13:29:00",
@@ -1266,7 +1230,7 @@
     ]
   },
   {
-    "title": "[Worlds] Dplus KIA vs T1",
+    "title": "[Worlds] Top Esports vs Anyone's Legend",
     "start": "2026-10-24T17:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1319,7 +1283,7 @@
     ]
   },
   {
-    "title": "[Worlds] Hanwha Life Esports vs Gen.G",
+    "title": "[Worlds] G2 Esports vs LOS",
     "start": "2026-10-24T19:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1329,8 +1293,7 @@
       "lolix",
       "esport",
       "lol",
-      "worlds",
-      "geng"
+      "worlds"
     ]
   },
   {
@@ -1372,7 +1335,7 @@
     ]
   },
   {
-    "title": "[Worlds] G2 Esports vs LOS",
+    "title": "[Worlds] Invictus Gaming vs Team Secret Whales",
     "start": "2026-10-24T21:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1412,7 +1375,7 @@
     ]
   },
   {
-    "title": "[Worlds] Invictus Gaming vs Team Secret Whales",
+    "title": "[Worlds] Hanwha Life Esports vs Gen.G",
     "start": "2026-10-24T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1422,11 +1385,12 @@
       "lolix",
       "esport",
       "lol",
-      "worlds"
+      "worlds",
+      "geng"
     ]
   },
   {
-    "title": "[Worlds] Top Esports vs Anyone's Legend",
+    "title": "[Worlds] Dplus KIA vs T1",
     "start": "2026-10-24T23:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3755,6 +3719,42 @@
     "title": "Free Time",
     "start": "2026-11-06T21:30:00",
     "end": "2026-11-06T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-07T07:00:00",
+    "end": "2026-11-07T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-07T08:10:00",
+    "end": "2026-11-07T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-07T09:15:00",
+    "end": "2026-11-07T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
