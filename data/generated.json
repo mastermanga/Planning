@@ -1,29 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-18T19:45:00",
-    "end": "2026-10-18T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-10-18T20:31:00",
-    "end": "2026-10-18T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-18T21:30:00",
     "end": "2026-10-18T00:00:00",
@@ -1355,7 +1331,7 @@
   },
   {
     "title": "[Worlds] Top Esports vs G2 Esports",
-    "start": "2026-10-25T18:10:00Z",
+    "start": "2026-10-25T18:06:17Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1369,7 +1345,7 @@
   },
   {
     "title": "[Worlds] Dplus KIA vs Movistar KOI",
-    "start": "2026-10-25T19:00:00Z",
+    "start": "2026-10-25T19:06:36Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1434,20 +1410,8 @@
     ]
   },
   {
-    "title": "Free Time",
-    "start": "2026-10-25T21:30:00",
-    "end": "2026-10-25T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "[Worlds] Gen.G vs LYON",
-    "start": "2026-10-25T22:00:00Z",
+    "start": "2026-10-25T20:53:50Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1458,6 +1422,18 @@
       "lol",
       "worlds",
       "geng"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-10-25T21:30:00",
+    "end": "2026-10-25T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -3863,6 +3839,18 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-08T19:45:00",
+    "end": "2026-11-08T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
     "start": "2026-11-08T20:00:00Z",
     "source": "football-data.org",
@@ -3873,6 +3861,18 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-08T20:31:00",
+    "end": "2026-11-08T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
