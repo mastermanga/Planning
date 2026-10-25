@@ -1074,19 +1074,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Aston Villa FC vs Manchester City FC",
-    "start": "2026-10-24T11:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Repas",
     "start": "2026-10-24T12:15:00",
     "end": "2026-10-24T13:29:00",
@@ -1296,7 +1283,7 @@
   },
   {
     "title": "[Worlds] Dplus KIA vs T1",
-    "start": "2026-10-24T23:15:00Z",
+    "start": "2026-10-24T23:14:09Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1310,7 +1297,7 @@
   },
   {
     "title": "[Worlds] Team Liquid vs Bilibili Gaming",
-    "start": "2026-10-25T00:00:00Z",
+    "start": "2026-10-25T00:21:24Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3959,6 +3946,32 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Real Madrid CF vs PSV",
+    "start": "2026-11-24T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Manchester City FC vs SSC Napoli",
+    "start": "2026-11-24T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "manchester_city"
     ]
   }
 ]
