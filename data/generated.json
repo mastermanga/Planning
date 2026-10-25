@@ -1,41 +1,5 @@
 [
   {
-    "title": "Réveil - Petit Dèj",
-    "start": "2026-10-18T07:00:00",
-    "end": "2026-10-18T07:50:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Marche - Curl - Elévation",
-    "start": "2026-10-18T08:10:00",
-    "end": "2026-10-18T09:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "job",
-    "start": "2026-10-18T09:15:00",
-    "end": "2026-10-18T12:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "You and I Are Polar Opposites Season 2",
     "start": "2026-10-18T11:00:00",
     "source": "Anime (sheet)",
@@ -1444,7 +1408,7 @@
     ]
   },
   {
-    "title": "[Worlds] Top Esports vs G2 Esports",
+    "title": "[Worlds] Hanwha Life Esports vs Invictus Gaming",
     "start": "2026-10-25T17:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1469,7 +1433,7 @@
     ]
   },
   {
-    "title": "[Worlds] Hanwha Life Esports vs Invictus Gaming",
+    "title": "[Worlds] Top Esports vs G2 Esports",
     "start": "2026-10-25T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1483,7 +1447,7 @@
     ]
   },
   {
-    "title": "[Worlds] Gen.G vs LYON",
+    "title": "[Worlds] Dplus KIA vs Movistar KOI",
     "start": "2026-10-25T19:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1493,8 +1457,7 @@
       "lolix",
       "esport",
       "lol",
-      "worlds",
-      "geng"
+      "worlds"
     ]
   },
   {
@@ -1562,7 +1525,7 @@
     ]
   },
   {
-    "title": "[Worlds] Dplus KIA vs Movistar KOI",
+    "title": "[Worlds] Gen.G vs LYON",
     "start": "2026-10-25T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1572,7 +1535,8 @@
       "lolix",
       "esport",
       "lol",
-      "worlds"
+      "worlds",
+      "geng"
     ]
   },
   {
@@ -1660,7 +1624,7 @@
     ]
   },
   {
-    "title": "[Worlds] Karmine Corp vs Bilibili Gaming",
+    "title": "[Worlds] T1 vs CTBC Flying Oyster",
     "start": "2026-10-26T17:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1685,7 +1649,7 @@
     ]
   },
   {
-    "title": "[Worlds] T1 vs CTBC Flying Oyster",
+    "title": "[Worlds] Karmine Corp vs Bilibili Gaming",
     "start": "2026-10-26T18:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3823,6 +3787,42 @@
     "title": "Free Time",
     "start": "2026-11-07T21:30:00",
     "end": "2026-11-07T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-08T07:00:00",
+    "end": "2026-11-08T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-08T08:10:00",
+    "end": "2026-11-08T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-08T09:15:00",
+    "end": "2026-11-08T12:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
