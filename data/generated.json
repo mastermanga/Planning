@@ -1,66 +1,6 @@
 [
   {
     "title": "Free Time",
-    "start": "2026-10-19T16:45:00",
-    "end": "2026-10-19T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Grand Blue Season 3",
-    "start": "2026-10-19T17:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Domingo — LES OG'S EN SHOWMATCH VS TEAM TRAYTON",
-    "start": "2026-10-19T18:00:00.000Z",
-    "end": "2026-10-19T22:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-10-19T19:45:00",
-    "end": "2026-10-19T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-10-19T20:31:00",
-    "end": "2026-10-19T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
     "start": "2026-10-19T21:30:00",
     "end": "2026-10-19T00:00:00",
     "source": "Anime (sheet)",
@@ -1398,7 +1338,7 @@
   },
   {
     "title": "[Worlds] T1 vs CTBC Flying Oyster",
-    "start": "2026-10-26T17:00:00Z",
+    "start": "2026-10-26T17:06:19Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1423,7 +1363,21 @@
   },
   {
     "title": "[Worlds] Karmine Corp vs Bilibili Gaming",
-    "start": "2026-10-26T18:00:00Z",
+    "start": "2026-10-26T17:57:37Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
+    "title": "[Worlds] LOS vs Team Secret Whales",
+    "start": "2026-10-26T18:59:21Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1446,20 +1400,6 @@
     "tags": [
       "twitch",
       "domingo"
-    ]
-  },
-  {
-    "title": "[Worlds] LOS vs Team Secret Whales",
-    "start": "2026-10-26T19:00:00Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
     ]
   },
   {
@@ -3892,6 +3832,53 @@
     "title": "JDR",
     "start": "2026-11-09T14:45:00",
     "end": "2026-11-09T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-09T16:45:00",
+    "end": "2026-11-09T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Grand Blue Season 3",
+    "start": "2026-11-09T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-09T19:45:00",
+    "end": "2026-11-09T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-09T20:31:00",
+    "end": "2026-11-09T21:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
