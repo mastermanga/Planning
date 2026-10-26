@@ -1243,19 +1243,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Liverpool FC vs Brighton & Hove Albion FC",
-    "start": "2026-10-25T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "JDR",
     "start": "2026-10-25T14:45:00",
     "end": "2026-10-25T16:30:00",
@@ -1265,19 +1252,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] SC Freiburg vs FC Bayern München",
-    "start": "2026-10-25T16:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1355,20 +1329,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Real Madrid CF",
-    "start": "2026-10-25T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone",
-      "real_madrid"
     ]
   },
   {
@@ -3978,6 +3938,58 @@
       "foot",
       "ldc",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Sabah FK vs FC Barcelona",
+    "start": "2026-11-25T17:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Paris Saint-Germain FC vs AS Roma",
+    "start": "2026-11-25T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Club Brugge KV vs Liverpool FC",
+    "start": "2026-11-25T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Lille OSC vs FC Bayern München",
+    "start": "2026-11-25T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "bayern"
     ]
   }
 ]
