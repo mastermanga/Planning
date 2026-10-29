@@ -488,34 +488,6 @@
     ]
   },
   {
-    "title": "[Worlds] Dplus KIA vs T1",
-    "start": "2026-10-24T23:14:09Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
-    "title": "[Worlds] Team Liquid vs Bilibili Gaming",
-    "start": "2026-10-25T00:21:24Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-25T07:00:00",
     "end": "2026-10-25T07:50:00",
@@ -624,20 +596,6 @@
     ]
   },
   {
-    "title": "[Worlds] Hanwha Life Esports vs Invictus Gaming",
-    "start": "2026-10-25T17:05:54Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Mushoku Tensei Season 3",
     "start": "2026-10-25T17:30:00",
     "source": "Anime (sheet)",
@@ -646,34 +604,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "[Worlds] Top Esports vs G2 Esports",
-    "start": "2026-10-25T18:06:17Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
-    "title": "[Worlds] Dplus KIA vs Movistar KOI",
-    "start": "2026-10-25T19:06:36Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
     ]
   },
   {
@@ -712,21 +642,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Worlds] Gen.G vs LYON",
-    "start": "2026-10-25T20:53:50Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds",
-      "geng"
     ]
   },
   {
@@ -2697,6 +2612,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-11-05T22:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-11-06T07:00:00",
     "end": "2026-11-06T07:50:00",
@@ -3820,6 +3749,71 @@
       "foot",
       "ldc",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] Hamburger SV vs FC Bayern München",
+    "start": "2026-11-28T14:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs ES Troyes AC",
+    "start": "2026-11-28T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs FC Lorient",
+    "start": "2026-11-28T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
+    "start": "2026-11-29T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] RC Deportivo La Coruña vs FC Barcelona",
+    "start": "2026-11-29T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   }
 ]
