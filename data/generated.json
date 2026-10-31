@@ -1,55 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-24T19:45:00",
-    "end": "2026-10-24T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-10-24T20:31:00",
-    "end": "2026-10-24T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "United States - Qualifications",
-    "start": "2026-10-24T21:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Austin",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "qualification"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-10-24T21:30:00",
-    "end": "2026-10-24T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-25T07:00:00",
     "end": "2026-10-25T07:50:00",
@@ -1201,7 +1151,7 @@
   },
   {
     "title": "[Worlds] LOS vs LYON",
-    "start": "2026-10-31T18:55:00Z",
+    "start": "2026-10-31T19:01:30Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1278,7 +1228,7 @@
   },
   {
     "title": "[Worlds] Hanwha Life Esports vs Bilibili Gaming",
-    "start": "2026-10-31T23:00:00Z",
+    "start": "2026-10-31T22:04:40Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3457,6 +3407,42 @@
     "location": "",
     "tags": [
       "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-14T19:45:00",
+    "end": "2026-11-14T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-14T20:31:00",
+    "end": "2026-11-14T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-14T21:30:00",
+    "end": "2026-11-14T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
