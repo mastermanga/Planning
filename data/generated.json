@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-10-23T21:30:00",
-    "end": "2026-10-23T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-24T07:00:00",
     "end": "2026-10-24T07:50:00",
@@ -1069,32 +1057,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Le Havre AC vs Paris Saint-Germain FC",
-    "start": "2026-10-30T18:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] OGC Nice vs Stade Rennais FC 1901",
-    "start": "2026-10-30T18:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
-    ]
-  },
-  {
     "title": "The Elusive Samurai Season 2",
     "start": "2026-10-30T18:20:00",
     "source": "Anime (sheet)",
@@ -1185,7 +1147,7 @@
   },
   {
     "title": "[Worlds] Hanwha Life Esports vs G2 Esports",
-    "start": "2026-10-30T23:00:00Z",
+    "start": "2026-10-30T23:16:03Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1295,7 +1257,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] LOS vs LYON",
     "start": "2026-10-31T17:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1359,7 +1321,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Karmine Corp vs Movistar KOI",
     "start": "2026-10-31T20:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1424,7 +1386,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Hanwha Life Esports vs Bilibili Gaming",
     "start": "2026-10-31T23:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2648,6 +2610,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-11-07T22:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-11-08T07:00:00",
     "end": "2026-11-08T07:50:00",
@@ -3477,6 +3453,18 @@
     "title": "Invest",
     "start": "2026-11-13T20:31:00",
     "end": "2026-11-13T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-13T21:30:00",
+    "end": "2026-11-13T00:00:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
