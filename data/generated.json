@@ -603,20 +603,6 @@
     ]
   },
   {
-    "title": "[Worlds] Movistar KOI vs T1",
-    "start": "2026-10-28T20:06:46Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Invest",
     "start": "2026-10-28T20:31:00",
     "end": "2026-10-28T21:00:00",
@@ -1073,19 +1059,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Manchester City FC vs Brighton & Hove Albion FC",
-    "start": "2026-10-31T15:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "manchester_city"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-31T16:45:00",
     "end": "2026-10-31T19:30:00",
@@ -1120,19 +1093,6 @@
     "location": "",
     "tags": [
       "anime"
-    ]
-  },
-  {
-    "title": "⚽ [Bundesliga] FC Bayern München vs Borussia Dortmund",
-    "start": "2026-10-31T17:30:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "bundesliga",
-      "bayern"
     ]
   },
   {
@@ -1173,19 +1133,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] FC Barcelona vs Deportivo Alavés",
-    "start": "2026-10-31T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -1735,7 +1682,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Top Esports vs Invictus Gaming",
     "start": "2026-11-03T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1908,7 +1855,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Gen.G vs LYON",
     "start": "2026-11-04T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1918,7 +1865,8 @@
       "lolix",
       "esport",
       "lol",
-      "worlds"
+      "worlds",
+      "geng"
     ]
   },
   {
@@ -2042,7 +1990,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Dplus KIA vs Bilibili Gaming",
     "start": "2026-11-05T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2226,7 +2174,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Karmine Corp vs T1",
     "start": "2026-11-06T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -2657,6 +2605,20 @@
     "location": "",
     "tags": [
       "matin"
+    ]
+  },
+  {
+    "title": "[Worlds] Match",
+    "start": "2026-11-08T22:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
     ]
   },
   {
