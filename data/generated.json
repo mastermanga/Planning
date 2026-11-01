@@ -1,65 +1,5 @@
 [
   {
-    "title": "You and I Are Polar Opposites Season 2",
-    "start": "2026-10-25T11:00:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-10-25T12:15:00",
-    "end": "2026-10-25T13:29:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — MATCH DE NFL FT. FREEMAN, RIVENZI & LEO SARTEEL",
-    "start": "2026-10-25T12:30:00.000Z",
-    "end": "2026-10-25T17:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-10-25T13:40:00",
-    "end": "2026-10-25T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-10-25T14:45:00",
-    "end": "2026-10-25T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Free Time",
     "start": "2026-10-25T16:45:00",
     "end": "2026-10-25T19:30:00",
@@ -3399,6 +3339,53 @@
     "title": "job",
     "start": "2026-11-15T09:15:00",
     "end": "2026-11-15T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-11-15T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-15T12:15:00",
+    "end": "2026-11-15T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-15T13:40:00",
+    "end": "2026-11-15T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-15T14:45:00",
+    "end": "2026-11-15T16:30:00",
     "source": "Anime (sheet)",
     "url": "",
     "googleSheetUrl": "",
