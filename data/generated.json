@@ -1,17 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-10-27T21:30:00",
-    "end": "2026-10-27T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-28T07:00:00",
     "end": "2026-10-28T07:50:00",
@@ -448,20 +436,6 @@
     ]
   },
   {
-    "title": "[Worlds] Hanwha Life Esports vs G2 Esports",
-    "start": "2026-10-30T23:16:03Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-31T07:00:00",
     "end": "2026-10-31T07:50:00",
@@ -546,20 +520,6 @@
     ]
   },
   {
-    "title": "[Worlds] Karmine Corp vs Movistar KOI",
-    "start": "2026-10-31T17:11:47Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
-    ]
-  },
-  {
     "title": "Bleach: Thousand-Year Blood War - The Calamity",
     "start": "2026-10-31T17:20:00",
     "source": "Anime (sheet)",
@@ -582,20 +542,6 @@
       "formula1",
       "sport_auto",
       "fp3"
-    ]
-  },
-  {
-    "title": "[Worlds] LOS vs LYON",
-    "start": "2026-10-31T19:01:30Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
     ]
   },
   {
@@ -646,20 +592,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Worlds] Hanwha Life Esports vs Bilibili Gaming",
-    "start": "2026-10-31T22:04:40Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds"
     ]
   },
   {
@@ -1120,45 +1052,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] FC Barcelona vs Aston Villa FC",
-    "start": "2026-11-03T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "barcelone"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Club Atlético de Madrid vs FC Bayern München",
-    "start": "2026-11-03T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "bayern"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Villarreal CF vs Paris Saint-Germain FC",
-    "start": "2026-11-03T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "psg"
-    ]
-  },
-  {
     "title": "Invest",
     "start": "2026-11-03T20:31:00",
     "end": "2026-11-03T21:00:00",
@@ -1184,7 +1077,7 @@
   },
   {
     "title": "[Worlds] Top Esports vs Invictus Gaming",
-    "start": "2026-11-03T22:00:00Z",
+    "start": "2026-11-03T22:09:23Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3338,6 +3231,18 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-11-17T21:30:00",
+    "end": "2026-11-17T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
     "start": "2026-11-20T19:30:00Z",
     "source": "football-data.org",
@@ -3609,6 +3514,32 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Toulouse FC vs Paris Saint-Germain FC",
+    "start": "2026-12-04T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Bundesliga] FC Bayern München vs SC Paderborn 07",
+    "start": "2026-12-05T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "bundesliga",
+      "bayern"
     ]
   }
 ]
