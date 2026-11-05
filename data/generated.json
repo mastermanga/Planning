@@ -1028,32 +1028,6 @@
     ]
   },
   {
-    "title": "⚽ [UEFA Champions League] PAE AEK vs Real Madrid CF",
-    "start": "2026-11-04T17:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] Fenerbahçe SK vs Liverpool FC",
-    "start": "2026-11-04T17:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "liverpool"
-    ]
-  },
-  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-11-04T18:30:00.000Z",
     "end": "2026-11-04T19:30:00.000Z",
@@ -1076,19 +1050,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [UEFA Champions League] RB Leipzig vs Manchester City FC",
-    "start": "2026-11-04T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ldc",
-      "manchester_city"
     ]
   },
   {
@@ -1623,19 +1584,6 @@
     ]
   },
   {
-    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs ES Troyes AC",
-    "start": "2026-11-07T19:45:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "psg"
-    ]
-  },
-  {
     "title": "⚽ [Primera Division] Valencia CF vs Real Madrid CF",
     "start": "2026-11-07T20:00:00Z",
     "source": "football-data.org",
@@ -1646,6 +1594,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs ES Troyes AC",
+    "start": "2026-11-07T20:05:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
     ]
   },
   {
@@ -1673,7 +1634,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Invictus Gaming vs Gen.G",
     "start": "2026-11-07T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -1683,7 +1644,8 @@
       "lolix",
       "esport",
       "lol",
-      "worlds"
+      "worlds",
+      "geng"
     ]
   },
   {
@@ -1882,7 +1844,7 @@
     ]
   },
   {
-    "title": "[Worlds] Invictus Gaming (TBD)",
+    "title": "[Worlds] Match",
     "start": "2026-11-08T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3514,6 +3476,58 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Chelsea FC vs Liverpool FC",
+    "start": "2026-12-05T12:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Brentford FC vs Manchester City FC",
+    "start": "2026-12-05T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
+    "start": "2026-12-06T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Athletic Club vs Real Madrid CF",
+    "start": "2026-12-06T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
