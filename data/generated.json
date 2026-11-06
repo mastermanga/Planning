@@ -1,41 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-10-29T19:45:00",
-    "end": "2026-10-29T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-10-29T20:31:00",
-    "end": "2026-10-29T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-10-29T21:30:00",
-    "end": "2026-10-29T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-30T07:00:00",
     "end": "2026-10-30T07:50:00",
@@ -1142,7 +1106,7 @@
   },
   {
     "title": "[Worlds] Dplus KIA vs Bilibili Gaming",
-    "start": "2026-11-05T22:00:00Z",
+    "start": "2026-11-05T22:08:37Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -1760,7 +1724,7 @@
     ]
   },
   {
-    "title": "[Worlds] Match",
+    "title": "[Worlds] Bilibili Gaming (TBD)",
     "start": "2026-11-08T22:00:00Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
@@ -3179,6 +3143,56 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-19T19:45:00",
+    "end": "2026-11-19T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-19T20:31:00",
+    "end": "2026-11-19T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-19T21:30:00",
+    "end": "2026-11-19T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Las Vegas - Essais Libres 1",
+    "start": "2026-11-20T00:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Las Vegas",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
     "start": "2026-11-20T19:30:00Z",
     "source": "football-data.org",
@@ -3528,6 +3542,19 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Olympique de Marseille vs OGC Nice",
+    "start": "2026-12-06T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
     ]
   }
 ]
