@@ -1,31 +1,5 @@
 [
   {
-    "title": "Free Time",
-    "start": "2026-10-30T21:30:00",
-    "end": "2026-10-30T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Mexican - Essais Libres 2",
-    "start": "2026-10-30T22:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Mexico City",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "fp2"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-10-31T07:00:00",
     "end": "2026-10-31T07:50:00",
@@ -1146,7 +1120,7 @@
   },
   {
     "title": "[Worlds] Karmine Corp vs T1",
-    "start": "2026-11-06T22:00:00Z",
+    "start": "2026-11-06T22:07:11Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -2344,6 +2318,20 @@
     ]
   },
   {
+    "title": "[Worlds] Match",
+    "start": "2026-11-14T19:00:00Z",
+    "source": "lolix.gg",
+    "url": "https://lolix.gg/predictions",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "lolix",
+      "esport",
+      "lol",
+      "worlds"
+    ]
+  },
+  {
     "title": "Repas",
     "start": "2026-11-14T19:45:00",
     "end": "2026-11-14T20:20:00",
@@ -3206,6 +3194,32 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-11-20T21:30:00",
+    "end": "2026-11-20T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Las Vegas - Essais Libres 3",
+    "start": "2026-11-21T00:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Las Vegas",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp3"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Fulham FC",
     "start": "2026-11-21T12:30:00Z",
     "source": "football-data.org",
@@ -3390,7 +3404,7 @@
   },
   {
     "title": "⚽ [Primera Division] Real Madrid CF vs Deportivo Alavés",
-    "start": "2026-11-29T00:00:00Z",
+    "start": "2026-11-28T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3399,19 +3413,6 @@
       "foot",
       "liga",
       "real_madrid"
-    ]
-  },
-  {
-    "title": "⚽ [Primera Division] RC Deportivo La Coruña vs FC Barcelona",
-    "start": "2026-11-29T00:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
     ]
   },
   {
@@ -3425,6 +3426,19 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] RC Deportivo La Coruña vs FC Barcelona",
+    "start": "2026-11-29T15:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
     ]
   },
   {
