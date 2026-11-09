@@ -471,21 +471,6 @@
     ]
   },
   {
-    "title": "[Worlds] Gen.G vs LYON",
-    "start": "2026-11-04T22:15:39Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds",
-      "geng"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-11-05T07:00:00",
     "end": "2026-11-05T07:50:00",
@@ -1049,19 +1034,6 @@
     ]
   },
   {
-    "title": "⚽ [Premier League] Crystal Palace FC vs Liverpool FC",
-    "start": "2026-11-08T14:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "premier_league",
-      "liverpool"
-    ]
-  },
-  {
     "title": "JDR",
     "start": "2026-11-08T14:45:00",
     "end": "2026-11-08T16:30:00",
@@ -1071,19 +1043,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "⚽ [Ligue 1] Angers SCO vs OGC Nice",
-    "start": "2026-11-08T16:15:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "ligue1",
-      "nice"
     ]
   },
   {
@@ -1136,19 +1095,6 @@
     ]
   },
   {
-    "title": "⚽ [Primera Division] Club Atlético de Madrid vs FC Barcelona",
-    "start": "2026-11-08T20:00:00Z",
-    "source": "football-data.org",
-    "url": "https://www.football-data.org/",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "foot",
-      "liga",
-      "barcelone"
-    ]
-  },
-  {
     "title": "Prépa",
     "start": "2026-11-08T20:31:00",
     "end": "2026-11-08T21:00:00",
@@ -1174,7 +1120,7 @@
   },
   {
     "title": "[Worlds] Bilibili Gaming vs T1",
-    "start": "2026-11-08T22:00:00Z",
+    "start": "2026-11-08T22:07:29Z",
     "source": "lolix.gg",
     "url": "https://lolix.gg/predictions",
     "googleSheetUrl": "",
@@ -3556,6 +3502,32 @@
       "foot",
       "ldc",
       "bayern"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Arsenal FC vs Real Madrid CF",
+    "start": "2026-12-09T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "real_madrid"
+    ]
+  },
+  {
+    "title": "⚽ [UEFA Champions League] Liverpool FC vs FC Porto",
+    "start": "2026-12-09T20:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ldc",
+      "liverpool"
     ]
   }
 ]
