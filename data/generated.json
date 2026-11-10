@@ -1,41 +1,5 @@
 [
   {
-    "title": "Repas",
-    "start": "2026-11-03T19:45:00",
-    "end": "2026-11-03T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Invest",
-    "start": "2026-11-03T20:31:00",
-    "end": "2026-11-03T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-11-03T21:30:00",
-    "end": "2026-11-03T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-11-04T07:00:00",
     "end": "2026-11-04T07:50:00",
@@ -3191,6 +3155,18 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-24T19:45:00",
+    "end": "2026-11-24T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] Real Madrid CF vs PSV",
     "start": "2026-11-24T20:00:00Z",
     "source": "football-data.org",
@@ -3214,6 +3190,30 @@
       "foot",
       "ldc",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-24T20:31:00",
+    "end": "2026-11-24T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-24T21:30:00",
+    "end": "2026-11-24T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
