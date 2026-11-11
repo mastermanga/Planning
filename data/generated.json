@@ -1,66 +1,5 @@
 [
   {
-    "title": "Formation",
-    "start": "2026-11-04T13:40:00",
-    "end": "2026-11-04T14:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "JDR",
-    "start": "2026-11-04T14:45:00",
-    "end": "2026-11-04T16:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-11-04T16:45:00",
-    "end": "2026-11-04T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-11-04T18:30:00.000Z",
-    "end": "2026-11-04T19:30:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-11-04T19:45:00",
-    "end": "2026-11-04T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
     "title": "Invest",
     "start": "2026-11-04T20:31:00",
     "end": "2026-11-04T21:00:00",
@@ -3203,6 +3142,42 @@
     ]
   },
   {
+    "title": "Formation",
+    "start": "2026-11-25T13:40:00",
+    "end": "2026-11-25T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-25T14:45:00",
+    "end": "2026-11-25T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-25T16:45:00",
+    "end": "2026-11-25T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] Sabah FK vs FC Barcelona",
     "start": "2026-11-25T17:45:00Z",
     "source": "football-data.org",
@@ -3213,6 +3188,18 @@
       "foot",
       "ldc",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-25T19:45:00",
+    "end": "2026-11-25T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
