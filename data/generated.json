@@ -1,42 +1,5 @@
 [
   {
-    "title": "Invest",
-    "start": "2026-11-04T20:31:00",
-    "end": "2026-11-04T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
-    "start": "2026-11-04T21:30:00",
-    "end": "2026-11-04T00:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-11-04T21:30:00.000Z",
-    "end": "2026-11-04T23:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "twitch",
-      "domingo"
-    ]
-  },
-  {
     "title": "Réveil - Petit Dèj",
     "start": "2026-11-05T07:00:00",
     "end": "2026-11-05T07:50:00",
@@ -483,21 +446,6 @@
     "location": "",
     "tags": [
       "matin"
-    ]
-  },
-  {
-    "title": "[Worlds] Invictus Gaming vs Gen.G",
-    "start": "2026-11-07T22:07:51Z",
-    "source": "lolix.gg",
-    "url": "https://lolix.gg/predictions",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "lolix",
-      "esport",
-      "lol",
-      "worlds",
-      "geng"
     ]
   },
   {
@@ -3242,6 +3190,30 @@
     ]
   },
   {
+    "title": "Invest",
+    "start": "2026-11-25T20:31:00",
+    "end": "2026-11-25T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-25T21:30:00",
+    "end": "2026-11-25T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] Hamburger SV vs FC Bayern München",
     "start": "2026-11-28T14:30:00Z",
     "source": "football-data.org",
@@ -3539,6 +3511,84 @@
       "foot",
       "ldc",
       "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Liverpool FC vs Leeds United FC",
+    "start": "2026-12-12T15:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "liverpool"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] Paris Saint-Germain FC vs Paris FC",
+    "start": "2026-12-12T16:15:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "psg"
+    ]
+  },
+  {
+    "title": "⚽ [Premier League] Manchester City FC vs Chelsea FC",
+    "start": "2026-12-12T17:30:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "premier_league",
+      "manchester_city"
+    ]
+  },
+  {
+    "title": "⚽ [Ligue 1] OGC Nice vs Racing Club de Lens",
+    "start": "2026-12-12T19:45:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "ligue1",
+      "nice"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Málaga CF vs FC Barcelona",
+    "start": "2026-12-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "barcelone"
+    ]
+  },
+  {
+    "title": "⚽ [Primera Division] Real Madrid CF vs CA Osasuna",
+    "start": "2026-12-13T00:00:00Z",
+    "source": "football-data.org",
+    "url": "https://www.football-data.org/",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "foot",
+      "liga",
+      "real_madrid"
     ]
   }
 ]
