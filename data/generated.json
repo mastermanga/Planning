@@ -1,67 +1,6 @@
 [
   {
     "title": "Free Time",
-    "start": "2026-11-08T16:45:00",
-    "end": "2026-11-08T19:30:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Brazilian - Course",
-    "start": "2026-11-08T17:00:00Z",
-    "source": "f1calendar",
-    "url": "https://f1calendar.com/fr",
-    "googleSheetUrl": "",
-    "location": "Sao Paulo",
-    "tags": [
-      "f1",
-      "formula1",
-      "sport_auto",
-      "course"
-    ]
-  },
-  {
-    "title": "Mushoku Tensei Season 3",
-    "start": "2026-11-08T17:30:00",
-    "source": "Anime (sheet)",
-    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
-    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
-    "location": "",
-    "tags": [
-      "anime"
-    ]
-  },
-  {
-    "title": "Repas",
-    "start": "2026-11-08T19:45:00",
-    "end": "2026-11-08T20:20:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Prépa",
-    "start": "2026-11-08T20:31:00",
-    "end": "2026-11-08T21:00:00",
-    "source": "Anime (sheet)",
-    "url": "",
-    "googleSheetUrl": "",
-    "location": "",
-    "tags": [
-      "matin"
-    ]
-  },
-  {
-    "title": "Free Time",
     "start": "2026-11-08T21:30:00",
     "end": "2026-11-08T00:00:00",
     "source": "Anime (sheet)",
@@ -3278,6 +3217,20 @@
     ]
   },
   {
+    "title": "Qatar - Course",
+    "start": "2026-11-29T16:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Doha",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "course"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Arsenal FC vs Manchester City FC",
     "start": "2026-11-29T16:30:00Z",
     "source": "football-data.org",
@@ -3288,6 +3241,53 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-29T16:45:00",
+    "end": "2026-11-29T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-11-29T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-29T19:45:00",
+    "end": "2026-11-29T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-29T20:31:00",
+    "end": "2026-11-29T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -3396,7 +3396,7 @@
   },
   {
     "title": "⚽ [Primera Division] FC Barcelona vs RC Celta de Vigo",
-    "start": "2026-12-06T00:00:00Z",
+    "start": "2026-12-05T20:00:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
@@ -3409,7 +3409,7 @@
   },
   {
     "title": "⚽ [Primera Division] Athletic Club vs Real Madrid CF",
-    "start": "2026-12-06T00:00:00Z",
+    "start": "2026-12-06T15:15:00Z",
     "source": "football-data.org",
     "url": "https://www.football-data.org/",
     "googleSheetUrl": "",
