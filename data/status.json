@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-20T00:59:15.921Z",
-  "total": 304,
+  "generatedAt": "2026-11-20T08:15:58.097Z",
+  "total": 70,
   "counts": {
-    "Anime (sheet)": 234,
+    "Anime (sheet)": 0,
     "Twitch:domingo": 13,
     "Twitch:rivenzi": 0,
     "Twitch:joueur_du_grenier": 0,
@@ -13,6 +13,7 @@
     "missed_anime_candidates": 0
   },
   "errors": [
+    "Anime (sheet): fetch failed",
     "missed-anime-sync: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   ]
 }
