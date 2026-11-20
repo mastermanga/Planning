@@ -1,28 +1,417 @@
 [
   {
-    "title": "Domingo — PRÉ LIVE",
-    "start": "2026-11-13T13:00:00.000Z",
-    "end": "2026-11-13T14:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
-    "googleSheetUrl": "",
+    "title": "The Elusive Samurai Season 2",
+    "start": "2026-11-13T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
     "location": "",
     "tags": [
-      "twitch",
-      "domingo"
+      "anime"
     ]
   },
   {
-    "title": "Domingo — STREAM LIBRE",
-    "start": "2026-11-13T14:00:00.000Z",
-    "end": "2026-11-13T18:00:00.000Z",
-    "source": "Twitch:domingo",
-    "url": "https://www.twitch.tv/domingo/schedule",
+    "title": "Repas",
+    "start": "2026-11-13T19:45:00",
+    "end": "2026-11-13T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
     "googleSheetUrl": "",
     "location": "",
     "tags": [
-      "twitch",
-      "domingo"
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-13T20:31:00",
+    "end": "2026-11-13T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-13T21:30:00",
+    "end": "2026-11-13T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-14T07:00:00",
+    "end": "2026-11-14T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-14T08:10:00",
+    "end": "2026-11-14T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-14T09:15:00",
+    "end": "2026-11-14T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-14T12:15:00",
+    "end": "2026-11-14T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-14T13:40:00",
+    "end": "2026-11-14T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-14T14:45:00",
+    "end": "2026-11-14T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-14T16:45:00",
+    "end": "2026-11-14T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Bleach: Thousand-Year Blood War - The Calamity",
+    "start": "2026-11-14T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-14T19:45:00",
+    "end": "2026-11-14T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-14T20:31:00",
+    "end": "2026-11-14T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-14T21:30:00",
+    "end": "2026-11-14T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-15T07:00:00",
+    "end": "2026-11-15T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-15T08:10:00",
+    "end": "2026-11-15T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-15T09:15:00",
+    "end": "2026-11-15T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-11-15T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-15T12:15:00",
+    "end": "2026-11-15T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-15T13:40:00",
+    "end": "2026-11-15T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-15T14:45:00",
+    "end": "2026-11-15T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-15T16:45:00",
+    "end": "2026-11-15T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-11-15T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-15T19:45:00",
+    "end": "2026-11-15T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-15T20:31:00",
+    "end": "2026-11-15T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-15T21:30:00",
+    "end": "2026-11-15T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-16T07:00:00",
+    "end": "2026-11-16T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-11-16T08:10:00",
+    "end": "2026-11-16T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-16T09:15:00",
+    "end": "2026-11-16T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-16T12:15:00",
+    "end": "2026-11-16T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-16T13:40:00",
+    "end": "2026-11-16T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-16T14:45:00",
+    "end": "2026-11-16T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-16T16:45:00",
+    "end": "2026-11-16T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Grand Blue Season 3",
+    "start": "2026-11-16T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
@@ -52,6 +441,90 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-16T19:45:00",
+    "end": "2026-11-16T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-16T20:31:00",
+    "end": "2026-11-16T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-16T21:30:00",
+    "end": "2026-11-16T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-17T07:00:00",
+    "end": "2026-11-17T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-17T08:10:00",
+    "end": "2026-11-17T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-17T09:15:00",
+    "end": "2026-11-17T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-17T12:12:00",
+    "end": "2026-11-17T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Domingo — PRÉ LIVE",
     "start": "2026-11-17T13:00:00.000Z",
     "end": "2026-11-17T14:00:00.000Z",
@@ -62,6 +535,18 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-11-17T13:40:00",
+    "end": "2026-11-17T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -78,6 +563,29 @@
     ]
   },
   {
+    "title": "JDR",
+    "start": "2026-11-17T14:45:00",
+    "end": "2026-11-17T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Youjo Senki Season 2",
+    "start": "2026-11-17T16:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Domingo — STREAM LIBRE",
     "start": "2026-11-17T16:00:00.000Z",
     "end": "2026-11-17T18:00:00.000Z",
@@ -88,6 +596,149 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Re:Zero Season 4",
+    "start": "2026-11-17T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-17T16:45:00",
+    "end": "2026-11-17T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-17T19:45:00",
+    "end": "2026-11-17T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-17T20:31:00",
+    "end": "2026-11-17T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-17T21:30:00",
+    "end": "2026-11-17T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-18T07:00:00",
+    "end": "2026-11-18T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-18T08:10:00",
+    "end": "2026-11-18T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-18T09:15:00",
+    "end": "2026-11-18T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-18T12:15:00",
+    "end": "2026-11-18T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-18T13:40:00",
+    "end": "2026-11-18T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-18T14:45:00",
+    "end": "2026-11-18T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-18T16:45:00",
+    "end": "2026-11-18T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -104,6 +755,42 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-18T19:45:00",
+    "end": "2026-11-18T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-18T20:31:00",
+    "end": "2026-11-18T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-18T21:30:00",
+    "end": "2026-11-18T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Domingo — DÉBUT DE L'AVENTURE GTA VI",
     "start": "2026-11-18T22:30:00.000Z",
     "end": "2026-11-19T02:00:00.000Z",
@@ -117,6 +804,42 @@
     ]
   },
   {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-19T07:00:00",
+    "end": "2026-11-19T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Marche",
+    "start": "2026-11-19T08:10:00",
+    "end": "2026-11-19T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-19T09:15:00",
+    "end": "2026-11-19T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Domingo — SUITE DE L'AVENTURE GTA VI",
     "start": "2026-11-19T12:00:00.000Z",
     "end": "2026-11-19T18:00:00.000Z",
@@ -127,6 +850,90 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-19T12:15:00",
+    "end": "2026-11-19T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-11-19T13:40:00",
+    "end": "2026-11-19T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-19T14:45:00",
+    "end": "2026-11-19T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-19T16:45:00",
+    "end": "2026-11-19T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-19T19:45:00",
+    "end": "2026-11-19T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-19T20:31:00",
+    "end": "2026-11-19T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-19T21:30:00",
+    "end": "2026-11-19T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -158,6 +965,42 @@
     ]
   },
   {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-20T07:00:00",
+    "end": "2026-11-20T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-11-20T08:10:00",
+    "end": "2026-11-20T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-20T09:15:00",
+    "end": "2026-11-20T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Domingo — SUITE DE L'AVENTURE GTA VI",
     "start": "2026-11-20T12:00:00.000Z",
     "end": "2026-11-20T18:00:00.000Z",
@@ -171,6 +1014,76 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-20T12:15:00",
+    "end": "2026-11-20T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-20T13:40:00",
+    "end": "2026-11-20T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-20T14:45:00",
+    "end": "2026-11-20T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-20T16:45:00",
+    "end": "2026-11-20T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Slime Season 4",
+    "start": "2026-11-20T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Elusive Samurai Season 2",
+    "start": "2026-11-20T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Bundesliga] FC Bayern München vs 1. FC Köln",
     "start": "2026-11-20T19:30:00Z",
     "source": "football-data.org",
@@ -181,6 +1094,42 @@
       "foot",
       "bundesliga",
       "bayern"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-20T19:45:00",
+    "end": "2026-11-20T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-20T20:31:00",
+    "end": "2026-11-20T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-20T21:30:00",
+    "end": "2026-11-20T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -212,6 +1161,42 @@
     ]
   },
   {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-21T07:00:00",
+    "end": "2026-11-21T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-21T08:10:00",
+    "end": "2026-11-21T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-21T09:15:00",
+    "end": "2026-11-21T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Domingo — SUITE DE L'AVENTURE GTA VI",
     "start": "2026-11-21T12:00:00.000Z",
     "end": "2026-11-21T18:00:00.000Z",
@@ -225,6 +1210,18 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-11-21T12:15:00",
+    "end": "2026-11-21T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Manchester City FC vs Fulham FC",
     "start": "2026-11-21T12:30:00Z",
     "source": "football-data.org",
@@ -235,6 +1232,30 @@
       "foot",
       "premier_league",
       "manchester_city"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-21T13:40:00",
+    "end": "2026-11-21T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-21T14:45:00",
+    "end": "2026-11-21T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -252,6 +1273,41 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-11-21T16:45:00",
+    "end": "2026-11-21T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Bleach: Thousand-Year Blood War - The Calamity",
+    "start": "2026-11-21T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-21T19:45:00",
+    "end": "2026-11-21T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Madrid CF vs RC Celta de Vigo",
     "start": "2026-11-21T20:00:00Z",
     "source": "football-data.org",
@@ -262,6 +1318,30 @@
       "foot",
       "liga",
       "real_madrid"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-21T20:31:00",
+    "end": "2026-11-21T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-21T21:30:00",
+    "end": "2026-11-21T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -279,6 +1359,53 @@
     ]
   },
   {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-22T07:00:00",
+    "end": "2026-11-22T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-22T08:10:00",
+    "end": "2026-11-22T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-22T09:15:00",
+    "end": "2026-11-22T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-11-22T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Domingo — SUITE DE L'AVENTURE GTA VI",
     "start": "2026-11-22T12:00:00.000Z",
     "end": "2026-11-22T18:00:00.000Z",
@@ -289,6 +1416,18 @@
     "tags": [
       "twitch",
       "domingo"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-22T12:15:00",
+    "end": "2026-11-22T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -305,6 +1444,30 @@
     ]
   },
   {
+    "title": "Prépa",
+    "start": "2026-11-22T13:40:00",
+    "end": "2026-11-22T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-22T14:45:00",
+    "end": "2026-11-22T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Liverpool FC vs Manchester United FC",
     "start": "2026-11-22T16:30:00Z",
     "source": "football-data.org",
@@ -315,6 +1478,314 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-22T16:45:00",
+    "end": "2026-11-22T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-11-22T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-22T19:45:00",
+    "end": "2026-11-22T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-22T20:31:00",
+    "end": "2026-11-22T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-22T21:30:00",
+    "end": "2026-11-22T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-23T07:00:00",
+    "end": "2026-11-23T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-11-23T08:10:00",
+    "end": "2026-11-23T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-23T09:15:00",
+    "end": "2026-11-23T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-23T12:15:00",
+    "end": "2026-11-23T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-23T13:40:00",
+    "end": "2026-11-23T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-23T14:45:00",
+    "end": "2026-11-23T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-23T16:45:00",
+    "end": "2026-11-23T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Grand Blue Season 3",
+    "start": "2026-11-23T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-23T19:45:00",
+    "end": "2026-11-23T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-23T20:31:00",
+    "end": "2026-11-23T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-23T21:30:00",
+    "end": "2026-11-23T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-24T07:00:00",
+    "end": "2026-11-24T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-24T08:10:00",
+    "end": "2026-11-24T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-24T09:15:00",
+    "end": "2026-11-24T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-24T12:12:00",
+    "end": "2026-11-24T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-11-24T13:40:00",
+    "end": "2026-11-24T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-24T14:45:00",
+    "end": "2026-11-24T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Youjo Senki Season 2",
+    "start": "2026-11-24T16:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Re:Zero Season 4",
+    "start": "2026-11-24T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-24T16:45:00",
+    "end": "2026-11-24T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-24T19:45:00",
+    "end": "2026-11-24T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -344,6 +1815,114 @@
     ]
   },
   {
+    "title": "Invest",
+    "start": "2026-11-24T20:31:00",
+    "end": "2026-11-24T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-24T21:30:00",
+    "end": "2026-11-24T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-25T07:00:00",
+    "end": "2026-11-25T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-25T08:10:00",
+    "end": "2026-11-25T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-25T09:15:00",
+    "end": "2026-11-25T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-25T12:15:00",
+    "end": "2026-11-25T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-25T13:40:00",
+    "end": "2026-11-25T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-25T14:45:00",
+    "end": "2026-11-25T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-25T16:45:00",
+    "end": "2026-11-25T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [UEFA Champions League] Sabah FK vs FC Barcelona",
     "start": "2026-11-25T17:45:00Z",
     "source": "football-data.org",
@@ -354,6 +1933,18 @@
       "foot",
       "ldc",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-25T19:45:00",
+    "end": "2026-11-25T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -396,6 +1987,198 @@
     ]
   },
   {
+    "title": "Invest",
+    "start": "2026-11-25T20:31:00",
+    "end": "2026-11-25T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-25T21:30:00",
+    "end": "2026-11-25T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-26T07:00:00",
+    "end": "2026-11-26T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Marche",
+    "start": "2026-11-26T08:10:00",
+    "end": "2026-11-26T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-26T09:15:00",
+    "end": "2026-11-26T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-26T12:15:00",
+    "end": "2026-11-26T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-11-26T13:40:00",
+    "end": "2026-11-26T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-26T14:45:00",
+    "end": "2026-11-26T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-26T16:45:00",
+    "end": "2026-11-26T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-26T19:45:00",
+    "end": "2026-11-26T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-26T20:31:00",
+    "end": "2026-11-26T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-26T21:30:00",
+    "end": "2026-11-26T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-27T07:00:00",
+    "end": "2026-11-27T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-11-27T08:10:00",
+    "end": "2026-11-27T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-27T09:15:00",
+    "end": "2026-11-27T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-27T12:15:00",
+    "end": "2026-11-27T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Qatar - Essais Libres 1",
     "start": "2026-11-27T13:30:00Z",
     "source": "f1calendar",
@@ -410,6 +2193,42 @@
     ]
   },
   {
+    "title": "Formation",
+    "start": "2026-11-27T13:40:00",
+    "end": "2026-11-27T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-27T14:45:00",
+    "end": "2026-11-27T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-27T16:45:00",
+    "end": "2026-11-27T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "Qatar - Essais Libres 2",
     "start": "2026-11-27T17:00:00Z",
     "source": "f1calendar",
@@ -421,6 +2240,124 @@
       "formula1",
       "sport_auto",
       "fp2"
+    ]
+  },
+  {
+    "title": "Slime Season 4",
+    "start": "2026-11-27T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "The Elusive Samurai Season 2",
+    "start": "2026-11-27T18:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-27T19:45:00",
+    "end": "2026-11-27T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-27T20:31:00",
+    "end": "2026-11-27T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-27T21:30:00",
+    "end": "2026-11-27T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-28T07:00:00",
+    "end": "2026-11-28T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-11-28T08:10:00",
+    "end": "2026-11-28T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-28T09:15:00",
+    "end": "2026-11-28T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-28T12:15:00",
+    "end": "2026-11-28T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-28T13:40:00",
+    "end": "2026-11-28T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -451,6 +2388,41 @@
     ]
   },
   {
+    "title": "JDR",
+    "start": "2026-11-28T14:45:00",
+    "end": "2026-11-28T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-28T16:45:00",
+    "end": "2026-11-28T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Bleach: Thousand-Year Blood War - The Calamity",
+    "start": "2026-11-28T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "Qatar - Qualifications",
     "start": "2026-11-28T18:00:00Z",
     "source": "f1calendar",
@@ -462,6 +2434,18 @@
       "formula1",
       "sport_auto",
       "qualification"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-28T19:45:00",
+    "end": "2026-11-28T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -504,6 +2488,77 @@
     ]
   },
   {
+    "title": "Prépa",
+    "start": "2026-11-28T20:31:00",
+    "end": "2026-11-28T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-28T21:30:00",
+    "end": "2026-11-28T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-29T07:00:00",
+    "end": "2026-11-29T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-11-29T08:10:00",
+    "end": "2026-11-29T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-29T09:15:00",
+    "end": "2026-11-29T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "You and I Are Polar Opposites Season 2",
+    "start": "2026-11-29T11:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
     "title": "⚽ [Premier League] Everton FC vs Liverpool FC",
     "start": "2026-11-29T12:00:00Z",
     "source": "football-data.org",
@@ -514,6 +2569,42 @@
       "foot",
       "premier_league",
       "liverpool"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-29T12:15:00",
+    "end": "2026-11-29T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-29T13:40:00",
+    "end": "2026-11-29T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-29T14:45:00",
+    "end": "2026-11-29T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
     ]
   },
   {
@@ -557,6 +2648,422 @@
     ]
   },
   {
+    "title": "Free Time",
+    "start": "2026-11-29T16:45:00",
+    "end": "2026-11-29T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei Season 3",
+    "start": "2026-11-29T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-29T19:45:00",
+    "end": "2026-11-29T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Prépa",
+    "start": "2026-11-29T20:31:00",
+    "end": "2026-11-29T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-29T21:30:00",
+    "end": "2026-11-29T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-11-30T07:00:00",
+    "end": "2026-11-30T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-11-30T08:10:00",
+    "end": "2026-11-30T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-11-30T09:15:00",
+    "end": "2026-11-30T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-30T12:15:00",
+    "end": "2026-11-30T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-11-30T13:40:00",
+    "end": "2026-11-30T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-11-30T14:45:00",
+    "end": "2026-11-30T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-30T16:45:00",
+    "end": "2026-11-30T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Grand Blue Season 3",
+    "start": "2026-11-30T17:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-11-30T19:45:00",
+    "end": "2026-11-30T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-11-30T20:31:00",
+    "end": "2026-11-30T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-11-30T21:30:00",
+    "end": "2026-11-30T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-12-01T07:00:00",
+    "end": "2026-12-01T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Squat - Fente",
+    "start": "2026-12-01T08:10:00",
+    "end": "2026-12-01T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-12-01T09:15:00",
+    "end": "2026-12-01T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-01T12:12:00",
+    "end": "2026-12-01T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-12-01T13:40:00",
+    "end": "2026-12-01T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-12-01T14:45:00",
+    "end": "2026-12-01T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Youjo Senki Season 2",
+    "start": "2026-12-01T16:00:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Re:Zero Season 4",
+    "start": "2026-12-01T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-01T16:45:00",
+    "end": "2026-12-01T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-01T19:45:00",
+    "end": "2026-12-01T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-12-01T20:31:00",
+    "end": "2026-12-01T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-01T21:30:00",
+    "end": "2026-12-01T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-12-02T07:00:00",
+    "end": "2026-12-02T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Curl - Elévation",
+    "start": "2026-12-02T08:10:00",
+    "end": "2026-12-02T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-12-02T09:15:00",
+    "end": "2026-12-02T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-02T12:15:00",
+    "end": "2026-12-02T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-12-02T13:40:00",
+    "end": "2026-12-02T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-12-02T14:45:00",
+    "end": "2026-12-02T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-02T16:45:00",
+    "end": "2026-12-02T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] Real Sociedad de Fútbol vs Real Madrid CF",
     "start": "2026-12-02T18:00:00Z",
     "source": "football-data.org",
@@ -596,6 +3103,18 @@
     ]
   },
   {
+    "title": "Repas",
+    "start": "2026-12-02T19:45:00",
+    "end": "2026-12-02T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
     "title": "⚽ [Primera Division] FC Barcelona vs Club Atlético de Madrid",
     "start": "2026-12-02T20:30:00Z",
     "source": "football-data.org",
@@ -606,6 +3125,273 @@
       "foot",
       "liga",
       "barcelone"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-12-02T20:31:00",
+    "end": "2026-12-02T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-02T21:30:00",
+    "end": "2026-12-02T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-12-03T07:00:00",
+    "end": "2026-12-03T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Marche",
+    "start": "2026-12-03T08:10:00",
+    "end": "2026-12-03T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-12-03T09:15:00",
+    "end": "2026-12-03T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-03T12:15:00",
+    "end": "2026-12-03T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Dev",
+    "start": "2026-12-03T13:40:00",
+    "end": "2026-12-03T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-12-03T14:45:00",
+    "end": "2026-12-03T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-03T16:45:00",
+    "end": "2026-12-03T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-03T19:45:00",
+    "end": "2026-12-03T20:20:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Invest",
+    "start": "2026-12-03T20:31:00",
+    "end": "2026-12-03T21:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-03T21:30:00",
+    "end": "2026-12-03T00:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Réveil - Petit Dèj",
+    "start": "2026-12-04T07:00:00",
+    "end": "2026-12-04T07:50:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Marche - Pompe - Abdo",
+    "start": "2026-12-04T08:10:00",
+    "end": "2026-12-04T09:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "job",
+    "start": "2026-12-04T09:15:00",
+    "end": "2026-12-04T12:00:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Abu Dhabi - Essais Libres 1",
+    "start": "2026-12-04T09:30:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Yas Marina",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp1"
+    ]
+  },
+  {
+    "title": "Repas",
+    "start": "2026-12-04T12:15:00",
+    "end": "2026-12-04T13:29:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Abu Dhabi - Essais Libres 2",
+    "start": "2026-12-04T13:00:00Z",
+    "source": "f1calendar",
+    "url": "https://f1calendar.com/fr",
+    "googleSheetUrl": "",
+    "location": "Yas Marina",
+    "tags": [
+      "f1",
+      "formula1",
+      "sport_auto",
+      "fp2"
+    ]
+  },
+  {
+    "title": "Formation",
+    "start": "2026-12-04T13:40:00",
+    "end": "2026-12-04T14:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "JDR",
+    "start": "2026-12-04T14:45:00",
+    "end": "2026-12-04T16:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Free Time",
+    "start": "2026-12-04T16:45:00",
+    "end": "2026-12-04T19:30:00",
+    "source": "Anime (sheet)",
+    "url": "",
+    "googleSheetUrl": "",
+    "location": "",
+    "tags": [
+      "matin"
+    ]
+  },
+  {
+    "title": "Slime Season 4",
+    "start": "2026-12-04T17:20:00",
+    "source": "Anime (sheet)",
+    "url": "https://mastermanga.github.io/AnimeTrackerV2/",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1WuGg-AH0X1x5ZdOswZlwn5KxE-V0TKeYTxovN20E9UE/edit?gid=15026583#gid=15026583",
+    "location": "",
+    "tags": [
+      "anime"
     ]
   },
   {
